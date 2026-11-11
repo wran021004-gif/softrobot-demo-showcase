@@ -1,0 +1,41 @@
+{
+  "peak_rope_time_s": 0.32200000000000023,
+  "peak_rope_tendon": "T3",
+  "peak_rope_signed_mm_s": 151.83636360674762,
+  "minimum_button_travel_mm": -0.04622918548954606,
+  "minimum_button_time_s": 0.7770000000000006,
+  "minimum_release_travel_mm": -0.027686308393000326,
+  "actual_max_command_slope_n_s": 400.0000000000001,
+  "configuration_sensor_max_error": 0.0,
+  "actual_position_weights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "diagnostic_trace_position_weights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "trace_weights_logging_defect": false,
+  "logging_defect_scope": "S2-S4 originally returned a hardcoded ones vector in the diagnostic trace; allocation and runtime summary used the configured positive weights. Original logs/source are preserved; no physical states or controls changed. Current diagnostic writer is fixed.",
+  "all_xyz_weights_positive": true,
+  "effective_configuration": {
+    "xyz_feedback": true,
+    "button_state_feedback": true,
+    "reaction_feedforward": true,
+    "bounded_allocation": true,
+    "position_gain": 0.4,
+    "velocity_time_s": 0.03,
+    "startup_s": 0.06,
+    "tension_rate_limit_n_s": 40.0,
+    "delta_tension_penalty": 0.15,
+    "predicted_rope_speed_limit_m_s": 0.022,
+    "release_contact_end_s": 1.67,
+    "withdraw_end_s": 1.78,
+    "force_gain": 0.25,
+    "button_depth_gain": 0.3,
+    "button_velocity_time_s": 0.02
+  },
+  "rate_limit_scope": "target-knot change / 10 ms; quintic interpolation can have a larger instantaneous slope; this is not the original rope speed limit"
+}

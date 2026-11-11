@@ -13,12 +13,17 @@ def rollout(m,origin,bank,cfg,controls=None):
     keys=['time_s','qpos','qvel','control_n','tension_n','tendon_length_m','tendon_speed_m_s','probe_m','reference_m','tip_speed_m_s',
         'button_q_m','button_qdot_m_s','button_qacc_m_s2','contact_force_n','contact_pairs','contact_position_m','lateral_error_m',
         'unexpected_contact_count','warnings','external_force_max','button_axis_contact_n']
-    rows={k:[] for k in keys};badpairs=set();J=np.zeros((3,m.nv));log=[]
+    rows={k:[] for k in keys};badpairs=set();J=np.zeros((3,m.nv));log=[];ramp_start=d.ctrl.copy();ramp_target=d.ctrl.copy()
     for k in range(2001):
         if k:
             if controls is not None:d.ctrl[:]=controls[k]
             elif (k-1)%10==0:
-                d.ctrl[:],info=controller.command(d);log.append({'time_s':float(d.time),**{a:np.asarray(b).tolist() for a,b in info.items()}})
+                ramp_start=d.ctrl.copy();ramp_target,info=controller.command(d);log.append({'time_s':float(d.time),**{a:np.asarray(b).tolist() for a,b in info.items()}})
+            if controls is None:
+                if cfg.get('command_interpolation')=='quintic_10ms':
+                    from solver import smooth
+                    fraction=float(smooth((((k-1)%10)+1)/10));d.ctrl[:]=ramp_start+fraction*(ramp_target-ramp_start)
+                else:d.ctrl[:]=ramp_target
             mujoco.mj_step(m,d)
         mujoco.mj_forward(m,d);f,pairs,bad,cp=contact_state(m,d);badpairs.update(tuple(x) for x in bad)
         mujoco.mj_jacSite(m,d,J,None,sid);p=d.site_xpos[sid];axisforce=0.
@@ -31,7 +36,11 @@ def rollout(m,origin,bank,cfg,controls=None):
             max(np.max(abs(d.xfrc_applied)),np.max(abs(d.qfrc_applied))),axisforce]
         for key,val in zip(keys,vals):rows[key].append(val)
     summary=controller.summary if controller else {'mode':'independent recorded-control replay; zero state initialization'}
-    if controller:summary['rope_guard_infeasible_fallback_updates']=controller.guard_fallbacks
+    if controller:
+        summary['rope_guard_infeasible_fallback_updates']=controller.guard_fallbacks
+        summary['command_interpolation']=cfg.get('command_interpolation','hold_10ms')
+        summary['startup_shape']=cfg.get('startup_shape','quintic_current')
+        summary['interpolation_scope']='Feedback updates every 10 ms; optional open-loop interpolation at physics steps; no extra feedback updates'
     return {k:np.asarray(v) for k,v in rows.items()},sorted(badpairs),summary,log
 
 def run(name,request=None,overrides=None,replay=None):
@@ -41,11 +50,20 @@ def run(name,request=None,overrides=None,replay=None):
     group='final_replays' if replay else 'baseline_evaluations' if request is None else 'codesign_evaluations';limit={'final_replays':1,'baseline_evaluations':2,'codesign_evaluations':4}[group]
     if usage[group]>=limit or usage['full_evaluations']>=7:raise RuntimeError('Frozen evaluation budget exhausted')
     m,mechanics=assemble(request,folder=folder);d=mujoco.MjData(m);mujoco.mj_forward(m,d);origin=d.site_xpos[m.site('probe_center').id].copy()
-    cfg=read(HERE/'controller.json')['defaults'];cfg.update(overrides or {})
+    controller_spec=read(HERE/'controller.json')
+    for key,value in (overrides or {}).items():
+        if key in controller_spec['tuning_bounds']:
+            lo,hi=controller_spec['tuning_bounds'][key]
+            if not lo<=value<=hi:raise ValueError('Controller tuning outside frozen bounds: '+key)
+    cfg=controller_spec['defaults'];cfg.update(overrides or {})
+    cfg.setdefault('position_weights',[.1,1.,1.])
+    cfg.setdefault('feedforward_tracking_penalty',10.)
     if replay:
         src=HERE/'candidates'/replay;cfg=read(src/'effective_control.json');bank=np.load(src/'inverse_bank.npz')['states'];controls=np.load(src/'trajectory.npz')['control_n'];opt={'replay_of':replay}
     else:bank,opt=inverse_bank(m,origin);controls=None
     write(folder/'effective_control.json',cfg);write(folder/'optimization.json',opt);np.savez_compressed(folder/'inverse_bank.npz',states=bank)
+    (folder/'controller_source.py').write_text((HERE/'controller.py').read_text(encoding='utf8'),encoding='utf8')
+    (folder/'runner_source.py').write_text((HERE/'run.py').read_text(encoding='utf8'),encoding='utf8')
     # Reserve before integration so a failed process cannot hide consumed runs.
     usage[group]+=1;usage['full_evaluations']+=1;usage['physics_steps']+=2000;write(HERE/'results/usage.json',usage)
     a,bad,summary,log=rollout(m,origin,bank,cfg,controls=controls);result=evaluate(a,m,mechanics['total_structure_mass_kg'])

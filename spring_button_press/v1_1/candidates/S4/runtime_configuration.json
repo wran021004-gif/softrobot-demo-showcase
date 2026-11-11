@@ -1,0 +1,45 @@
+{
+  "xyz_feedback": true,
+  "position_weights": [
+    0.1,
+    1.0,
+    1.0
+  ],
+  "button_state_feedback": true,
+  "button_sensors": [
+    "button_slide qpos",
+    "button_slide qvel",
+    "mj_contactForce(probe,button_cap)"
+  ],
+  "reaction_feedforward": true,
+  "reaction_semantics": "true selects load-balanced inverse node; false selects free inverse node; no inverted contact_ff switch",
+  "bounded_allocation": true,
+  "configuration_source": "per-candidate effective_control.json, required argument; no silent rollout defaults",
+  "all_config_fields_consumed": [
+    "xyz_feedback",
+    "button_state_feedback",
+    "reaction_feedforward",
+    "bounded_allocation",
+    "position_gain",
+    "velocity_time_s",
+    "startup_s",
+    "tension_rate_limit_n_s",
+    "delta_tension_penalty",
+    "predicted_rope_speed_limit_m_s",
+    "release_contact_end_s",
+    "withdraw_end_s",
+    "force_gain",
+    "button_depth_gain",
+    "button_velocity_time_s"
+  ],
+  "control_dt_s": 0.01,
+  "physics_dt_s": 0.001,
+  "rope_prediction_horizon_s": 0.001,
+  "stiffness_map": "original passive hinge stiffness; avoids ill-conditioned full tangent inverse",
+  "startup_rope_guard_bypass_until_s": 0.15,
+  "rope_guard": "one-physics-step acceleration prediction from actual ten_J/ten_velocity, with explicit infeasibility fallback; acceptance uses actual 1 ms speed",
+  "rope_guard_infeasible_fallback_updates": 14,
+  "command_interpolation": "quintic_10ms",
+  "startup_shape": "linear_lookahead",
+  "interpolation_scope": "Feedback updates every 10 ms; optional open-loop interpolation at physics steps; no extra feedback updates"
+}

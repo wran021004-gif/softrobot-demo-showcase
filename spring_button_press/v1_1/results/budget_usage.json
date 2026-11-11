@@ -1,0 +1,14 @@
+{
+  "prechecks": 1,
+  "baseline_evaluations": 2,
+  "codesign_evaluations": 4,
+  "final_replays": 1,
+  "full_evaluations": 7,
+  "physics_steps": 14000,
+  "provider_calls": 0,
+  "main_calls": 0,
+  "reporter_calls": 0,
+  "no_additional_integration": true,
+  "classification": "Codex-assisted engineering design; not Main autonomous Study",
+  "algebraic_forward_evaluations": 53875
+}

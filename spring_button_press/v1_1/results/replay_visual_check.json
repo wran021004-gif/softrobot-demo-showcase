@@ -1,0 +1,11 @@
+{
+  "selected_saved_states": [
+    0,
+    1200,
+    1800
+  ],
+  "max_probe_position_error_m": 0.0,
+  "guide_display_group_3_enabled": true,
+  "technical_and_presentation_keep_all_tendons": true,
+  "physical_steps": 0
+}

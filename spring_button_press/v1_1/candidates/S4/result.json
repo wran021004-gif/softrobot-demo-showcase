@@ -1,0 +1,68 @@
+{
+  "version": "spring_button_press_v1.0",
+  "status": "FAIL",
+  "checks": {
+    "real_contact_established": true,
+    "contact_near_approach_end": true,
+    "depth_and_force_hold_0p4s": true,
+    "button_travel": false,
+    "tension_limit": true,
+    "stroke_limit": true,
+    "speed_limit": false,
+    "release": true,
+    "no_unexpected_collision": true,
+    "finite_no_warning": true,
+    "no_external_force": true
+  },
+  "metrics": {
+    "max_hold_contact_force_error_n": 0.0029158337575568988,
+    "max_hold_depth_error_m": 6.459837084236367e-05,
+    "hold_valid_continuous_s": 0.4999999999999559,
+    "hold_valid_total_s": 0.501,
+    "hold_depth_min_max_m": [
+      0.002031515157133517,
+      0.0020645983708423637
+    ],
+    "hold_contact_force_min_max_n": [
+      0.10172960907913857,
+      0.1029158337575569
+    ],
+    "hold_lateral_error_max_m": 0.00040703265495608285,
+    "button_peak_m": 0.0020646397701051763,
+    "first_contact_s": 0.3990000000000003,
+    "max_tension_n": 4.591085452591297,
+    "max_rope_speed_m_s": 0.02783206031191021,
+    "max_stroke_m": 0.003180696367180269,
+    "structure_mass_kg": 0.11051627204909059,
+    "total_tendon_length_variation_m": 0.021302435193235825,
+    "release_at_1p8_and_2p0": [
+      {
+        "time_s": 1.7999999999999126,
+        "button_residual_m": -9.523937530204002e-13,
+        "contact_force_n": 0.0,
+        "tip_speed_m_s": 0.006217770079541603
+      },
+      {
+        "time_s": 1.9999999999998905,
+        "button_residual_m": 6.3723087405202e-17,
+        "contact_force_n": 0.0,
+        "tip_speed_m_s": 0.00698353870082381
+      }
+    ],
+    "hold_contact_minus_spring_damping_max_n": 0.00030580493199879033,
+    "hold_button_dynamic_balance_residual_max_n": 3.765271514716284e-15,
+    "unexpected_contact_steps": 0
+  },
+  "actuation_scope": "4 independent ideal tension channels; geometric tendon stroke/speed verified; no motor energy model",
+  "label": "Codex-assisted engineering design; not Main autonomous Study",
+  "revision": "v1.1 design/controller, unchanged spring_button_press_v1.0 task",
+  "unexpected_pairs": [],
+  "mechanical_mass_breakdown": {
+    "added_guide_mass_kg": 0.0005096919921184076,
+    "added_moving_guide_mass_kg": 0.00040775359369472593,
+    "original_flexible_mass_kg": 0.09500658005697206,
+    "original_rigid_mass_excluding_tool_kg": 0.005000000000000124,
+    "tool_mass_kg": 0.01,
+    "total_structure_mass_kg": 0.11051627204909059
+  }
+}

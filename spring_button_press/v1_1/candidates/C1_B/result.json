@@ -1,0 +1,77 @@
+{
+  "version": "spring_button_press_v1.0",
+  "status": "FAIL",
+  "checks": {
+    "real_contact_established": true,
+    "contact_near_approach_end": true,
+    "depth_and_force_hold_0p4s": false,
+    "button_travel": false,
+    "tension_limit": true,
+    "stroke_limit": true,
+    "speed_limit": false,
+    "release": false,
+    "no_unexpected_collision": false,
+    "finite_no_warning": true,
+    "no_external_force": true
+  },
+  "metrics": {
+    "max_hold_contact_force_error_n": 0.11103858287630727,
+    "max_hold_depth_error_m": 0.0020394039989457525,
+    "hold_valid_continuous_s": 0.0,
+    "hold_valid_total_s": 0.0,
+    "hold_depth_min_max_m": [
+      -3.9403998945752535e-05,
+      0.0014730451345193324
+    ],
+    "hold_contact_force_min_max_n": [
+      0.0,
+      0.21103858287630728
+    ],
+    "hold_lateral_error_max_m": 0.010863196026629298,
+    "button_peak_m": 0.0016590517554394277,
+    "first_contact_s": 0.2590000000000002,
+    "max_tension_n": 3.1907222540552764,
+    "max_rope_speed_m_s": 0.03631217073920508,
+    "max_stroke_m": 0.00857990627093691,
+    "structure_mass_kg": 0.06777328113431463,
+    "total_tendon_length_variation_m": 0.055516927549458084,
+    "release_at_1p8_and_2p0": [
+      {
+        "time_s": 1.7999999999999126,
+        "button_residual_m": 2.0348369433971492e-07,
+        "contact_force_n": 0.0,
+        "tip_speed_m_s": 0.056111109857497246
+      },
+      {
+        "time_s": 1.9999999999998905,
+        "button_residual_m": 1.8060883713722863e-13,
+        "contact_force_n": 0.0,
+        "tip_speed_m_s": 0.04765754118534325
+      }
+    ],
+    "hold_contact_minus_spring_damping_max_n": 0.15104915385791984,
+    "hold_button_dynamic_balance_residual_max_n": 0.17966850641639506,
+    "unexpected_contact_steps": 774
+  },
+  "actuation_scope": "4 independent ideal tension channels; geometric tendon stroke/speed verified; no motor energy model",
+  "label": "Codex-assisted engineering design; not Main autonomous Study",
+  "revision": "v1.1 design/controller, unchanged spring_button_press_v1.0 task",
+  "unexpected_pairs": [
+    [
+      "housing_rail_0",
+      "probe"
+    ],
+    [
+      "housing_rail_2",
+      "probe"
+    ]
+  ],
+  "mechanical_mass_breakdown": {
+    "added_guide_mass_kg": 0.00045314332435379137,
+    "added_moving_guide_mass_kg": 0.00036251465948303305,
+    "original_flexible_mass_kg": 0.05232013780996088,
+    "original_rigid_mass_excluding_tool_kg": 0.004999999999999958,
+    "tool_mass_kg": 0.01,
+    "total_structure_mass_kg": 0.06777328113431463
+  }
+}

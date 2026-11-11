@@ -1,0 +1,23 @@
+{
+  "scope": "13 selected actual saved poses, including initial/peak speed/early contact/rebound/Hold/Release/max bend; mj_forward only",
+  "pose_indices": [
+    0,
+    60,
+    399,
+    454,
+    900,
+    1200,
+    1400,
+    1550,
+    1600,
+    1643,
+    1750,
+    1800,
+    2000
+  ],
+  "max_active_hole_center_error_m": 9.819209125020507e-17,
+  "minimum_bore_radial_clearance_estimate_m": 0.0001668553401800844,
+  "minimum_different_tendon_centerline_clearance_after_diameter_m": 0.013360871276401225,
+  "minimum_tendon_to_flexible_enclosing_axis_capsule_clearance_m": 0.00834996967500039,
+  "interpretation": "finite sampled geometric checks, not a continuous swept/friction or manufacturing certificate"
+}

@@ -53,31 +53,31 @@ class Controller:
             'position_gain','velocity_time_s','startup_s','tension_rate_limit_n_s','delta_tension_penalty',
             'predicted_rope_speed_limit_m_s','release_contact_end_s','withdraw_end_s','force_gain','button_depth_gain','button_velocity_time_s']
         if any(k not in config for k in required):raise ValueError('Incomplete effective control configuration')
+        if type(config['reaction_feedforward']) is not bool:raise ValueError('reaction_feedforward must be a JSON boolean')
         if not all(config[k] is True for k in ['xyz_feedback','button_state_feedback','bounded_allocation']):raise ValueError('Task requires XYZ/state feedback and bounded allocation')
         self.m=m;self.origin=origin;self.bank=bank;self.cfg=copy.deepcopy(config);self.sid=m.site('probe_center').id
         self.last=np.full(4,.2);self.maps=[];self.compliance=[];self.guard_fallbacks=0;self.max_config_error=0
+        self.weights=np.asarray(config['position_weights'],dtype=float)
+        if self.weights.shape!=(3,) or np.any(self.weights<=0):raise ValueError('All XYZ feedback weights must be positive')
         self.scratch=mujoco.MjData(m)
         n=m.nv-1
         for row in bank:
             d=mujoco.MjData(m);d.qpos[:]=row[:m.nq];d.ctrl[:]=row[m.nq:];mujoco.mj_forward(m,d)
             J=np.zeros((3,m.nv));mujoco.mj_jacSite(m,d,J,None,self.sid);B=dense_moments(m,d)
-            # Tangent stiffness includes tendon geometric stiffness and gravity,
-            # rather than using only the diagonal elastic hinge stiffness.
-            K=np.zeros((n,n));h=1e-5
-            for j in range(n):
-                vals=[]
-                for sign in [-1,1]:
-                    d.qpos[j]=row[j]+sign*h;mujoco.mj_forward(m,d)
-                    vals.append((d.qfrc_passive+d.qfrc_actuator-d.qfrc_bias)[:n].copy())
-                K[:,j]=-(vals[1]-vals[0])/(2*h);d.qpos[j]=row[j]
-            K=(K+K.T)/2;w,V=np.linalg.eigh(K);K=(V*np.maximum(w,.002))@V.T
+            # Retain the original passive stiffness approximation. The first
+            # candidates showed that the poorly conditioned tangent inverse
+            # over-corrected axial shortening and disrupted gravity support.
+            K=np.diag(m.jnt_stiffness[:n])+np.eye(n)*1e-9
             self.maps.append(J[:,:n]@np.linalg.solve(K,B[:n]));self.compliance.append(J[:,:n]@np.linalg.solve(K,J[:,:n].T))
-        self.summary={'xyz_feedback':True,'position_weights':[1.,1.,1.],'button_state_feedback':True,
+        self.summary={'xyz_feedback':True,'position_weights':self.weights.tolist(),'button_state_feedback':True,
             'button_sensors':['button_slide qpos','button_slide qvel','mj_contactForce(probe,button_cap)'],
             'reaction_feedforward':config['reaction_feedforward'],'reaction_semantics':'true selects load-balanced inverse node; false selects free inverse node; no inverted contact_ff switch',
             'bounded_allocation':True,'configuration_source':'per-candidate effective_control.json, required argument; no silent rollout defaults',
             'all_config_fields_consumed':required,'control_dt_s':.01,'physics_dt_s':.001,
-            'rope_guard':'linear acceleration prediction from actual ten_J/ten_velocity, with explicit infeasibility fallback; acceptance uses actual 1 ms speed'}
+            'rope_prediction_horizon_s':.001,
+            'stiffness_map':'original passive hinge stiffness; avoids ill-conditioned full tangent inverse',
+            'startup_rope_guard_bypass_until_s':.15,
+            'rope_guard':'one-physics-step acceleration prediction from actual ten_J/ten_velocity, with explicit infeasibility fallback; acceptance uses actual 1 ms speed'}
 
     def command(self,d):
         m=self.m;cfg=self.cfg;t=float(d.time);p,vref,qref,qdref=reference(t,self.origin,cfg)
@@ -95,12 +95,14 @@ class Controller:
             desired_force=max(0,50*qref+.2*qdref)
             correction+=C@np.array([0,cfg['force_gain']*(desired_force-force),0])
             correction[1]+=cfg['button_depth_gain']*(qref-q+cfg['button_velocity_time_s']*(qdref-qd))
-        blend=float(smooth(t/cfg['startup_s']))
+        if cfg.get('startup_shape')=='linear_lookahead':blend=float(np.clip((t+.01)/cfg['startup_s'],0,1))
+        else:blend=float(smooth(t/cfg['startup_s']))
         uff=.2+blend*(uff-.2);correction*=blend
-        A=G*1000;b=correction*1000
+        A=G*self.weights[:,None]*1000;b=correction*self.weights*1000
         lower=np.maximum(.2,self.last-cfg['tension_rate_limit_n_s']*.01);upper=np.minimum(8.,self.last+cfg['tension_rate_limit_n_s']*.01)
         lam=cfg['delta_tension_penalty']
-        H=A.T@A+np.eye(4)*(lam+.001);g=-(A.T@(A@uff+b)+lam*self.last+.001*uff)
+        tracking=cfg['feedforward_tracking_penalty']
+        H=A.T@A+np.eye(4)*(lam+tracking);g=-(A.T@(A@uff+b)+lam*self.last+tracking*uff)
         def fun(u):return .5*u@H@u+g@u
         def jac(u):return H@u+g
         # Actual tendon state and native mass-response prediction. No rollout.
@@ -108,12 +110,14 @@ class Controller:
         T=np.zeros((m.ntendon,m.nv));mujoco.mju_sparse2dense(T,d.ten_J,m.ten_J_rownnz,m.ten_J_rowadr,m.ten_J_colind)
         scratch=self.scratch;mujoco.mj_copyData(scratch,m,d);h=1e-5;scratch.qpos[:]+=h*d.qvel;mujoco.mj_forward(m,scratch)
         jdotv=(scratch.ten_velocity-d.ten_velocity)/h
-        P=.01*T@R;base=d.ten_velocity+.01*(T@d.qacc+jdotv)-P@d.ctrl
+        # A 10 ms acceleration extrapolation spans fast flexible modes and can
+        # spuriously block gravity support. Predict one native 1 ms step only.
+        P=.001*T@R;base=d.ten_velocity+.001*(T@d.qacc+jdotv)-P@d.ctrl
         vmax=cfg['predicted_rope_speed_limit_m_s'];constraint=LinearConstraint(P,-vmax-base,vmax-base)
-        sol=minimize(fun,np.clip(self.last,lower,upper),jac=jac,bounds=Bounds(lower,upper),constraints=[constraint],method='SLSQP',options={'maxiter':35,'ftol':1e-9})
+        sol=minimize(fun,np.clip(self.last,lower,upper),jac=jac,bounds=Bounds(lower,upper),constraints=[constraint] if t>=.15 else [],method='SLSQP',options={'maxiter':35,'ftol':1e-9})
         if not sol.success or np.max(abs(base+P@sol.x))>vmax+1e-6:
             self.guard_fallbacks+=1
             sol=minimize(fun,np.clip(self.last,lower,upper),jac=jac,bounds=Bounds(lower,upper),method='SLSQP',options={'maxiter':30,'ftol':1e-9})
         self.last=np.clip(sol.x,lower,upper)
         return self.last.copy(),{'reference_probe_m':p,'qref_m':qref,'q_measured_m':q,'qdot_measured_m_s':qd,'contact_measured_n':force,
-            'position_weights':np.ones(3),'predicted_rope_speed_m_s':base+P@self.last}
+            'position_weights':self.weights.copy(),'predicted_rope_speed_m_s':base+P@self.last}

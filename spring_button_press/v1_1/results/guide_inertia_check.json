@@ -1,0 +1,7 @@
+{
+  "assemblies": 20,
+  "max_mass_error_kg": 0.0,
+  "max_com_error_m": 0.0,
+  "max_tensor_error_kg_m2": 2.0679515313825692e-24,
+  "all_positive_principal_inertias": true
+}

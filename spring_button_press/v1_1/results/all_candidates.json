@@ -1,0 +1,566 @@
+{
+  "label": "Codex-assisted engineering design; not Main autonomous Study",
+  "candidates": [
+    {
+      "id": "C1_A",
+      "status": "FAIL",
+      "failed_checks": [
+        "contact_near_approach_end",
+        "depth_and_force_hold_0p4s",
+        "button_travel",
+        "speed_limit",
+        "release",
+        "no_unexpected_collision"
+      ],
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.1,
+        "max_hold_depth_error_m": 0.002006740875564257,
+        "hold_valid_continuous_s": 0.0,
+        "hold_valid_total_s": 0.0,
+        "hold_depth_min_max_m": [
+          -6.740875564256688e-06,
+          0.0001520673281633265
+        ],
+        "hold_contact_force_min_max_n": [
+          0.0,
+          0.04972845019807632
+        ],
+        "hold_lateral_error_max_m": 0.008984747584482717,
+        "button_peak_m": 0.001810400864976355,
+        "first_contact_s": 0.7170000000000005,
+        "max_tension_n": 2.2023706933304714,
+        "max_rope_speed_m_s": 0.15183636360674763,
+        "max_stroke_m": 0.008284458037847386,
+        "structure_mass_kg": 0.06777328113431463,
+        "total_tendon_length_variation_m": 0.08120557149883312,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": -2.1504060730377913e-09,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.059531300427843395
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": 3.8104550695355516e-14,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.034341643639400246
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.04289631635415106,
+        "hold_button_dynamic_balance_residual_max_n": 0.022047864406478712,
+        "unexpected_contact_steps": 806
+      },
+      "execution_audit": {
+        "peak_rope_time_s": 0.32200000000000023,
+        "peak_rope_tendon": "T3",
+        "peak_rope_signed_mm_s": 151.83636360674762,
+        "minimum_button_travel_mm": -0.04622918548954606,
+        "minimum_button_time_s": 0.7770000000000006,
+        "minimum_release_travel_mm": -0.027686308393000326,
+        "actual_max_command_slope_n_s": 400.0000000000001,
+        "configuration_sensor_max_error": 0.0,
+        "actual_position_weights": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "diagnostic_trace_position_weights": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trace_weights_logging_defect": false,
+        "logging_defect_scope": "S2-S4 originally returned a hardcoded ones vector in the diagnostic trace; allocation and runtime summary used the configured positive weights. Original logs/source are preserved; no physical states or controls changed. Current diagnostic writer is fixed.",
+        "all_xyz_weights_positive": true,
+        "effective_configuration": {
+          "xyz_feedback": true,
+          "button_state_feedback": true,
+          "reaction_feedforward": true,
+          "bounded_allocation": true,
+          "position_gain": 0.4,
+          "velocity_time_s": 0.03,
+          "startup_s": 0.06,
+          "tension_rate_limit_n_s": 40.0,
+          "delta_tension_penalty": 0.15,
+          "predicted_rope_speed_limit_m_s": 0.022,
+          "release_contact_end_s": 1.67,
+          "withdraw_end_s": 1.78,
+          "force_gain": 0.25,
+          "button_depth_gain": 0.3,
+          "button_velocity_time_s": 0.02
+        },
+        "rate_limit_scope": "target-knot change / 10 ms; quintic interpolation can have a larger instantaneous slope; this is not the original rope speed limit"
+      }
+    },
+    {
+      "id": "C1_B",
+      "status": "FAIL",
+      "failed_checks": [
+        "depth_and_force_hold_0p4s",
+        "button_travel",
+        "speed_limit",
+        "release",
+        "no_unexpected_collision"
+      ],
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.11103858287630727,
+        "max_hold_depth_error_m": 0.0020394039989457525,
+        "hold_valid_continuous_s": 0.0,
+        "hold_valid_total_s": 0.0,
+        "hold_depth_min_max_m": [
+          -3.9403998945752535e-05,
+          0.0014730451345193324
+        ],
+        "hold_contact_force_min_max_n": [
+          0.0,
+          0.21103858287630728
+        ],
+        "hold_lateral_error_max_m": 0.010863196026629298,
+        "button_peak_m": 0.0016590517554394277,
+        "first_contact_s": 0.2590000000000002,
+        "max_tension_n": 3.1907222540552764,
+        "max_rope_speed_m_s": 0.03631217073920508,
+        "max_stroke_m": 0.00857990627093691,
+        "structure_mass_kg": 0.06777328113431463,
+        "total_tendon_length_variation_m": 0.055516927549458084,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": 2.0348369433971492e-07,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.056111109857497246
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": 1.8060883713722863e-13,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.04765754118534325
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.15104915385791984,
+        "hold_button_dynamic_balance_residual_max_n": 0.17966850641639506,
+        "unexpected_contact_steps": 774
+      },
+      "execution_audit": {
+        "peak_rope_time_s": 0.7700000000000006,
+        "peak_rope_tendon": "T2",
+        "peak_rope_signed_mm_s": -36.31217073920508,
+        "minimum_button_travel_mm": -0.1408505887661588,
+        "minimum_button_time_s": 0.2940000000000002,
+        "minimum_release_travel_mm": -0.00984689075197923,
+        "actual_max_command_slope_n_s": 800.0,
+        "configuration_sensor_max_error": 0.0,
+        "actual_position_weights": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "diagnostic_trace_position_weights": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trace_weights_logging_defect": false,
+        "logging_defect_scope": "S2-S4 originally returned a hardcoded ones vector in the diagnostic trace; allocation and runtime summary used the configured positive weights. Original logs/source are preserved; no physical states or controls changed. Current diagnostic writer is fixed.",
+        "all_xyz_weights_positive": true,
+        "effective_configuration": {
+          "xyz_feedback": true,
+          "button_state_feedback": true,
+          "reaction_feedforward": true,
+          "bounded_allocation": true,
+          "position_gain": 0.3,
+          "velocity_time_s": 0.03,
+          "startup_s": 0.04,
+          "tension_rate_limit_n_s": 80.0,
+          "delta_tension_penalty": 0.05,
+          "predicted_rope_speed_limit_m_s": 0.022,
+          "release_contact_end_s": 1.67,
+          "withdraw_end_s": 1.78,
+          "force_gain": 0.25,
+          "button_depth_gain": 0.3,
+          "button_velocity_time_s": 0.02
+        },
+        "rate_limit_scope": "target-knot change / 10 ms; quintic interpolation can have a larger instantaneous slope; this is not the original rope speed limit"
+      }
+    },
+    {
+      "id": "S1",
+      "status": "FAIL",
+      "failed_checks": [
+        "depth_and_force_hold_0p4s",
+        "button_travel",
+        "speed_limit",
+        "release",
+        "no_unexpected_collision"
+      ],
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.1,
+        "max_hold_depth_error_m": 0.0018636281310607037,
+        "hold_valid_continuous_s": 0.0,
+        "hold_valid_total_s": 0.0,
+        "hold_depth_min_max_m": [
+          0.00013637186893929624,
+          0.00025310730284354346
+        ],
+        "hold_contact_force_min_max_n": [
+          0.0,
+          0.06924014745781772
+        ],
+        "hold_lateral_error_max_m": 0.00893188424110778,
+        "button_peak_m": 0.001860708577001069,
+        "first_contact_s": 0.2420000000000002,
+        "max_tension_n": 3.7630669631421694,
+        "max_rope_speed_m_s": 0.04882692136077803,
+        "max_stroke_m": 0.006408092460692683,
+        "structure_mass_kg": 0.0775613686595074,
+        "total_tendon_length_variation_m": 0.05854509492822321,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": 7.06188104329947e-10,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.02319998343612444
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": -8.142762510662046e-16,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.01757980847435254
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.059217789065242214,
+        "hold_button_dynamic_balance_residual_max_n": 7.667805192873578e-13,
+        "unexpected_contact_steps": 757
+      },
+      "execution_audit": {
+        "peak_rope_time_s": 0.22000000000000017,
+        "peak_rope_tendon": "T2",
+        "peak_rope_signed_mm_s": -48.82692136077803,
+        "minimum_button_travel_mm": -0.08657299005341766,
+        "minimum_button_time_s": 0.2770000000000002,
+        "minimum_release_travel_mm": -0.008382424318515148,
+        "actual_max_command_slope_n_s": 509.31560758274117,
+        "configuration_sensor_max_error": 0.0,
+        "actual_position_weights": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "diagnostic_trace_position_weights": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trace_weights_logging_defect": false,
+        "logging_defect_scope": "S2-S4 originally returned a hardcoded ones vector in the diagnostic trace; allocation and runtime summary used the configured positive weights. Original logs/source are preserved; no physical states or controls changed. Current diagnostic writer is fixed.",
+        "all_xyz_weights_positive": true,
+        "effective_configuration": {
+          "xyz_feedback": true,
+          "button_state_feedback": true,
+          "reaction_feedforward": true,
+          "bounded_allocation": true,
+          "position_gain": 0.3,
+          "velocity_time_s": 0.03,
+          "startup_s": 0.04,
+          "tension_rate_limit_n_s": 80.0,
+          "delta_tension_penalty": 0.05,
+          "predicted_rope_speed_limit_m_s": 0.022,
+          "release_contact_end_s": 1.67,
+          "withdraw_end_s": 1.78,
+          "force_gain": 0.25,
+          "button_depth_gain": 0.3,
+          "button_velocity_time_s": 0.02
+        },
+        "rate_limit_scope": "target-knot change / 10 ms; quintic interpolation can have a larger instantaneous slope; this is not the original rope speed limit"
+      }
+    },
+    {
+      "id": "S2",
+      "status": "FAIL",
+      "failed_checks": [
+        "button_travel",
+        "speed_limit",
+        "release"
+      ],
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.003499080981898453,
+        "max_hold_depth_error_m": 6.751126216977691e-05,
+        "hold_valid_continuous_s": 0.41399999999995585,
+        "hold_valid_total_s": 0.41500000000000004,
+        "hold_depth_min_max_m": [
+          0.002002087170475888,
+          0.002067511262169777
+        ],
+        "hold_contact_force_min_max_n": [
+          0.10024756649379556,
+          0.10349908098189846
+        ],
+        "hold_lateral_error_max_m": 0.002692431193557739,
+        "button_peak_m": 0.002067511262169777,
+        "first_contact_s": 0.47000000000000036,
+        "max_tension_n": 2.9325102413707897,
+        "max_rope_speed_m_s": 0.05364194071712305,
+        "max_stroke_m": 0.004848536601019027,
+        "structure_mass_kg": 0.08977068182686254,
+        "total_tendon_length_variation_m": 0.03671624845333937,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": 4.613495635592074e-08,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.05911457491662621
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": 1.660873356007754e-14,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.03259975401290521
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.0006501172829354758,
+        "hold_button_dynamic_balance_residual_max_n": 4.483209864545451e-13,
+        "unexpected_contact_steps": 0
+      },
+      "execution_audit": {
+        "peak_rope_time_s": 0.035000000000000024,
+        "peak_rope_tendon": "T3",
+        "peak_rope_signed_mm_s": -53.64194071712305,
+        "minimum_button_travel_mm": -0.005713070835501284,
+        "minimum_button_time_s": 1.6259999999999317,
+        "minimum_release_travel_mm": -0.005713070835501284,
+        "actual_max_command_slope_n_s": 553.689432234862,
+        "configuration_sensor_max_error": 0.0,
+        "actual_position_weights": [
+          0.1,
+          1.0,
+          1.0
+        ],
+        "diagnostic_trace_position_weights": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trace_weights_logging_defect": true,
+        "logging_defect_scope": "S2-S4 originally returned a hardcoded ones vector in the diagnostic trace; allocation and runtime summary used the configured positive weights. Original logs/source are preserved; no physical states or controls changed. Current diagnostic writer is fixed.",
+        "all_xyz_weights_positive": true,
+        "effective_configuration": {
+          "xyz_feedback": true,
+          "button_state_feedback": true,
+          "reaction_feedforward": true,
+          "bounded_allocation": true,
+          "position_gain": 0.3,
+          "velocity_time_s": 0.03,
+          "startup_s": 0.04,
+          "tension_rate_limit_n_s": 80.0,
+          "delta_tension_penalty": 0.05,
+          "predicted_rope_speed_limit_m_s": 0.022,
+          "release_contact_end_s": 1.67,
+          "withdraw_end_s": 1.78,
+          "force_gain": 0.25,
+          "button_depth_gain": 0.3,
+          "button_velocity_time_s": 0.02,
+          "position_weights": [
+            0.1,
+            1.0,
+            1.0
+          ]
+        },
+        "rate_limit_scope": "target-knot change / 10 ms; quintic interpolation can have a larger instantaneous slope; this is not the original rope speed limit"
+      }
+    },
+    {
+      "id": "S3",
+      "status": "FAIL",
+      "failed_checks": [
+        "button_travel",
+        "speed_limit",
+        "release"
+      ],
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.0029705525750332584,
+        "max_hold_depth_error_m": 6.572933964751762e-05,
+        "hold_valid_continuous_s": 0.4999999999999559,
+        "hold_valid_total_s": 0.501,
+        "hold_depth_min_max_m": [
+          0.0020207580781492285,
+          0.0020657293396475177
+        ],
+        "hold_contact_force_min_max_n": [
+          0.10113655535208792,
+          0.10297055257503326
+        ],
+        "hold_lateral_error_max_m": 0.0014207623478567368,
+        "button_peak_m": 0.0020657293396475177,
+        "first_contact_s": 0.3790000000000003,
+        "max_tension_n": 4.064698462689805,
+        "max_rope_speed_m_s": 0.04325181801307372,
+        "max_stroke_m": 0.0026123188199859704,
+        "structure_mass_kg": 0.10126353984431562,
+        "total_tendon_length_variation_m": 0.026442296323389236,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": 3.94715965944338e-12,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.021823287641642635
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": 2.2649465152593833e-16,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.01940227816474917
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.0003921716013804686,
+        "hold_button_dynamic_balance_residual_max_n": 1.3488696447229616e-14,
+        "unexpected_contact_steps": 0
+      },
+      "execution_audit": {
+        "peak_rope_time_s": 0.06400000000000004,
+        "peak_rope_tendon": "T3",
+        "peak_rope_signed_mm_s": 43.25181801307372,
+        "minimum_button_travel_mm": -0.015571710757637252,
+        "minimum_button_time_s": 0.45600000000000035,
+        "minimum_release_travel_mm": -0.006187172980836134,
+        "actual_max_command_slope_n_s": 800.0,
+        "configuration_sensor_max_error": 0.0,
+        "actual_position_weights": [
+          0.1,
+          1.0,
+          1.0
+        ],
+        "diagnostic_trace_position_weights": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trace_weights_logging_defect": true,
+        "logging_defect_scope": "S2-S4 originally returned a hardcoded ones vector in the diagnostic trace; allocation and runtime summary used the configured positive weights. Original logs/source are preserved; no physical states or controls changed. Current diagnostic writer is fixed.",
+        "all_xyz_weights_positive": true,
+        "effective_configuration": {
+          "xyz_feedback": true,
+          "button_state_feedback": true,
+          "reaction_feedforward": true,
+          "bounded_allocation": true,
+          "position_gain": 0.4,
+          "velocity_time_s": 0.04,
+          "startup_s": 0.04,
+          "tension_rate_limit_n_s": 80.0,
+          "delta_tension_penalty": 0.05,
+          "predicted_rope_speed_limit_m_s": 0.022,
+          "release_contact_end_s": 1.6,
+          "withdraw_end_s": 1.75,
+          "force_gain": 0.15,
+          "button_depth_gain": 0.2,
+          "button_velocity_time_s": 0.02,
+          "position_weights": [
+            0.1,
+            1.0,
+            1.0
+          ],
+          "feedforward_tracking_penalty": 10.0
+        },
+        "rate_limit_scope": "target-knot change / 10 ms; quintic interpolation can have a larger instantaneous slope; this is not the original rope speed limit"
+      }
+    },
+    {
+      "id": "S4",
+      "status": "FAIL",
+      "failed_checks": [
+        "button_travel",
+        "speed_limit"
+      ],
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.0029158337575568988,
+        "max_hold_depth_error_m": 6.459837084236367e-05,
+        "hold_valid_continuous_s": 0.4999999999999559,
+        "hold_valid_total_s": 0.501,
+        "hold_depth_min_max_m": [
+          0.002031515157133517,
+          0.0020645983708423637
+        ],
+        "hold_contact_force_min_max_n": [
+          0.10172960907913857,
+          0.1029158337575569
+        ],
+        "hold_lateral_error_max_m": 0.00040703265495608285,
+        "button_peak_m": 0.0020646397701051763,
+        "first_contact_s": 0.3990000000000003,
+        "max_tension_n": 4.591085452591297,
+        "max_rope_speed_m_s": 0.02783206031191021,
+        "max_stroke_m": 0.003180696367180269,
+        "structure_mass_kg": 0.11051627204909059,
+        "total_tendon_length_variation_m": 0.021302435193235825,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": -9.523937530204002e-13,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.006217770079541603
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": 6.3723087405202e-17,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.00698353870082381
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.00030580493199879033,
+        "hold_button_dynamic_balance_residual_max_n": 3.765271514716284e-15,
+        "unexpected_contact_steps": 0
+      },
+      "execution_audit": {
+        "peak_rope_time_s": 0.060000000000000046,
+        "peak_rope_tendon": "T3",
+        "peak_rope_signed_mm_s": 27.83206031191021,
+        "minimum_button_travel_mm": -0.005531047640286974,
+        "minimum_button_time_s": 0.45400000000000035,
+        "minimum_release_travel_mm": -0.0039520734932930995,
+        "actual_max_command_slope_n_s": 146.0480000000004,
+        "configuration_sensor_max_error": 0.0,
+        "actual_position_weights": [
+          0.1,
+          1.0,
+          1.0
+        ],
+        "diagnostic_trace_position_weights": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "trace_weights_logging_defect": true,
+        "logging_defect_scope": "S2-S4 originally returned a hardcoded ones vector in the diagnostic trace; allocation and runtime summary used the configured positive weights. Original logs/source are preserved; no physical states or controls changed. Current diagnostic writer is fixed.",
+        "all_xyz_weights_positive": true,
+        "effective_configuration": {
+          "xyz_feedback": true,
+          "button_state_feedback": true,
+          "reaction_feedforward": true,
+          "bounded_allocation": true,
+          "position_gain": 0.8,
+          "velocity_time_s": 0.06,
+          "startup_s": 0.04,
+          "tension_rate_limit_n_s": 80.0,
+          "delta_tension_penalty": 0.05,
+          "predicted_rope_speed_limit_m_s": 0.022,
+          "release_contact_end_s": 1.6,
+          "withdraw_end_s": 1.75,
+          "force_gain": 0.1,
+          "button_depth_gain": 0.1,
+          "button_velocity_time_s": 0.02,
+          "startup_shape": "linear_lookahead",
+          "command_interpolation": "quintic_10ms",
+          "position_weights": [
+            0.1,
+            1.0,
+            1.0
+          ],
+          "feedforward_tracking_penalty": 10.0
+        },
+        "rate_limit_scope": "target-knot change / 10 ms; quintic interpolation can have a larger instantaneous slope; this is not the original rope speed limit"
+      }
+    }
+  ],
+  "selected": "S4",
+  "selection": "fewest failed original hard checks; remaining violations reported without relaxing criteria"
+}

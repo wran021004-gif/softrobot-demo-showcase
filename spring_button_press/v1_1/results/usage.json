@@ -1,0 +1,8 @@
+{
+  "prechecks": 1,
+  "baseline_evaluations": 2,
+  "codesign_evaluations": 4,
+  "final_replays": 1,
+  "full_evaluations": 7,
+  "physics_steps": 14000
+}
