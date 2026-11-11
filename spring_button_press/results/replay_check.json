@@ -1,0 +1,7 @@
+{
+  "independent_replays": 1,
+  "source": "B5",
+  "max_qpos_difference": 0.0,
+  "same_result_status": true,
+  "physics_steps": 2000
+}

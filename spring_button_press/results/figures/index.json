@@ -1,0 +1,61 @@
+{
+  "label": "Codex-assisted engineering design; not Main autonomous Study",
+  "candidate": "B5",
+  "status": "FAIL",
+  "native_renders_px": [
+    2400,
+    1800
+  ],
+  "png_dpi": 600,
+  "independent_panels": [
+    {
+      "stem": "initial",
+      "title": "B5 initial"
+    },
+    {
+      "stem": "contact",
+      "title": "B5 contact"
+    },
+    {
+      "stem": "maximum_press",
+      "title": "B5 maximum_press"
+    },
+    {
+      "stem": "hold",
+      "title": "B5 hold"
+    },
+    {
+      "stem": "release",
+      "title": "B5 release"
+    },
+    {
+      "stem": "hold_close",
+      "title": "B5 Hold close-up"
+    },
+    {
+      "stem": "button_travel",
+      "title": "Button travel"
+    },
+    {
+      "stem": "contact_force",
+      "title": "Actual contact normal force"
+    },
+    {
+      "stem": "tendon_tensions",
+      "title": "Tendon tensions"
+    },
+    {
+      "stem": "lateral_error",
+      "title": "Failed lateral alignment constraint"
+    },
+    {
+      "stem": "rope_speed",
+      "title": "Failed rope speed constraint"
+    },
+    {
+      "stem": "force_crosscheck",
+      "title": "Contact versus spring/damping (separate quantities)"
+    }
+  ],
+  "palette": "ColorBrewer Dark2 (3) + gray; redundant line styles"
+}

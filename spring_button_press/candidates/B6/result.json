@@ -1,0 +1,127 @@
+{
+  "version": "spring_button_press_v1.0",
+  "status": "FAIL",
+  "checks": {
+    "real_contact_established": true,
+    "contact_near_approach_end": true,
+    "depth_and_force_hold_0p4s": false,
+    "button_travel": false,
+    "tension_limit": true,
+    "stroke_limit": true,
+    "speed_limit": false,
+    "release": false,
+    "no_unexpected_collision": false,
+    "finite_no_warning": true,
+    "no_external_force": true
+  },
+  "metrics": {
+    "max_hold_contact_force_error_n": 0.10628712715600447,
+    "max_hold_depth_error_m": 0.0020490913877249145,
+    "hold_valid_continuous_s": 0.0,
+    "hold_valid_total_s": 0.0,
+    "hold_depth_min_max_m": [
+      -4.9091387724914384e-05,
+      0.0011038285454554673
+    ],
+    "hold_contact_force_min_max_n": [
+      0.0,
+      0.20628712715600447
+    ],
+    "hold_lateral_error_max_m": 0.009902572759639452,
+    "button_peak_m": 0.001760038482940651,
+    "first_contact_s": 0.5340000000000004,
+    "max_tension_n": 2.5456565455007136,
+    "max_rope_speed_m_s": 0.06373012406453125,
+    "max_stroke_m": 0.008615759247916743,
+    "structure_mass_kg": 0.05914772512796291,
+    "total_tendon_length_variation_m": 0.03914497833375144,
+    "release_at_1p8_and_2p0": [
+      {
+        "time_s": 1.7999999999999126,
+        "button_residual_m": 3.3544988478516085e-10,
+        "contact_force_n": 0.0,
+        "tip_speed_m_s": 0.03374996580741606
+      },
+      {
+        "time_s": 1.9999999999998905,
+        "button_residual_m": 5.064088389472799e-17,
+        "contact_force_n": 0.0,
+        "tip_speed_m_s": 0.028789730239531765
+      }
+    ],
+    "hold_contact_minus_spring_damping_max_n": 0.19824380747820233,
+    "hold_button_dynamic_balance_residual_max_n": 0.2685045391103058,
+    "unexpected_contact_steps": 613
+  },
+  "actuation_scope": "4 independent ideal tension channels; geometric tendon stroke/speed verified; no motor energy model",
+  "label": "Codex-assisted engineering design; not Main autonomous Study",
+  "unexpected_pairs": [
+    [
+      "housing_rail_0",
+      "probe"
+    ],
+    [
+      "housing_rail_2",
+      "probe"
+    ]
+  ],
+  "optimization": {
+    "knots": [
+      {
+        "advance_m": 0,
+        "cost": 0.00013244781533382598,
+        "nfev": 72,
+        "probe_m": [
+          0.29496262317855493,
+          0.020999957813902927,
+          0.1499999928157783
+        ],
+        "button_q_m": 4.858203725474427e-19,
+        "tensions_n": [
+          2.429710970992466,
+          0.20000000000000004,
+          0.30902290481046135,
+          0.2000000000000005
+        ],
+        "max_scaled_residual": 0.016121304643350043
+      },
+      {
+        "advance_m": 0.005,
+        "cost": 0.0011851541217914887,
+        "nfev": 18,
+        "probe_m": [
+          0.2938787317578948,
+          0.025999830460670052,
+          0.14999997929396303
+        ],
+        "button_q_m": 2.4999999978390773e-11,
+        "tensions_n": [
+          2.2882829523019987,
+          0.20000000009783966,
+          0.4394251048013187,
+          0.20000000009692182
+        ],
+        "max_scaled_residual": 0.04863804726315368
+      },
+      {
+        "advance_m": 0.007,
+        "cost": 2.007117513088949,
+        "nfev": 26,
+        "probe_m": [
+          0.29358535396031915,
+          0.02776926621725419,
+          0.14998760580183806
+        ],
+        "button_q_m": 0.0017693398700235699,
+        "tensions_n": [
+          2.2882603138609166,
+          0.20000000009994245,
+          0.44748732922644074,
+          0.20000000009987953
+        ],
+        "max_scaled_residual": 1.7693398700235698
+      }
+    ],
+    "forward_evaluations": 4571
+  }
+}

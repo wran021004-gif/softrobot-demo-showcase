@@ -1,0 +1,5 @@
+{
+  "feedback_gain": 0.6,
+  "reaction_feedforward": true,
+  "bounded_allocation": true
+}

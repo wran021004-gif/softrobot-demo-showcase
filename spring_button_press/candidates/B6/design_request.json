@@ -1,0 +1,13 @@
+{
+  "id": "B6",
+  "lengths_m": [
+    0.175,
+    0.0925
+  ],
+  "young_pa": [
+    8000000.0,
+    8000000.0
+  ],
+  "section_scale": 0.9,
+  "tendon_radius_m": 0.021
+}

@@ -1,0 +1,460 @@
+{
+  "label": "Codex-assisted engineering design; not Main autonomous Study",
+  "selection": "fewest failed hard checks within each group; both selected candidates still FAIL",
+  "candidates": [
+    {
+      "id": "A1",
+      "group": "control_only",
+      "status": "FAIL",
+      "failed_checks": [
+        "depth_and_force_hold_0p4s",
+        "button_travel",
+        "release"
+      ],
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.09525418502498659,
+        "max_hold_depth_error_m": 0.001905370039657514,
+        "hold_valid_continuous_s": 0.0,
+        "hold_valid_total_s": 0.0,
+        "hold_depth_min_max_m": [
+          9.462996034248612e-05,
+          0.00012171747204302663
+        ],
+        "hold_contact_force_min_max_n": [
+          0.0047458149750134165,
+          0.006006337453055812
+        ],
+        "hold_lateral_error_max_m": 0.0018042331584915904,
+        "button_peak_m": 0.0003776730920798585,
+        "first_contact_s": 0.4880000000000004,
+        "max_tension_n": 3.291877902288988,
+        "max_rope_speed_m_s": 0.016121585308114653,
+        "max_stroke_m": 0.0018680352577810089,
+        "structure_mass_kg": 0.06732013780996088,
+        "total_tendon_length_variation_m": 0.013095198390145973,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": 2.2406755990548775e-12,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.015489937452763444
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": 3.763760377922523e-16,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.004197749783048796
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.00014919167221726096,
+        "hold_button_dynamic_balance_residual_max_n": 5.398378142076887e-15,
+        "unexpected_contact_steps": 0
+      }
+    },
+    {
+      "id": "A2",
+      "group": "control_only",
+      "status": "FAIL",
+      "failed_checks": [
+        "depth_and_force_hold_0p4s",
+        "button_travel",
+        "speed_limit",
+        "release",
+        "no_unexpected_collision"
+      ],
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.1,
+        "max_hold_depth_error_m": 0.0020567894993019833,
+        "hold_valid_continuous_s": 0.0,
+        "hold_valid_total_s": 0.0,
+        "hold_depth_min_max_m": [
+          -5.678949930198338e-05,
+          0.0018482663179040318
+        ],
+        "hold_contact_force_min_max_n": [
+          0.0,
+          0.18226145586324022
+        ],
+        "hold_lateral_error_max_m": 0.009260627922448843,
+        "button_peak_m": 0.0018848300337486372,
+        "first_contact_s": 0.4950000000000004,
+        "max_tension_n": 3.2730613951369745,
+        "max_rope_speed_m_s": 0.051910161858135156,
+        "max_stroke_m": 0.006975618320256838,
+        "structure_mass_kg": 0.06732013780996088,
+        "total_tendon_length_variation_m": 0.0386587494662248,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": -2.019349870273927e-11,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.008235458728392478
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": 3.195296599530319e-16,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.022903598707621417
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.17657332808984397,
+        "hold_button_dynamic_balance_residual_max_n": 0.25905255528649646,
+        "unexpected_contact_steps": 598
+      }
+    },
+    {
+      "id": "A3",
+      "group": "control_only",
+      "status": "FAIL",
+      "failed_checks": [
+        "contact_near_approach_end",
+        "depth_and_force_hold_0p4s",
+        "button_travel",
+        "speed_limit",
+        "no_unexpected_collision"
+      ],
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.1,
+        "max_hold_depth_error_m": 0.002039980204421523,
+        "hold_valid_continuous_s": 0.0,
+        "hold_valid_total_s": 0.0,
+        "hold_depth_min_max_m": [
+          -3.998020442152304e-05,
+          0.0018528066934027584
+        ],
+        "hold_contact_force_min_max_n": [
+          0.0,
+          0.15263621049347645
+        ],
+        "hold_lateral_error_max_m": 0.008993902913045426,
+        "button_peak_m": 0.0018528066934027584,
+        "first_contact_s": 0.6020000000000004,
+        "max_tension_n": 4.6461664143175225,
+        "max_rope_speed_m_s": 0.04859990411074687,
+        "max_stroke_m": 0.007114378575027225,
+        "structure_mass_kg": 0.06732013780996088,
+        "total_tendon_length_variation_m": 0.03572619807165861,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": -5.136295336344537e-12,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.009801237926732292
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": 4.3842237850295206e-17,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.002780577577083194
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.08761034777728104,
+        "hold_button_dynamic_balance_residual_max_n": 0.19842325957251164,
+        "unexpected_contact_steps": 167
+      }
+    },
+    {
+      "id": "B1",
+      "group": "co_design",
+      "status": "FAIL",
+      "failed_checks": [
+        "depth_and_force_hold_0p4s",
+        "button_travel",
+        "speed_limit",
+        "release",
+        "no_unexpected_collision"
+      ],
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.1,
+        "max_hold_depth_error_m": 0.0020915058224163707,
+        "hold_valid_continuous_s": 0.0,
+        "hold_valid_total_s": 0.0,
+        "hold_depth_min_max_m": [
+          -9.150582241637083e-05,
+          0.00041131125014004066
+        ],
+        "hold_contact_force_min_max_n": [
+          0.0,
+          0.18741651568761802
+        ],
+        "hold_lateral_error_max_m": 0.009430625659080387,
+        "button_peak_m": 0.0017326901252554291,
+        "first_contact_s": 0.4880000000000004,
+        "max_tension_n": 3.5920037337241757,
+        "max_rope_speed_m_s": 0.055567356041785664,
+        "max_stroke_m": 0.0071787500286385475,
+        "structure_mass_kg": 0.06732013780996088,
+        "total_tendon_length_variation_m": 0.03713204263607542,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": 2.617085895790536e-09,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.017625449589459816
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": 3.11152980857639e-16,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.020054145321633892
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.18090602740216868,
+        "hold_button_dynamic_balance_residual_max_n": 0.338014630268129,
+        "unexpected_contact_steps": 606
+      }
+    },
+    {
+      "id": "B2",
+      "group": "co_design",
+      "status": "FAIL",
+      "failed_checks": [
+        "depth_and_force_hold_0p4s",
+        "button_travel",
+        "speed_limit",
+        "release",
+        "no_unexpected_collision"
+      ],
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.1,
+        "max_hold_depth_error_m": 0.002054881642989895,
+        "hold_valid_continuous_s": 0.0,
+        "hold_valid_total_s": 0.0,
+        "hold_depth_min_max_m": [
+          -5.488164298989502e-05,
+          0.0018681114623428092
+        ],
+        "hold_contact_force_min_max_n": [
+          0.0,
+          0.17580279561390302
+        ],
+        "hold_lateral_error_max_m": 0.009265222729111691,
+        "button_peak_m": 0.0018681114623428092,
+        "first_contact_s": 0.48000000000000037,
+        "max_tension_n": 2.985999261203695,
+        "max_rope_speed_m_s": 0.05799204917177556,
+        "max_stroke_m": 0.007040833103753974,
+        "structure_mass_kg": 0.06221892437348969,
+        "total_tendon_length_variation_m": 0.03685491870167895,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": 4.7976554878920437e-11,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.009337640879962058
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": 1.685070967673384e-15,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.01080045850801768
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.1703437973097159,
+        "hold_button_dynamic_balance_residual_max_n": 0.25164385556346053,
+        "unexpected_contact_steps": 570
+      }
+    },
+    {
+      "id": "B3",
+      "group": "co_design",
+      "status": "FAIL",
+      "failed_checks": [
+        "depth_and_force_hold_0p4s",
+        "button_travel",
+        "speed_limit",
+        "release",
+        "no_unexpected_collision"
+      ],
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.1,
+        "max_hold_depth_error_m": 0.0020483064451907174,
+        "hold_valid_continuous_s": 0.0,
+        "hold_valid_total_s": 0.0,
+        "hold_depth_min_max_m": [
+          -4.8306445190717476e-05,
+          0.0018828315018188442
+        ],
+        "hold_contact_force_min_max_n": [
+          0.0,
+          0.17528058602589838
+        ],
+        "hold_lateral_error_max_m": 0.00907934075617597,
+        "button_peak_m": 0.0018828315018188442,
+        "first_contact_s": 0.46600000000000036,
+        "max_tension_n": 3.745051531164674,
+        "max_rope_speed_m_s": 0.05225778455188322,
+        "max_stroke_m": 0.0061101308831875145,
+        "structure_mass_kg": 0.06619544534710234,
+        "total_tendon_length_variation_m": 0.0348198764179837,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": -2.906445761715882e-11,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.018506831669533215
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": 1.4872433617121053e-16,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.0166287548855798
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.16946807986006898,
+        "hold_button_dynamic_balance_residual_max_n": 0.2333437652428301,
+        "unexpected_contact_steps": 564
+      }
+    },
+    {
+      "id": "B4",
+      "group": "co_design",
+      "status": "FAIL",
+      "failed_checks": [
+        "depth_and_force_hold_0p4s",
+        "button_travel",
+        "speed_limit",
+        "release"
+      ],
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.010122157746845217,
+        "max_hold_depth_error_m": 0.00020299330149477495,
+        "hold_valid_continuous_s": 0.0,
+        "hold_valid_total_s": 0.0,
+        "hold_depth_min_max_m": [
+          0.001797006698505225,
+          0.0018162301261798429
+        ],
+        "hold_contact_force_min_max_n": [
+          0.08987784225315479,
+          0.09077056030266496
+        ],
+        "hold_lateral_error_max_m": 0.004654280863236484,
+        "button_peak_m": 0.0018162301261798429,
+        "first_contact_s": 0.45800000000000035,
+        "max_tension_n": 3.382826217146785,
+        "max_rope_speed_m_s": 0.041954264660610176,
+        "max_stroke_m": 0.0056050071813166236,
+        "structure_mass_kg": 0.07436056306059569,
+        "total_tendon_length_variation_m": 0.026054197596689366,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": 2.591915206688027e-12,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.020819065064491642
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": 3.7703795963411545e-16,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.005898459331313183
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.0001279497272724891,
+        "hold_button_dynamic_balance_residual_max_n": 8.84435550512798e-15,
+        "unexpected_contact_steps": 0
+      }
+    },
+    {
+      "id": "B5",
+      "group": "co_design",
+      "status": "FAIL",
+      "failed_checks": [
+        "depth_and_force_hold_0p4s",
+        "button_travel",
+        "speed_limit"
+      ],
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.010896516337641687,
+        "max_hold_depth_error_m": 0.00021577930948549076,
+        "hold_valid_continuous_s": 0.0,
+        "hold_valid_total_s": 0.0,
+        "hold_depth_min_max_m": [
+          0.0017842206905145093,
+          0.0017881945884760705
+        ],
+        "hold_contact_force_min_max_n": [
+          0.08910348366235832,
+          0.08939403076165243
+        ],
+        "hold_lateral_error_max_m": 0.0033343330967142634,
+        "button_peak_m": 0.0017881945884760705,
+        "first_contact_s": 0.5940000000000004,
+        "max_tension_n": 5.217597034528081,
+        "max_rope_speed_m_s": 0.10041368667323163,
+        "max_stroke_m": 0.004423095596730209,
+        "structure_mass_kg": 0.07614597246995927,
+        "total_tendon_length_variation_m": 0.03157577896433972,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": 1.7318807083600577e-12,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.0016226313315256928
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": 3.7206662662124476e-16,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.0005777044452863233
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.00023584813707409853,
+        "hold_button_dynamic_balance_residual_max_n": 2.2858966238978318e-14,
+        "unexpected_contact_steps": 0
+      }
+    },
+    {
+      "id": "B6",
+      "group": "co_design",
+      "status": "FAIL",
+      "failed_checks": [
+        "depth_and_force_hold_0p4s",
+        "button_travel",
+        "speed_limit",
+        "release",
+        "no_unexpected_collision"
+      ],
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.10628712715600447,
+        "max_hold_depth_error_m": 0.0020490913877249145,
+        "hold_valid_continuous_s": 0.0,
+        "hold_valid_total_s": 0.0,
+        "hold_depth_min_max_m": [
+          -4.9091387724914384e-05,
+          0.0011038285454554673
+        ],
+        "hold_contact_force_min_max_n": [
+          0.0,
+          0.20628712715600447
+        ],
+        "hold_lateral_error_max_m": 0.009902572759639452,
+        "button_peak_m": 0.001760038482940651,
+        "first_contact_s": 0.5340000000000004,
+        "max_tension_n": 2.5456565455007136,
+        "max_rope_speed_m_s": 0.06373012406453125,
+        "max_stroke_m": 0.008615759247916743,
+        "structure_mass_kg": 0.05914772512796291,
+        "total_tendon_length_variation_m": 0.03914497833375144,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": 3.3544988478516085e-10,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.03374996580741606
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": 5.064088389472799e-17,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.028789730239531765
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.19824380747820233,
+        "hold_button_dynamic_balance_residual_max_n": 0.2685045391103058,
+        "unexpected_contact_steps": 613
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "label": "Codex-assisted engineering design; not Main autonomous Study",
+  "provider_calls": 0,
+  "main_calls": 0,
+  "reporter_calls": 0,
+  "prechecks": 2,
+  "fixed_structure_control_candidates": 3,
+  "co_design_structures": 6,
+  "final_independent_full_replays": 1,
+  "full_task_evaluations": 10,
+  "integrated_backend_trajectories": 12,
+  "physics_steps": 20700,
+  "algebraic_inverse_initializer_mj_forward_evaluations": 36407,
+  "extra_robustness_or_step_size_runs": 0,
+  "search_stopped": "All allowed structure/control candidates consumed; no complete feasible solution",
+  "core_commit": "2c83f8b7bd654328dd7648f844295c54a7c15223",
+  "core_changes": "none; task-local adapter only",
+  "classification": "Codex-assisted engineering design; not Main autonomous Study"
+}

@@ -155,3 +155,11 @@ M2–M6 和 C1 均复制原完整逐物理步 CSV 与任务/控制/评价。PHS 
 Public 仓库：[wran021004-gif/softrobot-demo-showcase](https://github.com/wran021004-gif/softrobot-demo-showcase)。
 
 v2 分支：[codex/visualize-remaining-tasks-20261111](https://github.com/wran021004-gif/softrobot-demo-showcase/tree/codex/visualize-remaining-tasks-20261111)。v1 分支：[codex/showcase-design-solve-20261111](https://github.com/wran021004-gif/softrobot-demo-showcase/tree/codex/showcase-design-solve-20261111)。
+
+
+## Paper figures and Spring Button Press engineering attempt
+
+The original v2 models, trajectories, evaluations and previews are unchanged.
+[Paper figures](paper_figures/README.md) are exported as independent colorblind-friendly PDF/SVG/PNG files; [the file index](paper_figures/file_index.md) lists every panel.
+
+[Spring Button Press v1.0](spring_button_press/README.md) is a separately frozen real-contact engineering task. Its bounded search found no complete feasible solution; the best failed candidate and all failures are preserved. Codex-assisted engineering design; not Main autonomous Study. No Core-main change was made.
