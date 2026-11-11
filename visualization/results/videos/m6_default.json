@@ -1,0 +1,25 @@
+{
+  "task": "m6",
+  "case": "default",
+  "video": "m6_default.mp4",
+  "view": "whole robot",
+  "frame_count": 92,
+  "fps": 30,
+  "playback_speed": 0.2,
+  "physical_duration_s": 0.6000000000000004,
+  "source_state_selection": "left nearest saved physical state; no state interpolation",
+  "actual_trail": "source indices <= current physical index only",
+  "native_renderer": "mujoco.Renderer",
+  "validation": {
+    "xml_sha256": "56ce01c0d00b562db31d35b313b7919e9b13782f79237a6bc31e1682310f6a1f",
+    "xml_bytes_unchanged": true,
+    "all_physical_arrays_unchanged": true,
+    "saved_qpos_restored_exactly": true,
+    "saved_qvel_restored_exactly": true,
+    "saved_ctrl_restored_exactly": true,
+    "hidden_original_geoms": 26,
+    "overlay_cells": 24,
+    "tendon_visualization": false,
+    "new_physics_steps": 0
+  }
+}

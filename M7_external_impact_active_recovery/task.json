@@ -1,0 +1,78 @@
+{
+  "version": "M7_external_impact_active_recovery_v1",
+  "label": "Codex-assisted engineering design; not Main autonomous Study",
+  "target_m": [
+    0.29,
+    -0.035,
+    0.19
+  ],
+  "duration_s": 1.0,
+  "physics_dt_s": 0.0005,
+  "control_dt_s": 0.01,
+  "initial_qpos": "all zero, unchanged M2",
+  "initial_qvel": "all zero",
+  "initial_control_n": 0.2,
+  "windows_s": {
+    "approach": [
+      0,
+      0.3
+    ],
+    "pre_impact_hold": [
+      0.3,
+      0.5
+    ],
+    "impact": [
+      0.5,
+      0.55
+    ],
+    "recovery": [
+      0.55,
+      0.9
+    ],
+    "final_hold": [
+      0.9,
+      1.0
+    ]
+  },
+  "impulse": {
+    "onset_s": 0.5,
+    "duration_s": 0.05,
+    "peak_n": 0.04,
+    "shape": "half sine",
+    "application": "world Y at actual payload COM; zero COM couple",
+    "calibration_frozen": true,
+    "invalid_screen": "original_structure pre-hold failed; its 48 mm drift was not valid impact displacement. The automatic tentative reduction to .02 N was invalidated before any further integration. No valid amplitude calibration/adjustment has yet occurred.",
+    "invalid_calibration_note": "Failed pre-hold or whole-run actuator safety: retained as failed control screen, never a valid impact amplitude calibration.",
+    "calibration_peak_n": 0.03,
+    "calibration_candidate": "balanced_stroke_feedback",
+    "calibration_displacement_m": 0.0038015973464471816,
+    "adjustment_count": 1,
+    "decision": "The balanced_stroke_feedback baseline has valid pre-impact hold; measured pulse displacement is 3.802 mm <5 mm, so increase once from 0.03 to 0.04 N and freeze. Its separate startup tendon-speed failure is retained, not counted as a full task PASS. Earlier unstable screens do not calibrate the impulse."
+  },
+  "acceptance": {
+    "position_error_m": 0.01,
+    "tip_speed_m_s": 0.02,
+    "recovery_deadline_s_after_pulse": 0.35,
+    "continuous_hold_s": 0.1,
+    "tension_bounds_n": [
+      0,
+      8
+    ],
+    "geometric_tendon_stroke_m": 0.015,
+    "actual_tendon_speed_m_s": 0.025,
+    "unexpected_contacts": 0,
+    "warnings": 0
+  },
+  "controller_observations": [
+    "qpos",
+    "qvel",
+    "fixed target",
+    "normal task clock for approach only"
+  ],
+  "controller_forbidden_inputs": [
+    "impact onset",
+    "direction",
+    "force",
+    "future disturbance"
+  ]
+}

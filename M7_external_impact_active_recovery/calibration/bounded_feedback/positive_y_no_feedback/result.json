@@ -1,0 +1,43 @@
+{
+  "status": "FAIL",
+  "checks": {
+    "pre_impact_hold_all_timesteps": false,
+    "recovery_within_0p35s_with_100ms_hold": false,
+    "final_hold_all_timesteps": false,
+    "tension_limits": true,
+    "stroke_limit": true,
+    "actual_speed_limit": false,
+    "no_unexpected_collision": true,
+    "finite_no_warning": true,
+    "force_off_after_pulse": true,
+    "controller_normal": true
+  },
+  "metrics": {
+    "pre_hold_max_error_m": 0.06030814918312216,
+    "pre_hold_max_speed_m_s": 0.05253029557517646,
+    "max_post_impact_displacement_m": 0.053183873333416946,
+    "max_displacement_time_s": 0.737,
+    "max_post_impact_target_error_m": 0.08570203178012423,
+    "peak_post_impact_tip_speed_m_s": 0.36530473282445625,
+    "peak_tip_speed_entire_run_m_s": 0.36530473282445625,
+    "recovery_time_after_pulse_s": null,
+    "continuous_post_pulse_valid_s": 0.0,
+    "final_hold_max_error_m": 0.06158139712490644,
+    "final_hold_max_speed_m_s": 0.16080058244645595,
+    "residual_error_m": 0.05466414372151469,
+    "max_tension_n": 5.748839618013275,
+    "max_tendon_speed_m_s": 0.05290241607066468,
+    "max_tendon_speed_time_s": 0.1605,
+    "max_tendon_speed_channel": 4,
+    "max_tendon_stroke_m": 0.006283912721870566,
+    "impulse_ns": [
+      0.0,
+      0.0009548511174430744,
+      0.0
+    ],
+    "control_total_variation_n": 440.75357625838376
+  },
+  "case": "positive_y_no_feedback",
+  "feedback_enabled_after_impact": false,
+  "speed_allocator_fallbacks": 47
+}

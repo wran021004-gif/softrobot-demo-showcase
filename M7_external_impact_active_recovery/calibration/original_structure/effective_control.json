@@ -1,0 +1,12 @@
+{
+  "reach_end_s": 0.25,
+  "startup_s": 0.02,
+  "position_scale_m": 0.005,
+  "joint_weight": 0.01,
+  "velocity_weight": 0.3,
+  "joint_velocity_weight": 0.0001,
+  "tension_weight": 0.05,
+  "tension_rate_n_s": 200.0,
+  "input_change_weight": 0.01,
+  "predicted_speed_limit_m_s": 0.023
+}

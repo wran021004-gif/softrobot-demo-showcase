@@ -1,0 +1,25 @@
+{
+  "task": "spring_button",
+  "case": "FINAL_C009",
+  "video": "spring_button_FINAL_C009.mp4",
+  "view": "whole robot",
+  "frame_count": 61,
+  "fps": 30,
+  "playback_speed": 1.0,
+  "physical_duration_s": 1.9999999999998905,
+  "source_state_selection": "left nearest saved physical state; no state interpolation",
+  "actual_trail": "source indices <= current physical index only",
+  "native_renderer": "mujoco.Renderer",
+  "validation": {
+    "xml_sha256": "c7f4f6493dd565b9c5853b8fc8c3b00d660628dfc4028e122b364d823ae8f8f7",
+    "xml_bytes_unchanged": true,
+    "all_physical_arrays_unchanged": true,
+    "saved_qpos_restored_exactly": true,
+    "saved_qvel_restored_exactly": true,
+    "saved_ctrl_restored_exactly": true,
+    "hidden_original_geoms": 68,
+    "overlay_cells": 24,
+    "tendon_visualization": false,
+    "new_physics_steps": 0
+  }
+}

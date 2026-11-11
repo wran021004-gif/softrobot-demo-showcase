@@ -1,0 +1,15 @@
+{
+  "position_scale_m": 0.02,
+  "velocity_weight": 0.5,
+  "rope_velocity_weight": 2.0,
+  "tension_weight": 1.0,
+  "speed_guard": false,
+  "tension_rate_n_s": 200.0,
+  "bank_stroke_weight": 200.0,
+  "bank_stroke_power": 2,
+  "bank_tension_weight": 0.02,
+  "reference_profile": "cosine_ramp_linear",
+  "reference_ramp_s": 0.04,
+  "reach_end_s": 0.27,
+  "startup_feedback_s": 0.10
+}

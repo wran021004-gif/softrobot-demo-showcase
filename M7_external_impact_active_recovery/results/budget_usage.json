@@ -1,0 +1,10 @@
+{
+  "candidate_groups": 7,
+  "calibration_runs": 5,
+  "case_integrations": 20,
+  "physics_steps": 40000,
+  "independent_process_verifications": 1,
+  "provider_calls": 0,
+  "main_calls": 0,
+  "reporter_calls": 0
+}

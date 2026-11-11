@@ -1,0 +1,93 @@
+[
+  {
+    "stem": "tip_trajectory_yz",
+    "title": "Actual YZ projection, full 1 s trajectory",
+    "formats": [
+      "600 dpi PNG",
+      "vector SVG"
+    ]
+  },
+  {
+    "stem": "position_error_comparison",
+    "title": "All physical timestep error; pre-hold through final hold",
+    "formats": [
+      "600 dpi PNG",
+      "vector SVG"
+    ]
+  },
+  {
+    "stem": "tip_speed_comparison",
+    "title": "All physical timestep speed; pre-hold through final hold",
+    "formats": [
+      "600 dpi PNG",
+      "vector SVG"
+    ]
+  },
+  {
+    "stem": "external_force",
+    "title": "Actual force at every physical timestep",
+    "formats": [
+      "600 dpi PNG",
+      "vector SVG"
+    ]
+  },
+  {
+    "stem": "impulse",
+    "title": "Numerical cumulative applied impulse",
+    "formats": [
+      "600 dpi PNG",
+      "vector SVG"
+    ]
+  },
+  {
+    "stem": "six_tendon_tensions",
+    "title": "Six-channel actual tension history with continuous BuGn color scale",
+    "formats": [
+      "600 dpi PNG",
+      "vector SVG"
+    ]
+  },
+  {
+    "stem": "feedback_control_response",
+    "title": "Actual state-dependent commands differ after the unknown pulse",
+    "formats": [
+      "600 dpi PNG",
+      "vector SVG"
+    ]
+  },
+  {
+    "stem": "tendon_speeds",
+    "title": "Every 0.5 ms actual tendon speed, frozen 25 mm/s limits",
+    "formats": [
+      "600 dpi PNG",
+      "vector SVG"
+    ]
+  },
+  {
+    "stem": "before_impact",
+    "title": "Native MuJoCo pose at 0.4900 s",
+    "source_index": 980,
+    "formats": [
+      "2400x1800 PNG, 600 dpi"
+    ],
+    "note": ""
+  },
+  {
+    "stem": "maximum_impact_deviation",
+    "title": "Native MuJoCo pose at 0.5555 s",
+    "source_index": 1111,
+    "formats": [
+      "2400x1800 PNG, 600 dpi"
+    ],
+    "note": "Maximum deviation is relative to the no-impulse control, distinct from normal settling drift."
+  },
+  {
+    "stem": "recovered",
+    "title": "Native MuJoCo pose at 0.9500 s",
+    "source_index": 1900,
+    "formats": [
+      "2400x1800 PNG, 600 dpi"
+    ],
+    "note": ""
+  }
+]

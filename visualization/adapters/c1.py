@@ -1,0 +1,6 @@
+import numpy as np
+from .base import SavedCase,folder,read,csv_array,mapped_states,vector
+def load_case(root,task,case):
+    b=folder(root,'C1_min_tendons_multi_task','C1_four_tendons');case=case or 'M1_A';p=(b/'cases'/case) if (b/'cases').is_dir() else b/case;mapping=read(b/'joint_map.json');cols,a=csv_array(p/'trajectory.csv');ix={c:i for i,c in enumerate(cols)};q,v=mapped_states(a,cols,mapping);goal=read(p/'configuration.json')['task']['goal']['data'];xml=b/('model.xml' if (b/'model.xml').exists() else 'robot.xml')
+    axes=np.tile(goal['target_axis_world'],(len(a),1)) if 'target_axis_world' in goal else None
+    return SavedCase(task,case,xml,a[:,ix['time_s']],q,v,tip=vector(a,ix,'tip_position_m'),reference=np.tile(goal['target_m'],(len(a),1)),control=a[:,[ix['ctrl_n__'+name] for name in mapping['actuator_order']]],tension=a[:,[ix[c] for c in mapping['actual_tension_columns']]],reference_axis=axes,actual_axis=vector(a,ix,'tool_axis_world'),metadata={'hold_window':[.54,.6] if case.startswith('M1') else None,'source_status':'Independent frozen four-channel case; no global minimum-actuator claim','state_format':'named-joint trajectory.csv'},sources=[xml,p/'trajectory.csv',p/'configuration.json'])

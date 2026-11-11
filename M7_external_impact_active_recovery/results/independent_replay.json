@@ -1,0 +1,55 @@
+{
+  "source_candidate": "margin_feedback",
+  "fresh_process": true,
+  "initial_state": "original zero qpos/qvel, 0.20 N control",
+  "state_injection_from_saved_trajectory": false,
+  "absolute_tolerance": 1e-10,
+  "maximum_differences": {
+    "no_impulse": {
+      "qpos": 0.0,
+      "qvel": 0.0,
+      "control_n": 0.0,
+      "tip_m": 0.0,
+      "tip_velocity_m_s": 0.0,
+      "force_n": 0.0
+    },
+    "positive_y": {
+      "qpos": 0.0,
+      "qvel": 0.0,
+      "control_n": 0.0,
+      "tip_m": 0.0,
+      "tip_velocity_m_s": 0.0,
+      "force_n": 0.0
+    },
+    "negative_y": {
+      "qpos": 0.0,
+      "qvel": 0.0,
+      "control_n": 0.0,
+      "tip_m": 0.0,
+      "tip_velocity_m_s": 0.0,
+      "force_n": 0.0
+    },
+    "positive_y_no_feedback": {
+      "qpos": 0.0,
+      "qvel": 0.0,
+      "control_n": 0.0,
+      "tip_m": 0.0,
+      "tip_velocity_m_s": 0.0,
+      "force_n": 0.0
+    },
+    "negative_y_no_feedback": {
+      "qpos": 0.0,
+      "qvel": 0.0,
+      "control_n": 0.0,
+      "tip_m": 0.0,
+      "tip_velocity_m_s": 0.0,
+      "force_n": 0.0
+    }
+  },
+  "all_histories_identical": true,
+  "active_case_statuses": {
+    "no_impulse": "PASS",
+    "positive_y": "PASS",
+    "negative_y": "PASS"
+  }
+}

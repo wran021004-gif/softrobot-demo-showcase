@@ -1,0 +1,25 @@
+{
+  "task": "phs2d",
+  "case": "s050_positive",
+  "video": "phs2d_s050_positive.mp4",
+  "view": "whole robot",
+  "frame_count": 122,
+  "fps": 30,
+  "playback_speed": 1.0,
+  "physical_duration_s": 4.000000000002015,
+  "source_state_selection": "left nearest saved physical state; no state interpolation",
+  "actual_trail": "source indices <= current physical index only",
+  "native_renderer": "mujoco.Renderer",
+  "validation": {
+    "xml_sha256": "75de64d10a2e2eaa605e3d59d16eec1bea6a8081d9c537c8deb2f6a09b47c77a",
+    "xml_bytes_unchanged": true,
+    "all_physical_arrays_unchanged": true,
+    "saved_qpos_restored_exactly": true,
+    "saved_qvel_restored_exactly": true,
+    "saved_ctrl_restored_exactly": true,
+    "hidden_original_geoms": 88,
+    "overlay_cells": 72,
+    "tendon_visualization": false,
+    "new_physics_steps": 0
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "status": "PASS",
+  "representative_task_classes": 11,
+  "reviewed_native_poses": 33,
+  "all_physical_invariants_preserved": true,
+  "video_encoding_checks": [
+    {
+      "file": "visualization/results/videos/m1_central_high.mp4",
+      "first_last_frames_decode": true,
+      "frames": 92,
+      "fps": 30.0,
+      "size": [
+        1280,
+        960
+      ],
+      "saved_state_indices_monotonic": true,
+      "physical_time_displayed": true,
+      "playback_speed_displayed": 0.2
+    },
+    {
+      "file": "visualization/results/videos/m2_positive.mp4",
+      "first_last_frames_decode": true,
+      "frames": 54,
+      "fps": 30.0,
+      "size": [
+        1280,
+        960
+      ],
+      "saved_state_indices_monotonic": true,
+      "physical_time_displayed": true,
+      "playback_speed_displayed": 0.2
+    },
+    {
+      "file": "visualization/results/videos/m3_default.mp4",
+      "first_last_frames_decode": true,
+      "frames": 77,
+      "fps": 30.0,
+      "size": [
+        1280,
+        960
+      ],
+      "saved_state_indices_monotonic": true,
+      "physical_time_displayed": true,
+      "playback_speed_displayed": 0.2
+    },
+    {
+      "file": "visualization/results/videos/m4_default.mp4",
+      "first_last_frames_decode": true,
+      "frames": 92,
+      "fps": 30.0,
+      "size": [
+        1280,
+        960
+      ],
+      "saved_state_indices_monotonic": true,
+      "physical_time_displayed": true,
+      "playback_speed_displayed": 0.2
+    },
+    {
+      "file": "visualization/results/videos/m5_default.mp4",
+      "first_last_frames_decode": true,
+      "frames": 92,
+      "fps": 30.0,
+      "size": [
+        1280,
+        960
+      ],
+      "saved_state_indices_monotonic": true,
+      "physical_time_displayed": true,
+      "playback_speed_displayed": 0.2
+    },
+    {
+      "file": "visualization/results/videos/m6_default.mp4",
+      "first_last_frames_decode": true,
+      "frames": 92,
+      "fps": 30.0,
+      "size": [
+        1280,
+        960
+      ],
+      "saved_state_indices_monotonic": true,
+      "physical_time_displayed": true,
+      "playback_speed_displayed": 0.2
+    },
+    {
+      "file": "visualization/results/videos/c1_M1_A.mp4",
+      "first_last_frames_decode": true,
+      "frames": 92,
+      "fps": 30.0,
+      "size": [
+        1280,
+        960
+      ],
+      "saved_state_indices_monotonic": true,
+      "physical_time_displayed": true,
+      "playback_speed_displayed": 0.2
+    },
+    {
+      "file": "visualization/results/videos/p3_plus_x.mp4",
+      "first_last_frames_decode": true,
+      "frames": 601,
+      "fps": 30.0,
+      "size": [
+        1280,
+        960
+      ],
+      "saved_state_indices_monotonic": true,
+      "physical_time_displayed": true,
+      "playback_speed_displayed": 1.0
+    },
+    {
+      "file": "visualization/results/videos/phs2d_s050_positive.mp4",
+      "first_last_frames_decode": true,
+      "frames": 122,
+      "fps": 30.0,
+      "size": [
+        1280,
+        960
+      ],
+      "saved_state_indices_monotonic": true,
+      "physical_time_displayed": true,
+      "playback_speed_displayed": 1.0
+    },
+    {
+      "file": "visualization/results/videos/spring_button_FINAL_C009.mp4",
+      "first_last_frames_decode": true,
+      "frames": 61,
+      "fps": 30.0,
+      "size": [
+        1280,
+        960
+      ],
+      "saved_state_indices_monotonic": true,
+      "physical_time_displayed": true,
+      "playback_speed_displayed": 1.0
+    },
+    {
+      "file": "M7_external_impact_active_recovery/results/videos/no_impulse.mp4",
+      "first_last_frames_decode": true,
+      "frames": 151,
+      "fps": 30.0,
+      "size": [
+        1280,
+        960
+      ],
+      "saved_state_indices_monotonic": true,
+      "physical_time_displayed": true,
+      "playback_speed_displayed": 0.2
+    },
+    {
+      "file": "M7_external_impact_active_recovery/results/videos/positive_y.mp4",
+      "first_last_frames_decode": true,
+      "frames": 151,
+      "fps": 30.0,
+      "size": [
+        1280,
+        960
+      ],
+      "saved_state_indices_monotonic": true,
+      "physical_time_displayed": true,
+      "playback_speed_displayed": 0.2
+    },
+    {
+      "file": "M7_external_impact_active_recovery/results/videos/negative_y.mp4",
+      "first_last_frames_decode": true,
+      "frames": 151,
+      "fps": 30.0,
+      "size": [
+        1280,
+        960
+      ],
+      "saved_state_indices_monotonic": true,
+      "physical_time_displayed": true,
+      "playback_speed_displayed": 0.2
+    },
+    {
+      "file": "M7_external_impact_active_recovery/results/videos/positive_y_no_feedback.mp4",
+      "first_last_frames_decode": true,
+      "frames": 151,
+      "fps": 30.0,
+      "size": [
+        1280,
+        960
+      ],
+      "saved_state_indices_monotonic": true,
+      "physical_time_displayed": true,
+      "playback_speed_displayed": 0.2
+    },
+    {
+      "file": "M7_external_impact_active_recovery/results/videos/negative_y_no_feedback.mp4",
+      "first_last_frames_decode": true,
+      "frames": 151,
+      "fps": 30.0,
+      "size": [
+        1280,
+        960
+      ],
+      "saved_state_indices_monotonic": true,
+      "physical_time_displayed": true,
+      "playback_speed_displayed": 0.2
+    },
+    {
+      "file": "M7_external_impact_active_recovery/results/videos/positive_y_tip_detail.mp4",
+      "first_last_frames_decode": true,
+      "frames": 151,
+      "fps": 30.0,
+      "size": [
+        1280,
+        960
+      ],
+      "saved_state_indices_monotonic": true,
+      "physical_time_displayed": true,
+      "playback_speed_displayed": 0.2
+    }
+  ],
+  "scientific_vector_svgs": 18,
+  "all_new_scientific_png_dpi": 600,
+  "new_physics_steps": 0,
+  "note": "Existing scientific task status is not reevaluated; new C009 display reads archived references and leaves original data/24 figures unchanged."
+}

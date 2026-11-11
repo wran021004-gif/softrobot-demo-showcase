@@ -1,0 +1,727 @@
+{
+  "version": "unified_export_v2",
+  "root": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028",
+  "source_commit": "bd4fe89f13b286f127f1fc336a860318be109119",
+  "preexisting_files": 496,
+  "preexisting_bytes": 4854613663,
+  "preexisting_file_changes_except_authorized_root_readme": [],
+  "root_readme_history_copy": "history/README_before_unified_visualization_v2.md",
+  "legacy_manifest": {
+    "status": "FAIL",
+    "before_v2_export": {
+      "status": "FAIL",
+      "recorded_files": 400,
+      "missing": [],
+      "changed": [
+        "M1/README.md",
+        "M2/README.md",
+        "M3/README.md",
+        "M4/README.md",
+        "M5/README.md",
+        "M6/README.md"
+      ],
+      "scope": "historical manifest entries only; never a claim that the current complete bundle is covered"
+    },
+    "root_readme_version_update_intentional": true,
+    "original_manifest_retained_byte_exact": true,
+    "interpretation": "Historical coverage/status is retained as history, never promoted to current full-bundle integrity."
+  },
+  "c009_version_copy_complete": true,
+  "m7_model_byte_equal_to_original_m2": true,
+  "presentation_checks": {
+    "m1": {
+      "case": "central_high",
+      "source_root": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028",
+      "poses": [
+        {
+          "image": "m1/initial.png",
+          "source_index": 0,
+          "physical_time_s": 0.0,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "44c0f618ee63d3b3dcb6548a423edb642f6ebb85369030785c13ab73fecb6cc3",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "m1/middle.png",
+          "source_index": 300,
+          "physical_time_s": 0.3000000000000002,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "44c0f618ee63d3b3dcb6548a423edb642f6ebb85369030785c13ab73fecb6cc3",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "m1/final.png",
+          "source_index": 600,
+          "physical_time_s": 0.6000000000000004,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "44c0f618ee63d3b3dcb6548a423edb642f6ebb85369030785c13ab73fecb6cc3",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        }
+      ],
+      "visual_inspection": "PASS: three native renders reviewed individually; no exposed tendons, no gross shell gaps/breaks, full robot/target/load visible; P3 coarse boundaries and PHS nine segments retained.",
+      "physical_steps": 0
+    },
+    "m2": {
+      "case": "positive",
+      "source_root": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028",
+      "poses": [
+        {
+          "image": "m2/initial.png",
+          "source_index": 0,
+          "physical_time_s": 0.0,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "27dfb3355f2992487f48b64840db64b49e84aa169ea8ad4dcfebbfeeda8f1010",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "m2/middle.png",
+          "source_index": 350,
+          "physical_time_s": 0.17500000000000013,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "27dfb3355f2992487f48b64840db64b49e84aa169ea8ad4dcfebbfeeda8f1010",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "m2/final.png",
+          "source_index": 700,
+          "physical_time_s": 0.35000000000000026,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "27dfb3355f2992487f48b64840db64b49e84aa169ea8ad4dcfebbfeeda8f1010",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        }
+      ],
+      "visual_inspection": "PASS: three native renders reviewed individually; no exposed tendons, no gross shell gaps/breaks, full robot/target/load visible; P3 coarse boundaries and PHS nine segments retained.",
+      "physical_steps": 0
+    },
+    "m3": {
+      "case": "default",
+      "source_root": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028",
+      "poses": [
+        {
+          "image": "m3/initial.png",
+          "source_index": 0,
+          "physical_time_s": 0.0,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "27dfb3355f2992487f48b64840db64b49e84aa169ea8ad4dcfebbfeeda8f1010",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "m3/middle.png",
+          "source_index": 500,
+          "physical_time_s": 0.25000000000000017,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "27dfb3355f2992487f48b64840db64b49e84aa169ea8ad4dcfebbfeeda8f1010",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "m3/final.png",
+          "source_index": 1000,
+          "physical_time_s": 0.5000000000000003,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "27dfb3355f2992487f48b64840db64b49e84aa169ea8ad4dcfebbfeeda8f1010",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        }
+      ],
+      "visual_inspection": "PASS: three native renders reviewed individually; no exposed tendons, no gross shell gaps/breaks, full robot/target/load visible; P3 coarse boundaries and PHS nine segments retained.",
+      "physical_steps": 0
+    },
+    "m4": {
+      "case": "default",
+      "source_root": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028",
+      "poses": [
+        {
+          "image": "m4/initial.png",
+          "source_index": 0,
+          "physical_time_s": 0.0,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "65aebfc27bc34d1af3d06a0330810cf4a9431103214ee715d12eee5e92af8edb",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "m4/middle.png",
+          "source_index": 300,
+          "physical_time_s": 0.3000000000000002,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "65aebfc27bc34d1af3d06a0330810cf4a9431103214ee715d12eee5e92af8edb",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "m4/final.png",
+          "source_index": 600,
+          "physical_time_s": 0.6000000000000004,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "65aebfc27bc34d1af3d06a0330810cf4a9431103214ee715d12eee5e92af8edb",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        }
+      ],
+      "visual_inspection": "PASS: three native renders reviewed individually; no exposed tendons, no gross shell gaps/breaks, full robot/target/load visible; P3 coarse boundaries and PHS nine segments retained.",
+      "physical_steps": 0
+    },
+    "m5": {
+      "case": "default",
+      "source_root": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028",
+      "poses": [
+        {
+          "image": "m5/initial.png",
+          "source_index": 0,
+          "physical_time_s": 0.0,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "6ec5c4272fee0473dd092ee151584723b84ad28f9fa52fb6fcac6b5d29450585",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "m5/middle.png",
+          "source_index": 300,
+          "physical_time_s": 0.3000000000000002,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "6ec5c4272fee0473dd092ee151584723b84ad28f9fa52fb6fcac6b5d29450585",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "m5/final.png",
+          "source_index": 600,
+          "physical_time_s": 0.6000000000000004,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "6ec5c4272fee0473dd092ee151584723b84ad28f9fa52fb6fcac6b5d29450585",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        }
+      ],
+      "visual_inspection": "PASS: three native renders reviewed individually; no exposed tendons, no gross shell gaps/breaks, full robot/target/load visible; P3 coarse boundaries and PHS nine segments retained.",
+      "physical_steps": 0
+    },
+    "m6": {
+      "case": "default",
+      "source_root": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028",
+      "poses": [
+        {
+          "image": "m6/initial.png",
+          "source_index": 0,
+          "physical_time_s": 0.0,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "56ce01c0d00b562db31d35b313b7919e9b13782f79237a6bc31e1682310f6a1f",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "m6/middle.png",
+          "source_index": 300,
+          "physical_time_s": 0.3000000000000002,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "56ce01c0d00b562db31d35b313b7919e9b13782f79237a6bc31e1682310f6a1f",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "m6/final.png",
+          "source_index": 600,
+          "physical_time_s": 0.6000000000000004,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "56ce01c0d00b562db31d35b313b7919e9b13782f79237a6bc31e1682310f6a1f",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        }
+      ],
+      "visual_inspection": "PASS: three native renders reviewed individually; no exposed tendons, no gross shell gaps/breaks, full robot/target/load visible; P3 coarse boundaries and PHS nine segments retained.",
+      "physical_steps": 0
+    },
+    "c1": {
+      "case": "M1_A",
+      "source_root": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028",
+      "poses": [
+        {
+          "image": "c1/initial.png",
+          "source_index": 0,
+          "physical_time_s": 0.0,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "b0d75fa6c6f526e9482b11f66e892b7e2ee2a615419bec82aa7b0209baf55df7",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "c1/middle.png",
+          "source_index": 300,
+          "physical_time_s": 0.3000000000000002,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "b0d75fa6c6f526e9482b11f66e892b7e2ee2a615419bec82aa7b0209baf55df7",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "c1/final.png",
+          "source_index": 600,
+          "physical_time_s": 0.6000000000000004,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "b0d75fa6c6f526e9482b11f66e892b7e2ee2a615419bec82aa7b0209baf55df7",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        }
+      ],
+      "visual_inspection": "PASS: three native renders reviewed individually; no exposed tendons, no gross shell gaps/breaks, full robot/target/load visible; P3 coarse boundaries and PHS nine segments retained.",
+      "physical_steps": 0
+    },
+    "p3": {
+      "case": "plus_x",
+      "source_root": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028",
+      "poses": [
+        {
+          "image": "p3/initial.png",
+          "source_index": 0,
+          "physical_time_s": 0.000125,
+          "max_tip_reconstruction_error_m": null,
+          "validation": {
+            "xml_sha256": "e1baa3687735208f6d1e9db6c2db0968688565d738953843c4eea9cc2949e2f1",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 7,
+            "overlay_cells": 3,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "p3/middle.png",
+          "source_index": 80000,
+          "physical_time_s": 10.000125000002242,
+          "max_tip_reconstruction_error_m": null,
+          "validation": {
+            "xml_sha256": "e1baa3687735208f6d1e9db6c2db0968688565d738953843c4eea9cc2949e2f1",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 7,
+            "overlay_cells": 3,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "p3/final.png",
+          "source_index": 159999,
+          "physical_time_s": 20.00000000004999,
+          "max_tip_reconstruction_error_m": null,
+          "validation": {
+            "xml_sha256": "e1baa3687735208f6d1e9db6c2db0968688565d738953843c4eea9cc2949e2f1",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 7,
+            "overlay_cells": 3,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        }
+      ],
+      "visual_inspection": "PASS: three native renders reviewed individually; no exposed tendons, no gross shell gaps/breaks, full robot/target/load visible; P3 coarse boundaries and PHS nine segments retained.",
+      "physical_steps": 0
+    },
+    "phs2d": {
+      "case": "s050_positive",
+      "source_root": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028",
+      "poses": [
+        {
+          "image": "phs2d/initial.png",
+          "source_index": 0,
+          "physical_time_s": 0.0,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "75de64d10a2e2eaa605e3d59d16eec1bea6a8081d9c537c8deb2f6a09b47c77a",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 88,
+            "overlay_cells": 72,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "phs2d/middle.png",
+          "source_index": 16000,
+          "physical_time_s": 1.9999999999995715,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "75de64d10a2e2eaa605e3d59d16eec1bea6a8081d9c537c8deb2f6a09b47c77a",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 88,
+            "overlay_cells": 72,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "phs2d/final.png",
+          "source_index": 32000,
+          "physical_time_s": 4.000000000002015,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "75de64d10a2e2eaa605e3d59d16eec1bea6a8081d9c537c8deb2f6a09b47c77a",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 88,
+            "overlay_cells": 72,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        }
+      ],
+      "visual_inspection": "PASS: three native renders reviewed individually; no exposed tendons, no gross shell gaps/breaks, full robot/target/load visible; P3 coarse boundaries and PHS nine segments retained.",
+      "physical_steps": 0
+    },
+    "spring_button": {
+      "case": "FINAL_C009",
+      "source_root": "D:\\softrobot-agent\\.worktrees\\benchmark-unified-20261111",
+      "poses": [
+        {
+          "image": "spring_button/initial.png",
+          "source_index": 0,
+          "physical_time_s": 0.0,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "c7f4f6493dd565b9c5853b8fc8c3b00d660628dfc4028e122b364d823ae8f8f7",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 68,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "spring_button/middle.png",
+          "source_index": 1000,
+          "physical_time_s": 1.0000000000000007,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "c7f4f6493dd565b9c5853b8fc8c3b00d660628dfc4028e122b364d823ae8f8f7",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 68,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "spring_button/final.png",
+          "source_index": 2000,
+          "physical_time_s": 1.9999999999998905,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "c7f4f6493dd565b9c5853b8fc8c3b00d660628dfc4028e122b364d823ae8f8f7",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 68,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        }
+      ],
+      "visual_inspection": "PASS: three native renders reviewed individually; no exposed tendons, no gross shell gaps/breaks, full robot/target/load visible; P3 coarse boundaries and PHS nine segments retained.",
+      "physical_steps": 0
+    },
+    "m7": {
+      "case": "positive_y",
+      "source_root": "D:\\softrobot-agent\\.worktrees\\benchmark-unified-20261111",
+      "poses": [
+        {
+          "image": "m7/initial.png",
+          "source_index": 0,
+          "physical_time_s": 0.0,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "27dfb3355f2992487f48b64840db64b49e84aa169ea8ad4dcfebbfeeda8f1010",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "m7/middle.png",
+          "source_index": 1000,
+          "physical_time_s": 0.5,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "27dfb3355f2992487f48b64840db64b49e84aa169ea8ad4dcfebbfeeda8f1010",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        },
+        {
+          "image": "m7/final.png",
+          "source_index": 2000,
+          "physical_time_s": 1.0,
+          "max_tip_reconstruction_error_m": 0.0,
+          "validation": {
+            "xml_sha256": "27dfb3355f2992487f48b64840db64b49e84aa169ea8ad4dcfebbfeeda8f1010",
+            "xml_bytes_unchanged": true,
+            "all_physical_arrays_unchanged": true,
+            "saved_qpos_restored_exactly": true,
+            "saved_qvel_restored_exactly": true,
+            "saved_ctrl_restored_exactly": true,
+            "hidden_original_geoms": 26,
+            "overlay_cells": 24,
+            "tendon_visualization": false,
+            "new_physics_steps": 0
+          }
+        }
+      ],
+      "visual_inspection": "PASS: three native renders reviewed individually; no exposed tendons, no gross shell gaps/breaks, full robot/target/load visible; P3 coarse boundaries and PHS nine segments retained.",
+      "physical_steps": 0
+    }
+  },
+  "historical_physics_steps": 0,
+  "m7_budget": {
+    "candidate_groups": 7,
+    "calibration_runs": 5,
+    "case_integrations": 20,
+    "physics_steps": 40000,
+    "independent_process_verifications": 1,
+    "provider_calls": 0,
+    "main_calls": 0,
+    "reporter_calls": 0
+  },
+  "scope": "New unified package snapshot with original scientific data unchanged; no claim that render success changes historical scientific acceptance."
+}

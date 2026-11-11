@@ -1,0 +1,28 @@
+{
+  "source_model": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\M2\\robot.xml",
+  "source_model_sha256": "27dfb3355f2992487f48b64840db64b49e84aa169ea8ad4dcfebbfeeda8f1010",
+  "model_sha256": "27dfb3355f2992487f48b64840db64b49e84aa169ea8ad4dcfebbfeeda8f1010",
+  "source_structure_sha256": "aad52e480f87dcae073c2f41878dce3bbf6d652041a8b67788d01a1118b1a7d9",
+  "structure_unchanged": true,
+  "mujoco": "3.13.0",
+  "numpy": "2.4.6",
+  "python": "3.11.16",
+  "existing_interface_inspected": "Core GVSNMPCController command(t,geometry,q,v), unavailable CasADi in showcase environment; use small task-local native-state LQR and bounded allocation",
+  "provider_calls": 0,
+  "main_calls": 0,
+  "reporter_calls": 0,
+  "model_summary": {
+    "segments": 2,
+    "cells_per_segment": 12,
+    "active_tendons": 6,
+    "nq": 48,
+    "nv": 48,
+    "structural_mass_kg": 0.06781158427099483,
+    "payload_mass_kg": 0.01,
+    "original_model_timestep_s": 0.0005,
+    "integrator": 3,
+    "solver": 2,
+    "iterations": 100,
+    "tolerance": 1e-08
+  }
+}

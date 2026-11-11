@@ -1,0 +1,7 @@
+{
+  "position_scale_m": 0.02,
+  "velocity_weight": 0.1,
+  "tension_weight": 1.0,
+  "speed_guard": false,
+  "tension_rate_n_s": 200.0
+}

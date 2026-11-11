@@ -1,0 +1,102 @@
+[
+  {
+    "task": "m1",
+    "case": "central_high",
+    "stem": "m1/position_error",
+    "data": "original saved states, no new physical evaluation",
+    "formats": [
+      "600 dpi PNG",
+      "vector SVG"
+    ]
+  },
+  {
+    "task": "m2",
+    "case": "positive",
+    "stem": "m2/position_error",
+    "data": "original saved states, no new physical evaluation",
+    "formats": [
+      "600 dpi PNG",
+      "vector SVG"
+    ]
+  },
+  {
+    "task": "m3",
+    "case": "default",
+    "stem": "m3/position_error",
+    "data": "original saved states, no new physical evaluation",
+    "formats": [
+      "600 dpi PNG",
+      "vector SVG"
+    ]
+  },
+  {
+    "task": "m4",
+    "case": "default",
+    "stem": "m4/tracking_yz",
+    "data": "original saved states, no new physical evaluation",
+    "formats": [
+      "600 dpi PNG",
+      "vector SVG"
+    ]
+  },
+  {
+    "task": "m5",
+    "case": "default",
+    "stem": "m5/tool_axis_error",
+    "data": "original saved states, no new physical evaluation",
+    "formats": [
+      "600 dpi PNG",
+      "vector SVG"
+    ]
+  },
+  {
+    "task": "m6",
+    "case": "default",
+    "stem": "m6/tool_axis_error",
+    "data": "original saved states, no new physical evaluation",
+    "formats": [
+      "600 dpi PNG",
+      "vector SVG"
+    ]
+  },
+  {
+    "task": "c1",
+    "case": "M1_A",
+    "stem": "c1/tension_channels",
+    "data": "original saved states, no new physical evaluation",
+    "formats": [
+      "600 dpi PNG",
+      "vector SVG"
+    ]
+  },
+  {
+    "task": "p3",
+    "case": "plus_x",
+    "stem": "p3/force_displacement",
+    "data": "original saved states, no new physical evaluation",
+    "formats": [
+      "600 dpi PNG",
+      "vector SVG"
+    ]
+  },
+  {
+    "task": "phs2d",
+    "case": "s050_positive",
+    "stem": "phs2d/tip_horizontal_xy",
+    "data": "original saved states, no new physical evaluation",
+    "formats": [
+      "600 dpi PNG",
+      "vector SVG"
+    ]
+  },
+  {
+    "task": "spring_button",
+    "case": "FINAL_C009",
+    "stem": "spring_button/button_travel",
+    "data": "original saved states, no new physical evaluation",
+    "formats": [
+      "600 dpi PNG",
+      "vector SVG"
+    ]
+  }
+]
