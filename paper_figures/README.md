@@ -56,3 +56,16 @@ D:\softrobot-demo-showcase\.venv\Scripts\python.exe paper_figures\scripts\export
 
 Requires the local raw export root above, MuJoCo, NumPy, Matplotlib and Pillow.
 No new physics run is needed. See `figure_captions.md` for interpretation limits.
+
+## Color accessibility
+
+All charts use the **three-class ColorBrewer Dark2** palette: teal `#1b9e77`,
+orange `#d95f02`, purple `#7570b3`. Four-channel plots add neutral gray `#555555`,
+with solid/dashed/dash-dot/dotted line patterns. Reference/actual also use dash
+differences; stiffness uses circle/square markers. PHS load location uses solid
+versus dashed lines. Thus curve identification does not depend on hue alone.
+Colors come from [ColorBrewer](https://colorbrewer2.org/#type=qualitative&scheme=Dark2&n=3);
+its [official palette metadata](https://github.com/axismaps/colorbrewer/blob/master/colorbrewer_schemes.js)
+marks Dark2 with three classes as colorblind-safe. BuGn is suitable for ordered
+magnitudes, but its palest classes have low contrast as thin curves on white;
+the categorical plots here use the darker qualitative palette instead.

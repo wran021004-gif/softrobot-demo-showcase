@@ -17,14 +17,19 @@ from saved_states import forbid_integration, centerline, material_point
 forbid_integration()
 OUT = ROOT / 'paper_figures'
 RAW = Path(r'D:\softrobot-benchmark-exports\base_only_accepted_20261028')
-ORANGE, GREEN, BLUE, RED = '#e68a26', '#24965c', '#3378b5', '#ce4343'
+# ColorBrewer Dark2, 3 classes: explicitly colorblind-safe in its metadata.
+# The fourth channel uses neutral gray plus a distinct dash pattern.
+ORANGE, GREEN, BLUE, RED = '#d95f02', '#1b9e77', '#7570b3', '#d95f02'
+COLORS=[GREEN,ORANGE,BLUE,'#555555'];STYLES=['-','--','-.',':']
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':7,'axes.labelsize':7,
     'axes.titlesize':7,'legend.fontsize':6,'lines.linewidth':1.1,
     'axes.spines.top':False,'axes.spines.right':False,'axes.linewidth':.6,
     'xtick.labelsize':6,'ytick.labelsize':6,'pdf.fonttype':42,'svg.fonttype':'none',
     'savefig.dpi':600})
 META = {'physics_steps':0, 'render_pixels':[2400,1800], 'png_dpi':600,
-        'camera_direction':{'azimuth_deg':115,'elevation_deg':-18},'figures':{},'renders':[]}
+        'camera_direction':{'azimuth_deg':115,'elevation_deg':-18},'figures':{},'renders':[],
+        'palette':{'source':'https://colorbrewer2.org/#type=qualitative&scheme=Dark2&n=3',
+        'colors':COLORS,'redundant_encoding':'distinct line patterns and markers; gray fourth channel'}}
 
 def write(p, a):
     p.parent.mkdir(parents=True, exist_ok=True)
@@ -77,6 +82,13 @@ def render(r, i, name, close=False, unloaded=False):
     with mujoco.Renderer(m,height=1800,width=2400) as ren:
         ren.update_scene(r.d,camera=c,scene_option=opt)
         if not unloaded:r.decorate(ren.scene,i)
+        # Recolor the established visual layers only in the renderer. Shapes
+        # and all original robot/trajectory files remain unchanged.
+        for g in ren.scene.geoms[:ren.scene.ngeom]:
+            rgb=g.rgba[:3].copy()
+            if rgb[0]>.85 and rgb[1]<.3 and rgb[2]<.3:g.rgba[:3]=[217/255,95/255,2/255]
+            elif rgb[1]>.6 and rgb[0]<.15:g.rgba[:3]=[27/255,158/255,119/255]
+            elif rgb[0]>.9 and .35<rgb[1]<.6 and rgb[2]<.15:g.rgba[:3]=[217/255,95/255,2/255]
         if r.demo=='phs' and not unloaded:
             g=ren.scene.geoms[ren.scene.ngeom];ren.scene.ngeom+=1
             mujoco.mjv_initGeom(g,mujoco.mjtGeom.mjGEOM_SPHERE,np.array([.0025]*3),r.unloaded_tip,np.eye(3).ravel(),np.array([1,.48,.08,1],np.float32))
@@ -110,13 +122,17 @@ def save(fig,name,sources):
 
 def export_axes(fig,folder,name,sources):
     fig.canvas.draw();renderer=fig.canvas.get_renderer()
+    boxes=[ax.get_tightbbox(renderer).transformed(fig.dpi_scale_trans.inverted()).padded(.045) for ax in fig.axes]
+    fig.set_layout_engine(None)
     for j,ax in enumerate(fig.axes):
-        stem=f'{name}_{chr(97+j)}';box=ax.get_tightbbox(renderer).transformed(fig.dpi_scale_trans.inverted()).padded(.045)
+        for other in fig.axes:other.set_visible(other is ax)
+        stem=f'{name}_{chr(97+j)}';box=boxes[j]
         for ext in ['pdf','svg','png']:
             fig.savefig(folder/f'{stem}.{ext}',dpi=600,facecolor='white',bbox_inches=box)
         META['figures'][stem]={'title':ax.get_title(loc='left'),'size_inches':[box.width,box.height],
             'sources':sources,'formats':['pdf','svg','png'],'full_data_statistics':True,
             'independent_panel':True}
+    for ax in fig.axes:ax.set_visible(True)
 
 def m1():
     fig=plt.figure(figsize=(7,4.7),layout='constrained');gs=fig.add_gridspec(2,6,height_ratios=[1.3,1])
@@ -125,10 +141,10 @@ def m1():
         r=Replay('m1',case);rr.append(r)
         picture(fig.add_subplot(gs[0,2*j:2*j+2]),render(r,-1,f'm1_{case}'),chr(97+j),case.replace('_',' '))
     a=fig.add_subplot(gs[1,:3]);b=fig.add_subplot(gs[1,3:])
-    for r,col in zip(rr,[GREEN,BLUE,ORANGE]):
-        a.plot(r.tip[:,1]*1000,r.tip[:,2]*1000,color=col,label=r.case.replace('_',' '))
+    for r,col,style in zip(rr,[GREEN,BLUE,ORANGE],STYLES):
+        a.plot(r.tip[:,1]*1000,r.tip[:,2]*1000,color=col,linestyle=style,label=r.case.replace('_',' '))
         a.scatter(r.reference[-1,1]*1000,r.reference[-1,2]*1000,color=col,marker='x',s=25)
-        line(b,r.times,np.linalg.norm(r.tip-r.reference,axis=1)*1000,color=col,label=r.case.replace('_',' '))
+        line(b,r.times,np.linalg.norm(r.tip-r.reference,axis=1)*1000,color=col,linestyle=style,label=r.case.replace('_',' '))
     panel(a,'d','Independent tip paths; crosses = targets');a.set(xlabel='Y (mm)',ylabel='Z (mm)');a.legend()
     panel(b,'e','Position error');b.set(xlabel='Time (s)',ylabel='Error (mm)');b.axvspan(.54,.6,color=GREEN,alpha=.09);b.legend()
     save(fig,'fig01_m1_reach_hold',{'data':'M1_reach_hold/*/trajectory_timestep.csv','rows_per_case':[len(r.times) for r in rr],'sampling':'all saved physical timesteps; three independent experiments'})
@@ -139,10 +155,10 @@ def eight():
         i=int(np.argmin(abs(r.times-t)))
         picture(fig.add_subplot(gs[0,j]),render(r,i,f'eight_{t}s'),chr(97+j),f't = {t} s')
     a,b,c=[fig.add_subplot(gs[1,j]) for j in range(3)]
-    a.plot(r.reference[:,1]*1000,r.reference[:,2]*1000,color=ORANGE,label='Reference');a.plot(r.tip[:,1]*1000,r.tip[:,2]*1000,color=GREEN,label='Actual')
+    a.plot(r.reference[:,1]*1000,r.reference[:,2]*1000,color=ORANGE,linestyle='--',label='Reference');a.plot(r.tip[:,1]*1000,r.tip[:,2]*1000,color=GREEN,label='Actual')
     a.set(xlabel='Y (mm)',ylabel='Z (mm)');a.legend();panel(a,'d','Tip trajectory')
     line(b,r.times,np.linalg.norm(r.tip-r.reference,axis=1)*1000,color=BLUE);b.set(xlabel='Time (s)',ylabel='Error (mm)');panel(b,'e','Full-run error')
-    for j in range(4):line(c,r.times,r.tension[:,j],label=f'T{j}')
+    for j in range(4):line(c,r.times,r.tension[:,j],label=f'T{j}',color=COLORS[j],linestyle=STYLES[j])
     c.set(xlabel='Time (s)',ylabel='Tension (N)');c.legend(ncol=2);panel(c,'f','Four tendon tensions')
     save(fig,'fig02_figure_eight',{'data':'figure_eight_tracking/trajectory_full.npz','rows':len(r.times),'sampling':'complete 1 ms states; display reduction includes global extrema'})
 
@@ -164,7 +180,7 @@ def p3():
     b.plot(np.r_[0,disp], [0,.05,.10,.20],'o-',color=ORANGE,label='Original scored plateaus')
     b.set(xlabel='Load-point X displacement (mm)',ylabel='External force (N)');b.legend();panel(b,'e','Passive force-displacement response')
     c.plot([1,2,3],met['secant_stiffness_n_m'],'o-',color=GREEN,label='Secant stiffness')
-    c.plot([1.5,2.5],met['interval_stiffness_n_m'],'s-',color=BLUE,label='Interval stiffness')
+    c.plot([1.5,2.5],met['interval_stiffness_n_m'],'s--',color=BLUE,label='Interval stiffness')
     c.set(xticks=[1,2,3],xticklabels=['Low','Middle','High'],ylabel='Stiffness (N/m)');c.legend();panel(c,'f','Original plateau stiffness')
     save(fig,'fig03_p3_stiffness',{'data':str(p),'rows':len(a),'sampling':'complete 0.125 ms record; original scoring plateaus and stiffness retained'})
 

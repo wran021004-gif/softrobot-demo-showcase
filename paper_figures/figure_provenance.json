@@ -36,8 +36,8 @@
     "fig01_m1_reach_hold_b": {
       "title": "positive high",
       "size_inches": [
-        1.9299933333333295,
-        1.6194394444444424
+        1.9338594357638859,
+        1.6223390212673592
       ],
       "sources": {
         "data": "M1_reach_hold/*/trajectory_timestep.csv",
@@ -59,8 +59,8 @@
     "fig01_m1_reach_hold_c": {
       "title": "negative low",
       "size_inches": [
-        1.9299933333333357,
-        1.619439444444446
+        1.9338594357638916,
+        1.6223390212673627
       ],
       "sources": {
         "data": "M1_reach_hold/*/trajectory_timestep.csv",
@@ -82,8 +82,8 @@
     "fig01_m1_reach_hold_d": {
       "title": "Independent tip paths; crosses = targets",
       "size_inches": [
-        3.5027938975694433,
-        2.3426839013435985
+        3.5066599999999997,
+        2.337350077370169
       ],
       "sources": {
         "data": "M1_reach_hold/*/trajectory_timestep.csv",
@@ -105,8 +105,8 @@
     "fig01_m1_reach_hold_e": {
       "title": "Position error",
       "size_inches": [
-        3.5027938975694455,
-        2.3426839013435985
+        3.5066600000000006,
+        2.337350077370169
       ],
       "sources": {
         "data": "M1_reach_hold/*/trajectory_timestep.csv",
@@ -147,8 +147,8 @@
     "fig02_figure_eight_b": {
       "title": "t = 10 s",
       "size_inches": [
-        1.94777111111111,
-        1.6266388802083322
+        1.9471927690972213,
+        1.6262051236979156
       ],
       "sources": {
         "data": "figure_eight_tracking/trajectory_full.npz",
@@ -166,8 +166,8 @@
     "fig02_figure_eight_c": {
       "title": "t = 15 s",
       "size_inches": [
-        1.9477711111111136,
-        1.6266388802083358
+        1.9471927690972244,
+        1.6262051236979178
       ],
       "sources": {
         "data": "figure_eight_tracking/trajectory_full.npz",
@@ -185,8 +185,8 @@
     "fig02_figure_eight_d": {
       "title": "Tip trajectory",
       "size_inches": [
-        2.353905008680556,
-        2.3861621622131644
+        2.353326666666667,
+        2.380828338239735
       ],
       "sources": {
         "data": "figure_eight_tracking/trajectory_full.npz",
@@ -204,8 +204,8 @@
     "fig02_figure_eight_e": {
       "title": "Full-run error",
       "size_inches": [
-        2.3339050086805546,
-        2.3861621622131644
+        2.3333266666666654,
+        2.380828338239735
       ],
       "sources": {
         "data": "figure_eight_tracking/trajectory_full.npz",
@@ -223,8 +223,8 @@
     "fig02_figure_eight_f": {
       "title": "Four tendon tensions",
       "size_inches": [
-        2.333905008680558,
-        2.3861621622131644
+        2.333326666666669,
+        2.380828338239735
       ],
       "sources": {
         "data": "figure_eight_tracking/trajectory_full.npz",
@@ -261,8 +261,8 @@
     "fig03_p3_stiffness_b": {
       "title": "low",
       "size_inches": [
-        1.5449933333333319,
-        1.330689444444444
+        1.546093051215275,
+        1.331514232855901
       ],
       "sources": {
         "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\P3_passive_progressive_stiffness\\cases\\plus_x\\trajectory.csv",
@@ -280,8 +280,8 @@
     "fig03_p3_stiffness_c": {
       "title": "high",
       "size_inches": [
-        1.5449933333333368,
-        1.3306894444444461
+        1.5460930512152795,
+        1.3315142328559033
       ],
       "sources": {
         "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\P3_passive_progressive_stiffness\\cases\\plus_x\\trajectory.csv",
@@ -299,8 +299,8 @@
     "fig03_p3_stiffness_d": {
       "title": "recovery",
       "size_inches": [
-        1.5449933333333323,
-        1.3245555468750005
+        1.5460930512152764,
+        1.3253803352864573
       ],
       "sources": {
         "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\P3_passive_progressive_stiffness\\cases\\plus_x\\trajectory.csv",
@@ -318,8 +318,8 @@
     "fig03_p3_stiffness_e": {
       "title": "Passive force-displacement response",
       "size_inches": [
-        3.5694605642361115,
-        2.3426839013435985
+        3.571659999999999,
+        2.337350077370169
       ],
       "sources": {
         "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\P3_passive_progressive_stiffness\\cases\\plus_x\\trajectory.csv",
@@ -337,8 +337,8 @@
     "fig03_p3_stiffness_f": {
       "title": "Original plateau stiffness",
       "size_inches": [
-        3.43946056423611,
-        2.190458423913043
+        3.44166,
+        2.1851245999396136
       ],
       "sources": {
         "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\P3_passive_progressive_stiffness\\cases\\plus_x\\trajectory.csv",
@@ -406,8 +406,8 @@
     "fig04_phs2d_b": {
       "title": "s050 positive load",
       "size_inches": [
-        1.974437777777775,
-        1.652772777777777
+        1.973859435763885,
+        1.6523390212673599
       ],
       "sources": {
         "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\PHS2D_passive_head_stabilization",
@@ -456,8 +456,8 @@
     "fig04_phs2d_c": {
       "title": "s050 negative load",
       "size_inches": [
-        1.9744377777777808,
-        1.6527727777777788
+        1.9738594357638934,
+        1.6523390212673643
       ],
       "sources": {
         "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\PHS2D_passive_head_stabilization",
@@ -506,8 +506,8 @@
     "fig04_phs2d_d": {
       "title": "s050 positive",
       "size_inches": [
-        3.136659999999999,
-        2.524439444444443
+        3.135526102430555,
+        2.523589021267361
       ],
       "sources": {
         "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\PHS2D_passive_head_stabilization",
@@ -556,8 +556,8 @@
     "fig04_phs2d_e": {
       "title": "s050 negative",
       "size_inches": [
-        3.1366600000000004,
-        2.5244394444444453
+        3.1355261024305556,
+        2.523589021267361
       ],
       "sources": {
         "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\PHS2D_passive_head_stabilization",
@@ -606,8 +606,8 @@
     "fig04_phs2d_f": {
       "title": "Tip horizontal shift",
       "size_inches": [
-        2.3605716753472197,
-        2.4729723895001503
+        2.3599933333333314,
+        2.4584596115049506
       ],
       "sources": {
         "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\PHS2D_passive_head_stabilization",
@@ -656,8 +656,8 @@
     "fig04_phs2d_g": {
       "title": "Tip vertical change",
       "size_inches": [
-        2.2805716753472196,
-        2.4729723895001503
+        2.2799933333333304,
+        2.4584596115049506
       ],
       "sources": {
         "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\PHS2D_passive_head_stabilization",
@@ -706,8 +706,8 @@
     "fig04_phs2d_h": {
       "title": "Load-point horizontal shift",
       "size_inches": [
-        2.330571675347225,
-        2.4729723895001503
+        2.3299933333333396,
+        2.4584596115049506
       ],
       "sources": {
         "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\PHS2D_passive_head_stabilization",
@@ -773,8 +773,8 @@
     "figS01_phs2d_s070_b": {
       "title": "s070 negative; 20 mm scale",
       "size_inches": [
-        3.506660000000001,
-        2.8019394444444443
+        3.5066600000000014,
+        2.8019394444444448
       ],
       "sources": {
         "sampling": "exact final saved states; no integration"
@@ -1129,5 +1129,15 @@
       },
       "projection": "perspective; original world geometry; no deformation scaling"
     }
-  ]
+  ],
+  "palette": {
+    "source": "https://colorbrewer2.org/#type=qualitative&scheme=Dark2&n=3",
+    "colors": [
+      "#1b9e77",
+      "#d95f02",
+      "#7570b3",
+      "#555555"
+    ],
+    "redundant_encoding": "distinct line patterns and markers; gray fourth channel"
+  }
 }

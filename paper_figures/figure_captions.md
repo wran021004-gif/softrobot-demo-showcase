@@ -34,7 +34,7 @@ views covering the load point and tip; each black world-space bar is 20 mm.
 Orange centerline and tip marker denote the unloaded reference; green denotes
 the loaded state. (f) Tip XY displacement norm. (g) Signed tip Z change.
 (h) Load-point XY displacement norm. Solid lines are s050; dashed lines are
-s070; green and blue denote positive and negative loading. Every quantitative
+s070; teal and purple denote positive and negative loading. Every quantitative
 curve and descriptive extremum uses all 32,001 original states per case, not
 the 401 display samples. Small XY motion means horizontal stabilization,
 not complete three-dimensional fixation. The final s070 Z changes are about
