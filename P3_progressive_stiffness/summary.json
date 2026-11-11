@@ -1,0 +1,354 @@
+{
+  "status": "PASS",
+  "scope": "Frozen development task; no formal SELECT or hardware/continuum convergence certificate",
+  "label": "c26",
+  "tendons": 2,
+  "segments": 3,
+  "cells_per_segment": [
+    1,
+    1,
+    1
+  ],
+  "full_length_m": 0.242,
+  "payout_lengths_m": [
+    0.14316666666666666,
+    0.14316666666666666
+  ],
+  "force_point_binding": {
+    "body_name": "segment_2_cell_0",
+    "local_position_m": [
+      0.006666666666666654,
+      0.0,
+      0.0
+    ]
+  },
+  "stage_names": [
+    "unloaded",
+    "low",
+    "middle",
+    "high",
+    "recovery"
+  ],
+  "cases": {
+    "plus_x": {
+      "evaluation": {
+        "status": "PASS",
+        "checks": {
+          "compliant": true,
+          "ordered_and_bounded": true,
+          "progressive": true,
+          "recovered": true,
+          "stable": true,
+          "tendon_switch": true,
+          "route_valid": true
+        },
+        "metrics": {
+          "signed_displacements_m": [
+            0.010345512149743386,
+            0.016906234832902923,
+            0.020453573961851535
+          ],
+          "secant_stiffness_n_m": [
+            4.833013511200624,
+            5.91497758006886,
+            9.778242197330645
+          ],
+          "interval_stiffness_n_m": [
+            7.621111638866104,
+            28.190143757030295
+          ],
+          "stiffness_ratio": 3.6989543117655375,
+          "denominator_status": "valid",
+          "denominator_precision_m": 6.958152596478625e-06,
+          "residual_m": 3.816610584950723e-07
+        },
+        "stages": [
+          {
+            "name": "unloaded",
+            "checks": {
+              "point_speed": true,
+              "monitor_speed": true,
+              "qvel": true,
+              "tail_drift": true,
+              "static_residual": true
+            },
+            "stable": true,
+            "drift_m": 0.0,
+            "mean_point_m": [
+              0.0,
+              0.0,
+              0.3319999999999943
+            ],
+            "point_spread_m": 5.717648576819556e-15,
+            "max_static_residual_nm": 0.0,
+            "max_qvel": 0.0
+          },
+          {
+            "name": "low",
+            "checks": {
+              "point_speed": true,
+              "monitor_speed": true,
+              "qvel": true,
+              "tail_drift": true,
+              "static_residual": true
+            },
+            "stable": true,
+            "drift_m": 7.054089075428207e-07,
+            "mean_point_m": [
+              0.010345512149743386,
+              -1.648153201645996e-27,
+              0.3323294815312988
+            ],
+            "point_spread_m": 2.838811228208009e-07,
+            "max_static_residual_nm": 2.2823082005199447e-07,
+            "max_qvel": 1.2577496296300497e-05
+          },
+          {
+            "name": "middle",
+            "checks": {
+              "point_speed": true,
+              "monitor_speed": true,
+              "qvel": true,
+              "tail_drift": true,
+              "static_residual": true
+            },
+            "stable": true,
+            "drift_m": 4.2418157085662074e-16,
+            "mean_point_m": [
+              0.016906234832902923,
+              -6.813134314221062e-19,
+              0.33286733032457294
+            ],
+            "point_spread_m": 5.725071070174952e-15,
+            "max_static_residual_nm": 1.279228459272197e-14,
+            "max_qvel": 1.4026884718485344e-12
+          },
+          {
+            "name": "high",
+            "checks": {
+              "point_speed": true,
+              "monitor_speed": true,
+              "qvel": true,
+              "tail_drift": true,
+              "static_residual": true
+            },
+            "stable": true,
+            "drift_m": 2.660638316615827e-16,
+            "mean_point_m": [
+              0.020453573961851535,
+              -3.782219602250102e-18,
+              0.33325557044133736
+            ],
+            "point_spread_m": 5.051382511476853e-15,
+            "max_static_residual_nm": 1.554312234475219e-14,
+            "max_qvel": 1.1592414234906618e-12
+          },
+          {
+            "name": "recovery",
+            "checks": {
+              "point_speed": true,
+              "monitor_speed": true,
+              "qvel": true,
+              "tail_drift": true,
+              "static_residual": true
+            },
+            "stable": true,
+            "drift_m": 2.1930230617056366e-06,
+            "mean_point_m": [
+              3.8166105849356966e-07,
+              6.40812047640959e-23,
+              0.3320000000010653
+            ],
+            "point_spread_m": 6.958152596478625e-07,
+            "max_static_residual_nm": 8.521316408250787e-07,
+            "max_qvel": 3.266937050890718e-05
+          }
+        ],
+        "tendon_transitions": [
+          {
+            "tendon": 0,
+            "activated": false,
+            "low_max_n": 0.0,
+            "high_min_n": 0.0,
+            "low_max_length_residual_m": -0.0041040943407951724,
+            "high_max_length_residual_m": -0.005001835080350736
+          },
+          {
+            "tendon": 1,
+            "activated": true,
+            "low_max_n": 0.0,
+            "high_min_n": 0.6469082000030968,
+            "low_max_length_residual_m": -0.000900955827956823,
+            "high_max_length_residual_m": 1.6922165219090957e-07
+          }
+        ],
+        "scope": "development evaluator; every physical step in each scoring tail stability; full-step constraints in raw; route pose scope in geometry"
+      },
+      "original_trajectory": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\P3_passive_progressive_stiffness\\cases\\plus_x\\trajectory.csv",
+      "original_steps": 160000,
+      "display_rows": 2005,
+      "sampling": "DISPLAY REPLAY ONLY: every 80th original row plus stage boundaries and endpoints; original timestamps retained; not full physical timestep data",
+      "nominal_display_hz": 100
+    },
+    "minus_x": {
+      "evaluation": {
+        "status": "PASS",
+        "checks": {
+          "compliant": true,
+          "ordered_and_bounded": true,
+          "progressive": true,
+          "recovered": true,
+          "stable": true,
+          "tendon_switch": true,
+          "route_valid": true
+        },
+        "metrics": {
+          "signed_displacements_m": [
+            0.010345512149743386,
+            0.016906234832902923,
+            0.020453573961851535
+          ],
+          "secant_stiffness_n_m": [
+            4.833013511200624,
+            5.91497758006886,
+            9.778242197330645
+          ],
+          "interval_stiffness_n_m": [
+            7.621111638866104,
+            28.190143757030295
+          ],
+          "stiffness_ratio": 3.6989543117655375,
+          "denominator_status": "valid",
+          "denominator_precision_m": 6.958152596478625e-06,
+          "residual_m": 3.816610584950723e-07
+        },
+        "stages": [
+          {
+            "name": "unloaded",
+            "checks": {
+              "point_speed": true,
+              "monitor_speed": true,
+              "qvel": true,
+              "tail_drift": true,
+              "static_residual": true
+            },
+            "stable": true,
+            "drift_m": 0.0,
+            "mean_point_m": [
+              0.0,
+              0.0,
+              0.3319999999999943
+            ],
+            "point_spread_m": 5.717648576819556e-15,
+            "max_static_residual_nm": 0.0,
+            "max_qvel": 0.0
+          },
+          {
+            "name": "low",
+            "checks": {
+              "point_speed": true,
+              "monitor_speed": true,
+              "qvel": true,
+              "tail_drift": true,
+              "static_residual": true
+            },
+            "stable": true,
+            "drift_m": 7.054089075428207e-07,
+            "mean_point_m": [
+              -0.010345512149743386,
+              1.6481532016460594e-27,
+              0.3323294815312988
+            ],
+            "point_spread_m": 2.838811228208009e-07,
+            "max_static_residual_nm": 2.2823082005199447e-07,
+            "max_qvel": 1.2577496296300497e-05
+          },
+          {
+            "name": "middle",
+            "checks": {
+              "point_speed": true,
+              "monitor_speed": true,
+              "qvel": true,
+              "tail_drift": true,
+              "static_residual": true
+            },
+            "stable": true,
+            "drift_m": 4.241815708566073e-16,
+            "mean_point_m": [
+              -0.016906234832902923,
+              2.271044760360172e-19,
+              0.33286733032457294
+            ],
+            "point_spread_m": 5.725071070174952e-15,
+            "max_static_residual_nm": 1.279228459272197e-14,
+            "max_qvel": 1.4026884718485344e-12
+          },
+          {
+            "name": "high",
+            "checks": {
+              "point_speed": true,
+              "monitor_speed": true,
+              "qvel": true,
+              "tail_drift": true,
+              "static_residual": true
+            },
+            "stable": true,
+            "drift_m": 2.66063831661483e-16,
+            "mean_point_m": [
+              -0.020453573961851535,
+              1.2607398674426456e-18,
+              0.33325557044133736
+            ],
+            "point_spread_m": 5.051382511476853e-15,
+            "max_static_residual_nm": 1.554312234475219e-14,
+            "max_qvel": 1.1592414234906618e-12
+          },
+          {
+            "name": "recovery",
+            "checks": {
+              "point_speed": true,
+              "monitor_speed": true,
+              "qvel": true,
+              "tail_drift": true,
+              "static_residual": true
+            },
+            "stable": true,
+            "drift_m": 2.1930230617056366e-06,
+            "mean_point_m": [
+              -3.8166105849356966e-07,
+              -2.134594407673021e-23,
+              0.3320000000010653
+            ],
+            "point_spread_m": 6.958152596478625e-07,
+            "max_static_residual_nm": 8.521316408250787e-07,
+            "max_qvel": 3.266937050890718e-05
+          }
+        ],
+        "tendon_transitions": [
+          {
+            "tendon": 0,
+            "activated": true,
+            "low_max_n": 0.0,
+            "high_min_n": 0.6469082000030968,
+            "low_max_length_residual_m": -0.000900955827956823,
+            "high_max_length_residual_m": 1.6922165219090957e-07
+          },
+          {
+            "tendon": 1,
+            "activated": false,
+            "low_max_n": 0.0,
+            "high_min_n": 0.0,
+            "low_max_length_residual_m": -0.0041040943407951724,
+            "high_max_length_residual_m": -0.005001835080350736
+          }
+        ],
+        "scope": "development evaluator; every physical step in each scoring tail stability; full-step constraints in raw; route pose scope in geometry"
+      },
+      "original_trajectory": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\P3_passive_progressive_stiffness\\cases\\minus_x\\trajectory.csv",
+      "original_steps": 160000,
+      "display_rows": 2005,
+      "sampling": "DISPLAY REPLAY ONLY: every 80th original row plus stage boundaries and endpoints; original timestamps retained; not full physical timestep data",
+      "nominal_display_hz": 100
+    }
+  }
+}

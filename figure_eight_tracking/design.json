@@ -1,0 +1,1147 @@
+{
+  "id": "figure_eight_single_segment",
+  "components": [
+    {
+      "id": "segment_0",
+      "kind": "flexible_segment",
+      "connection": {
+        "part": "fixed_base",
+        "s": 0,
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "quaternion_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "length_m": 0.27,
+      "sections": [
+        {
+          "s": 0,
+          "section": {
+            "kind": "circle",
+            "parameters": {
+              "radius_m": 0.008
+            }
+          }
+        }
+      ],
+      "physics": {
+        "mode": "material",
+        "density_kg_m3": 1050.0,
+        "young_pa": 4000000.0,
+        "bending_viscosity_nm2_s": [
+          0.0005625000000000001,
+          0.0005625000000000001
+        ]
+      }
+    },
+    {
+      "id": "payload",
+      "kind": "payload",
+      "connection": {
+        "part": "segment_0",
+        "s": 1,
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "quaternion_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "mass_kg": 0.002,
+      "com_local_m": [
+        0.007,
+        0,
+        0
+      ],
+      "inertia_com_local_kg_m2": [
+        [
+          1e-08,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          4e-08
+        ]
+      ],
+      "envelope_halfsize_m": [
+        0.014,
+        0.003,
+        0.003
+      ]
+    }
+  ],
+  "tendons": [
+    {
+      "id": "tendon_0",
+      "points": [
+        {
+          "role": "start",
+          "attachment": {
+            "part": "fixed_base",
+            "s": 0,
+            "position_m": [
+              0,
+              0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.08333333333233332,
+            "position_m": [
+              0,
+              0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.16666666666566665,
+            "position_m": [
+              0,
+              0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.249999999999,
+            "position_m": [
+              0,
+              0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.33333333333233334,
+            "position_m": [
+              0,
+              0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.4166666666656667,
+            "position_m": [
+              0,
+              0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.499999999999,
+            "position_m": [
+              0,
+              0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.5833333333323334,
+            "position_m": [
+              0,
+              0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.6666666666656667,
+            "position_m": [
+              0,
+              0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.749999999999,
+            "position_m": [
+              0,
+              0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.8333333333323334,
+            "position_m": [
+              0,
+              0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.9166666666656667,
+            "position_m": [
+              0,
+              0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "anchor",
+          "attachment": {
+            "part": "segment_0",
+            "s": 1.0,
+            "position_m": [
+              0,
+              0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "diameter_m": 0.0013,
+      "length_servo_gain_n_m": 900,
+      "pretension_n": 0.2,
+      "force_limit_n": 8
+    },
+    {
+      "id": "tendon_1",
+      "points": [
+        {
+          "role": "start",
+          "attachment": {
+            "part": "fixed_base",
+            "s": 0,
+            "position_m": [
+              0,
+              -0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.08333333333233332,
+            "position_m": [
+              0,
+              -0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.16666666666566665,
+            "position_m": [
+              0,
+              -0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.249999999999,
+            "position_m": [
+              0,
+              -0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.33333333333233334,
+            "position_m": [
+              0,
+              -0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.4166666666656667,
+            "position_m": [
+              0,
+              -0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.499999999999,
+            "position_m": [
+              0,
+              -0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.5833333333323334,
+            "position_m": [
+              0,
+              -0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.6666666666656667,
+            "position_m": [
+              0,
+              -0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.749999999999,
+            "position_m": [
+              0,
+              -0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.8333333333323334,
+            "position_m": [
+              0,
+              -0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.9166666666656667,
+            "position_m": [
+              0,
+              -0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "anchor",
+          "attachment": {
+            "part": "segment_0",
+            "s": 1.0,
+            "position_m": [
+              0,
+              -0.012,
+              0
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "diameter_m": 0.0013,
+      "length_servo_gain_n_m": 900,
+      "pretension_n": 0.2,
+      "force_limit_n": 8
+    },
+    {
+      "id": "tendon_2",
+      "points": [
+        {
+          "role": "start",
+          "attachment": {
+            "part": "fixed_base",
+            "s": 0,
+            "position_m": [
+              0,
+              0,
+              0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.08333333333233332,
+            "position_m": [
+              0,
+              0,
+              0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.16666666666566665,
+            "position_m": [
+              0,
+              0,
+              0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.249999999999,
+            "position_m": [
+              0,
+              0,
+              0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.33333333333233334,
+            "position_m": [
+              0,
+              0,
+              0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.4166666666656667,
+            "position_m": [
+              0,
+              0,
+              0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.499999999999,
+            "position_m": [
+              0,
+              0,
+              0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.5833333333323334,
+            "position_m": [
+              0,
+              0,
+              0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.6666666666656667,
+            "position_m": [
+              0,
+              0,
+              0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.749999999999,
+            "position_m": [
+              0,
+              0,
+              0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.8333333333323334,
+            "position_m": [
+              0,
+              0,
+              0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.9166666666656667,
+            "position_m": [
+              0,
+              0,
+              0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "anchor",
+          "attachment": {
+            "part": "segment_0",
+            "s": 1.0,
+            "position_m": [
+              0,
+              0,
+              0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "diameter_m": 0.0013,
+      "length_servo_gain_n_m": 900,
+      "pretension_n": 0.2,
+      "force_limit_n": 8
+    },
+    {
+      "id": "tendon_3",
+      "points": [
+        {
+          "role": "start",
+          "attachment": {
+            "part": "fixed_base",
+            "s": 0,
+            "position_m": [
+              0,
+              0,
+              -0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.08333333333233332,
+            "position_m": [
+              0,
+              0,
+              -0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.16666666666566665,
+            "position_m": [
+              0,
+              0,
+              -0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.249999999999,
+            "position_m": [
+              0,
+              0,
+              -0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.33333333333233334,
+            "position_m": [
+              0,
+              0,
+              -0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.4166666666656667,
+            "position_m": [
+              0,
+              0,
+              -0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.499999999999,
+            "position_m": [
+              0,
+              0,
+              -0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.5833333333323334,
+            "position_m": [
+              0,
+              0,
+              -0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.6666666666656667,
+            "position_m": [
+              0,
+              0,
+              -0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.749999999999,
+            "position_m": [
+              0,
+              0,
+              -0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.8333333333323334,
+            "position_m": [
+              0,
+              0,
+              -0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "guide",
+          "attachment": {
+            "part": "segment_0",
+            "s": 0.9166666666656667,
+            "position_m": [
+              0,
+              0,
+              -0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "role": "anchor",
+          "attachment": {
+            "part": "segment_0",
+            "s": 1.0,
+            "position_m": [
+              0,
+              0,
+              -0.012
+            ],
+            "quaternion_wxyz": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "diameter_m": 0.0013,
+      "length_servo_gain_n_m": 900,
+      "pretension_n": 0.2,
+      "force_limit_n": 8
+    }
+  ],
+  "actuators": [
+    {
+      "id": "actuator_0",
+      "command_type": "displacement",
+      "units": "m",
+      "limits": [
+        -0.015,
+        0.015
+      ],
+      "velocity_limit": 0.03,
+      "transmission": [
+        {
+          "tendon": "tendon_0",
+          "ratio": 1
+        }
+      ]
+    },
+    {
+      "id": "actuator_1",
+      "command_type": "displacement",
+      "units": "m",
+      "limits": [
+        -0.015,
+        0.015
+      ],
+      "velocity_limit": 0.03,
+      "transmission": [
+        {
+          "tendon": "tendon_1",
+          "ratio": 1
+        }
+      ]
+    },
+    {
+      "id": "actuator_2",
+      "command_type": "displacement",
+      "units": "m",
+      "limits": [
+        -0.015,
+        0.015
+      ],
+      "velocity_limit": 0.03,
+      "transmission": [
+        {
+          "tendon": "tendon_2",
+          "ratio": 1
+        }
+      ]
+    },
+    {
+      "id": "actuator_3",
+      "command_type": "displacement",
+      "units": "m",
+      "limits": [
+        -0.015,
+        0.015
+      ],
+      "velocity_limit": 0.03,
+      "transmission": [
+        {
+          "tendon": "tendon_3",
+          "ratio": 1
+        }
+      ]
+    }
+  ],
+  "tip": {
+    "part": "payload",
+    "s": 0,
+    "position_m": [
+      0.014,
+      0,
+      0
+    ],
+    "quaternion_wxyz": [
+      1,
+      0,
+      0,
+      0
+    ]
+  }
+}

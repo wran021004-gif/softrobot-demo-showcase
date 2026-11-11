@@ -1,0 +1,28 @@
+{
+  "task": "figure_eight_yz",
+  "center_m": [
+    0.282,
+    0.0,
+    0.17
+  ],
+  "amplitude_y_m": 0.02,
+  "amplitude_z_m": 0.008,
+  "frequency_hz": 0.1,
+  "cycles": 2,
+  "start_ramp_s": 2,
+  "stop_ramp_s": 2,
+  "duration_s": 22,
+  "phase": "integral of quintic smoothstep speed ramps; constant 0.10 Hz in between",
+  "initial_state": "prepared equilibrium at phase zero, optimized preload, zero velocity",
+  "limits": {
+    "tension_n": [
+      0.2,
+      8
+    ],
+    "stroke_m": 0.03,
+    "speed_m_s": 0.03,
+    "tracking_rmse_m": 0.003,
+    "tracking_max_m": 0.006,
+    "cycle_drift_m": 0.002
+  }
+}

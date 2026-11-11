@@ -1,0 +1,31 @@
+{
+  "segments": 1,
+  "length_m": 0.27,
+  "cells": 12,
+  "cross_section": "circular",
+  "radius_m": 0.008,
+  "young_modulus_pa": 4000000.0,
+  "density_kg_m3": 1050.0,
+  "bending_stiffness_nm2": 0.012867963509103795,
+  "joint_stiffness_nm_rad": 0.5719094892935019,
+  "joint_damping_nms_rad": 0.025,
+  "tendon_radius_m": 0.012,
+  "independent_actuators": 4,
+  "payload_mass_kg": 0.002,
+  "payload_com_m": [
+    0.007,
+    0,
+    0
+  ],
+  "payload_diagonal_inertia_kgm2": [
+    1e-08,
+    4e-08,
+    4e-08
+  ],
+  "production_tools": [
+    "extensions.tendon_family.compiler.resolve",
+    "extensions.tendon_family.mjcf.compile_xml"
+  ],
+  "core_git_commit": "2c83f8b7bd654328dd7648f844295c54a7c15223",
+  "post_compile_edits": "pointer geometry with unchanged explicit inertia, 0.2 N task pretension bound and +/-0.3 rad joint limits"
+}

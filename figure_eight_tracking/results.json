@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "checks": {
+    "two_cycles": true,
+    "tracking": true,
+    "no_saturation": true,
+    "stroke": true,
+    "speed": true,
+    "no_drift": true,
+    "no_contacts_or_warnings": true,
+    "actual_two_lobes_each_cycle": true
+  },
+  "metrics": {
+    "tracking_rmse_m": 0.0012858212001888285,
+    "max_error_m": 0.002075986639386426,
+    "p95_error_m": 0.0018520484144722844,
+    "completed_cycles": 2.0,
+    "duration_s": 22.000000000003904,
+    "physical_steps": 22000,
+    "static_max_error_m": 0.001823473486440922,
+    "max_tension_n": [
+      4.2620197220252205,
+      4.262019722025673,
+      5.9027347238326,
+      2.2972974693096844
+    ],
+    "min_tension_n": [
+      3.7379802779743274,
+      3.737980277974779,
+      5.702702530690315,
+      2.0972652761673998
+    ],
+    "stroke_m": [
+      0.0030649492799141864,
+      0.003064949279852125,
+      0.0012163809479646681,
+      0.0012164384551007767
+    ],
+    "max_speed_m_s": [
+      0.0015110883966826805,
+      0.0015110883916804596,
+      0.0007652424408775005,
+      0.0007652777493944996
+    ],
+    "tension_saturation_fraction": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "cycle_phase_matched_max_difference_m": 0.0007019860081754521,
+    "terminal_speed_m_s": 8.269467327360185e-05,
+    "contacts": 0,
+    "solver_warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "actual_cycle_bounds": [
+      {
+        "min_m": [
+          0.28017731689083364,
+          -0.019927364696140384,
+          0.16189375841089565
+        ],
+        "max_m": [
+          0.28156339992252877,
+          0.0199259950198381,
+          0.1779244794133776
+        ]
+      },
+      {
+        "min_m": [
+          0.280177316890928,
+          -0.019927364694623147,
+          0.16189376205429093
+        ],
+        "max_m": [
+          0.2815641243472708,
+          0.019926074306015708,
+          0.177924479426778
+        ]
+      }
+    ]
+  },
+  "control": "periodic cubic-spline quasistatic feedforward, 4 antagonistic ideal tension channels, no applied tip force",
+  "scope": "single nominal MuJoCo run; no friction, spool or motor dynamics validation"
+}

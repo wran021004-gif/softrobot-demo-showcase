@@ -1,0 +1,204 @@
+{
+  "m1/central_high": {
+    "status": "PASS",
+    "rows_checked": 601,
+    "max_saved_pose_error_m": 0.0,
+    "max_tendon_length_difference_m": 0.0,
+    "physics_steps": 0,
+    "visual_physics_invariant": true,
+    "actuator_requirements": {
+      "channel_order": [
+        "tendon_0_direct_tension",
+        "tendon_1_direct_tension",
+        "tendon_2_direct_tension",
+        "tendon_3_direct_tension",
+        "tendon_4_direct_tension",
+        "tendon_5_direct_tension"
+      ],
+      "max_tension_n": [
+        1.034295147937663,
+        3.878324356007763,
+        0.5637724973011645,
+        1.800057163177407,
+        0.35623938728133553,
+        0.14655565317391692
+      ],
+      "stroke_m": [
+        0.0024862020589347666,
+        0.008445741600229567,
+        0.006079183334897154,
+        0.01065870941198288,
+        0.00401121469207677,
+        0.00788576353591064
+      ],
+      "max_speed_m_s": [
+        0.013586643138884354,
+        0.0414104165726557,
+        0.028952487044523856,
+        0.10460244070393082,
+        0.033027587113059226,
+        0.06462340830828309
+      ],
+      "scope": "Observed nominal run requirements; total tendon peak-to-peak length and analytical MuJoCo tendon velocity. No spool or motor model."
+    },
+    "holding_window_full_timestep": {
+      "start_s": 0.54,
+      "end_s": 0.6,
+      "max_error_m": 0.00989998256253226,
+      "max_tip_speed_m_s": 0.029699999999999966,
+      "scope": "Diagnostic over all saved physical timesteps; original acceptance evidence retained separately"
+    }
+  },
+  "m1/positive_high": {
+    "status": "PASS",
+    "rows_checked": 601,
+    "max_saved_pose_error_m": 0.0,
+    "max_tendon_length_difference_m": 0.0,
+    "physics_steps": 0,
+    "visual_physics_invariant": true,
+    "actuator_requirements": {
+      "channel_order": [
+        "tendon_0_direct_tension",
+        "tendon_1_direct_tension",
+        "tendon_2_direct_tension",
+        "tendon_3_direct_tension",
+        "tendon_4_direct_tension",
+        "tendon_5_direct_tension"
+      ],
+      "max_tension_n": [
+        0.8638093236617601,
+        1.6351367403019863,
+        0.5168907518375142,
+        1.766283874243544,
+        0.5761981580185821,
+        0.03544027263925478
+      ],
+      "stroke_m": [
+        0.0017710983803337632,
+        0.004610414732427459,
+        0.0050988778753857655,
+        0.012616452782759968,
+        0.005055997621085384,
+        0.007624704004220884
+      ],
+      "max_speed_m_s": [
+        0.008654737939489097,
+        0.0324228583529581,
+        0.03550200118197407,
+        0.06667338800279103,
+        0.019523439912251674,
+        0.06080553098714508
+      ],
+      "scope": "Observed nominal run requirements; total tendon peak-to-peak length and analytical MuJoCo tendon velocity. No spool or motor model."
+    },
+    "holding_window_full_timestep": {
+      "start_s": 0.54,
+      "end_s": 0.6,
+      "max_error_m": 0.009677933544936502,
+      "max_tip_speed_m_s": 0.02969999715787175,
+      "scope": "Diagnostic over all saved physical timesteps; original acceptance evidence retained separately"
+    }
+  },
+  "m1/negative_low": {
+    "status": "PASS",
+    "rows_checked": 601,
+    "max_saved_pose_error_m": 0.0,
+    "max_tendon_length_difference_m": 0.0,
+    "physics_steps": 0,
+    "visual_physics_invariant": true,
+    "actuator_requirements": {
+      "channel_order": [
+        "tendon_0_direct_tension",
+        "tendon_1_direct_tension",
+        "tendon_2_direct_tension",
+        "tendon_3_direct_tension",
+        "tendon_4_direct_tension",
+        "tendon_5_direct_tension"
+      ],
+      "max_tension_n": [
+        0.31541180221565385,
+        1.0859920684641649,
+        1.2452933733321552,
+        1.9926165429020155,
+        2.0529407618036863,
+        0.02000000000000038
+      ],
+      "stroke_m": [
+        0.0018839955863449165,
+        0.0032609724924416716,
+        0.005051104363725356,
+        0.006434428598159403,
+        0.009414579114345178,
+        0.011187369474215003
+      ],
+      "max_speed_m_s": [
+        0.008543048010213723,
+        0.024429012694400436,
+        0.025102102427100727,
+        0.0659176362224326,
+        0.028338747883513978,
+        0.05313152300901672
+      ],
+      "scope": "Observed nominal run requirements; total tendon peak-to-peak length and analytical MuJoCo tendon velocity. No spool or motor model."
+    },
+    "holding_window_full_timestep": {
+      "start_s": 0.54,
+      "end_s": 0.6,
+      "max_error_m": 0.008726240377154812,
+      "max_tip_speed_m_s": 0.029120119883654066,
+      "scope": "Diagnostic over all saved physical timesteps; original acceptance evidence retained separately"
+    }
+  },
+  "eight": {
+    "status": "PASS",
+    "rows_checked": 22001,
+    "max_saved_pose_error_m": 0.0,
+    "max_tendon_length_difference_m": 0.0,
+    "physics_steps": 0,
+    "visual_physics_invariant": true,
+    "actuator_requirements": {
+      "channel_order": [
+        "tendon_0_direct_tension",
+        "tendon_1_direct_tension",
+        "tendon_2_direct_tension",
+        "tendon_3_direct_tension"
+      ],
+      "max_tension_n": [
+        4.2620197220252205,
+        4.262019722025673,
+        5.9027347238326,
+        2.2972974693096844
+      ],
+      "stroke_m": [
+        0.0030649492799141864,
+        0.003064949279852125,
+        0.0012163809479646681,
+        0.0012164384551007767
+      ],
+      "max_speed_m_s": [
+        0.0015110917679592567,
+        0.001511091762849986,
+        0.0007652424956185392,
+        0.0007652778037406039
+      ],
+      "scope": "Observed nominal run requirements; total tendon peak-to-peak length and analytical MuJoCo tendon velocity. No spool or motor model."
+    },
+    "tracking_metrics_verified": true
+  },
+  "p3/plus_x": {
+    "status": "PASS",
+    "rows_checked": 2005,
+    "max_saved_pose_error_m": 0.0,
+    "max_tendon_length_difference_m": 0.0,
+    "physics_steps": 0,
+    "visual_physics_invariant": true
+  },
+  "p3/minus_x": {
+    "status": "PASS",
+    "rows_checked": 2005,
+    "max_saved_pose_error_m": 0.0,
+    "max_tendon_length_difference_m": 0.0,
+    "physics_steps": 0,
+    "visual_physics_invariant": true
+  }
+}
