@@ -1,0 +1,69 @@
+{
+  "revision": "controller_v1.1",
+  "frozen_task_references": {
+    "task_spec": "../task_spec.md",
+    "task": "../task.json",
+    "environment": "../environment.json",
+    "evaluation": "../evaluation.json",
+    "freeze_commit": "1581882cc7dd0cc0a3363e00e0b7ef16e7e916de",
+    "base_commit": "7c2fdcce92bfc56ecf8f97dfb5ac04cc18cf4712"
+  },
+  "defaults": {
+    "xyz_feedback": true,
+    "button_state_feedback": true,
+    "reaction_feedforward": true,
+    "bounded_allocation": true,
+    "position_gain": 0.4,
+    "velocity_time_s": 0.03,
+    "startup_s": 0.06,
+    "tension_rate_limit_n_s": 40.0,
+    "delta_tension_penalty": 0.15,
+    "predicted_rope_speed_limit_m_s": 0.022,
+    "release_contact_end_s": 1.67,
+    "withdraw_end_s": 1.78,
+    "force_gain": 0.25,
+    "button_depth_gain": 0.3,
+    "button_velocity_time_s": 0.02
+  },
+  "tuning_bounds": {
+    "position_gain": [
+      0.15,
+      0.8
+    ],
+    "velocity_time_s": [
+      0.01,
+      0.06
+    ],
+    "startup_s": [
+      0.04,
+      0.12
+    ],
+    "tension_rate_limit_n_s": [
+      15,
+      80
+    ],
+    "delta_tension_penalty": [
+      0.05,
+      0.5
+    ],
+    "force_gain": [
+      0.1,
+      0.5
+    ],
+    "button_depth_gain": [
+      0.1,
+      0.6
+    ],
+    "release_contact_end_s": [
+      1.6,
+      1.7
+    ],
+    "withdraw_end_s": [
+      1.75,
+      1.79
+    ]
+  },
+  "implementation": "explicit required config -> Controller; no independent use_x/contact_ff defaults; per-run effective config and runtime sensor summary",
+  "reference": "quintic approach/press; controlled contact-following return then withdrawal, within unchanged phase windows",
+  "velocity_limit_scope": "predictive guard is a model-based control constraint; only actual analytical ten_velocity at every 1 ms determines acceptance"
+}

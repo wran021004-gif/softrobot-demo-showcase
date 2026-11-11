@@ -1,0 +1,21 @@
+{
+  "revision": "v1.1",
+  "label": "Codex-assisted engineering design; not Main autonomous Study",
+  "provider_calls": 0,
+  "main_calls": 0,
+  "reporter_calls": 0,
+  "assembly_prechecks_max": 1,
+  "baseline_full_evaluations_max": 2,
+  "codesign_full_evaluations_max": 4,
+  "final_independent_replays_max": 1,
+  "total_full_evaluations_max": 7,
+  "step_size_s": 0.001,
+  "prohibited": [
+    "v1.0 reruns",
+    "random seed experiments",
+    "step-size convergence",
+    "large grids",
+    "extra hidden integration rollouts"
+  ],
+  "algebraic_scope": "inverse equilibrium and state/Jacobian calculations use mj_forward only; not extra integration trajectories"
+}
