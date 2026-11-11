@@ -1,0 +1,15 @@
+{
+  "source": "C009",
+  "mode": "independent archived-controller closed-loop",
+  "initial_state": "zero qpos/qvel, 0.20 N tension, native contact",
+  "max_absolute_differences": {
+    "qpos": 0.0,
+    "qvel": 0.0,
+    "control_n": 0.0,
+    "tendon_speed_m_s": 0.0,
+    "button_q_m": 0.0,
+    "contact_force_n": 0.0
+  },
+  "status": "PASS",
+  "identical": true
+}

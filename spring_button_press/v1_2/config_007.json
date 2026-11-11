@@ -1,0 +1,17 @@
+{
+  "startup_s": 0.02,
+  "tension_rate_limit_n_s": 200.0,
+  "command_interpolation": "linear_10ms",
+  "event_contact": true,
+  "acquire_depth_m": 0.00012,
+  "release_contact_end_s": 1.67,
+  "withdraw_end_s": 1.79,
+  "release_gate_q_m": 1e-06,
+  "release_gate_v_m_s": 0.0001,
+  "release_gate_force_n": 0.002,
+  "withdraw_distance_m": 0.0005,
+  "withdraw_contact_bank": true,
+  "prediction_model": "implicit_interval",
+  "guard_start_s": 0.0,
+  "speed_slack_penalty": 100000000.0
+}

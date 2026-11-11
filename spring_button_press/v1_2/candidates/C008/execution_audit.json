@@ -1,0 +1,273 @@
+{
+  "source_of_truth": "per-candidate archived controller and runner plus full 1 ms trajectory; resolved JSON expands source defaults without changing executed values",
+  "resolved_configuration": {
+    "xyz_feedback": true,
+    "button_state_feedback": true,
+    "reaction_feedforward": true,
+    "bounded_allocation": true,
+    "position_gain": 0.8,
+    "velocity_time_s": 0.06,
+    "startup_s": 0.02,
+    "tension_rate_limit_n_s": 200.0,
+    "delta_tension_penalty": 0.05,
+    "predicted_rope_speed_limit_m_s": 0.022,
+    "release_contact_end_s": 1.669999,
+    "withdraw_end_s": 1.79,
+    "force_gain": 0.1,
+    "button_depth_gain": 0.1,
+    "button_velocity_time_s": 0.02,
+    "startup_shape": "linear_lookahead",
+    "command_interpolation": "linear_10ms",
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "feedforward_tracking_penalty": 10.0,
+    "event_contact": true,
+    "acquire_depth_m": 0.00012,
+    "release_gate_q_m": 3e-06,
+    "release_gate_v_m_s": 0.0004,
+    "release_gate_force_n": 0.002,
+    "withdraw_distance_m": 0.0005,
+    "withdraw_contact_bank": true,
+    "prediction_model": "implicit_interval",
+    "guard_start_s": 0.0,
+    "speed_slack_penalty": 100000000.0,
+    "approach_end_s": 0.5,
+    "contact_on_force_n": 0.0001,
+    "return_position_bias_m": 0.0
+  },
+  "feedback_updates": 200,
+  "physical_steps": 2000,
+  "contact_transitions": [
+    {
+      "time_s": 0.4260000000000003,
+      "contact": true,
+      "q_um": 0.0,
+      "qdot_mm_s": 0.0,
+      "force_n": 0.0091220713701261
+    },
+    {
+      "time_s": 0.43400000000000033,
+      "contact": false,
+      "q_um": 26.183666560967197,
+      "qdot_mm_s": 3.9450705391667746,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 0.43500000000000033,
+      "contact": true,
+      "q_um": 29.725237593233647,
+      "qdot_mm_s": 3.541571032266445,
+      "force_n": 0.0028867478018512714
+    },
+    {
+      "time_s": 0.43600000000000033,
+      "contact": false,
+      "q_um": 33.80437115502203,
+      "qdot_mm_s": 4.079133561788387,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 0.43700000000000033,
+      "contact": true,
+      "q_um": 37.40157293409719,
+      "qdot_mm_s": 3.59720177907516,
+      "force_n": 0.005598123993461203
+    },
+    {
+      "time_s": 0.5140000000000003,
+      "contact": false,
+      "q_um": 147.40224167150035,
+      "qdot_mm_s": -4.15417500573762,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 0.5150000000000003,
+      "contact": true,
+      "q_um": 141.9905133806805,
+      "qdot_mm_s": -5.4117282908198305,
+      "force_n": 0.0073123294588666125
+    },
+    {
+      "time_s": 0.5200000000000004,
+      "contact": false,
+      "q_um": 117.85996002636863,
+      "qdot_mm_s": -4.785704793472296,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 0.5210000000000004,
+      "contact": true,
+      "q_um": 112.12505195546865,
+      "qdot_mm_s": -5.734908070899983,
+      "force_n": 0.006700572059650624
+    },
+    {
+      "time_s": 0.5280000000000004,
+      "contact": false,
+      "q_um": 80.80153941271377,
+      "qdot_mm_s": -4.006975397168013,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 0.5290000000000004,
+      "contact": true,
+      "q_um": 76.17174057492997,
+      "qdot_mm_s": -4.629798837783799,
+      "force_n": 0.005539110040526694
+    },
+    {
+      "time_s": 0.5530000000000004,
+      "contact": false,
+      "q_um": 12.99308494490129,
+      "qdot_mm_s": -1.6625048990145113,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 0.5540000000000004,
+      "contact": true,
+      "q_um": 11.269589032917132,
+      "qdot_mm_s": -1.723495911984158,
+      "force_n": 0.001122443558873964
+    },
+    {
+      "time_s": 1.6219999999999322,
+      "contact": false,
+      "q_um": 129.94723564161623,
+      "qdot_mm_s": -6.407855910278441,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.622999999999932,
+      "contact": true,
+      "q_um": 122.53634307748682,
+      "qdot_mm_s": -7.410892564129426,
+      "force_n": 0.009494910792505126
+    },
+    {
+      "time_s": 1.6389999999999303,
+      "contact": false,
+      "q_um": 46.72926250491669,
+      "qdot_mm_s": -3.5615422549807074,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.6399999999999302,
+      "contact": true,
+      "q_um": 42.85538281258027,
+      "qdot_mm_s": -3.8738796923364176,
+      "force_n": 0.0038112783688808473
+    },
+    {
+      "time_s": 1.6519999999999289,
+      "contact": false,
+      "q_um": 13.068252568695419,
+      "qdot_mm_s": -1.7493490788850419,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.6529999999999287,
+      "contact": true,
+      "q_um": 11.260529871991578,
+      "qdot_mm_s": -1.8077226967038422,
+      "force_n": 0.001491093328749062
+    },
+    {
+      "time_s": 1.6579999999999282,
+      "contact": false,
+      "q_um": 5.093167540540521,
+      "qdot_mm_s": -0.9434739210345351,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.658999999999928,
+      "contact": true,
+      "q_um": 4.137008313194424,
+      "qdot_mm_s": -0.9561592273460964,
+      "force_n": 0.0011270190758154012
+    },
+    {
+      "time_s": 1.6709999999999268,
+      "contact": false,
+      "q_um": 2.8681780988649614,
+      "qdot_mm_s": 0.4159789356587556,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.6719999999999267,
+      "contact": true,
+      "q_um": 3.240579209124679,
+      "qdot_mm_s": 0.37240111025971734,
+      "force_n": 0.0010615283722434764
+    },
+    {
+      "time_s": 1.7179999999999216,
+      "contact": false,
+      "q_um": 22.449808474715326,
+      "qdot_mm_s": -0.924397185682626,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.7189999999999215,
+      "contact": true,
+      "q_um": 21.34510148391746,
+      "qdot_mm_s": -1.1047069907978646,
+      "force_n": 0.00104209180816225
+    },
+    {
+      "time_s": 1.7259999999999207,
+      "contact": false,
+      "q_um": 12.686665941184826,
+      "qdot_mm_s": -1.4027731535786245,
+      "force_n": 0.0
+    }
+  ],
+  "states_visited": [
+    "FREE_APPROACH",
+    "CONTACT_ACQUIRE",
+    "CONTACT_FOLLOW",
+    "PRESS",
+    "HOLD",
+    "RETURN_FOLLOW",
+    "WITHDRAW"
+  ],
+  "state_transitions": [
+    {
+      "time_s": 0.0,
+      "state": "FREE_APPROACH"
+    },
+    {
+      "time_s": 0.4300000000000003,
+      "state": "CONTACT_ACQUIRE"
+    },
+    {
+      "time_s": 0.46000000000000035,
+      "state": "CONTACT_FOLLOW"
+    },
+    {
+      "time_s": 0.5000000000000003,
+      "state": "PRESS"
+    },
+    {
+      "time_s": 0.9000000000000007,
+      "state": "HOLD"
+    },
+    {
+      "time_s": 1.4099999999999555,
+      "state": "RETURN_FOLLOW"
+    },
+    {
+      "time_s": 1.6699999999999269,
+      "state": "WITHDRAW"
+    }
+  ],
+  "speed_guard_enabled_fallbacks": 0,
+  "legacy_bypass_diagnostic_retries": 0,
+  "max_prediction_slack_m_s": 0.0,
+  "actual_speed_violation_m_s": 0,
+  "final_native_contact_pairs": 0,
+  "hold_contact_loss_samples": 0,
+  "runtime_metadata_correction": "C007 onward source uses implicit ten-sample prediction; original summary prose inherited legacy one-step description. This audit corrects descriptive metadata only; archived source, logs and physical histories are preserved."
+}

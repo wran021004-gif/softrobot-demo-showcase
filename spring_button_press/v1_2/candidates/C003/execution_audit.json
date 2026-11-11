@@ -1,0 +1,286 @@
+{
+  "source_of_truth": "per-candidate archived controller and runner plus full 1 ms trajectory; resolved JSON expands source defaults without changing executed values",
+  "resolved_configuration": {
+    "xyz_feedback": true,
+    "button_state_feedback": true,
+    "reaction_feedforward": true,
+    "bounded_allocation": true,
+    "position_gain": 0.8,
+    "velocity_time_s": 0.06,
+    "startup_s": 0.02,
+    "tension_rate_limit_n_s": 200.0,
+    "delta_tension_penalty": 0.05,
+    "predicted_rope_speed_limit_m_s": 0.022,
+    "release_contact_end_s": 1.69,
+    "withdraw_end_s": 1.79,
+    "force_gain": 0.1,
+    "button_depth_gain": 0.1,
+    "button_velocity_time_s": 0.02,
+    "startup_shape": "linear_lookahead",
+    "command_interpolation": "linear_10ms",
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "feedforward_tracking_penalty": 10.0,
+    "event_contact": true,
+    "acquire_depth_m": 0.00012,
+    "release_gate_q_m": 1e-06,
+    "release_gate_v_m_s": 0.0001,
+    "release_gate_force_n": 0.002,
+    "withdraw_distance_m": 0.0005,
+    "approach_end_s": 0.5,
+    "contact_on_force_n": 0.0001,
+    "return_position_bias_m": 0.0,
+    "guard_start_s": 0.15
+  },
+  "feedback_updates": 200,
+  "physical_steps": 2000,
+  "contact_transitions": [
+    {
+      "time_s": 0.44300000000000034,
+      "contact": true,
+      "q_um": 0.0,
+      "qdot_mm_s": 0.0,
+      "force_n": 0.010931170282832933
+    },
+    {
+      "time_s": 0.45400000000000035,
+      "contact": false,
+      "q_um": 36.178031217566854,
+      "qdot_mm_s": 3.1157038264696135,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 0.45500000000000035,
+      "contact": true,
+      "q_um": 38.82603459669565,
+      "qdot_mm_s": 2.6480033791287934,
+      "force_n": 0.0025222010261717535
+    },
+    {
+      "time_s": 0.45800000000000035,
+      "contact": false,
+      "q_um": 48.32577833513233,
+      "qdot_mm_s": 3.373202964232317,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 0.45900000000000035,
+      "contact": true,
+      "q_um": 51.10457177828713,
+      "qdot_mm_s": 2.7787934431548016,
+      "force_n": 0.0046837164736275114
+    },
+    {
+      "time_s": 0.4870000000000004,
+      "contact": false,
+      "q_um": 123.63747370116928,
+      "qdot_mm_s": 0.7708512926886296,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 0.4880000000000004,
+      "contact": true,
+      "q_um": 123.18985500470478,
+      "qdot_mm_s": -0.44761869646448393,
+      "force_n": 0.008609720569089936
+    },
+    {
+      "time_s": 0.5170000000000003,
+      "contact": false,
+      "q_um": 114.49198378720436,
+      "qdot_mm_s": -2.7426467116463735,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 0.5180000000000003,
+      "contact": true,
+      "q_um": 110.75393902805203,
+      "qdot_mm_s": -3.7380447591523236,
+      "force_n": 0.006314547670902215
+    },
+    {
+      "time_s": 0.5250000000000004,
+      "contact": false,
+      "q_um": 88.84501866838912,
+      "qdot_mm_s": -3.0790707151359045,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 0.5260000000000004,
+      "contact": true,
+      "q_um": 85.03009472433163,
+      "qdot_mm_s": -3.8149239440574965,
+      "force_n": 0.0054540432562359175
+    },
+    {
+      "time_s": 1.64099999999993,
+      "contact": false,
+      "q_um": 136.25438647364342,
+      "qdot_mm_s": -6.259033474788552,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.64199999999993,
+      "contact": true,
+      "q_um": 128.92594672410016,
+      "qdot_mm_s": -7.328439749543256,
+      "force_n": 0.009610333134839085
+    },
+    {
+      "time_s": 1.6549999999999285,
+      "contact": false,
+      "q_um": 63.65399948652643,
+      "qdot_mm_s": -4.134779898307352,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.6559999999999284,
+      "contact": true,
+      "q_um": 59.066191896937376,
+      "qdot_mm_s": -4.587807589589054,
+      "force_n": 0.004755247399867832
+    },
+    {
+      "time_s": 1.6719999999999267,
+      "contact": false,
+      "q_um": 13.903786447273859,
+      "qdot_mm_s": -1.9844651038928915,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.6729999999999265,
+      "contact": true,
+      "q_um": 11.861956669999214,
+      "qdot_mm_s": -2.0418297772746445,
+      "force_n": 0.0012113842119719155
+    },
+    {
+      "time_s": 1.6829999999999254,
+      "contact": false,
+      "q_um": -1.3107949514390955,
+      "qdot_mm_s": -0.28419301170682154,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.704999999999923,
+      "contact": true,
+      "q_um": 1.2296154295458037,
+      "qdot_mm_s": 0.015567239968175687,
+      "force_n": 0.0028956875583684588
+    },
+    {
+      "time_s": 1.73299999999992,
+      "contact": false,
+      "q_um": 37.331215042624535,
+      "qdot_mm_s": 1.3333345082083499,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.7339999999999198,
+      "contact": true,
+      "q_um": 38.25431346356886,
+      "qdot_mm_s": 0.9230984209443311,
+      "force_n": 0.003134238953678198
+    },
+    {
+      "time_s": 1.7469999999999184,
+      "contact": false,
+      "q_um": 52.25386426224684,
+      "qdot_mm_s": 0.803838244999315,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.7479999999999183,
+      "contact": true,
+      "q_um": 52.52434464914766,
+      "qdot_mm_s": 0.27048038690081394,
+      "force_n": 0.0038162894774097177
+    },
+    {
+      "time_s": 1.7629999999999166,
+      "contact": false,
+      "q_um": 57.52791327927738,
+      "qdot_mm_s": -0.07175605302810628,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.7639999999999165,
+      "contact": true,
+      "q_um": 56.90576406214192,
+      "qdot_mm_s": -0.6221492171354617,
+      "force_n": 0.003839259587745819
+    },
+    {
+      "time_s": 1.8829999999999034,
+      "contact": false,
+      "q_um": 34.42488227193962,
+      "qdot_mm_s": 0.543361809389763,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.8839999999999033,
+      "contact": true,
+      "q_um": 34.61633706681498,
+      "qdot_mm_s": 0.19145479487535264,
+      "force_n": 0.00269615358789949
+    },
+    {
+      "time_s": 1.904999999999901,
+      "contact": false,
+      "q_um": 41.49395426981282,
+      "qdot_mm_s": 0.0951284313945615,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.9059999999999009,
+      "contact": true,
+      "q_um": 41.18644358586708,
+      "qdot_mm_s": -0.3075106839457373,
+      "force_n": 0.0029925497857068387
+    }
+  ],
+  "states_visited": [
+    "FREE_APPROACH",
+    "CONTACT_ACQUIRE",
+    "CONTACT_FOLLOW",
+    "PRESS",
+    "HOLD",
+    "RETURN_FOLLOW"
+  ],
+  "state_transitions": [
+    {
+      "time_s": 0.0,
+      "state": "FREE_APPROACH"
+    },
+    {
+      "time_s": 0.45000000000000034,
+      "state": "CONTACT_ACQUIRE"
+    },
+    {
+      "time_s": 0.48000000000000037,
+      "state": "CONTACT_FOLLOW"
+    },
+    {
+      "time_s": 0.5000000000000003,
+      "state": "PRESS"
+    },
+    {
+      "time_s": 0.9000000000000007,
+      "state": "HOLD"
+    },
+    {
+      "time_s": 1.4099999999999555,
+      "state": "RETURN_FOLLOW"
+    }
+  ],
+  "speed_guard_enabled_fallbacks": 0,
+  "legacy_bypass_diagnostic_retries": 13,
+  "max_prediction_slack_m_s": 0.5264504093687847,
+  "actual_speed_violation_m_s": 0,
+  "final_native_contact_pairs": 1,
+  "hold_contact_loss_samples": 0,
+  "runtime_metadata_correction": "C007 onward source uses implicit ten-sample prediction; original summary prose inherited legacy one-step description. This audit corrects descriptive metadata only; archived source, logs and physical histories are preserved."
+}

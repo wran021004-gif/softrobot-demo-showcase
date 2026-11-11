@@ -1,0 +1,390 @@
+{
+  "source_of_truth": "per-candidate archived controller and runner plus full 1 ms trajectory; resolved JSON expands source defaults without changing executed values",
+  "resolved_configuration": {
+    "xyz_feedback": true,
+    "button_state_feedback": true,
+    "reaction_feedforward": true,
+    "bounded_allocation": true,
+    "position_gain": 0.8,
+    "velocity_time_s": 0.06,
+    "startup_s": 0.02,
+    "tension_rate_limit_n_s": 200.0,
+    "delta_tension_penalty": 0.05,
+    "predicted_rope_speed_limit_m_s": 0.022,
+    "release_contact_end_s": 1.67,
+    "withdraw_end_s": 1.79,
+    "force_gain": 0.1,
+    "button_depth_gain": 0.1,
+    "button_velocity_time_s": 0.02,
+    "startup_shape": "linear_lookahead",
+    "command_interpolation": "linear_10ms",
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "feedforward_tracking_penalty": 10.0,
+    "event_contact": true,
+    "acquire_depth_m": 0.00012,
+    "release_gate_q_m": 1e-06,
+    "release_gate_v_m_s": 0.0001,
+    "release_gate_force_n": 0.002,
+    "withdraw_distance_m": 0.0002,
+    "withdraw_contact_bank": true,
+    "approach_end_s": 0.5,
+    "contact_on_force_n": 0.0001,
+    "return_position_bias_m": 0.0,
+    "guard_start_s": 0.15
+  },
+  "feedback_updates": 200,
+  "physical_steps": 2000,
+  "contact_transitions": [
+    {
+      "time_s": 0.44300000000000034,
+      "contact": true,
+      "q_um": 0.0,
+      "qdot_mm_s": 0.0,
+      "force_n": 0.010931170282832933
+    },
+    {
+      "time_s": 0.45400000000000035,
+      "contact": false,
+      "q_um": 36.178031217566854,
+      "qdot_mm_s": 3.1157038264696135,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 0.45500000000000035,
+      "contact": true,
+      "q_um": 38.82603459669565,
+      "qdot_mm_s": 2.6480033791287934,
+      "force_n": 0.0025222010261717535
+    },
+    {
+      "time_s": 0.45800000000000035,
+      "contact": false,
+      "q_um": 48.32577833513233,
+      "qdot_mm_s": 3.373202964232317,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 0.45900000000000035,
+      "contact": true,
+      "q_um": 51.10457177828713,
+      "qdot_mm_s": 2.7787934431548016,
+      "force_n": 0.0046837164736275114
+    },
+    {
+      "time_s": 0.4870000000000004,
+      "contact": false,
+      "q_um": 123.63747370116928,
+      "qdot_mm_s": 0.7708512926886296,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 0.4880000000000004,
+      "contact": true,
+      "q_um": 123.18985500470478,
+      "qdot_mm_s": -0.44761869646448393,
+      "force_n": 0.008609720569089936
+    },
+    {
+      "time_s": 0.5170000000000003,
+      "contact": false,
+      "q_um": 114.49198378720436,
+      "qdot_mm_s": -2.7426467116463735,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 0.5180000000000003,
+      "contact": true,
+      "q_um": 110.75393902805203,
+      "qdot_mm_s": -3.7380447591523236,
+      "force_n": 0.006314547670902215
+    },
+    {
+      "time_s": 0.5250000000000004,
+      "contact": false,
+      "q_um": 88.84501866838912,
+      "qdot_mm_s": -3.0790707151359045,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 0.5260000000000004,
+      "contact": true,
+      "q_um": 85.03009472433163,
+      "qdot_mm_s": -3.8149239440574965,
+      "force_n": 0.0054540432562359175
+    },
+    {
+      "time_s": 1.622999999999932,
+      "contact": false,
+      "q_um": 148.58499316391882,
+      "qdot_mm_s": -6.670587093679395,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.623999999999932,
+      "contact": true,
+      "q_um": 140.74226525495865,
+      "qdot_mm_s": -7.842727908960177,
+      "force_n": 0.01059919639077601
+    },
+    {
+      "time_s": 1.6389999999999303,
+      "contact": false,
+      "q_um": 60.681037431895476,
+      "qdot_mm_s": -4.3854318051796515,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.6399999999999302,
+      "contact": true,
+      "q_um": 55.88080456699297,
+      "qdot_mm_s": -4.800232864902506,
+      "force_n": 0.004506088445067208
+    },
+    {
+      "time_s": 1.6489999999999292,
+      "contact": false,
+      "q_um": 24.90393875333937,
+      "qdot_mm_s": -2.8350553130023393,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.649999999999929,
+      "contact": true,
+      "q_um": 21.938463079747322,
+      "qdot_mm_s": -2.965475673592051,
+      "force_n": 0.0021699190152947175
+    },
+    {
+      "time_s": 1.6559999999999284,
+      "contact": false,
+      "q_um": 9.062911911629316,
+      "qdot_mm_s": -1.7436753514580507,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.6569999999999283,
+      "contact": true,
+      "q_um": 7.299157613000139,
+      "qdot_mm_s": -1.7637542986291768,
+      "force_n": 0.0012211208092489528
+    },
+    {
+      "time_s": 1.6629999999999276,
+      "contact": false,
+      "q_um": 0.47514455940121547,
+      "qdot_mm_s": -0.8147137720474912,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.6639999999999275,
+      "contact": true,
+      "q_um": -0.3128027652540763,
+      "qdot_mm_s": -0.7879473246552917,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.6649999999999274,
+      "contact": false,
+      "q_um": -0.5701846308114287,
+      "qdot_mm_s": -0.2573818655573524,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.6799999999999258,
+      "contact": true,
+      "q_um": 0.35653927029637544,
+      "qdot_mm_s": 0.050586712581863265,
+      "force_n": 0.0011963117542578166
+    },
+    {
+      "time_s": 1.7249999999999208,
+      "contact": false,
+      "q_um": 35.9976741673944,
+      "qdot_mm_s": 0.39550422897066684,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.7259999999999207,
+      "contact": true,
+      "q_um": 36.031835212872025,
+      "qdot_mm_s": 0.03416104547761798,
+      "force_n": 0.0025440985121391374
+    },
+    {
+      "time_s": 1.7369999999999195,
+      "contact": false,
+      "q_um": 36.43845912752967,
+      "qdot_mm_s": -0.22558893674419733,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.7379999999999194,
+      "contact": true,
+      "q_um": 35.87117688904939,
+      "qdot_mm_s": -0.5672822384802827,
+      "force_n": 0.0023136867491486564
+    },
+    {
+      "time_s": 1.7469999999999184,
+      "contact": false,
+      "q_um": 31.4620252419542,
+      "qdot_mm_s": -0.6507999302105476,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.7479999999999183,
+      "contact": true,
+      "q_um": 30.533736604809885,
+      "qdot_mm_s": -0.928288637144317,
+      "force_n": 0.0018203759735665947
+    },
+    {
+      "time_s": 1.7559999999999174,
+      "contact": false,
+      "q_um": 23.905514623062885,
+      "qdot_mm_s": -0.9120120673295551,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.7569999999999173,
+      "contact": true,
+      "q_um": 22.798719225408863,
+      "qdot_mm_s": -1.106795397654023,
+      "force_n": 0.0012327059670733723
+    },
+    {
+      "time_s": 1.7639999999999165,
+      "contact": false,
+      "q_um": 15.796905551879243,
+      "qdot_mm_s": -1.0167492612974915,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.7649999999999164,
+      "contact": true,
+      "q_um": 14.667368708786663,
+      "qdot_mm_s": -1.1295368430925807,
+      "force_n": 0.0006829446970987679
+    },
+    {
+      "time_s": 1.7709999999999158,
+      "contact": false,
+      "q_um": 8.497894541587936,
+      "qdot_mm_s": -1.0057550626168097,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.7719999999999156,
+      "contact": true,
+      "q_um": 7.449111841556504,
+      "qdot_mm_s": -1.0487827000314318,
+      "force_n": 0.00024741894029032516
+    },
+    {
+      "time_s": 1.776999999999915,
+      "contact": false,
+      "q_um": 2.6389910375477745,
+      "qdot_mm_s": -0.9218388507100165,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.8629999999999056,
+      "contact": true,
+      "q_um": 0.0028858814640687677,
+      "qdot_mm_s": -0.0010534343279764609,
+      "force_n": 0.0020854216079250146
+    },
+    {
+      "time_s": 1.876999999999904,
+      "contact": false,
+      "q_um": 9.80510991257582,
+      "qdot_mm_s": 0.6887022977221565,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.877999999999904,
+      "contact": true,
+      "q_um": 10.37304375738005,
+      "qdot_mm_s": 0.5679338448042291,
+      "force_n": 0.0009035548657314652
+    },
+    {
+      "time_s": 1.8929999999999023,
+      "contact": false,
+      "q_um": 18.718680906073036,
+      "qdot_mm_s": 0.402219516916706,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.8939999999999022,
+      "contact": true,
+      "q_um": 18.92544312516532,
+      "qdot_mm_s": 0.20676221909228423,
+      "force_n": 0.0013393685301022469
+    },
+    {
+      "time_s": 1.9069999999999008,
+      "contact": false,
+      "q_um": 21.509444170501126,
+      "qdot_mm_s": 0.03963636382280409,
+      "force_n": 0.0
+    },
+    {
+      "time_s": 1.9079999999999007,
+      "contact": true,
+      "q_um": 21.340734480229774,
+      "qdot_mm_s": -0.16870969027135307,
+      "force_n": 0.0014247013167304407
+    }
+  ],
+  "states_visited": [
+    "FREE_APPROACH",
+    "CONTACT_ACQUIRE",
+    "CONTACT_FOLLOW",
+    "PRESS",
+    "HOLD",
+    "RETURN_FOLLOW",
+    "WITHDRAW"
+  ],
+  "state_transitions": [
+    {
+      "time_s": 0.0,
+      "state": "FREE_APPROACH"
+    },
+    {
+      "time_s": 0.45000000000000034,
+      "state": "CONTACT_ACQUIRE"
+    },
+    {
+      "time_s": 0.48000000000000037,
+      "state": "CONTACT_FOLLOW"
+    },
+    {
+      "time_s": 0.5000000000000003,
+      "state": "PRESS"
+    },
+    {
+      "time_s": 0.9000000000000007,
+      "state": "HOLD"
+    },
+    {
+      "time_s": 1.4099999999999555,
+      "state": "RETURN_FOLLOW"
+    },
+    {
+      "time_s": 1.6799999999999258,
+      "state": "WITHDRAW"
+    }
+  ],
+  "speed_guard_enabled_fallbacks": 0,
+  "legacy_bypass_diagnostic_retries": 13,
+  "max_prediction_slack_m_s": 0.5264504093687847,
+  "actual_speed_violation_m_s": 0,
+  "final_native_contact_pairs": 1,
+  "hold_contact_loss_samples": 0,
+  "runtime_metadata_correction": "C007 onward source uses implicit ten-sample prediction; original summary prose inherited legacy one-step description. This audit corrects descriptive metadata only; archived source, logs and physical histories are preserved."
+}

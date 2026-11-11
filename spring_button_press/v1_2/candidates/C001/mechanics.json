@@ -1,0 +1,900 @@
+{
+  "guides": [
+    {
+      "name": "guide_base_T0",
+      "group": "base",
+      "parent_body": "fixed_base",
+      "tendon": "T0",
+      "routing_site": "tendon_0_point_0",
+      "function": "active guide/anchor",
+      "center_local_m": [
+        0.0,
+        1.285879139104721e-18,
+        0.02099999999999999
+      ],
+      "mass_kg": 2.548459960592039e-05,
+      "com_local_m": [
+        0.0,
+        1.0356508267789398e-18,
+        0.016913461538461533
+      ],
+      "inertia_com_local_kg_m2": [
+        [
+          6.626590915187884e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.489084347218056e-10,
+          -3.8663376355440784e-26
+        ],
+        [
+          0.0,
+          -3.8663376355440784e-26,
+          1.748758125842798e-11
+        ]
+      ],
+      "fixed_to_world": true,
+      "collision_geometry": false,
+      "hole_diameter_m": 0.0014
+    },
+    {
+      "name": "guide_base_T1",
+      "group": "base",
+      "parent_body": "fixed_base",
+      "tendon": "T1",
+      "routing_site": "tendon_1_point_0",
+      "function": "active guide/anchor",
+      "center_local_m": [
+        0.0,
+        -0.005435199947152933,
+        -0.020284442352070442
+      ],
+      "mass_kg": 2.548459960592041e-05,
+      "com_local_m": [
+        0.0,
+        -0.0043775259647628245,
+        -0.016337149311946842
+      ],
+      "inertia_com_local_kg_m2": [
+        [
+          6.626590915187902e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.066112577793867e-10,
+          -1.5785521336584472e-10
+        ],
+        [
+          0.0,
+          -1.5785521336584472e-10,
+          5.978475820084862e-11
+        ]
+      ],
+      "fixed_to_world": true,
+      "collision_geometry": false,
+      "hole_diameter_m": 0.0014
+    },
+    {
+      "name": "guide_base_T2",
+      "group": "base",
+      "parent_body": "fixed_base",
+      "tendon": "T2",
+      "routing_site": "tendon_2_point_0",
+      "function": "active guide/anchor",
+      "center_local_m": [
+        0.0,
+        0.01608693330549854,
+        0.013498539803417337
+      ],
+      "mass_kg": 2.548459960592041e-05,
+      "com_local_m": [
+        0.0,
+        0.012956463225445022,
+        0.010871763513832918
+      ],
+      "inertia_com_local_kg_m2": [
+        [
+          6.626590915187904e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.7837546771771104e-10,
+          -3.1091407595216075e-10
+        ],
+        [
+          0.0,
+          -3.1091407595216075e-10,
+          3.8802054826252443e-10
+        ]
+      ],
+      "fixed_to_world": true,
+      "collision_geometry": false,
+      "hole_diameter_m": 0.0014
+    },
+    {
+      "name": "guide_base_T3",
+      "group": "base",
+      "parent_body": "fixed_base",
+      "tendon": "T3",
+      "routing_site": "tendon_3_point_0",
+      "function": "active guide/anchor",
+      "center_local_m": [
+        0.0,
+        -0.013498539803417328,
+        0.01608693330549854
+      ],
+      "mass_kg": 2.5484599605920405e-05,
+      "com_local_m": [
+        0.0,
+        -0.010871763513832913,
+        0.012956463225445023
+      ],
+      "inertia_com_local_kg_m2": [
+        [
+          6.6265909151879e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.8802054826252433e-10,
+          3.109140759521605e-10
+        ],
+        [
+          0.0,
+          3.109140759521605e-10,
+          2.783754677177107e-10
+        ]
+      ],
+      "fixed_to_world": true,
+      "collision_geometry": false,
+      "hole_diameter_m": 0.0014
+    },
+    {
+      "name": "guide_segment0_mid_T0",
+      "group": "segment0_mid",
+      "parent_body": "segment_0_cell_6",
+      "tendon": "T0",
+      "routing_site": "tendon_0_point_1",
+      "function": "active guide/anchor",
+      "center_local_m": [
+        0.0,
+        -0.00720085395656448,
+        -0.019726826969794945
+      ],
+      "mass_kg": 2.548459960592039e-05,
+      "com_local_m": [
+        0.0,
+        -0.005799588878020569,
+        -0.01588804424902441
+      ],
+      "inertia_com_local_kg_m2": [
+        [
+          6.626590915187883e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.746666613201006e-10,
+          -2.033862409459131e-10
+        ],
+        [
+          0.0,
+          -2.033862409459131e-10,
+          9.172935466013276e-11
+        ]
+      ],
+      "fixed_to_world": false,
+      "collision_geometry": false,
+      "hole_diameter_m": 0.0014
+    },
+    {
+      "name": "guide_segment0_mid_T1",
+      "group": "segment0_mid",
+      "parent_body": "segment_0_cell_6",
+      "tendon": "T1",
+      "routing_site": "tendon_1_point_1",
+      "function": "active guide/anchor",
+      "center_local_m": [
+        0.0,
+        0.012061169327206436,
+        0.01719093349589995
+      ],
+      "mass_kg": 2.5484599605920408e-05,
+      "com_local_m": [
+        0.0,
+        0.009714101120218003,
+        0.013845628213959712
+      ],
+      "inertia_com_local_kg_m2": [
+        [
+          6.626590915187902e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.406228755185455e-10,
+          -2.968719781043763e-10
+        ],
+        [
+          0.0,
+          -2.968719781043763e-10,
+          2.2577314046168974e-10
+        ]
+      ],
+      "fixed_to_world": false,
+      "collision_geometry": false,
+      "hole_diameter_m": 0.0014
+    },
+    {
+      "name": "guide_segment0_mid_T2",
+      "group": "segment0_mid",
+      "parent_body": "segment_0_cell_6",
+      "tendon": "T2",
+      "routing_site": "tendon_2_point_1",
+      "function": "active guide/anchor",
+      "center_local_m": [
+        0.0,
+        -0.019740245883022964,
+        -0.007163985795476937
+      ],
+      "mass_kg": 2.548459960592041e-05,
+      "com_local_m": [
+        0.0,
+        -0.015898851881061073,
+        -0.005769895153042093
+      ],
+      "inertia_com_local_kg_m2": [
+        [
+          6.626590915187904e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          9.097106943613334e-11,
+          -2.0248255180600105e-10
+        ],
+        [
+          0.0,
+          -2.0248255180600105e-10,
+          5.75424946544102e-10
+        ]
+      ],
+      "fixed_to_world": false,
+      "collision_geometry": false,
+      "hole_diameter_m": 0.0014
+    },
+    {
+      "name": "guide_segment0_mid_T3",
+      "group": "segment0_mid",
+      "parent_body": "segment_0_cell_6",
+      "tendon": "T3",
+      "routing_site": "tendon_3_point_1",
+      "function": "active guide/anchor",
+      "center_local_m": [
+        0.0,
+        0.007163985795476929,
+        -0.019740245883022957
+      ],
+      "mass_kg": 2.5484599605920398e-05,
+      "com_local_m": [
+        0.0,
+        0.0057698951530420865,
+        -0.015898851881061073
+      ],
+      "inertia_com_local_kg_m2": [
+        [
+          6.626590915187893e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.754249465441012e-10,
+          2.0248255180600056e-10
+        ],
+        [
+          0.0,
+          2.0248255180600056e-10,
+          9.097106943613308e-11
+        ]
+      ],
+      "fixed_to_world": false,
+      "collision_geometry": false,
+      "hole_diameter_m": 0.0014
+    },
+    {
+      "name": "guide_junction_T0",
+      "group": "junction",
+      "parent_body": "guide_1",
+      "tendon": "T0",
+      "routing_site": "tendon_0_point_2",
+      "function": "active guide/anchor",
+      "center_local_m": [
+        0.0,
+        0.0,
+        0.02099999999999999
+      ],
+      "mass_kg": 2.548459960592039e-05,
+      "com_local_m": [
+        0.0,
+        0.0,
+        0.016913461538461533
+      ],
+      "inertia_com_local_kg_m2": [
+        [
+          6.626590915187884e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.489084347218056e-10,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.748758125842798e-11
+        ]
+      ],
+      "fixed_to_world": false,
+      "collision_geometry": false,
+      "hole_diameter_m": 0.0014
+    },
+    {
+      "name": "guide_junction_T1",
+      "group": "junction",
+      "parent_body": "guide_1",
+      "tendon": "T1",
+      "routing_site": "tendon_1_point_2",
+      "function": "active guide/anchor",
+      "center_local_m": [
+        0.0,
+        -0.005435199947152931,
+        -0.020284442352070442
+      ],
+      "mass_kg": 2.548459960592041e-05,
+      "com_local_m": [
+        0.0,
+        -0.004377525964762822,
+        -0.016337149311946842
+      ],
+      "inertia_com_local_kg_m2": [
+        [
+          6.626590915187902e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.066112577793867e-10,
+          -1.5785521336584462e-10
+        ],
+        [
+          0.0,
+          -1.5785521336584462e-10,
+          5.978475820084858e-11
+        ]
+      ],
+      "fixed_to_world": false,
+      "collision_geometry": false,
+      "hole_diameter_m": 0.0014
+    },
+    {
+      "name": "guide_junction_T2",
+      "group": "junction",
+      "parent_body": "guide_1",
+      "tendon": "T2",
+      "routing_site": "tendon_2_point_2",
+      "function": "active guide/anchor",
+      "center_local_m": [
+        0.0,
+        0.01608693330549854,
+        0.013498539803417337
+      ],
+      "mass_kg": 2.548459960592041e-05,
+      "com_local_m": [
+        0.0,
+        0.012956463225445022,
+        0.010871763513832918
+      ],
+      "inertia_com_local_kg_m2": [
+        [
+          6.626590915187904e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.7837546771771104e-10,
+          -3.1091407595216075e-10
+        ],
+        [
+          0.0,
+          -3.1091407595216075e-10,
+          3.8802054826252443e-10
+        ]
+      ],
+      "fixed_to_world": false,
+      "collision_geometry": false,
+      "hole_diameter_m": 0.0014
+    },
+    {
+      "name": "guide_junction_T3",
+      "group": "junction",
+      "parent_body": "guide_1",
+      "tendon": "T3",
+      "routing_site": "tendon_3_point_2",
+      "function": "active guide/anchor",
+      "center_local_m": [
+        0.0,
+        -0.013498539803417328,
+        0.01608693330549854
+      ],
+      "mass_kg": 2.5484599605920405e-05,
+      "com_local_m": [
+        0.0,
+        -0.010871763513832913,
+        0.012956463225445023
+      ],
+      "inertia_com_local_kg_m2": [
+        [
+          6.6265909151879e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.8802054826252433e-10,
+          3.109140759521605e-10
+        ],
+        [
+          0.0,
+          3.109140759521605e-10,
+          2.783754677177107e-10
+        ]
+      ],
+      "fixed_to_world": false,
+      "collision_geometry": false,
+      "hole_diameter_m": 0.0014
+    },
+    {
+      "name": "guide_segment1_mid_T0",
+      "group": "segment1_mid",
+      "parent_body": "segment_1_cell_6",
+      "tendon": "T0",
+      "routing_site": null,
+      "function": "unused spare eye; tendon terminates at junction",
+      "center_local_m": [
+        0.0,
+        0.0006998703775718221,
+        -0.020988334413540186
+      ],
+      "mass_kg": 2.548459960592035e-05,
+      "com_local_m": [
+        0.0,
+        0.0005636776529985512,
+        -0.016904066040941947
+      ],
+      "inertia_com_local_kg_m2": [
+        [
+          6.626590915187834e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.482071158012102e-10,
+          2.1031774607974933e-11
+        ],
+        [
+          0.0,
+          2.1031774607974933e-11,
+          1.8188900179018104e-11
+        ]
+      ],
+      "fixed_to_world": false,
+      "collision_geometry": false,
+      "hole_diameter_m": 0.0014
+    },
+    {
+      "name": "guide_segment1_mid_T1",
+      "group": "segment1_mid",
+      "parent_body": "segment_1_cell_6",
+      "tendon": "T1",
+      "routing_site": null,
+      "function": "unused spare eye; tendon terminates at junction",
+      "center_local_m": [
+        0.0,
+        0.004756157798453534,
+        0.02045431404364877
+      ],
+      "mass_kg": 2.5484599605920347e-05,
+      "com_local_m": [
+        0.0,
+        0.003830623428333229,
+        0.016473964470136545
+      ],
+      "inertia_com_local_kg_m2": [
+        [
+          6.626590915187832e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.165197850819817e-10,
+          -1.39290502808373e-10
+        ],
+        [
+          0.0,
+          -1.39290502808373e-10,
+          4.987623089824639e-11
+        ]
+      ],
+      "fixed_to_world": false,
+      "collision_geometry": false,
+      "hole_diameter_m": 0.0014
+    },
+    {
+      "name": "guide_segment1_mid_T2",
+      "group": "segment1_mid",
+      "parent_body": "segment_1_cell_6",
+      "tendon": "T2",
+      "routing_site": "tendon_2_point_3",
+      "function": "active guide/anchor",
+      "center_local_m": [
+        0.0,
+        -0.01562812894072548,
+        -0.014027173122623712
+      ],
+      "mass_kg": 2.5484599605920367e-05,
+      "com_local_m": [
+        0.0,
+        -0.012586940845575153,
+        -0.011297526338230368
+      ],
+      "inertia_com_local_kg_m2": [
+        [
+          6.626590915187852e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.9920950516377154e-10,
+          -3.1387554097560333e-10
+        ],
+        [
+          0.0,
+          -3.1387554097560333e-10,
+          3.671865108164588e-10
+        ]
+      ],
+      "fixed_to_world": false,
+      "collision_geometry": false,
+      "hole_diameter_m": 0.0014
+    },
+    {
+      "name": "guide_segment1_mid_T3",
+      "group": "segment1_mid",
+      "parent_body": "segment_1_cell_6",
+      "tendon": "T3",
+      "routing_site": "tendon_3_point_3",
+      "function": "active guide/anchor",
+      "center_local_m": [
+        0.0,
+        0.01402717312262372,
+        -0.015628128940725468
+      ],
+      "mass_kg": 2.5484599605920364e-05,
+      "com_local_m": [
+        0.0,
+        0.011297526338230375,
+        -0.012586940845575142
+      ],
+      "inertia_com_local_kg_m2": [
+        [
+          6.626590915187848e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.671865108164582e-10,
+          3.138755409756032e-10
+        ],
+        [
+          0.0,
+          3.138755409756032e-10,
+          2.992095051637718e-10
+        ]
+      ],
+      "fixed_to_world": false,
+      "collision_geometry": false,
+      "hole_diameter_m": 0.0014
+    },
+    {
+      "name": "guide_segment1_end_T0",
+      "group": "segment1_end",
+      "parent_body": "segment_1_cell_11",
+      "tendon": "T0",
+      "routing_site": null,
+      "function": "unused spare eye; tendon terminates at junction",
+      "center_local_m": [
+        0.010041666666666654,
+        -0.0027917110750685847,
+        -0.02081360971271766
+      ],
+      "mass_kg": 2.54845996059203e-05,
+      "com_local_m": [
+        0.010041666666666654,
+        -0.0022484522806985566,
+        -0.01676334225488572
+      ],
+      "inertia_com_local_kg_m2": [
+        [
+          6.626590915187772e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.377495376845529e-10,
+          -8.319518800914543e-11
+        ],
+        [
+          0.0,
+          -8.319518800914543e-11,
+          2.864647829566938e-11
+        ]
+      ],
+      "fixed_to_world": false,
+      "collision_geometry": false,
+      "hole_diameter_m": 0.0014
+    },
+    {
+      "name": "guide_segment1_end_T1",
+      "group": "segment1_end",
+      "parent_body": "segment_1_cell_11",
+      "tendon": "T1",
+      "routing_site": null,
+      "function": "unused spare eye; tendon terminates at junction",
+      "center_local_m": [
+        0.010041666666666654,
+        0.008083544417928096,
+        0.0193818551651636
+      ],
+      "mass_kg": 2.5484599605920296e-05,
+      "com_local_m": [
+        0.010041666666666652,
+        0.006510510362241549,
+        0.01561020294666796
+      ],
+      "inertia_com_local_kg_m2": [
+        [
+          6.626590915187772e-10,
+          2.8698592549372254e-41,
+          3.4438311059246704e-41
+        ],
+        [
+          2.8698592549372254e-41,
+          5.553497754623358e-10,
+          -2.2432491113576314e-10
+        ],
+        [
+          3.4438311059246704e-41,
+          -2.2432491113576314e-10,
+          1.1104624051788626e-10
+        ]
+      ],
+      "fixed_to_world": false,
+      "collision_geometry": false,
+      "hole_diameter_m": 0.0014
+    },
+    {
+      "name": "guide_segment1_end_T2",
+      "group": "segment1_end",
+      "parent_body": "segment_1_cell_11",
+      "tendon": "T2",
+      "routing_site": "tendon_2_point_4",
+      "function": "active guide/anchor",
+      "center_local_m": [
+        0.010041666666666654,
+        -0.017738627350553354,
+        -0.011240155680336351
+      ],
+      "mass_kg": 2.5484599605920337e-05,
+      "com_local_m": [
+        0.010041666666666654,
+        -0.014286742449461253,
+        -0.00905285432312805
+      ],
+      "inertia_com_local_kg_m2": [
+        [
+          6.626590915187815e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.9838192368828207e-10,
+          -2.854780148463702e-10
+        ],
+        [
+          0.0,
+          -2.854780148463702e-10,
+          4.680140922919445e-10
+        ]
+      ],
+      "fixed_to_world": false,
+      "collision_geometry": false,
+      "hole_diameter_m": 0.0014
+    },
+    {
+      "name": "guide_segment1_end_T3",
+      "group": "segment1_end",
+      "parent_body": "segment_1_cell_11",
+      "tendon": "T3",
+      "routing_site": "tendon_3_point_4",
+      "function": "active guide/anchor",
+      "center_local_m": [
+        0.010041666666666654,
+        0.011240155680336344,
+        -0.017738627350553357
+      ],
+      "mass_kg": 2.548459960592033e-05,
+      "com_local_m": [
+        0.010041666666666654,
+        0.009052854323128044,
+        -0.014286742449461256
+      ],
+      "inertia_com_local_kg_m2": [
+        [
+          6.626590915187813e-10,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.680140922919445e-10,
+          2.8547801484637005e-10
+        ],
+        [
+          0.0,
+          2.8547801484637005e-10,
+          1.9838192368828178e-10
+        ]
+      ],
+      "fixed_to_world": false,
+      "collision_geometry": false,
+      "hole_diameter_m": 0.0014
+    }
+  ],
+  "added_guide_mass_kg": 0.0005096919921184076,
+  "added_moving_guide_mass_kg": 0.00040775359369472593,
+  "original_flexible_mass_kg": 0.09500658005697206,
+  "original_rigid_mass_excluding_tool_kg": 0.005000000000000124,
+  "tool_mass_kg": 0.01,
+  "total_structure_mass_kg": 0.11051627204909059,
+  "request": {
+    "control_weights": {},
+    "family_space_identity": "df303f6330b508bd0223ad025747a0ed7b653494baa8cf903d1a06dc2211b8da",
+    "route_overrides": {},
+    "segment_count": 2,
+    "segments": {
+      "0": {
+        "cells": 12,
+        "length_m": 0.149,
+        "young_pa": 8000000.0,
+        "sections": [
+          {
+            "kind": "ellipse",
+            "parameters": {
+              "semi_y_m": 0.011685,
+              "semi_z_m": 0.01064
+            },
+            "outer_yz_m": [],
+            "holes_yz_m": [],
+            "angle_rad": 0.35
+          }
+        ]
+      },
+      "1": {
+        "cells": 12,
+        "length_m": 0.1205,
+        "young_pa": 8000000.0,
+        "sections": [
+          {
+            "kind": "rectangle",
+            "parameters": {
+              "height_z_m": 0.015674999999999998,
+              "width_y_m": 0.017689
+            },
+            "outer_yz_m": [],
+            "holes_yz_m": [],
+            "angle_rad": -0.25
+          },
+          {
+            "kind": "rectangle",
+            "parameters": {
+              "height_z_m": 0.014107499999999997,
+              "width_y_m": 0.015162000000000002
+            },
+            "outer_yz_m": [],
+            "holes_yz_m": [],
+            "angle_rad": 0.15000000000000002
+          }
+        ]
+      }
+    },
+    "spans": [
+      {
+        "count": 2,
+        "last_segment": 0,
+        "phase_rad": 1.5707963267948966,
+        "angular_offsets_rad": [
+          0.0,
+          -0.2617993877991493
+        ],
+        "radius_m": 0.021
+      },
+      {
+        "count": 2,
+        "last_segment": 1,
+        "phase_rad": 0.6981317007977318,
+        "angular_offsets_rad": [
+          0.0,
+          -1.5707963267948966
+        ],
+        "radius_m": 0.021
+      }
+    ],
+    "strategy": "polar_consecutive_spans_v1",
+    "tendon_count": 4,
+    "tendon_parameters": {},
+    "version": "serial_family_generation_v2"
+  },
+  "candidate": {
+    "id": "S4",
+    "seed": "B5",
+    "lengths_m": [
+      0.149,
+      0.1205
+    ],
+    "young_pa": [
+      8000000.0,
+      8000000.0
+    ],
+    "section_yz_scale": [
+      [
+        1.23,
+        1.4
+      ],
+      [
+        1.33,
+        1.65
+      ]
+    ],
+    "span_radii_m": [
+      0.021,
+      0.021
+    ],
+    "phase_rotation_rad": [
+      0,
+      -0.08726646259971647
+    ],
+    "short_pair_offset_delta_rad": 0.2617993877991494
+  },
+  "guide_model": "real open-hole mesh; explicit mass/inertia; no collision/friction on guide meshes; routing enforced by ideal spatial tendon sites"
+}

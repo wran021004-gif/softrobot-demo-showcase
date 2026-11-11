@@ -1,0 +1,110 @@
+{
+  "label": "Codex-assisted engineering design; not Main autonomous Study",
+  "candidate": "C009",
+  "status": "PASS",
+  "full_data_states": 2001,
+  "native_pose_pixels": [
+    2400,
+    1800
+  ],
+  "png_dpi": 600,
+  "palette": "ColorBrewer Dark2 three-class + gray; distinct line styles",
+  "independent_figures": [
+    {
+      "stem": "initial_technical",
+      "title": "initial technical at 0.000 s"
+    },
+    {
+      "stem": "initial_presentation",
+      "title": "initial presentation at 0.000 s"
+    },
+    {
+      "stem": "base_guides",
+      "title": "base guides at 0.000 s"
+    },
+    {
+      "stem": "midpoint_guides",
+      "title": "midpoint guides at 1.200 s"
+    },
+    {
+      "stem": "junction_guides",
+      "title": "junction guides at 1.200 s"
+    },
+    {
+      "stem": "distal_guides",
+      "title": "distal guides at 1.200 s"
+    },
+    {
+      "stem": "contact",
+      "title": "contact at 0.426 s"
+    },
+    {
+      "stem": "maximum_press",
+      "title": "maximum press at 0.902 s"
+    },
+    {
+      "stem": "hold_technical",
+      "title": "hold technical at 1.200 s"
+    },
+    {
+      "stem": "hold_presentation",
+      "title": "hold presentation at 1.200 s"
+    },
+    {
+      "stem": "hold_close",
+      "title": "hold close at 1.200 s"
+    },
+    {
+      "stem": "release",
+      "title": "release at 1.600 s"
+    },
+    {
+      "stem": "final_button_return",
+      "title": "final button return at 2.000 s"
+    },
+    {
+      "stem": "button_travel",
+      "title": "Actual button slide travel"
+    },
+    {
+      "stem": "contact_force",
+      "title": "True native contact force"
+    },
+    {
+      "stem": "lateral_error",
+      "title": "Lateral alignment"
+    },
+    {
+      "stem": "tendon_tensions",
+      "title": "Actual four-channel tension"
+    },
+    {
+      "stem": "rope_speed",
+      "title": "All 1 ms analytical tendon velocities, no smoothing"
+    },
+    {
+      "stem": "rope_speed_T0",
+      "title": "T0 actual 1 ms tendon velocity"
+    },
+    {
+      "stem": "rope_speed_T1",
+      "title": "T1 actual 1 ms tendon velocity"
+    },
+    {
+      "stem": "rope_speed_T2",
+      "title": "T2 actual 1 ms tendon velocity"
+    },
+    {
+      "stem": "rope_speed_T3",
+      "title": "T3 actual 1 ms tendon velocity"
+    },
+    {
+      "stem": "lower_stop",
+      "title": "Lower-stop excursions; intentionally restricted Y view"
+    },
+    {
+      "stem": "probe_speed",
+      "title": "Probe speed and frozen release endpoints"
+    }
+  ]
+}

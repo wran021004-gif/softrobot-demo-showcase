@@ -1,0 +1,72 @@
+{
+  "selected_candidate": "C009",
+  "independent_replay": "FINAL_C009",
+  "status": "PASS",
+  "strict_evaluator_ranking_leader": "C007",
+  "selection_reason": "C009 also completes actual WITHDRAW and has zero endpoint contact force; C007 has a better qmin but retains light contact. Both remain original evaluator PASS.",
+  "desired_margins_met": true,
+  "structure": "unchanged v1.1 S4",
+  "metrics": {
+    "max_hold_contact_force_error_n": 0.00250446740992695,
+    "max_hold_depth_error_m": 5.3202480439832906e-05,
+    "hold_valid_continuous_s": 0.4999999999999559,
+    "hold_valid_total_s": 0.501,
+    "hold_depth_min_max_m": [
+      0.0020375302419012617,
+      0.002053202480439833
+    ],
+    "hold_contact_force_min_max_n": [
+      0.1019498193045452,
+      0.10250446740992696
+    ],
+    "hold_lateral_error_max_m": 0.00028938931970918385,
+    "button_peak_m": 0.002053202480439833,
+    "first_contact_s": 0.4260000000000003,
+    "max_tension_n": 4.405625582939277,
+    "max_rope_speed_m_s": 0.014990758755731245,
+    "max_stroke_m": 0.003286464803973266,
+    "structure_mass_kg": 0.11051627204909059,
+    "total_tendon_length_variation_m": 0.0144369161937411,
+    "release_at_1p8_and_2p0": [
+      {
+        "time_s": 1.7999999999999126,
+        "button_residual_m": 8.641906619054322e-10,
+        "contact_force_n": 0.0,
+        "tip_speed_m_s": 0.0011143020741957344
+      },
+      {
+        "time_s": 1.9999999999998905,
+        "button_residual_m": -2.999098258914986e-16,
+        "contact_force_n": 0.0,
+        "tip_speed_m_s": 0.0009150813511594408
+      }
+    ],
+    "hold_contact_minus_spring_damping_max_n": 0.00016998437682216026,
+    "hold_button_dynamic_balance_residual_max_n": 5.979781557072239e-16,
+    "unexpected_contact_steps": 0
+  },
+  "diagnostics": {
+    "peak_rope_time_s": 0.01800000000000001,
+    "peak_rope_tendon": "T3",
+    "peak_rope_signed_mm_s": -14.990758755731244,
+    "minimum_button_um": -0.24510243316952696,
+    "minimum_button_time_s": 1.6989999999999237,
+    "max_actual_tension_rate_n_s": 200.00000000000017,
+    "fallback_updates": 0
+  },
+  "replay_check": {
+    "source": "C009",
+    "mode": "independent archived-controller closed-loop",
+    "initial_state": "zero qpos/qvel, 0.20 N tension, native contact",
+    "max_absolute_differences": {
+      "qpos": 0.0,
+      "qvel": 0.0,
+      "control_n": 0.0,
+      "tendon_speed_m_s": 0.0,
+      "button_q_m": 0.0,
+      "contact_force_n": 0.0
+    },
+    "status": "PASS",
+    "identical": true
+  }
+}

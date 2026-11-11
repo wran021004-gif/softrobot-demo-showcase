@@ -1,0 +1,10 @@
+{
+  "control_candidates": 9,
+  "structure_candidates": 0,
+  "final_replays": 1,
+  "full_evaluations": 10,
+  "physics_steps": 20000,
+  "provider_calls": 0,
+  "main_calls": 0,
+  "reporter_calls": 0
+}

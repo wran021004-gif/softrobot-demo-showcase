@@ -1,0 +1,621 @@
+{
+  "evaluations": [
+    {
+      "candidate": "C001",
+      "status": "PASS",
+      "failed_checks": [],
+      "score": [
+        0,
+        0,
+        0.0,
+        -0.010009241040020085,
+        -3.9433682587692563e-07,
+        0.38059232452407954,
+        4.405625434944289,
+        0.11051627204909059,
+        0.013292751010358067
+      ],
+      "decision": "Faster support ramp (20 ms, 200 N/s), linear interpolation, event acquisition and return gate. PASS, but no withdrawal gate reached.",
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.0027803631036394383,
+        "max_hold_depth_error_m": 6.039354233552691e-05,
+        "hold_valid_continuous_s": 0.4999999999999559,
+        "hold_valid_total_s": 0.501,
+        "hold_depth_min_max_m": [
+          0.0020350658574173975,
+          0.002060393542335527
+        ],
+        "hold_contact_force_min_max_n": [
+          0.10186672430460053,
+          0.10278036310363944
+        ],
+        "hold_lateral_error_max_m": 0.0003249949964417322,
+        "button_peak_m": 0.002060393542335527,
+        "first_contact_s": 0.44300000000000034,
+        "max_tension_n": 4.405625434944289,
+        "max_rope_speed_m_s": 0.014990758959979917,
+        "max_stroke_m": 0.003288506870319119,
+        "structure_mass_kg": 0.11051627204909059,
+        "total_tendon_length_variation_m": 0.013292751010358067,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": 1.8390457656880978e-05,
+            "contact_force_n": 0.0009205233056533609,
+            "tip_speed_m_s": 0.003379427146117629
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": 2.933008229249861e-05,
+            "contact_force_n": 0.0015091349549485168,
+            "tip_speed_m_s": 0.0008220544477498846
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.00025256489881731543,
+        "hold_button_dynamic_balance_residual_max_n": 1.0676545368279444e-15,
+        "unexpected_contact_steps": 0
+      },
+      "diagnostics": {
+        "peak_rope_time_s": 0.01800000000000001,
+        "peak_rope_tendon": "T3",
+        "peak_rope_signed_mm_s": -14.990758959979917,
+        "minimum_button_um": -0.6056631741230744,
+        "minimum_button_time_s": 1.6659999999999273,
+        "max_actual_tension_rate_n_s": 200.00000000000017,
+        "fallback_updates": 13
+      },
+      "complete_withdrawal": false
+    },
+    {
+      "candidate": "C002",
+      "status": "FAIL",
+      "failed_checks": [
+        "release"
+      ],
+      "score": [
+        1,
+        1,
+        3.4726620663016723,
+        -0.010009241040020085,
+        -3.9433682587692563e-07,
+        0.38059232452407954,
+        4.405625434944289,
+        0.11051627204909059,
+        0.017312062357469626
+      ],
+      "decision": "Relax low-force gate from 1 to 2 mN. Full 5 mm withdrawal excites endpoint speed: release FAIL.",
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.0027803631036394383,
+        "max_hold_depth_error_m": 6.039354233552691e-05,
+        "hold_valid_continuous_s": 0.4999999999999559,
+        "hold_valid_total_s": 0.501,
+        "hold_depth_min_max_m": [
+          0.0020350658574173975,
+          0.002060393542335527
+        ],
+        "hold_contact_force_min_max_n": [
+          0.10186672430460053,
+          0.10278036310363944
+        ],
+        "hold_lateral_error_max_m": 0.0003249949964417322,
+        "button_peak_m": 0.002060393542335527,
+        "first_contact_s": 0.44300000000000034,
+        "max_tension_n": 4.405625434944289,
+        "max_rope_speed_m_s": 0.014990758959979917,
+        "max_stroke_m": 0.0032836057500606475,
+        "structure_mass_kg": 0.11051627204909059,
+        "total_tendon_length_variation_m": 0.017312062357469626,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": 1.3779102103796843e-09,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.04472662066301672
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": 2.5131088067066175e-15,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.018738386259090117
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.00025256489881731543,
+        "hold_button_dynamic_balance_residual_max_n": 1.0676545368279444e-15,
+        "unexpected_contact_steps": 0
+      },
+      "diagnostics": {
+        "peak_rope_time_s": 0.01800000000000001,
+        "peak_rope_tendon": "T3",
+        "peak_rope_signed_mm_s": -14.990758959979917,
+        "minimum_button_um": -0.6056631741230744,
+        "minimum_button_time_s": 1.6659999999999273,
+        "max_actual_tension_rate_n_s": 200.00000000000017,
+        "fallback_updates": 13
+      },
+      "complete_withdrawal": true
+    },
+    {
+      "candidate": "C003",
+      "status": "FAIL",
+      "failed_checks": [
+        "button_travel"
+      ],
+      "score": [
+        1,
+        1,
+        0.3107949514390956,
+        -0.010009241040020085,
+        3.107949514390956e-07,
+        0.38059232452407954,
+        4.405625434944289,
+        0.11051627204909059,
+        0.013277715534943446
+      ],
+      "decision": "Try slower 290 ms return and 0.5 mm withdrawal. Return phase changes recoil unfavorably: lower travel FAIL; gate not reached.",
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.0027803631036394383,
+        "max_hold_depth_error_m": 6.039354233552691e-05,
+        "hold_valid_continuous_s": 0.4999999999999559,
+        "hold_valid_total_s": 0.501,
+        "hold_depth_min_max_m": [
+          0.0020350658574173975,
+          0.002060393542335527
+        ],
+        "hold_contact_force_min_max_n": [
+          0.10186672430460053,
+          0.10278036310363944
+        ],
+        "hold_lateral_error_max_m": 0.0003249949964417322,
+        "button_peak_m": 0.002060393542335527,
+        "first_contact_s": 0.44300000000000034,
+        "max_tension_n": 4.405625434944289,
+        "max_rope_speed_m_s": 0.014990758959979917,
+        "max_stroke_m": 0.0032888107909463393,
+        "structure_mass_kg": 0.11051627204909059,
+        "total_tendon_length_variation_m": 0.013277715534943446,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": 2.9971748641847694e-05,
+            "contact_force_n": 0.0012952001635568242,
+            "tip_speed_m_s": 0.003887562666684092
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": 2.611242491783153e-05,
+            "contact_force_n": 0.0013868933140999346,
+            "tip_speed_m_s": 0.0007552984163674957
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.00025256489881731543,
+        "hold_button_dynamic_balance_residual_max_n": 1.0676545368279444e-15,
+        "unexpected_contact_steps": 0
+      },
+      "diagnostics": {
+        "peak_rope_time_s": 0.01800000000000001,
+        "peak_rope_tendon": "T3",
+        "peak_rope_signed_mm_s": -14.990758959979917,
+        "minimum_button_um": -1.3107949514390955,
+        "minimum_button_time_s": 1.6829999999999254,
+        "max_actual_tension_rate_n_s": 200.00000000000017,
+        "fallback_updates": 13
+      },
+      "complete_withdrawal": false
+    },
+    {
+      "candidate": "C004",
+      "status": "FAIL",
+      "failed_checks": [
+        "release"
+      ],
+      "score": [
+        1,
+        1,
+        0.4095760762318461,
+        -0.010009241040020085,
+        -1.5319318904751446e-07,
+        0.38059232452407954,
+        4.405625434944289,
+        0.11051627204909059,
+        0.014233756597126446
+      ],
+      "decision": "Restore 270 ms return, 0.5 mm withdrawal. Lower bound passes, 1.8 s probe speed fails.",
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.0027803631036394383,
+        "max_hold_depth_error_m": 6.039354233552691e-05,
+        "hold_valid_continuous_s": 0.4999999999999559,
+        "hold_valid_total_s": 0.501,
+        "hold_depth_min_max_m": [
+          0.0020350658574173975,
+          0.002060393542335527
+        ],
+        "hold_contact_force_min_max_n": [
+          0.10186672430460053,
+          0.10278036310363944
+        ],
+        "hold_lateral_error_max_m": 0.0003249949964417322,
+        "button_peak_m": 0.002060393542335527,
+        "first_contact_s": 0.44300000000000034,
+        "max_tension_n": 4.405625434944289,
+        "max_rope_speed_m_s": 0.014990758959979917,
+        "max_stroke_m": 0.0032836057500606475,
+        "structure_mass_kg": 0.11051627204909059,
+        "total_tendon_length_variation_m": 0.014233756597126446,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": 3.5012038787187093e-08,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.014095760762318462
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": 1.2647934138977585e-16,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.001848470803003057
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.00025256489881731543,
+        "hold_button_dynamic_balance_residual_max_n": 1.0676545368279444e-15,
+        "unexpected_contact_steps": 0
+      },
+      "diagnostics": {
+        "peak_rope_time_s": 0.01800000000000001,
+        "peak_rope_tendon": "T3",
+        "peak_rope_signed_mm_s": -14.990758959979917,
+        "minimum_button_um": -0.8468068109524854,
+        "minimum_button_time_s": 1.7339999999999198,
+        "max_actual_tension_rate_n_s": 200.00000000000017,
+        "fallback_updates": 13
+      },
+      "complete_withdrawal": true
+    },
+    {
+      "candidate": "C005",
+      "status": "FAIL",
+      "failed_checks": [
+        "button_travel"
+      ],
+      "score": [
+        1,
+        1,
+        0.016132024077748157,
+        -0.010009241040020085,
+        1.6132024077748158e-08,
+        0.38059232452407954,
+        4.405625434944289,
+        0.11051627204909059,
+        0.013636229096441937
+      ],
+      "decision": "Reduce withdrawal to 0.2 mm. Endpoint speed passes, lower travel misses by 0.0161 um.",
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.0027803631036394383,
+        "max_hold_depth_error_m": 6.039354233552691e-05,
+        "hold_valid_continuous_s": 0.4999999999999559,
+        "hold_valid_total_s": 0.501,
+        "hold_depth_min_max_m": [
+          0.0020350658574173975,
+          0.002060393542335527
+        ],
+        "hold_contact_force_min_max_n": [
+          0.10186672430460053,
+          0.10278036310363944
+        ],
+        "hold_lateral_error_max_m": 0.0003249949964417322,
+        "button_peak_m": 0.002060393542335527,
+        "first_contact_s": 0.44300000000000034,
+        "max_tension_n": 4.405625434944289,
+        "max_rope_speed_m_s": 0.014990758959979917,
+        "max_stroke_m": 0.0032836057500606475,
+        "structure_mass_kg": 0.11051627204909059,
+        "total_tendon_length_variation_m": 0.013636229096441937,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": 1.0383386803516039e-07,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.0074175899285783475
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": 6.287244073576016e-13,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.001177115258457339
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.00025256489881731543,
+        "hold_button_dynamic_balance_residual_max_n": 1.0676545368279444e-15,
+        "unexpected_contact_steps": 0
+      },
+      "diagnostics": {
+        "peak_rope_time_s": 0.01800000000000001,
+        "peak_rope_tendon": "T3",
+        "peak_rope_signed_mm_s": -14.990758959979917,
+        "minimum_button_um": -1.016132024077748,
+        "minimum_button_time_s": 1.7609999999999169,
+        "max_actual_tension_rate_n_s": 200.00000000000017,
+        "fallback_updates": 13
+      },
+      "complete_withdrawal": true
+    },
+    {
+      "candidate": "C006",
+      "status": "PASS",
+      "failed_checks": [],
+      "score": [
+        0,
+        0,
+        0.0,
+        -0.010009241040020085,
+        -3.9433682587692563e-07,
+        0.38059232452407954,
+        4.405625434944289,
+        0.11051627204909059,
+        0.013298540289983563
+      ],
+      "decision": "Keep contact inverse node through withdrawal to avoid changing antagonist self-stress. PASS; late light recontact remains.",
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.0027803631036394383,
+        "max_hold_depth_error_m": 6.039354233552691e-05,
+        "hold_valid_continuous_s": 0.4999999999999559,
+        "hold_valid_total_s": 0.501,
+        "hold_depth_min_max_m": [
+          0.0020350658574173975,
+          0.002060393542335527
+        ],
+        "hold_contact_force_min_max_n": [
+          0.10186672430460053,
+          0.10278036310363944
+        ],
+        "hold_lateral_error_max_m": 0.0003249949964417322,
+        "button_peak_m": 0.002060393542335527,
+        "first_contact_s": 0.44300000000000034,
+        "max_tension_n": 4.405625434944289,
+        "max_rope_speed_m_s": 0.014990758959979917,
+        "max_stroke_m": 0.0032836057500606475,
+        "structure_mass_kg": 0.11051627204909059,
+        "total_tendon_length_variation_m": 0.013298540289983563,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": 3.561668768340689e-07,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.003304738561822499
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": 4.860669005126673e-06,
+            "contact_force_n": 0.00032574940843552375,
+            "tip_speed_m_s": 0.0008184581860075215
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.00025256489881731543,
+        "hold_button_dynamic_balance_residual_max_n": 1.0676545368279444e-15,
+        "unexpected_contact_steps": 0
+      },
+      "diagnostics": {
+        "peak_rope_time_s": 0.01800000000000001,
+        "peak_rope_tendon": "T3",
+        "peak_rope_signed_mm_s": -14.990758959979917,
+        "minimum_button_um": -0.6056631741230744,
+        "minimum_button_time_s": 1.6659999999999273,
+        "max_actual_tension_rate_n_s": 200.00000000000017,
+        "fallback_updates": 13
+      },
+      "complete_withdrawal": false
+    },
+    {
+      "candidate": "C007",
+      "status": "PASS",
+      "failed_checks": [],
+      "score": [
+        0,
+        0,
+        0.0,
+        -0.010009241244268757,
+        -1e-06,
+        0.33803329225567913,
+        4.405625582939277,
+        0.11051627204909059,
+        0.014413027354752805
+      ],
+      "decision": "Implicit damping/stiffness ten-sample prediction, guard from t=0, elastic infeasibility penalty; 0.5 mm withdrawal. PASS, zero fallback and no negative q, but gate not reached.",
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.00250446740992695,
+        "max_hold_depth_error_m": 5.3202480439832906e-05,
+        "hold_valid_continuous_s": 0.4999999999999559,
+        "hold_valid_total_s": 0.501,
+        "hold_depth_min_max_m": [
+          0.0020375302419012617,
+          0.002053202480439833
+        ],
+        "hold_contact_force_min_max_n": [
+          0.1019498193045452,
+          0.10250446740992696
+        ],
+        "hold_lateral_error_max_m": 0.00028938931970918385,
+        "button_peak_m": 0.002053202480439833,
+        "first_contact_s": 0.4260000000000003,
+        "max_tension_n": 4.405625582939277,
+        "max_rope_speed_m_s": 0.014990758755731245,
+        "max_stroke_m": 0.0032904706510328285,
+        "structure_mass_kg": 0.11051627204909059,
+        "total_tendon_length_variation_m": 0.014413027354752805,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": 1.313448045666498e-05,
+            "contact_force_n": 0.000811545179553136,
+            "tip_speed_m_s": 0.0005194799494948149
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": 3.121231783928691e-05,
+            "contact_force_n": 0.0015676177535856898,
+            "tip_speed_m_s": 0.0008632955590096765
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.00016998437682216026,
+        "hold_button_dynamic_balance_residual_max_n": 5.979781557072239e-16,
+        "unexpected_contact_steps": 0
+      },
+      "diagnostics": {
+        "peak_rope_time_s": 0.01800000000000001,
+        "peak_rope_tendon": "T3",
+        "peak_rope_signed_mm_s": -14.990758755731244,
+        "minimum_button_um": 0.0,
+        "minimum_button_time_s": 0.0,
+        "max_actual_tension_rate_n_s": 200.00000000000017,
+        "fallback_updates": 0
+      },
+      "complete_withdrawal": false
+    },
+    {
+      "candidate": "C008",
+      "status": "FAIL",
+      "failed_checks": [
+        "button_travel"
+      ],
+      "score": [
+        1,
+        1,
+        0.4796325432825694,
+        -0.010009241244268757,
+        4.796325432825694e-07,
+        0.33803329225567913,
+        4.405625582939277,
+        0.11051627204909059,
+        0.014429049552314138
+      ],
+      "decision": "Gate at q<=3 um, |qdot|<=0.4 mm/s, Fn<2 mN, after return. Withdrawal occurs but later rebound reaches -1.480 um.",
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.00250446740992695,
+        "max_hold_depth_error_m": 5.3202480439832906e-05,
+        "hold_valid_continuous_s": 0.4999999999999559,
+        "hold_valid_total_s": 0.501,
+        "hold_depth_min_max_m": [
+          0.0020375302419012617,
+          0.002053202480439833
+        ],
+        "hold_contact_force_min_max_n": [
+          0.1019498193045452,
+          0.10250446740992696
+        ],
+        "hold_lateral_error_max_m": 0.00028938931970918385,
+        "button_peak_m": 0.002053202480439833,
+        "first_contact_s": 0.4260000000000003,
+        "max_tension_n": 4.405625582939277,
+        "max_rope_speed_m_s": 0.014990758755731245,
+        "max_stroke_m": 0.003286464803973266,
+        "structure_mass_kg": 0.11051627204909059,
+        "total_tendon_length_variation_m": 0.014429049552314138,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": 9.975054840324129e-08,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.0018091352934487364
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": -8.341884715911814e-15,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.0012239858152596832
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.00016998437682216026,
+        "hold_button_dynamic_balance_residual_max_n": 5.979781557072239e-16,
+        "unexpected_contact_steps": 0
+      },
+      "diagnostics": {
+        "peak_rope_time_s": 0.01800000000000001,
+        "peak_rope_tendon": "T3",
+        "peak_rope_signed_mm_s": -14.990758755731244,
+        "minimum_button_um": -1.4796325432825694,
+        "minimum_button_time_s": 1.7369999999999195,
+        "max_actual_tension_rate_n_s": 200.00000000000017,
+        "fallback_updates": 0
+      },
+      "complete_withdrawal": true
+    },
+    {
+      "candidate": "C009",
+      "status": "PASS",
+      "failed_checks": [],
+      "score": [
+        0,
+        0,
+        0.0,
+        -0.010009241244268757,
+        -7.548975668304731e-07,
+        0.33803329225567913,
+        4.405625582939277,
+        0.11051627204909059,
+        0.0144369161937411
+      ],
+      "decision": "Replace slow initial quintic retreat with a 0.5 mm exponential retreat (60 ms); retain continuous 10 ms tension interpolation. Full PASS, complete separation, desired speed/q/tension margins.",
+      "metrics": {
+        "max_hold_contact_force_error_n": 0.00250446740992695,
+        "max_hold_depth_error_m": 5.3202480439832906e-05,
+        "hold_valid_continuous_s": 0.4999999999999559,
+        "hold_valid_total_s": 0.501,
+        "hold_depth_min_max_m": [
+          0.0020375302419012617,
+          0.002053202480439833
+        ],
+        "hold_contact_force_min_max_n": [
+          0.1019498193045452,
+          0.10250446740992696
+        ],
+        "hold_lateral_error_max_m": 0.00028938931970918385,
+        "button_peak_m": 0.002053202480439833,
+        "first_contact_s": 0.4260000000000003,
+        "max_tension_n": 4.405625582939277,
+        "max_rope_speed_m_s": 0.014990758755731245,
+        "max_stroke_m": 0.003286464803973266,
+        "structure_mass_kg": 0.11051627204909059,
+        "total_tendon_length_variation_m": 0.0144369161937411,
+        "release_at_1p8_and_2p0": [
+          {
+            "time_s": 1.7999999999999126,
+            "button_residual_m": 8.641906619054322e-10,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.0011143020741957344
+          },
+          {
+            "time_s": 1.9999999999998905,
+            "button_residual_m": -2.999098258914986e-16,
+            "contact_force_n": 0.0,
+            "tip_speed_m_s": 0.0009150813511594408
+          }
+        ],
+        "hold_contact_minus_spring_damping_max_n": 0.00016998437682216026,
+        "hold_button_dynamic_balance_residual_max_n": 5.979781557072239e-16,
+        "unexpected_contact_steps": 0
+      },
+      "diagnostics": {
+        "peak_rope_time_s": 0.01800000000000001,
+        "peak_rope_tendon": "T3",
+        "peak_rope_signed_mm_s": -14.990758755731244,
+        "minimum_button_um": -0.24510243316952696,
+        "minimum_button_time_s": 1.6989999999999237,
+        "max_actual_tension_rate_n_s": 200.00000000000017,
+        "fallback_updates": 0
+      },
+      "complete_withdrawal": true
+    }
+  ],
+  "strict_original_evaluator_ranking": [
+    "C007",
+    "C009",
+    "C001",
+    "C006",
+    "C005",
+    "C003",
+    "C004",
+    "C008",
+    "C002"
+  ],
+  "selection": "C009",
+  "selection_note": "Strict ranking leads with C007 (qmin=0) but it never leaves RETURN_FOLLOW and remains in native contact at 2 s. Select C009 to satisfy the explicitly requested complete follow-then-withdraw behavior as well as every unchanged evaluator check. The additional behavior is reported separately, never hidden in or substituted for the original evaluator."
+}

@@ -1,0 +1,19 @@
+{
+  "candidate_archives_complete": true,
+  "states_per_full_run": 2001,
+  "feedback_updates_per_run": 200,
+  "full_integrations_including_replay": 10,
+  "physical_steps": 20000,
+  "independent_closed_loop_exact_match": true,
+  "final_original_evaluator_all_checks": true,
+  "actual_model_timestep_s": 0.001,
+  "button_mass_kg": 0.005,
+  "button_stiffness_n_m": 50.0,
+  "button_damping_n_s_m": 0.2,
+  "guide_eyes": 20,
+  "active_eyes": 16,
+  "max_saved_pose_routing_error_m": 9.819209125020507e-17,
+  "plots": "24 separate PNG/SVG, all PNG >=600 dpi, 13 native pose images 2400x1800",
+  "gifs": "two independent 62-frame full 0-2 s saved-state replays",
+  "new_physics_in_this_audit": 0
+}

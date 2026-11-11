@@ -1,0 +1,358 @@
+[
+  {
+    "tendon": "T0",
+    "root_angle_deg": 90.0,
+    "radius_m": 0.021,
+    "design_points": [
+      {
+        "attachment": {
+          "part": "fixed_base",
+          "s": 0.0,
+          "position_m": [
+            0.0,
+            1.285879139104721e-18,
+            0.021
+          ],
+          "quaternion_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "hole": null,
+        "role": "start"
+      },
+      {
+        "attachment": {
+          "part": "segment_0",
+          "s": 0.5,
+          "position_m": [
+            0.0,
+            1.285879139104721e-18,
+            0.021
+          ],
+          "quaternion_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "hole": null,
+        "role": "guide"
+      },
+      {
+        "attachment": {
+          "part": "segment_0",
+          "s": 1.0,
+          "position_m": [
+            0.0,
+            1.285879139104721e-18,
+            0.021
+          ],
+          "quaternion_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "hole": null,
+        "role": "anchor"
+      }
+    ],
+    "actual_mujoco_site_sequence": [
+      "tendon_0_point_0",
+      "tendon_0_point_1",
+      "tendon_0_point_2"
+    ]
+  },
+  {
+    "tendon": "T1",
+    "root_angle_deg": 255.0,
+    "radius_m": 0.021,
+    "design_points": [
+      {
+        "attachment": {
+          "part": "fixed_base",
+          "s": 0.0,
+          "position_m": [
+            0.0,
+            -0.005435199947152933,
+            -0.020284442352070435
+          ],
+          "quaternion_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "hole": null,
+        "role": "start"
+      },
+      {
+        "attachment": {
+          "part": "segment_0",
+          "s": 0.5,
+          "position_m": [
+            0.0,
+            -0.005435199947152933,
+            -0.020284442352070435
+          ],
+          "quaternion_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "hole": null,
+        "role": "guide"
+      },
+      {
+        "attachment": {
+          "part": "segment_0",
+          "s": 1.0,
+          "position_m": [
+            0.0,
+            -0.005435199947152933,
+            -0.020284442352070435
+          ],
+          "quaternion_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "hole": null,
+        "role": "anchor"
+      }
+    ],
+    "actual_mujoco_site_sequence": [
+      "tendon_1_point_0",
+      "tendon_1_point_1",
+      "tendon_1_point_2"
+    ]
+  },
+  {
+    "tendon": "T2",
+    "root_angle_deg": 39.99999999999999,
+    "radius_m": 0.021,
+    "design_points": [
+      {
+        "attachment": {
+          "part": "fixed_base",
+          "s": 0.0,
+          "position_m": [
+            0.0,
+            0.01608693330549854,
+            0.013498539803417324
+          ],
+          "quaternion_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "hole": null,
+        "role": "start"
+      },
+      {
+        "attachment": {
+          "part": "segment_0",
+          "s": 0.5,
+          "position_m": [
+            0.0,
+            0.01608693330549854,
+            0.013498539803417324
+          ],
+          "quaternion_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "hole": null,
+        "role": "guide"
+      },
+      {
+        "attachment": {
+          "part": "guide_1",
+          "s": 0.0,
+          "position_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "quaternion_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "hole": "tendon_2_hole",
+        "role": "guide"
+      },
+      {
+        "attachment": {
+          "part": "segment_1",
+          "s": 0.5,
+          "position_m": [
+            0.0,
+            0.01608693330549854,
+            0.013498539803417324
+          ],
+          "quaternion_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "hole": null,
+        "role": "guide"
+      },
+      {
+        "attachment": {
+          "part": "segment_1",
+          "s": 1.0,
+          "position_m": [
+            0.0,
+            0.01608693330549854,
+            0.013498539803417324
+          ],
+          "quaternion_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "hole": null,
+        "role": "anchor"
+      }
+    ],
+    "actual_mujoco_site_sequence": [
+      "tendon_2_point_0",
+      "tendon_2_point_1",
+      "tendon_2_point_2",
+      "tendon_2_point_3",
+      "tendon_2_point_4"
+    ]
+  },
+  {
+    "tendon": "T3",
+    "root_angle_deg": 130.0,
+    "radius_m": 0.021,
+    "design_points": [
+      {
+        "attachment": {
+          "part": "fixed_base",
+          "s": 0.0,
+          "position_m": [
+            0.0,
+            -0.013498539803417328,
+            0.01608693330549854
+          ],
+          "quaternion_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "hole": null,
+        "role": "start"
+      },
+      {
+        "attachment": {
+          "part": "segment_0",
+          "s": 0.5,
+          "position_m": [
+            0.0,
+            -0.013498539803417328,
+            0.01608693330549854
+          ],
+          "quaternion_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "hole": null,
+        "role": "guide"
+      },
+      {
+        "attachment": {
+          "part": "guide_1",
+          "s": 0.0,
+          "position_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "quaternion_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "hole": "tendon_3_hole",
+        "role": "guide"
+      },
+      {
+        "attachment": {
+          "part": "segment_1",
+          "s": 0.5,
+          "position_m": [
+            0.0,
+            -0.013498539803417328,
+            0.01608693330549854
+          ],
+          "quaternion_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "hole": null,
+        "role": "guide"
+      },
+      {
+        "attachment": {
+          "part": "segment_1",
+          "s": 1.0,
+          "position_m": [
+            0.0,
+            -0.013498539803417328,
+            0.01608693330549854
+          ],
+          "quaternion_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "hole": null,
+        "role": "anchor"
+      }
+    ],
+    "actual_mujoco_site_sequence": [
+      "tendon_3_point_0",
+      "tendon_3_point_1",
+      "tendon_3_point_2",
+      "tendon_3_point_3",
+      "tendon_3_point_4"
+    ]
+  }
+]

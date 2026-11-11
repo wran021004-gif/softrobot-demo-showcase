@@ -1,0 +1,27 @@
+{
+  "method": "adaptive diagnosis, bounded quadratic allocation and local parameter refinements",
+  "control_dt_s": 0.01,
+  "physics_dt_s": 0.001,
+  "initial_tension_n": 0.2,
+  "hard_tension_bounds_n": [
+    0.2,
+    8.0
+  ],
+  "actual_speed_limit_m_s": 0.025,
+  "full_evaluation_limit_including_replays": 24,
+  "fixed_structure_limit": 12,
+  "structure_limit": 12,
+  "replay_limit": 2,
+  "decisions": [
+    "Faster support ramp (20 ms, 200 N/s), linear interpolation, event acquisition and return gate. PASS, but no withdrawal gate reached.",
+    "Relax low-force gate from 1 to 2 mN. Full 5 mm withdrawal excites endpoint speed: release FAIL.",
+    "Try slower 290 ms return and 0.5 mm withdrawal. Return phase changes recoil unfavorably: lower travel FAIL; gate not reached.",
+    "Restore 270 ms return, 0.5 mm withdrawal. Lower bound passes, 1.8 s probe speed fails.",
+    "Reduce withdrawal to 0.2 mm. Endpoint speed passes, lower travel misses by 0.0161 um.",
+    "Keep contact inverse node through withdrawal to avoid changing antagonist self-stress. PASS; late light recontact remains.",
+    "Implicit damping/stiffness ten-sample prediction, guard from t=0, elastic infeasibility penalty; 0.5 mm withdrawal. PASS, zero fallback and no negative q, but gate not reached.",
+    "Gate at q<=3 um, |qdot|<=0.4 mm/s, Fn<2 mN, after return. Withdrawal occurs but later rebound reaches -1.480 um.",
+    "Replace slow initial quintic retreat with a 0.5 mm exponential retreat (60 ms); retain continuous 10 ms tension interpolation. Full PASS, complete separation, desired speed/q/tension margins."
+  ],
+  "stopped": "C009 full PASS with desired margins, independent closed-loop exact match; no further search"
+}

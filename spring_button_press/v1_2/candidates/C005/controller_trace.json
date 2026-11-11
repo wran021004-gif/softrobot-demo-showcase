@@ -1,0 +1,5602 @@
+[
+  {
+    "time_s": 0.0,
+    "reference_probe_m": [
+      0.29749999999999993,
+      0.020999999999999963,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.5484504093687848,
+      0.5252271623354847,
+      -0.1428837588324733,
+      -0.15731831913999103
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": false,
+    "speed_guard_fallback": true,
+    "predicted_speed_violation_m_s": 0.5264504093687847
+  },
+  {
+    "time_s": 0.010000000000000002,
+    "reference_probe_m": [
+      0.2974998447615999,
+      0.021000388095999963,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.5101989736178107,
+      0.4900204162243229,
+      -0.1010442335499607,
+      -0.11639467919462246
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": false,
+    "speed_guard_fallback": true,
+    "predicted_speed_violation_m_s": 0.4881989736178107
+  },
+  {
+    "time_s": 0.02000000000000001,
+    "reference_probe_m": [
+      0.29749879557119996,
+      0.021003011071999964,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.01300842076768327,
+      -0.01335505837569606,
+      -0.01356777595872874,
+      -0.008403121143907899
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": false,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.03000000000000002,
+    "reference_probe_m": [
+      0.2974960594687999,
+      0.021009851327999964,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.006683632796072425,
+      -0.006837799193662786,
+      -0.020302773857214906,
+      -0.025456539300905523
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": false,
+    "speed_guard_fallback": true,
+    "predicted_speed_violation_m_s": 0.0034565393009055242
+  },
+  {
+    "time_s": 0.04000000000000003,
+    "reference_probe_m": [
+      0.29749094947839994,
+      0.021022626303999963,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.004174022216479223,
+      0.003995189958510448,
+      -0.015950046499257575,
+      -0.02371329202720518
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": false,
+    "speed_guard_fallback": true,
+    "predicted_speed_violation_m_s": 0.0017132920272051808
+  },
+  {
+    "time_s": 0.05000000000000004,
+    "reference_probe_m": [
+      0.29748287999999995,
+      0.021042799999999962,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.007143023864065068,
+      -0.006606592312349502,
+      0.007667590266790925,
+      0.008540775382235133
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": false,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.060000000000000046,
+    "reference_probe_m": [
+      0.2974713622015999,
+      0.021071594495999962,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.017564800104302725,
+      -0.016561857156850657,
+      0.02398449424963045,
+      0.030782187231727598
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": false,
+    "speed_guard_fallback": true,
+    "predicted_speed_violation_m_s": 0.0087821872317276
+  },
+  {
+    "time_s": 0.07000000000000005,
+    "reference_probe_m": [
+      0.29745599941119993,
+      0.021110001471999963,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.02029476147173126,
+      -0.019418399875688053,
+      0.021863167348730173,
+      0.028832510091812702
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": false,
+    "speed_guard_fallback": true,
+    "predicted_speed_violation_m_s": 0.006832510091812703
+  },
+  {
+    "time_s": 0.08000000000000006,
+    "reference_probe_m": [
+      0.29743648250879995,
+      0.021158793727999965,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.027682535888460258,
+      -0.027510501778797103,
+      0.005444994271454506,
+      0.01222973642622377
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": false,
+    "speed_guard_fallback": true,
+    "predicted_speed_violation_m_s": 0.005682535888460259
+  },
+  {
+    "time_s": 0.09000000000000007,
+    "reference_probe_m": [
+      0.2974125853183999,
+      0.021218536703999966,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.025743632182065213,
+      -0.02564493567294579,
+      -0.0007985236580197452,
+      0.005438841827372087
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": false,
+    "speed_guard_fallback": true,
+    "predicted_speed_violation_m_s": 0.003743632182065214
+  },
+  {
+    "time_s": 0.10000000000000007,
+    "reference_probe_m": [
+      0.29738415999999995,
+      0.021289599999999964,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.025785898587603828,
+      -0.02576714340647257,
+      -0.006713771930252521,
+      0.0012403597342598438
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": false,
+    "speed_guard_fallback": true,
+    "predicted_speed_violation_m_s": 0.0037858985876038295
+  },
+  {
+    "time_s": 0.11000000000000008,
+    "reference_probe_m": [
+      0.29735113244159994,
+      0.021372168895999966,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.026565121129283775,
+      -0.02663960705731483,
+      -0.012641643032836408,
+      -0.0027705794083148216
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": false,
+    "speed_guard_fallback": true,
+    "predicted_speed_violation_m_s": 0.00463960705731483
+  },
+  {
+    "time_s": 0.12000000000000009,
+    "reference_probe_m": [
+      0.2973134976511999,
+      0.02146625587199997,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.026917674352764043,
+      -0.027092894887090546,
+      -0.01875822799558402,
+      -0.008131193745503695
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": false,
+    "speed_guard_fallback": true,
+    "predicted_speed_violation_m_s": 0.0050928948870905474
+  },
+  {
+    "time_s": 0.1300000000000001,
+    "reference_probe_m": [
+      0.29727131514879995,
+      0.021571712127999968,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.026816677810912126,
+      -0.027080890861228224,
+      -0.024891058835316393,
+      -0.014327395005646837
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": false,
+    "speed_guard_fallback": true,
+    "predicted_speed_violation_m_s": 0.005080890861228225
+  },
+  {
+    "time_s": 0.1400000000000001,
+    "reference_probe_m": [
+      0.2972247043583999,
+      0.02168823910399997,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.02695019536977694,
+      -0.02727616478330952,
+      -0.030490092773588773,
+      -0.020169824337117392
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": false,
+    "speed_guard_fallback": true,
+    "predicted_speed_violation_m_s": 0.008490092773588774
+  },
+  {
+    "time_s": 0.1500000000000001,
+    "reference_probe_m": [
+      0.29717383999999997,
+      0.02181539999999997,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.010995517316445547,
+      -0.011485431450776074,
+      -0.02200000000000002,
+      -0.013157801402799985
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 2.0816681711721685e-17
+  },
+  {
+    "time_s": 0.16000000000000011,
+    "reference_probe_m": [
+      0.29711894748159995,
+      0.02195263129599997,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.0035037393106125414,
+      -0.004083596618649543,
+      -0.021999999999999797,
+      -0.013563751845366234
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.17000000000000012,
+    "reference_probe_m": [
+      0.29706029829119995,
+      0.022099254271999973,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.00141888481663488,
+      -0.002010037197024084,
+      -0.021999999999998354,
+      -0.014116011271260831
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.18000000000000013,
+    "reference_probe_m": [
+      0.29699820538879995,
+      0.022254486527999974,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.0048322679326676665,
+      -0.005365252651283403,
+      -0.02200000000000185,
+      -0.014968988192362476
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 1.85268467234323e-15
+  },
+  {
+    "time_s": 0.19000000000000014,
+    "reference_probe_m": [
+      0.29693301859839993,
+      0.022417453503999974,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.010341661559565285,
+      -0.010787374201166378,
+      -0.022000000000025666,
+      -0.015521007135226528
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 2.5666968550552838e-14
+  },
+  {
+    "time_s": 0.20000000000000015,
+    "reference_probe_m": [
+      0.2968651199999999,
+      0.022587199999999977,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.014879395772122161,
+      -0.015245878449693384,
+      -0.02199999999997626,
+      -0.015653787565958865
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.21000000000000016,
+    "reference_probe_m": [
+      0.29679491932159996,
+      0.02276270169599998,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.01732670022271876,
+      -0.01763708030540656,
+      -0.022000000000033937,
+      -0.015588485993287882
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 3.3938130084010254e-14
+  },
+  {
+    "time_s": 0.22000000000000017,
+    "reference_probe_m": [
+      0.29672284933119997,
+      0.02294287667199998,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.018485469309234226,
+      -0.018755410194407407,
+      -0.02199999999991209,
+      -0.015442995304758123
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.23000000000000018,
+    "reference_probe_m": [
+      0.2966493612288,
+      0.02312659692799998,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.01967427889429718,
+      -0.019906914737633508,
+      -0.021999999999986364,
+      -0.015183973735242828
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.24000000000000019,
+    "reference_probe_m": [
+      0.29657492003839997,
+      0.023312699903999985,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.021541956752183955,
+      -0.02173650956531825,
+      -0.022000000000061026,
+      -0.014767875196273761
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 6.102757188486407e-14
+  },
+  {
+    "time_s": 0.25000000000000017,
+    "reference_probe_m": [
+      0.29649999999999993,
+      0.023499999999999986,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.021788894700186412,
+      -0.021999999999966047,
+      -0.02199999999986646,
+      -0.013246914189393444
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.2600000000000002,
+    "reference_probe_m": [
+      0.29642507996159995,
+      0.023687300095999987,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.021754814258712396,
+      -0.021999999999981923,
+      -0.021999999999956055,
+      -0.011826775730731154
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.2700000000000002,
+    "reference_probe_m": [
+      0.29635063877119994,
+      0.023873403071999987,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.021720984934572973,
+      -0.022000000000167774,
+      -0.022000000000606423,
+      -0.010648491865896892
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 6.064246327319722e-13
+  },
+  {
+    "time_s": 0.2800000000000002,
+    "reference_probe_m": [
+      0.29627715066879995,
+      0.024057123327999988,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.021695116200005526,
+      -0.02199999999994362,
+      -0.021999999999534503,
+      -0.009657871186529055
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.2900000000000002,
+    "reference_probe_m": [
+      0.29620508067839996,
+      0.02423729830399999,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.02167686531540436,
+      -0.02200000000013269,
+      -0.02200000000041391,
+      -0.008890304182124664
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 4.139119602619701e-13
+  },
+  {
+    "time_s": 0.3000000000000002,
+    "reference_probe_m": [
+      0.29613488,
+      0.02441279999999999,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.021664828021704885,
+      -0.021999999999922637,
+      -0.0219999999998024,
+      -0.008407696778409468
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.3100000000000002,
+    "reference_probe_m": [
+      0.2960669814016,
+      0.02458254649599999,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.02165959630622105,
+      -0.021999999999927855,
+      -0.021999999999866127,
+      -0.00825332795371081
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.32000000000000023,
+    "reference_probe_m": [
+      0.29600179461119996,
+      0.024745513471999995,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.021663450592593447,
+      -0.021999999999896325,
+      -0.021999999999823272,
+      -0.00843071885712976
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.33000000000000024,
+    "reference_probe_m": [
+      0.29593970170879996,
+      0.024900745727999996,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.021677981389078282,
+      -0.021999999999985587,
+      -0.021999999999980258,
+      -0.00891189376375856
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.34000000000000025,
+    "reference_probe_m": [
+      0.29588105251839997,
+      0.025047368703999994,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.021702914812084195,
+      -0.02200000000003066,
+      -0.022000000000024555,
+      -0.009653444702754643
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 3.066297216136604e-14
+  },
+  {
+    "time_s": 0.35000000000000026,
+    "reference_probe_m": [
+      0.29582615999999995,
+      0.025184599999999998,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.021736435391291775,
+      -0.02199999999962421,
+      -0.021999999999658848,
+      -0.01060089304593026
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.36000000000000026,
+    "reference_probe_m": [
+      0.2957752956416,
+      0.025311760896,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.021775870799633723,
+      -0.02200000000003649,
+      -0.022000000000027442,
+      -0.011693220164587736
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 3.6491643040648114e-14
+  },
+  {
+    "time_s": 0.3700000000000003,
+    "reference_probe_m": [
+      0.29572868485119996,
+      0.025428287871999997,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.021818606333660617,
+      -0.02199999999992086,
+      -0.02199999999993052,
+      -0.012864867417075487
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.3800000000000003,
+    "reference_probe_m": [
+      0.2956865023488,
+      0.025533744127999997,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.02186241669828365,
+      -0.022000000000028275,
+      -0.022000000000025777,
+      -0.014055960699766223
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 2.8275992658421956e-14
+  },
+  {
+    "time_s": 0.3900000000000003,
+    "reference_probe_m": [
+      0.2956488675584,
+      0.025627831104,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.02190491151943047,
+      -0.02199999999993696,
+      -0.021999999999955833,
+      -0.015214249013126846
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.4000000000000003,
+    "reference_probe_m": [
+      0.29561583999999996,
+      0.0257104,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.021944128455855527,
+      -0.02199999999975566,
+      -0.021999999999844144,
+      -0.016290410203627315
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.4100000000000003,
+    "reference_probe_m": [
+      0.2955874146816,
+      0.025781463296,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.021978335772636526,
+      -0.022000000000211295,
+      -0.022000000000138686,
+      -0.017249185671782685
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 2.11296258267879e-13
+  },
+  {
+    "time_s": 0.4200000000000003,
+    "reference_probe_m": [
+      0.29556351749119997,
+      0.025841206271999997,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.021999999999955833,
+      -0.021999999999953224,
+      -0.021999999999965936,
+      -0.018047371242119192
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.4300000000000003,
+    "reference_probe_m": [
+      0.2955440005888,
+      0.025889998528000002,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.022000000001420883,
+      -0.022000000001478504,
+      -0.022000000000472753,
+      -0.018648751545881748
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 1.4785048185750327e-12
+  },
+  {
+    "time_s": 0.44000000000000034,
+    "reference_probe_m": [
+      0.2955286377984,
+      0.025928405504,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 0.0,
+    "qdot_measured_m_s": 0.0,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.022000000001571818,
+      -0.0220000000016225,
+      -0.022000000000557685,
+      -0.01909691095904298
+    ],
+    "state": "FREE_APPROACH",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 1.6225007448689155e-12
+  },
+  {
+    "time_s": 0.45000000000000034,
+    "reference_probe_m": [
+      0.2955,
+      0.026119999999999997,
+      0.15
+    ],
+    "qref_m": 0.00012,
+    "q_measured_m": 2.349860209503975e-05,
+    "qdot_measured_m_s": 0.0032234802947923367,
+    "contact_measured_n": 0.000332374477026388,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.021999999999507414,
+      -0.01937954049796925,
+      -0.021999999999511854,
+      -0.0059585493697198455
+    ],
+    "state": "CONTACT_ACQUIRE",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.46000000000000035,
+    "reference_probe_m": [
+      0.2955,
+      0.026119999999999997,
+      0.15
+    ],
+    "qref_m": 0.00012,
+    "q_measured_m": 5.446561587457446e-05,
+    "qdot_measured_m_s": 0.003361044096287326,
+    "contact_measured_n": 0.004392432760086469,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.022000000000016895,
+      -0.02200000000001623,
+      -0.022000000000012232,
+      -0.02200000000000535
+    ],
+    "state": "CONTACT_ACQUIRE",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 1.68962066560141e-14
+  },
+  {
+    "time_s": 0.47000000000000036,
+    "reference_probe_m": [
+      0.2955,
+      0.026119999999999997,
+      0.15
+    ],
+    "qref_m": 0.00012,
+    "q_measured_m": 9.09668540368149e-05,
+    "qdot_measured_m_s": 0.0034082556076387746,
+    "contact_measured_n": 0.004416976743171406,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.02199999999382679,
+      -0.021961861310230563,
+      -0.021999999997115216,
+      -0.021999999997329933
+    ],
+    "state": "CONTACT_ACQUIRE",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.48000000000000037,
+    "reference_probe_m": [
+      0.2955,
+      0.026119999999999997,
+      0.15
+    ],
+    "qref_m": 0.00012,
+    "q_measured_m": 0.00011585455250771011,
+    "qdot_measured_m_s": 0.0016163344548262007,
+    "contact_measured_n": 0.004929561092112031,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.02199999999992086,
+      -0.021918391272529564,
+      -0.021999999999948283,
+      -0.017671205128702572
+    ],
+    "state": "CONTACT_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.4900000000000004,
+    "reference_probe_m": [
+      0.2955,
+      0.026119999999999997,
+      0.15
+    ],
+    "qref_m": 0.00012,
+    "q_measured_m": 0.0001238968992132403,
+    "qdot_measured_m_s": 0.0005613915587587626,
+    "contact_measured_n": 0.0066978554603279615,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.02200000000076241,
+      -0.02197918410154126,
+      -0.022000000000292008,
+      -0.01825324834546549
+    ],
+    "state": "CONTACT_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 7.624109676918067e-13
+  },
+  {
+    "time_s": 0.5000000000000003,
+    "reference_probe_m": [
+      0.2955,
+      0.026,
+      0.15
+    ],
+    "qref_m": 1.154634354759827e-47,
+    "q_measured_m": 0.0001312451984368402,
+    "qdot_measured_m_s": 0.0007793662885598949,
+    "contact_measured_n": 0.006425543795090553,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.019232493942530404,
+      -0.02199999999994323,
+      -0.011292015633204144,
+      -0.021999999999984587
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.5100000000000003,
+    "reference_probe_m": [
+      0.2955,
+      0.0260003008984375,
+      0.15
+    ],
+    "qref_m": 3.008984375000305e-07,
+    "q_measured_m": 0.00012910817778100664,
+    "qdot_measured_m_s": -0.0012765835581957994,
+    "contact_measured_n": 0.005215524735299992,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.02199999999917243,
+      -0.021999999999162412,
+      -0.021331193609993693,
+      -0.02199708251029997
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.5200000000000004,
+    "reference_probe_m": [
+      0.2955,
+      0.026002316249999997,
+      0.15
+    ],
+    "qref_m": 2.3162500000001186e-06,
+    "q_measured_m": 0.00010416932280912519,
+    "qdot_measured_m_s": -0.0031827721092985845,
+    "contact_measured_n": 0.004656005901083757,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.02200000000008101,
+      -0.021903403692977108,
+      -0.017625692605304333,
+      -0.014056677928425909
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 8.101158632811689e-14
+  },
+  {
+    "time_s": 0.5300000000000004,
+    "reference_probe_m": [
+      0.2955,
+      0.026007516757812498,
+      0.15
+    ],
+    "qref_m": 7.51675781250026e-06,
+    "q_measured_m": 7.3401940180116e-05,
+    "qdot_measured_m_s": -0.002593346221655703,
+    "contact_measured_n": 0.003206703053211502,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.02200000000045474,
+      -0.021743217217103178,
+      -0.016385947493848474,
+      -0.015151523349516527
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 4.547404119925602e-13
+  },
+  {
+    "time_s": 0.5400000000000004,
+    "reference_probe_m": [
+      0.2955,
+      0.026017119999999998,
+      0.15
+    ],
+    "qref_m": 1.712000000000045e-05,
+    "q_measured_m": 5.197928354918173e-05,
+    "qdot_measured_m_s": -0.001705202556472603,
+    "contact_measured_n": 0.0024949309582952156,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.02200000000004204,
+      -0.021653017167051522,
+      -0.01612157482691745,
+      -0.015182206831185763
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 4.2042758163773897e-14
+  },
+  {
+    "time_s": 0.5500000000000004,
+    "reference_probe_m": [
+      0.2955,
+      0.0260321044921875,
+      0.15
+    ],
+    "qref_m": 3.210449218750068e-05,
+    "q_measured_m": 3.9295294102403695e-05,
+    "qdot_measured_m_s": -0.0009478359574624543,
+    "contact_measured_n": 0.0018985255663209692,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.021999999999938596,
+      -0.021501944710667513,
+      -0.016370244662471833,
+      -0.014098563029504407
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.5600000000000004,
+    "reference_probe_m": [
+      0.2955,
+      0.02605322375,
+      0.15
+    ],
+    "qref_m": 5.322375000000094e-05,
+    "q_measured_m": 3.417530934385232e-05,
+    "qdot_measured_m_s": -0.00013170136843826424,
+    "contact_measured_n": 0.0018837212709813063,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.021999999999963146,
+      -0.02132973910113685,
+      -0.016350216424722674,
+      -0.013549194906678719
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.5700000000000004,
+    "reference_probe_m": [
+      0.2955,
+      0.0260810203515625,
+      0.15
+    ],
+    "qref_m": 8.102035156250123e-05,
+    "q_measured_m": 3.9249389440199533e-05,
+    "qdot_measured_m_s": 0.0010908089745702105,
+    "contact_measured_n": 0.0025794651957815936,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.021999999999996286,
+      -0.021138577898899072,
+      -0.016310364234202845,
+      -0.013586845103921719
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.5800000000000004,
+    "reference_probe_m": [
+      0.2955,
+      0.02611584,
+      0.15
+    ],
+    "qref_m": 0.00011584000000000157,
+    "q_measured_m": 5.8399627931745054e-05,
+    "qdot_measured_m_s": 0.0026143747551263838,
+    "contact_measured_n": 0.003916860532146317,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.022000000000020836,
+      -0.020933701526821075,
+      -0.016629874397960487,
+      -0.013814860133577356
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 2.0837498393433407e-14
+  },
+  {
+    "time_s": 0.5900000000000004,
+    "reference_probe_m": [
+      0.2955,
+      0.0261578455859375,
+      0.15
+    ],
+    "qref_m": 0.00015784558593750188,
+    "q_measured_m": 9.300110009413221e-05,
+    "qdot_measured_m_s": 0.004125861664343305,
+    "contact_measured_n": 0.005848484587416917,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.022000000000007264,
+      -0.02072545570270242,
+      -0.017303092754934024,
+      -0.013919593698784039
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 7.265021917390868e-15
+  },
+  {
+    "time_s": 0.6000000000000004,
+    "reference_probe_m": [
+      0.2955,
+      0.026207031250000002,
+      0.15
+    ],
+    "qref_m": 0.00020703125000000222,
+    "q_measured_m": 0.00014162692998854717,
+    "qdot_measured_m_s": 0.005409919060864724,
+    "contact_measured_n": 0.00833450376509589,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.022000000000028594,
+      -0.02052430791445413,
+      -0.018154742278593705,
+      -0.013838740221321921
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 2.859518177800169e-14
+  },
+  {
+    "time_s": 0.6100000000000004,
+    "reference_probe_m": [
+      0.2955,
+      0.0262632364453125,
+      0.15
+    ],
+    "qref_m": 0.00026323644531250256,
+    "q_measured_m": 0.0002015281281326904,
+    "qdot_measured_m_s": 0.006401700681561172,
+    "contact_measured_n": 0.011298037204339785,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.022000000000006327,
+      -0.020337298397150094,
+      -0.019067901205046534,
+      -0.013649667497716123
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 6.328271240363392e-15
+  },
+  {
+    "time_s": 0.6200000000000004,
+    "reference_probe_m": [
+      0.2955,
+      0.02632616,
+      0.15
+    ],
+    "qref_m": 0.0003261600000000029,
+    "q_measured_m": 0.00026978451386629556,
+    "qdot_measured_m_s": 0.007111165830407862,
+    "contact_measured_n": 0.014628924908544042,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.02199999999998701,
+      -0.02016787372609559,
+      -0.01999600426265702,
+      -0.013418736595099512
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.6300000000000004,
+    "reference_probe_m": [
+      0.2955,
+      0.0263953741796875,
+      0.15
+    ],
+    "qref_m": 0.0003953741796875032,
+    "q_measured_m": 0.00034373408912990674,
+    "qdot_measured_m_s": 0.007571929885295357,
+    "contact_measured_n": 0.01821701230646769,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.02199999999999582,
+      -0.02001737309985005,
+      -0.020891349170161,
+      -0.013165446874105813
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.6400000000000005,
+    "reference_probe_m": [
+      0.2955,
+      0.026470338750000003,
+      0.15
+    ],
+    "qref_m": 0.0004703387500000036,
+    "q_measured_m": 0.00042115587310762194,
+    "qdot_measured_m_s": 0.007836992440316144,
+    "contact_measured_n": 0.021978605004059338,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.02200000000000009,
+      -0.019885658559991165,
+      -0.021681451079403224,
+      -0.012898151185760431
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 9.020562075079397e-17
+  },
+  {
+    "time_s": 0.6500000000000005,
+    "reference_probe_m": [
+      0.2955,
+      0.0265504150390625,
+      0.15
+    ],
+    "qref_m": 0.0005504150390625039,
+    "q_measured_m": 0.0005004755752809433,
+    "qdot_measured_m_s": 0.007979977417688465,
+    "contact_measured_n": 0.025863963125147417,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.008401167860731598,
+      0.010406390854640818,
+      -0.002949771135733359,
+      0.008351805415910518
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.6600000000000005,
+    "reference_probe_m": [
+      0.2955,
+      0.026634880000000003,
+      0.15
+    ],
+    "qref_m": 0.0006348800000000042,
+    "q_measured_m": 0.0005794129234298941,
+    "qdot_measured_m_s": 0.007774542859373344,
+    "contact_measured_n": 0.029612259720044765,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.01935272699312407,
+      0.02137754500986727,
+      -0.0002882615886241613,
+      0.011835109011130163
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.6700000000000005,
+    "reference_probe_m": [
+      0.2955,
+      0.026722940273437502,
+      0.15
+    ],
+    "qref_m": 0.0007229402734375045,
+    "q_measured_m": 0.0006559299328878104,
+    "qdot_measured_m_s": 0.007595340436789183,
+    "contact_measured_n": 0.03355803797865786,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.019876037187666395,
+      0.021999999999999978,
+      0.0009841173182791874,
+      0.013366583402331544
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.6800000000000005,
+    "reference_probe_m": [
+      0.2955,
+      0.026813746250000003,
+      0.15
+    ],
+    "qref_m": 0.0008137462500000044,
+    "q_measured_m": 0.0007334948985494449,
+    "qdot_measured_m_s": 0.00798388529268622,
+    "contact_measured_n": 0.037835967284828624,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.019181766908048556,
+      0.021404060198345023,
+      0.0060898345826820854,
+      0.01840205970392894
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.6900000000000005,
+    "reference_probe_m": [
+      0.2955,
+      0.0269064061328125,
+      0.15
+    ],
+    "qref_m": 0.0009064061328125048,
+    "q_measured_m": 0.0008174659019585511,
+    "qdot_measured_m_s": 0.008778549558694866,
+    "contact_measured_n": 0.04234152845451498,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.016321349849727426,
+      0.018623798039594866,
+      0.009170602052204435,
+      0.021332099602592525
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.7000000000000005,
+    "reference_probe_m": [
+      0.2955,
+      0.027000000000000003,
+      0.15
+    ],
+    "qref_m": 0.0010000000000000048,
+    "q_measured_m": 0.0009097175946447703,
+    "qdot_measured_m_s": 0.009577862928809607,
+    "contact_measured_n": 0.0470726112664609,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.013638826915585406,
+      0.01599767420284387,
+      0.010007298021564193,
+      0.02200000000000013
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 1.3183898417423734e-16
+  },
+  {
+    "time_s": 0.7100000000000005,
+    "reference_probe_m": [
+      0.2955,
+      0.0270935938671875,
+      0.15
+    ],
+    "qref_m": 0.0010935938671875044,
+    "q_measured_m": 0.00100888276944138,
+    "qdot_measured_m_s": 0.010156344299917498,
+    "contact_measured_n": 0.05202033988703596,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.012920028265201127,
+      0.015289547603033471,
+      0.010065919226066145,
+      0.02200000000000002
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 2.0816681711721685e-17
+  },
+  {
+    "time_s": 0.7200000000000005,
+    "reference_probe_m": [
+      0.2955,
+      0.027186253750000004,
+      0.15
+    ],
+    "qref_m": 0.0011862537500000048,
+    "q_measured_m": 0.0011122887431642232,
+    "qdot_measured_m_s": 0.010445646518690418,
+    "contact_measured_n": 0.057091971270466634,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.013961750801263599,
+      0.01629502102078643,
+      0.01004951787104158,
+      0.02200000000000013
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 1.3183898417423734e-16
+  },
+  {
+    "time_s": 0.7300000000000005,
+    "reference_probe_m": [
+      0.2955,
+      0.027277059726562504,
+      0.15
+    ],
+    "qref_m": 0.001277059726562505,
+    "q_measured_m": 0.0012168998573505465,
+    "qdot_measured_m_s": 0.010425659585564004,
+    "contact_measured_n": 0.0621541953525321,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.015502966753105786,
+      0.01776418847545218,
+      0.009998112647597868,
+      0.02200000000000002
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 2.0816681711721685e-17
+  },
+  {
+    "time_s": 0.7400000000000005,
+    "reference_probe_m": [
+      0.2955,
+      0.027365120000000003,
+      0.15
+    ],
+    "qref_m": 0.001365120000000005,
+    "q_measured_m": 0.001319643258469331,
+    "qdot_measured_m_s": 0.010106316553928468,
+    "contact_measured_n": 0.06707813430882054,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.016760493705644648,
+      0.018922706390882338,
+      0.009957786775653954,
+      0.02200000000000013
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 1.3183898417423734e-16
+  },
+  {
+    "time_s": 0.7500000000000006,
+    "reference_probe_m": [
+      0.2955,
+      0.027449584960937502,
+      0.15
+    ],
+    "qref_m": 0.0014495849609375041,
+    "q_measured_m": 0.0014177576645517064,
+    "qdot_measured_m_s": 0.009536722323046483,
+    "contact_measured_n": 0.0717596055722012,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.017647748841938884,
+      0.01968686696512751,
+      0.009993473911375172,
+      0.02200000000000002
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 2.0816681711721685e-17
+  },
+  {
+    "time_s": 0.7600000000000006,
+    "reference_probe_m": [
+      0.2955,
+      0.027529661250000004,
+      0.15
+    ],
+    "qref_m": 0.001529661250000005,
+    "q_measured_m": 0.001509154049376808,
+    "qdot_measured_m_s": 0.008796522853267466,
+    "contact_measured_n": 0.07612555562725577,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.014801131370296344,
+      0.016737097571458685,
+      0.007702175270537737,
+      0.018966929744513528
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.7700000000000006,
+    "reference_probe_m": [
+      0.2955,
+      0.027604625820312503,
+      0.15
+    ],
+    "qref_m": 0.0016046258203125036,
+    "q_measured_m": 0.0015925402887994437,
+    "qdot_measured_m_s": 0.00796329881845517,
+    "contact_measured_n": 0.0801354650999753,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.013600140699401866,
+      0.015395919945022707,
+      0.0071442576829674476,
+      0.017882832597610476
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.7800000000000006,
+    "reference_probe_m": [
+      0.2955,
+      0.02767384,
+      0.15
+    ],
+    "qref_m": 0.0016738400000000035,
+    "q_measured_m": 0.0016674511718033657,
+    "qdot_measured_m_s": 0.007113100720369283,
+    "contact_measured_n": 0.08375008710935722,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.01268893571509952,
+      0.014326107593031975,
+      0.006295629611999365,
+      0.016246545234635867
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.7900000000000006,
+    "reference_probe_m": [
+      0.2955,
+      0.027736763554687502,
+      0.15
+    ],
+    "qref_m": 0.001736763554687503,
+    "q_measured_m": 0.00173392882211955,
+    "qdot_measured_m_s": 0.00628503448084709,
+    "contact_measured_n": 0.08698258081382206,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.011947117885504954,
+      0.013415947410582968,
+      0.0052262293624294465,
+      0.01416602523484356
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.8000000000000006,
+    "reference_probe_m": [
+      0.2955,
+      0.02779296875,
+      0.15
+    ],
+    "qref_m": 0.0017929687500000031,
+    "q_measured_m": 0.0017924347970365419,
+    "qdot_measured_m_s": 0.005521874207269165,
+    "contact_measured_n": 0.08986024176098077,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.01113099650905286,
+      0.012428927328542339,
+      0.004217396261657624,
+      0.011986742318003896
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.8100000000000006,
+    "reference_probe_m": [
+      0.2955,
+      0.0278421544140625,
+      0.15
+    ],
+    "qref_m": 0.0018421544140625038,
+    "q_measured_m": 0.0018437849491669501,
+    "qdot_measured_m_s": 0.004849120954284822,
+    "contact_measured_n": 0.09241193139270402,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.010106957097999664,
+      0.011235038400598502,
+      0.003396411379565034,
+      0.009913647942884962
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.8200000000000006,
+    "reference_probe_m": [
+      0.2955,
+      0.027884159999999998,
+      0.15
+    ],
+    "qref_m": 0.001884160000000001,
+    "q_measured_m": 0.0018888880565351993,
+    "qdot_measured_m_s": 0.004262266569733336,
+    "contact_measured_n": 0.09466341960378935,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.00887568182183035,
+      0.00983679938426571,
+      0.002743072363047494,
+      0.00800722615190752
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.8300000000000006,
+    "reference_probe_m": [
+      0.2955,
+      0.0279189796484375,
+      0.15
+    ],
+    "qref_m": 0.0019189796484375028,
+    "q_measured_m": 0.0019284838424598431,
+    "qdot_measured_m_s": 0.003736184692468885,
+    "contact_measured_n": 0.09663435774013512,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.007533474593780148,
+      0.00833162905714735,
+      0.002173651614883365,
+      0.006243767688084656
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.8400000000000006,
+    "reference_probe_m": [
+      0.2955,
+      0.02794677625,
+      0.15
+    ],
+    "qref_m": 0.0019467762500000006,
+    "q_measured_m": 0.001963007799644833,
+    "qdot_measured_m_s": 0.0032381467564885076,
+    "contact_measured_n": 0.09833469166515328,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.0061771472646274805,
+      0.006817905615794151,
+      0.001629803249360906,
+      0.004615072329644865
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.8500000000000006,
+    "reference_probe_m": [
+      0.2955,
+      0.0279678955078125,
+      0.15
+    ],
+    "qref_m": 0.0019678955078125016,
+    "q_measured_m": 0.0019925720102105695,
+    "qdot_measured_m_s": 0.002737645962882734,
+    "contact_measured_n": 0.09976399921452214,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.0048639353105064675,
+      0.005355294301448793,
+      0.0011041569918621708,
+      0.0031580942671367573
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.8600000000000007,
+    "reference_probe_m": [
+      0.2955,
+      0.027982879999999995,
+      0.15
+    ],
+    "qref_m": 0.0019828799999999994,
+    "q_measured_m": 0.002017029643480318,
+    "qdot_measured_m_s": 0.002213829298564621,
+    "contact_measured_n": 0.10091531124522787,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.0036244865012310667,
+      0.0039774245316886725,
+      0.0006106991803382922,
+      0.0019249191559000955
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.8700000000000007,
+    "reference_probe_m": [
+      0.2955,
+      0.027992483242187498,
+      0.15
+    ],
+    "qref_m": 0.0019924832421875007,
+    "q_measured_m": 0.002036110085039152,
+    "qdot_measured_m_s": 0.0016623196395172681,
+    "contact_measured_n": 0.10178244506950185,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.002497751980421098,
+      0.0027275651828137792,
+      0.00017589516324578724,
+      0.0009570117420449886
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.8800000000000007,
+    "reference_probe_m": [
+      0.2955,
+      0.027997683749999995,
+      0.15
+    ],
+    "qref_m": 0.0019976837499999997,
+    "q_measured_m": 0.0020495999410958424,
+    "qdot_measured_m_s": 0.0010974971328406623,
+    "contact_measured_n": 0.1023672474789755,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.0015322436954994523,
+      0.0016589344028686004,
+      -0.00018876135851564335,
+      0.0002727589934241603
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.8900000000000007,
+    "reference_probe_m": [
+      0.2955,
+      0.0279996991015625,
+      0.15
+    ],
+    "qref_m": 0.0019996991015625025,
+    "q_measured_m": 0.0020575334337325636,
+    "qdot_measured_m_s": 0.0005524650301413248,
+    "contact_measured_n": 0.10268708793743281,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.0007901193000627582,
+      0.0008396846065538699,
+      -0.00046500541728433653,
+      -0.00011323276144470373
+    ],
+    "state": "PRESS",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.9000000000000007,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.002060359429038041,
+    "qdot_measured_m_s": 7.478275277350999e-05,
+    "contact_measured_n": 0.10278036310363944,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.00033153073790037624,
+      0.00033659945200192887,
+      -0.0006358267864954303,
+      -0.00018350245928189235
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.9100000000000007,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020590561428074743,
+    "qdot_measured_m_s": -0.00027924695310132603,
+    "contact_measured_n": 0.10271004310360145,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.00014685824620699894,
+      0.00013949239381508272,
+      -0.0006102231682687531,
+      -4.8553198756851046e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.9200000000000007,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.002055017905997955,
+    "qdot_measured_m_s": -0.00048390601608477965,
+    "contact_measured_n": 0.10254240786732743,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -2.1144112888532574e-05,
+      8.241298253219842e-06,
+      -0.00043400933872539404,
+      5.258775755445644e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.9300000000000007,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.002049640674651803,
+    "qdot_measured_m_s": -0.0005619207553843801,
+    "contact_measured_n": 0.1023277509071738,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.00010647159621507418,
+      -0.00012087183708095472,
+      -0.00020648939612111228,
+      0.00017471124780421565
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.9400000000000007,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020440797801481543,
+    "qdot_measured_m_s": -0.000533320187622724,
+    "contact_measured_n": 0.10211904575447253,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.00024104332674529383,
+      -0.00025291657192064165,
+      5.2804900601222116e-05,
+      0.0002950669962424879
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.9500000000000007,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020393285381064474,
+    "qdot_measured_m_s": -0.0004116895116397298,
+    "contact_measured_n": 0.10196145871070368,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.00036297083905026395,
+      -0.0003695138200535686,
+      0.0003120513791263768,
+      0.0003810222135672836
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.9600000000000007,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.00203618274012572,
+    "qdot_measured_m_s": -0.0002247509186678037,
+    "contact_measured_n": 0.10187796464846967,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.0004467660036922838,
+      -0.00044659969599802896,
+      0.0005224182433154478,
+      0.00042498505047416923
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.9700000000000008,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020350658574173975,
+    "qdot_measured_m_s": -1.668807892795732e-05,
+    "contact_measured_n": 0.10187256651119923,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.0004822862421854923,
+      -0.00047552800925371175,
+      0.0006503743382999527,
+      0.0004372539277601728
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.9800000000000008,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020359347163123225,
+    "qdot_measured_m_s": 0.00016652534982209465,
+    "contact_measured_n": 0.10193491047523504,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.00047180778465921724,
+      -0.0004599163803936379,
+      0.0006892455630456151,
+      0.00043335282098100336
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 0.9900000000000008,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.002038342216083834,
+    "qdot_measured_m_s": 0.0002910380720356536,
+    "contact_measured_n": 0.10204369106897758,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.0004281311691519407,
+      -0.00041348563263537974,
+      0.0006486496716457957,
+      0.0004210049819409756
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.0000000000000007,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.002041595478722132,
+    "qdot_measured_m_s": 0.0003404966508112901,
+    "contact_measured_n": 0.10217109037412726,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.00035917833726450965,
+      -0.0003445832268050286,
+      0.0005495890409361603,
+      0.0004049365259127802
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.0099999999999996,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020449307027613694,
+    "qdot_measured_m_s": 0.0003152236655923614,
+    "contact_measured_n": 0.10228858284905652,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.0002765388609305419,
+      -0.00026459541707940515,
+      0.0004108076592093113,
+      0.00038005558684928165
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.0199999999999985,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020476648502805537,
+    "qdot_measured_m_s": 0.0002291779311920224,
+    "contact_measured_n": 0.10237281112626144,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.0001867747807500486,
+      -0.00017944197279451402,
+      0.0002554894851898304,
+      0.00034343791136148827
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.0299999999999974,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020493105990692117,
+    "qdot_measured_m_s": 0.00010581672477929815,
+    "contact_measured_n": 0.10240961988140353,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      9.811441903737061e-05,
+      -9.638077393048228e-05,
+      0.00010433324359970797,
+      0.00029100175929874794
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.0399999999999963,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.002049643905202825,
+    "qdot_measured_m_s": -2.7094150458665677e-05,
+    "contact_measured_n": 0.10239567771089383,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      1.712553601573852e-05,
+      -2.092270444079003e-05,
+      -2.4823904539506003e-05,
+      0.00022190424287527044
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.0499999999999952,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020487165307923197,
+    "qdot_measured_m_s": -0.0001430944031923967,
+    "contact_measured_n": 0.1023377817851073,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -5.123166516954325e-05,
+      4.2919848172146e-05,
+      -0.00012059037377043502,
+      0.00013815939728889504
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.059999999999994,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020468153500031146,
+    "qdot_measured_m_s": -0.00022189566391391492,
+    "contact_measured_n": 0.10225040571439745,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.00010345085147986377,
+      9.232046929635862e-05,
+      -0.00017868501363782485,
+      4.4798261247147586e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.069999999999993,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020443817066563815,
+    "qdot_measured_m_s": -0.0002525091215410347,
+    "contact_measured_n": 0.10215213666056683,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.00014030964924380274,
+      0.00012835040199118963,
+      -0.0002011946540745324,
+      -5.1018290722626425e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.0799999999999919,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.002041910787531487,
+    "qdot_measured_m_s": -0.0002342683893737549,
+    "contact_measured_n": 0.10206171991445537,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.00016131452212095332,
+      0.00015046983695976568,
+      -0.00019533835385177056,
+      -0.00013944487067796274
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.0899999999999908,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020398537614767175,
+    "qdot_measured_m_s": -0.0001754877020019952,
+    "contact_measured_n": 0.10199470048926276,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.00016774225896210027,
+      0.00015954850866931047,
+      -0.00017116891334811868,
+      -0.00021334283336438276
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.0999999999999897,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.002038540117670215,
+    "qdot_measured_m_s": -9.104336321418246e-05,
+    "contact_measured_n": 0.10196080029348144,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.00016291641771282173,
+      0.00015829748951642908,
+      -0.0001378158398159801,
+      -0.00026415712538929714
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.1099999999999886,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020381304119713186,
+    "qdot_measured_m_s": 1.1208043857945292e-06,
+    "contact_measured_n": 0.10196277640818066,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.0001495584529885574,
+      0.0001486889594327634,
+      -0.00010409173546510608,
+      -0.00028786600051411426
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.1199999999999875,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020386054456226718,
+    "qdot_measured_m_s": 8.362738559417439e-05,
+    "contact_measured_n": 0.10199670519469659,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.00012808723231835795,
+      0.00013072541073788635,
+      -7.625770869679194e-05,
+      -0.0002824225919245693
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.1299999999999863,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.002039790744902851,
+    "qdot_measured_m_s": 0.0001430050513010784,
+    "contact_measured_n": 0.1020535689077519,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -9.972506458580388e-05,
+      0.00010463187044457145,
+      -6.0029220316115683e-05,
+      -0.00025489315331128637
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.1399999999999852,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020414067874135423,
+    "qdot_measured_m_s": 0.00017146049672046878,
+    "contact_measured_n": 0.1021212675454197,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -7.894928543772384e-05,
+      8.532045834996893e-05,
+      -4.383174085553776e-05,
+      -0.00019906823322424216
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.1499999999999841,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.002043128495231546,
+    "qdot_measured_m_s": 0.0001671907803504156,
+    "contact_measured_n": 0.10218698709076761,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -4.899680049935684e-05,
+      5.5306931203286114e-05,
+      -4.200611440308144e-05,
+      -0.00013757914194090226
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.159999999999983,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.002044649617753522,
+    "qdot_measured_m_s": 0.0001350898232602097,
+    "contact_measured_n": 0.10224014119660285,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -2.1813147729310423e-05,
+      2.7126126428217434e-05,
+      -3.896482682641533e-05,
+      -6.843750362228729e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.169999999999982,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020457379945846084,
+    "qdot_measured_m_s": 8.424925191391926e-05,
+    "contact_measured_n": 0.10227342311218757,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      2.5368371116829547e-06,
+      1.0691695475351093e-06,
+      -3.469024298619061e-05,
+      -3.086821448783361e-06
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.1799999999999808,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020462656477013667,
+    "qdot_measured_m_s": 2.580209000412765e-05,
+    "contact_measured_n": 0.10228383290164399,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      2.5002567765691763e-05,
+      -2.339881667784427e-05,
+      -2.7143414968344715e-05,
+      5.146551560675228e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.1899999999999797,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020462179180677255,
+    "qdot_measured_m_s": -2.9104997572013545e-05,
+    "contact_measured_n": 0.10227280895922213,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      4.2112065781058083e-05,
+      -4.239154341248441e-05,
+      -1.2896370686243941e-05,
+      9.217807396466604e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.1999999999999786,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020456819276338622,
+    "qdot_measured_m_s": -7.143943547087994e-05,
+    "contact_measured_n": 0.10224522689602025,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      5.625175149179262e-05,
+      -5.798721452449085e-05,
+      4.082827128160105e-06,
+      0.00011615706304535234
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.2099999999999775,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.002044819772612958,
+    "qdot_measured_m_s": -9.514551951418318e-05,
+    "contact_measured_n": 0.10220842415556798,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      6.406262153599296e-05,
+      -6.663978638474233e-05,
+      2.6421308690238732e-05,
+      0.00012362476158500613
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.2199999999999764,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.002043829540558792,
+    "qdot_measured_m_s": -9.882331443383732e-05,
+    "contact_measured_n": 0.10217001467210915,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      6.756378431549415e-05,
+      -7.029150071899415e-05,
+      4.7169161630611356e-05,
+      0.00011759562275537316
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.2299999999999753,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.002042903468365472,
+    "qdot_measured_m_s": -8.45446527391836e-05,
+    "contact_measured_n": 0.102137019844684,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      6.5994514978851e-05,
+      -6.829373717606724e-05,
+      6.57043027429971e-05,
+      0.00010157479700878547
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.2399999999999742,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020421956949902187,
+    "qdot_measured_m_s": -5.741758513107625e-05,
+    "contact_measured_n": 0.10211443765849536,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      5.947341062373379e-05,
+      -6.095212880838363e-05,
+      7.867639553582606e-05,
+      7.972405646738956e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.2499999999999731,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020417985186775996,
+    "qdot_measured_m_s": -2.4296125914063802e-05,
+    "contact_measured_n": 0.10210454309801775,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      5.1387822242482395e-05,
+      -5.1794200796623224e-05,
+      8.026871230493171e-05,
+      5.613812589455591e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.259999999999972,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.002041736606989574,
+    "qdot_measured_m_s": 8.45153816543236e-06,
+    "contact_measured_n": 0.10210740451109575,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      3.8462404332917366e-05,
+      -3.7955168099568226e-05,
+      7.719111270243495e-05,
+      3.383514041721547e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.269999999999971,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020419709502666403,
+    "qdot_measured_m_s": 3.450514550906899e-05,
+    "contact_measured_n": 0.10212020572058611,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      2.5434515988576045e-05,
+      -2.419842018849816e-05,
+      6.3559882779618e-05,
+      1.5085075537490944e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.2799999999999698,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020424110603495553,
+    "qdot_measured_m_s": 4.99780225826882e-05,
+    "contact_measured_n": 0.10213897119587013,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      1.099574813387405e-05,
+      -9.400638327161648e-06,
+      4.463922736674952e-05,
+      1.9165808383680982e-06
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.2899999999999687,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020429418574841266,
+    "qdot_measured_m_s": 5.3630838340315604e-05,
+    "contact_measured_n": 0.10215927368674718,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -1.3144201001791256e-06,
+      2.8666452058234704e-06,
+      2.164729412412747e-05,
+      -7.927545790931134e-06
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.2999999999999676,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020434485744551647,
+    "qdot_measured_m_s": 4.645927981480105e-05,
+    "contact_measured_n": 0.10217688526262532,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -1.3186010329041542e-05,
+      1.4368190724700636e-05,
+      -6.806041885631942e-07,
+      -1.2428068473901988e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.3099999999999665,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020438370290747515,
+    "qdot_measured_m_s": 3.1326099746866695e-05,
+    "contact_measured_n": 0.10218874049153749,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -2.0612363650501786e-05,
+      2.117577746116317e-05,
+      -2.1443468571025193e-05,
+      -1.6688463923442143e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.3199999999999654,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020440475754217357,
+    "qdot_measured_m_s": 1.2028946130271972e-05,
+    "contact_measured_n": 0.10219321899669317,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -2.6948845836122226e-05,
+      2.683442205936304e-05,
+      -3.635919705091695e-05,
+      -1.6863899391039716e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.3299999999999643,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020440622584093383,
+    "qdot_measured_m_s": -7.070900276299983e-06,
+    "contact_measured_n": 0.10219046685577399,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -2.937411810180479e-05,
+      2.8619826499320933e-05,
+      -4.578332417537467e-05,
+      -1.8535278459630433e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.3399999999999632,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020439036970146067,
+    "qdot_measured_m_s": -2.2339632122951545e-05,
+    "contact_measured_n": 0.10218194297977162,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -2.962553195326456e-05,
+      2.841408883741403e-05,
+      -4.801106066953942e-05,
+      -1.9954366018093417e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.3499999999999621,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.00204362441762473,
+    "qdot_measured_m_s": -3.141321359468175e-05,
+    "contact_measured_n": 0.10216997336006602,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -2.7409868021854855e-05,
+      2.599360598007361e-05,
+      -4.4568581498483084e-05,
+      -2.1696522771064153e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.359999999999961,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020432930679027818,
+    "qdot_measured_m_s": -3.331325892231568e-05,
+    "contact_measured_n": 0.10215734252556383,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -2.3096666279087685e-05,
+      2.173819828960033e-05,
+      -3.678838343201818e-05,
+      -2.3784114423053282e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.36999999999996,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020429801525147294,
+    "qdot_measured_m_s": -2.8509880734457174e-05,
+    "contact_measured_n": 0.10214661841448226,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -1.817976382581521e-05,
+      1.7120905316470036e-05,
+      -2.646172318376827e-05,
+      -2.44131509288259e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.3799999999999588,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.0020427453534904967,
+    "qdot_measured_m_s": -1.853048576374322e-05,
+    "contact_measured_n": 0.10213979875163903,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -1.264823473293153e-05,
+      1.2032459186045452e-05,
+      -1.3900414569834041e-05,
+      -2.5470720799392055e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.3899999999999577,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.002042625545914608,
+    "qdot_measured_m_s": -6.2503318226870705e-06,
+    "contact_measured_n": 0.10213759874665163,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -6.172961481837325e-06,
+      6.081513870243027e-06,
+      -4.771326889585481e-06,
+      -2.401623027781241e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.3999999999999566,
+    "reference_probe_m": [
+      0.2955,
+      0.027999999999999997,
+      0.15
+    ],
+    "qref_m": 0.002,
+    "q_measured_m": 0.002042630752564847,
+    "qdot_measured_m_s": 6.015565150900837e-06,
+    "contact_measured_n": 0.10214015605848484,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -2.860369316737277e-06,
+      3.268069234396709e-06,
+      4.89351760624146e-06,
+      -1.9181304167226187e-05
+    ],
+    "state": "HOLD",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.4099999999999555,
+    "reference_probe_m": [
+      0.2955,
+      0.027999039508723567,
+      0.15
+    ],
+    "qref_m": 0.001999039508723569,
+    "q_measured_m": 0.0020427481974242077,
+    "qdot_measured_m_s": 1.600830089581862e-05,
+    "contact_measured_n": 0.10214654746443035,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.00021038002964191005,
+      -0.00023449922447507654,
+      0.0002030412581655039,
+      -0.000430744971074426
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.4199999999999544,
+    "reference_probe_m": [
+      0.2955,
+      0.027992747600914875,
+      0.15
+    ],
+    "qref_m": 0.001992747600914877,
+    "q_measured_m": 0.0020424630067081865,
+    "qdot_measured_m_s": -7.379157411905544e-05,
+    "contact_measured_n": 0.10208981289662558,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.0012761046837900247,
+      -0.0014280024993061913,
+      0.00031330019229125483,
+      -0.0018158686459196494
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.4299999999999533,
+    "reference_probe_m": [
+      0.2955,
+      0.027976934410405017,
+      0.15
+    ],
+    "qref_m": 0.001976934410405019,
+    "q_measured_m": 0.002039845854473226,
+    "qdot_measured_m_s": -0.00043901197897075624,
+    "contact_measured_n": 0.10182092997433473,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.0031895683658783314,
+      -0.0035605867264080215,
+      3.6756098704682216e-05,
+      -0.003794131977231996
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.4399999999999522,
+    "reference_probe_m": [
+      0.2955,
+      0.02794856416589796,
+      0.15
+    ],
+    "qref_m": 0.0019485641658979617,
+    "q_measured_m": 0.002031677912753102,
+    "qdot_measured_m_s": -0.0011521216595323134,
+    "contact_measured_n": 0.10119948798173639,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.005712918128200933,
+      -0.006371992759313827,
+      -0.0005786955754552014,
+      -0.006256271915251799
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.449999999999951,
+    "reference_probe_m": [
+      0.2955,
+      0.027905654834894638,
+      0.15
+    ],
+    "qref_m": 0.00190565483489464,
+    "q_measured_m": 0.002014534020449802,
+    "qdot_measured_m_s": -0.0021957276120751893,
+    "contact_measured_n": 0.10008147633170227,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.00857100352696627,
+      -0.009568191566040357,
+      -0.001522918101468651,
+      -0.00913925147958028
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.45999999999995,
+    "reference_probe_m": [
+      0.2955,
+      0.027847177767617054,
+      0.15
+    ],
+    "qref_m": 0.0018471777676170565,
+    "q_measured_m": 0.0019852721416469313,
+    "qdot_measured_m_s": -0.00354254843237717,
+    "contact_measured_n": 0.0983068131601778,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.011524165734038194,
+      -0.01289055438131112,
+      -0.002807673359203511,
+      -0.012303761318128714
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.469999999999949,
+    "reference_probe_m": [
+      0.2955,
+      0.027772957340932377,
+      0.15
+    ],
+    "qref_m": 0.0017729573409323788,
+    "q_measured_m": 0.0019410046623163067,
+    "qdot_measured_m_s": -0.0051662599704852385,
+    "contact_measured_n": 0.09573624362475348,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.01439306650071992,
+      -0.016141734167824634,
+      -0.00436389437893725,
+      -0.015560406188129261
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.4799999999999478,
+    "reference_probe_m": [
+      0.2955,
+      0.02768357060227704,
+      0.15
+    ],
+    "qref_m": 0.0016835706022770393,
+    "q_measured_m": 0.0018792511059160957,
+    "qdot_measured_m_s": -0.007008568807668118,
+    "contact_measured_n": 0.09227695168004067,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.01707756427875684,
+      -0.019203362000613136,
+      -0.006068818735033732,
+      -0.01874692634972297
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.4899999999999467,
+    "reference_probe_m": [
+      0.2955,
+      0.02758024691358083,
+      0.15
+    ],
+    "qref_m": 0.0015802469135808308,
+    "q_measured_m": 0.0017983744835244203,
+    "qdot_measured_m_s": -0.008962396449865627,
+    "contact_measured_n": 0.08789278766208525,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.019497476420704277,
+      -0.021978329545726705,
+      -0.007765375102908978,
+      -0.021724699800726555
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.4999999999999456,
+    "reference_probe_m": [
+      0.2955,
+      0.02746476759519101,
+      0.15
+    ],
+    "qref_m": 0.001464767595191008,
+    "q_measured_m": 0.0016980122100015362,
+    "qdot_measured_m_s": -0.01088676720511546,
+    "contact_measured_n": 0.08260751507094832,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.018699925142219354,
+      -0.021532904076007955,
+      -0.007380322475450285,
+      -0.02200000000000013
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 1.3183898417423734e-16
+  },
+  {
+    "time_s": 1.5099999999999445,
+    "reference_probe_m": [
+      0.2955,
+      0.02733936556979638,
+      0.15
+    ],
+    "qref_m": 0.0013393655697963825,
+    "q_measured_m": 0.0015793288804509848,
+    "qdot_measured_m_s": -0.012624338019942763,
+    "contact_measured_n": 0.07650656126155198,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.01695502665514556,
+      -0.020092979158579327,
+      -0.006836202204889563,
+      -0.02200000000000002
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 2.0816681711721685e-17
+  },
+  {
+    "time_s": 1.5199999999999434,
+    "reference_probe_m": [
+      0.2955,
+      0.02720662500635142,
+      0.15
+    ],
+    "qref_m": 0.0012066250063514237,
+    "q_measured_m": 0.0014449675358689284,
+    "qdot_measured_m_s": -0.014032973522485035,
+    "contact_measured_n": 0.06975502550911176,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.015492986673634968,
+      -0.01885896979609613,
+      -0.006337754963244846,
+      -0.02200000000000002
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 2.0816681711721685e-17
+  },
+  {
+    "time_s": 1.5299999999999423,
+    "reference_probe_m": [
+      0.2955,
+      0.027069380964000356,
+      0.15
+    ],
+    "qref_m": 0.0010693809640003559,
+    "q_measured_m": 0.0012989204931857308,
+    "qdot_measured_m_s": -0.014990447715578793,
+    "contact_measured_n": 0.0625566989343061,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.015040466791588256,
+      -0.018540804891669715,
+      -0.005897896888933607,
+      -0.02199999999999991
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.5399999999999412,
+    "reference_probe_m": [
+      0.2955,
+      0.026930619036001253,
+      0.15
+    ],
+    "qref_m": 0.0009306190360012558,
+    "q_measured_m": 0.0011461157980298304,
+    "qdot_measured_m_s": -0.015432132920180223,
+    "contact_measured_n": 0.05513225239328031,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.015582675243755936,
+      -0.019121038324073365,
+      -0.005588747737713895,
+      -0.021999999999999797
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.54999999999994,
+    "reference_probe_m": [
+      0.2955,
+      0.02679337499365015,
+      0.15
+    ],
+    "qref_m": 0.0007933749936501526,
+    "q_measured_m": 0.0009917533571497774,
+    "qdot_measured_m_s": -0.015361554884192396,
+    "contact_measured_n": 0.047701992959096745,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.0166216165558969,
+      -0.020107180878387653,
+      -0.005505155238958226,
+      -0.021999999999999575
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.559999999999939,
+    "reference_probe_m": [
+      0.2955,
+      0.026660634430205124,
+      0.15
+    ],
+    "qref_m": 0.0006606344302051246,
+    "q_measured_m": 0.0008406944952291352,
+    "qdot_measured_m_s": -0.014834223151720737,
+    "contact_measured_n": 0.04046973115299721,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.017628097661776143,
+      -0.020978584046401988,
+      -0.005720145907265994,
+      -0.02200000000000013
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 1.3183898417423734e-16
+  },
+  {
+    "time_s": 1.569999999999938,
+    "reference_probe_m": [
+      0.2955,
+      0.026535232404810396,
+      0.15
+    ],
+    "qref_m": 0.0005352324048103978,
+    "q_measured_m": 0.000697059045943527,
+    "qdot_measured_m_s": -0.013935785692442386,
+    "contact_measured_n": 0.03360938000518715,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.01838777571975204,
+      -0.02152856121227429,
+      -0.006273050929721302,
+      -0.0219999999999988
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.5799999999999368,
+    "reference_probe_m": [
+      0.2955,
+      0.026419753086420444,
+      0.15
+    ],
+    "qref_m": 0.00041975308642044576,
+    "q_measured_m": 0.000564032941110221,
+    "qdot_measured_m_s": -0.012762623153903342,
+    "contact_measured_n": 0.02725793883782968,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.019008579780074922,
+      -0.021872215109808926,
+      -0.0071673176004778405,
+      -0.02200000000000102
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 1.0200174038743626e-15
+  },
+  {
+    "time_s": 1.5899999999999357,
+    "reference_probe_m": [
+      0.2955,
+      0.026316429397724085,
+      0.15
+    ],
+    "qref_m": 0.00031642939772408486,
+    "q_measured_m": 0.00044384785917507975,
+    "qdot_measured_m_s": -0.011406793707174514,
+    "contact_measured_n": 0.021514855203273325,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.019476332188599572,
+      -0.021999999999998757,
+      -0.008268338606888248,
+      -0.02199999999999891
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.5999999999999346,
+    "reference_probe_m": [
+      0.2955,
+      0.026227042659068573,
+      0.15
+    ],
+    "qref_m": 0.0002270426590685739,
+    "q_measured_m": 0.00033778975293983896,
+    "qdot_measured_m_s": -0.009964303641432058,
+    "contact_measured_n": 0.016434992743345696,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.019867710384837423,
+      -0.02199999999999991,
+      -0.00951170170928628,
+      -0.021999999999999797
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.6099999999999335,
+    "reference_probe_m": [
+      0.2955,
+      0.026152822232383716,
+      0.15
+    ],
+    "qref_m": 0.00015282223238371583,
+    "q_measured_m": 0.00024625165747218576,
+    "qdot_measured_m_s": -0.00851641989668034,
+    "contact_measured_n": 0.012039667039214458,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.020292810522269195,
+      -0.021999999999999964,
+      -0.010868507371246672,
+      -0.022000000000000353
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 3.5388358909926865e-16
+  },
+  {
+    "time_s": 1.6199999999999324,
+    "reference_probe_m": [
+      0.2955,
+      0.026094345165105948,
+      0.15
+    ],
+    "qref_m": 9.434516510594837e-05,
+    "q_measured_m": 0.0001690191287198154,
+    "qdot_measured_m_s": -0.007105106391334992,
+    "contact_measured_n": 0.008333780071105924,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.020730856022978236,
+      -0.02200000000000024,
+      -0.012247176223715517,
+      -0.02200000000000013
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 2.42861286636753e-16
+  },
+  {
+    "time_s": 1.6299999999999313,
+    "reference_probe_m": [
+      0.2955,
+      0.026051435834102448,
+      0.15
+    ],
+    "qref_m": 5.143583410245012e-05,
+    "q_measured_m": 0.00010473986141259821,
+    "qdot_measured_m_s": -0.005503754199950208,
+    "contact_measured_n": 0.0051150265701215255,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.02111354622921821,
+      -0.022000000000000575,
+      -0.013256472713785827,
+      -0.020657487872778102
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 5.759281940243e-16
+  },
+  {
+    "time_s": 1.6399999999999302,
+    "reference_probe_m": [
+      0.2955,
+      0.026023065589595235,
+      0.15
+    ],
+    "qref_m": 2.306558959523497e-05,
+    "q_measured_m": 5.588080456699297e-05,
+    "qdot_measured_m_s": -0.004800232864902506,
+    "contact_measured_n": 0.004506088445067208,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.021376033207520573,
+      -0.021999999999999853,
+      -0.012833792974622504,
+      -0.0181847114422935
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.649999999999929,
+    "reference_probe_m": [
+      0.2955,
+      0.026007252399085246,
+      0.15
+    ],
+    "qref_m": 7.252399085246442e-06,
+    "q_measured_m": 2.193846307974732e-05,
+    "qdot_measured_m_s": -0.002965475673592051,
+    "contact_measured_n": 0.0021699190152947175,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.018723066193624016,
+      -0.019039653815161955,
+      -0.013060761129806142,
+      -0.015787529418620272
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.659999999999928,
+    "reference_probe_m": [
+      0.2955,
+      0.02600096049127646,
+      0.15
+    ],
+    "qref_m": 9.604912764629159e-07,
+    "q_measured_m": 3.254462564430247e-06,
+    "qdot_measured_m_s": -0.0011721734363831337,
+    "contact_measured_n": 0.0006902436333353215,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.001207443757430815,
+      -0.0013689485637455867,
+      -0.0026736908122177994,
+      -0.003843693877157328
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.6699999999999269,
+    "reference_probe_m": [
+      0.2955,
+      0.026,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": -3.233225643004152e-07,
+    "qdot_measured_m_s": 7.866543069292596e-05,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.0015300391493742183,
+      0.001491794915730038,
+      -0.0026512160520473227,
+      -0.004141191333780769
+    ],
+    "state": "RETURN_FOLLOW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.6799999999999258,
+    "reference_probe_m": [
+      0.2955,
+      0.026,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 3.5653927029637544e-07,
+    "qdot_measured_m_s": 5.058671258186327e-05,
+    "contact_measured_n": 0.0011963117542578166,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.0014305135872391128,
+      0.0014444222438218524,
+      -0.0012772910012570637,
+      -0.002647388761485958
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.6899999999999247,
+    "reference_probe_m": [
+      0.2955,
+      0.02599869482337893,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 5.80883675567436e-06,
+    "qdot_measured_m_s": 0.0007090692733844135,
+    "contact_measured_n": 0.0006878064781696095,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.0003451464581922803,
+      0.00039305000863759654,
+      0.0009673391373146156,
+      -0.0003474808948817909
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.6999999999999236,
+    "reference_probe_m": [
+      0.2955,
+      0.02599101899398329,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 1.4580528164296425e-05,
+    "qdot_measured_m_s": 0.001007147357741305,
+    "contact_measured_n": 0.0011566240331988959,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.0008002545735853739,
+      0.0008836800687223034,
+      0.004065075457077905,
+      0.0016771051108896984
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.7099999999999225,
+    "reference_probe_m": [
+      0.2955,
+      0.025974215621138694,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 2.4456471154782633e-05,
+    "qdot_measured_m_s": 0.0009185880822697228,
+    "contact_measured_n": 0.0014603218895028166,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.002948318228922303,
+      0.0030673012686936174,
+      0.0061814601155079085,
+      0.0035770016059115672
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.7199999999999214,
+    "reference_probe_m": [
+      0.2955,
+      0.025948657257638976,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 3.0986299529464767e-05,
+    "qdot_measured_m_s": 0.00038592398117876555,
+    "contact_measured_n": 0.001516181009273567,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.00572941337043445,
+      0.005870217008316303,
+      0.007404306543214112,
+      0.005015125065420456
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.7299999999999203,
+    "reference_probe_m": [
+      0.2955,
+      0.02591695177304097,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 3.0956536848242096e-05,
+    "qdot_measured_m_s": -0.00033209891300514964,
+    "contact_measured_n": 0.0013349976066204588,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.007881872929338618,
+      0.008028622349405462,
+      0.008142422591524756,
+      0.00611807294541955
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.7399999999999192,
+    "reference_probe_m": [
+      0.2955,
+      0.025883048226959318,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 2.3858435686690577e-05,
+    "qdot_measured_m_s": -0.0009257322463521135,
+    "contact_measured_n": 0.0009166120785696806,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.008666557101150996,
+      0.008804594812924671,
+      0.008407779008704708,
+      0.006925312814185514
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.749999999999918,
+    "reference_probe_m": [
+      0.2955,
+      0.025851342742361276,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 1.1960312096527672e-05,
+    "qdot_measured_m_s": -0.0013423229952396938,
+    "contact_measured_n": 0.0003528709166226205,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.007987818090613191,
+      0.008102911683987551,
+      0.008008681071782764,
+      0.007180091298552238
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 1,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.759999999999917,
+    "reference_probe_m": [
+      0.2955,
+      0.025825784378861488,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": -9.567365812889883e-07,
+    "qdot_measured_m_s": -0.0004315056603415305,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.006179723650957453,
+      0.0062614091733570465,
+      0.006724013210994695,
+      0.006730878562552833
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.7699999999999159,
+    "reference_probe_m": [
+      0.2955,
+      0.025808981006016814,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 9.502477550351945e-08,
+    "qdot_measured_m_s": 0.00012056150237812139,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.0037765221491155854,
+      0.0038160438118392537,
+      0.004681805184095111,
+      0.005579079265942255
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.7799999999999148,
+    "reference_probe_m": [
+      0.2955,
+      0.0258013051766211,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 8.811966644037692e-07,
+    "qdot_measured_m_s": 3.700357006296046e-05,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.00138939790341025,
+      0.0013838529925419008,
+      0.002604053275283791,
+      0.0037617924381123657
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.7899999999999137,
+    "reference_probe_m": [
+      0.2955,
+      0.0258,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 7.534651911197895e-07,
+    "qdot_measured_m_s": -4.71114966035033e-05,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.00016115633303390164,
+      -0.0001990614272622815,
+      0.001161236936161547,
+      0.0018619894871596543
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.7999999999999126,
+    "reference_probe_m": [
+      0.2955,
+      0.0258,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 1.0383386803516039e-07,
+    "qdot_measured_m_s": -6.871294429419818e-05,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.00020020460289382758,
+      -0.00024577394624633597,
+      0.00046315515116091,
+      0.0007154842524261795
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.8099999999999115,
+    "reference_probe_m": [
+      0.2955,
+      0.0258,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": -1.3895951233975211e-08,
+    "qdot_measured_m_s": 6.676246930254056e-06,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.0003137380670570067,
+      0.0002693632350266595,
+      -0.00032513718271243164,
+      -3.8248981617305944e-05
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.8199999999999104,
+    "reference_probe_m": [
+      0.2955,
+      0.0258,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 3.7936997812952246e-08,
+    "qdot_measured_m_s": 3.3638032772256905e-06,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.0007479548544174208,
+      0.0007049328776501662,
+      -0.0008051538698912175,
+      -0.0007454889926952202
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.8299999999999093,
+    "reference_probe_m": [
+      0.2955,
+      0.0258,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 4.458926692703859e-08,
+    "qdot_measured_m_s": -1.3889672487204705e-06,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.0009406442829129891,
+      0.0009029914641601189,
+      -0.0009385337663063709,
+      -0.0011977381539860499
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.8399999999999082,
+    "reference_probe_m": [
+      0.2955,
+      0.0258,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 1.5745410253676476e-08,
+    "qdot_measured_m_s": -3.561284742903089e-06,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.0009349376819919042,
+      0.0009063017413744046,
+      -0.0008962422278322446,
+      -0.0013608473679185273
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.849999999999907,
+    "reference_probe_m": [
+      0.2955,
+      0.0258,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": -1.804377365206207e-09,
+    "qdot_measured_m_s": 3.589840085808769e-07,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.0008282907060048195,
+      0.0008099968828579884,
+      -0.0007917195452400438,
+      -0.0013495137242727218
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.859999999999906,
+    "reference_probe_m": [
+      0.2955,
+      0.0258,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 1.4405829310242192e-09,
+    "qdot_measured_m_s": 2.5342014790743725e-07,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.0006903239066369526,
+      0.000682176646054633,
+      -0.0006617567971058946,
+      -0.0012701850785710178
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.8699999999999048,
+    "reference_probe_m": [
+      0.2955,
+      0.0258,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 2.555686555447705e-09,
+    "qdot_measured_m_s": -7.368713132179911e-09,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.0005493289445173133,
+      0.0005506606164295547,
+      -0.0005132482294460949,
+      -0.0011521030050816172
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.8799999999999037,
+    "reference_probe_m": [
+      0.2955,
+      0.0258,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 1.3982099490526684e-09,
+    "qdot_measured_m_s": -1.78038984944014e-07,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.00039949964288785167,
+      0.00040944564765157954,
+      -0.00035616447758357594,
+      -0.000990462752743948
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.8899999999999026,
+    "reference_probe_m": [
+      0.2955,
+      0.0258,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": -1.5852397754769771e-10,
+    "qdot_measured_m_s": -4.1301146363395445e-09,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -0.00024326566903240532,
+      0.0002605393369910225,
+      -0.0001950151609317885,
+      -0.000779131665721744
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.8999999999999015,
+    "reference_probe_m": [
+      0.2955,
+      0.0258,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 3.7381377651610705e-11,
+    "qdot_measured_m_s": 1.8049522159786214e-08,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      -8.749032541494062e-05,
+      0.00011031307248671185,
+      -4.149693286348288e-05,
+      -0.0005373234213499334
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.9099999999999004,
+    "reference_probe_m": [
+      0.2955,
+      0.0258,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 1.450520429332499e-10,
+    "qdot_measured_m_s": 3.950918606962107e-09,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      5.409830809557925e-05,
+      -2.775476799674048e-05,
+      9.310060535439035e-05,
+      -0.00029043147017504545
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.9199999999998993,
+    "reference_probe_m": [
+      0.2955,
+      0.0258,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 1.0933996509474928e-10,
+    "qdot_measured_m_s": -8.527561400986689e-09,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.00017243810337919108,
+      -0.00014477435713616815,
+      0.0001979231073021559,
+      -6.035305705509586e-05
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.9299999999998982,
+    "reference_probe_m": [
+      0.2955,
+      0.0258,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 3.464359962475299e-12,
+    "qdot_measured_m_s": -1.0581805266200159e-08,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.0002591138143425431,
+      -0.00023204436154175556,
+      0.0002719663661958638,
+      0.00014237688624541
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.9399999999998971,
+    "reference_probe_m": [
+      0.2955,
+      0.0258,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": -1.0855882331721585e-12,
+    "qdot_measured_m_s": 1.2776820225410184e-09,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.0003168542798389351,
+      -0.0002921347070120872,
+      0.00031116162915223455,
+      0.00030871338954296945
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.949999999999896,
+    "reference_probe_m": [
+      0.2955,
+      0.0258,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 8.152430120239867e-12,
+    "qdot_measured_m_s": 5.357580212994702e-10,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.00034472492449186265,
+      -0.0003237591396641759,
+      0.00032379833597362406,
+      0.00043454702853962246
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.959999999999895,
+    "reference_probe_m": [
+      0.2955,
+      0.0258,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 8.29800721035636e-12,
+    "qdot_measured_m_s": -3.6602745665978914e-10,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.00034661008583389274,
+      -0.00033041881419881847,
+      0.00031097386444067787,
+      0.0005176037242113907
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.9699999999998938,
+    "reference_probe_m": [
+      0.2955,
+      0.0258,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 2.1922136944265206e-12,
+    "qdot_measured_m_s": -7.015750266627857e-10,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.00032587377366177783,
+      -0.0003150541699704634,
+      0.00027787770454645866,
+      0.0005574610343235253
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.9799999999998927,
+    "reference_probe_m": [
+      0.2955,
+      0.0258,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": -3.3362761800835554e-13,
+    "qdot_measured_m_s": 9.090350630899232e-11,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.00028690498877748105,
+      -0.00028163321393825935,
+      0.0002302104966322993,
+      0.0005569581063071816
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  },
+  {
+    "time_s": 1.9899999999998916,
+    "reference_probe_m": [
+      0.2955,
+      0.0258,
+      0.15
+    ],
+    "qref_m": 0.0,
+    "q_measured_m": 4.3467880219149435e-13,
+    "qdot_measured_m_s": 5.571199868570731e-11,
+    "contact_measured_n": 0.0,
+    "position_weights": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "predicted_rope_speed_m_s": [
+      0.00023480401664036088,
+      -0.00023485950138110723,
+      0.00017367736273987688,
+      0.0005213346352050952
+    ],
+    "state": "WITHDRAW",
+    "actual_contact_pairs": 0,
+    "speed_guard_enabled": true,
+    "speed_guard_fallback": false,
+    "predicted_speed_violation_m_s": 0.0
+  }
+]
