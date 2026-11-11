@@ -1,0 +1,1133 @@
+{
+  "physics_steps": 0,
+  "render_pixels": [
+    2400,
+    1800
+  ],
+  "png_dpi": 600,
+  "camera_direction": {
+    "azimuth_deg": 115,
+    "elevation_deg": -18
+  },
+  "figures": {
+    "fig01_m1_reach_hold_a": {
+      "title": "central high",
+      "size_inches": [
+        1.9338594357638885,
+        1.6223390212673605
+      ],
+      "sources": {
+        "data": "M1_reach_hold/*/trajectory_timestep.csv",
+        "rows_per_case": [
+          601,
+          601,
+          601
+        ],
+        "sampling": "all saved physical timesteps; three independent experiments"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig01_m1_reach_hold_b": {
+      "title": "positive high",
+      "size_inches": [
+        1.9299933333333295,
+        1.6194394444444424
+      ],
+      "sources": {
+        "data": "M1_reach_hold/*/trajectory_timestep.csv",
+        "rows_per_case": [
+          601,
+          601,
+          601
+        ],
+        "sampling": "all saved physical timesteps; three independent experiments"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig01_m1_reach_hold_c": {
+      "title": "negative low",
+      "size_inches": [
+        1.9299933333333357,
+        1.619439444444446
+      ],
+      "sources": {
+        "data": "M1_reach_hold/*/trajectory_timestep.csv",
+        "rows_per_case": [
+          601,
+          601,
+          601
+        ],
+        "sampling": "all saved physical timesteps; three independent experiments"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig01_m1_reach_hold_d": {
+      "title": "Independent tip paths; crosses = targets",
+      "size_inches": [
+        3.5027938975694433,
+        2.3426839013435985
+      ],
+      "sources": {
+        "data": "M1_reach_hold/*/trajectory_timestep.csv",
+        "rows_per_case": [
+          601,
+          601,
+          601
+        ],
+        "sampling": "all saved physical timesteps; three independent experiments"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig01_m1_reach_hold_e": {
+      "title": "Position error",
+      "size_inches": [
+        3.5027938975694455,
+        2.3426839013435985
+      ],
+      "sources": {
+        "data": "M1_reach_hold/*/trajectory_timestep.csv",
+        "rows_per_case": [
+          601,
+          601,
+          601
+        ],
+        "sampling": "all saved physical timesteps; three independent experiments"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig02_figure_eight_a": {
+      "title": "t = 5 s",
+      "size_inches": [
+        1.9471927690972222,
+        1.626205123697917
+      ],
+      "sources": {
+        "data": "figure_eight_tracking/trajectory_full.npz",
+        "rows": 22001,
+        "sampling": "complete 1 ms states; display reduction includes global extrema"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig02_figure_eight_b": {
+      "title": "t = 10 s",
+      "size_inches": [
+        1.94777111111111,
+        1.6266388802083322
+      ],
+      "sources": {
+        "data": "figure_eight_tracking/trajectory_full.npz",
+        "rows": 22001,
+        "sampling": "complete 1 ms states; display reduction includes global extrema"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig02_figure_eight_c": {
+      "title": "t = 15 s",
+      "size_inches": [
+        1.9477711111111136,
+        1.6266388802083358
+      ],
+      "sources": {
+        "data": "figure_eight_tracking/trajectory_full.npz",
+        "rows": 22001,
+        "sampling": "complete 1 ms states; display reduction includes global extrema"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig02_figure_eight_d": {
+      "title": "Tip trajectory",
+      "size_inches": [
+        2.353905008680556,
+        2.3861621622131644
+      ],
+      "sources": {
+        "data": "figure_eight_tracking/trajectory_full.npz",
+        "rows": 22001,
+        "sampling": "complete 1 ms states; display reduction includes global extrema"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig02_figure_eight_e": {
+      "title": "Full-run error",
+      "size_inches": [
+        2.3339050086805546,
+        2.3861621622131644
+      ],
+      "sources": {
+        "data": "figure_eight_tracking/trajectory_full.npz",
+        "rows": 22001,
+        "sampling": "complete 1 ms states; display reduction includes global extrema"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig02_figure_eight_f": {
+      "title": "Four tendon tensions",
+      "size_inches": [
+        2.333905008680558,
+        2.3861621622131644
+      ],
+      "sources": {
+        "data": "figure_eight_tracking/trajectory_full.npz",
+        "rows": 22001,
+        "sampling": "complete 1 ms states; display reduction includes global extrema"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig03_p3_stiffness_a": {
+      "title": "unloaded",
+      "size_inches": [
+        1.5460930512152786,
+        1.3315142328559029
+      ],
+      "sources": {
+        "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\P3_passive_progressive_stiffness\\cases\\plus_x\\trajectory.csv",
+        "rows": 160000,
+        "sampling": "complete 0.125 ms record; original scoring plateaus and stiffness retained"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig03_p3_stiffness_b": {
+      "title": "low",
+      "size_inches": [
+        1.5449933333333319,
+        1.330689444444444
+      ],
+      "sources": {
+        "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\P3_passive_progressive_stiffness\\cases\\plus_x\\trajectory.csv",
+        "rows": 160000,
+        "sampling": "complete 0.125 ms record; original scoring plateaus and stiffness retained"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig03_p3_stiffness_c": {
+      "title": "high",
+      "size_inches": [
+        1.5449933333333368,
+        1.3306894444444461
+      ],
+      "sources": {
+        "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\P3_passive_progressive_stiffness\\cases\\plus_x\\trajectory.csv",
+        "rows": 160000,
+        "sampling": "complete 0.125 ms record; original scoring plateaus and stiffness retained"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig03_p3_stiffness_d": {
+      "title": "recovery",
+      "size_inches": [
+        1.5449933333333323,
+        1.3245555468750005
+      ],
+      "sources": {
+        "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\P3_passive_progressive_stiffness\\cases\\plus_x\\trajectory.csv",
+        "rows": 160000,
+        "sampling": "complete 0.125 ms record; original scoring plateaus and stiffness retained"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig03_p3_stiffness_e": {
+      "title": "Passive force-displacement response",
+      "size_inches": [
+        3.5694605642361115,
+        2.3426839013435985
+      ],
+      "sources": {
+        "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\P3_passive_progressive_stiffness\\cases\\plus_x\\trajectory.csv",
+        "rows": 160000,
+        "sampling": "complete 0.125 ms record; original scoring plateaus and stiffness retained"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig03_p3_stiffness_f": {
+      "title": "Original plateau stiffness",
+      "size_inches": [
+        3.43946056423611,
+        2.190458423913043
+      ],
+      "sources": {
+        "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\P3_passive_progressive_stiffness\\cases\\plus_x\\trajectory.csv",
+        "rows": 160000,
+        "sampling": "complete 0.125 ms record; original scoring plateaus and stiffness retained"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig04_phs2d_a": {
+      "title": "Unloaded: 9 segments",
+      "size_inches": [
+        1.9738594357638868,
+        1.6523390212673599
+      ],
+      "sources": {
+        "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\PHS2D_passive_head_stabilization",
+        "sampling": "32001 original states per case; no 401-row display data used for curves/statistics",
+        "full_data_descriptive_extrema": {
+          "s050_positive": {
+            "states": 32001,
+            "tip_xy_peak_mm": 1.8240451540017648,
+            "tip_z_min_mm": -0.0005488415019128112,
+            "tip_z_max_mm": 3.9007039980616525,
+            "point_xy_peak_mm": 26.467084260035165
+          },
+          "s050_negative": {
+            "states": 32001,
+            "tip_xy_peak_mm": 1.9703331358898972,
+            "tip_z_min_mm": -1.991479203766744e-08,
+            "tip_z_max_mm": 4.208297638621739,
+            "point_xy_peak_mm": 26.44079276057161
+          },
+          "s070_positive": {
+            "states": 32001,
+            "tip_xy_peak_mm": 3.5102184379859067,
+            "tip_z_min_mm": -0.0023747100931503784,
+            "tip_z_max_mm": 5.715355612044837,
+            "point_xy_peak_mm": 32.27306011135747
+          },
+          "s070_negative": {
+            "states": 32001,
+            "tip_xy_peak_mm": 3.841528009501995,
+            "tip_z_min_mm": 0.0,
+            "tip_z_max_mm": 6.173116132003248,
+            "point_xy_peak_mm": 32.35974516322851
+          }
+        },
+        "poses": "exact original-state display indices; no interpolation",
+        "interpretation": "XY stabilization only, not 3D fixation; no unloading data"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig04_phs2d_b": {
+      "title": "s050 positive load",
+      "size_inches": [
+        1.974437777777775,
+        1.652772777777777
+      ],
+      "sources": {
+        "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\PHS2D_passive_head_stabilization",
+        "sampling": "32001 original states per case; no 401-row display data used for curves/statistics",
+        "full_data_descriptive_extrema": {
+          "s050_positive": {
+            "states": 32001,
+            "tip_xy_peak_mm": 1.8240451540017648,
+            "tip_z_min_mm": -0.0005488415019128112,
+            "tip_z_max_mm": 3.9007039980616525,
+            "point_xy_peak_mm": 26.467084260035165
+          },
+          "s050_negative": {
+            "states": 32001,
+            "tip_xy_peak_mm": 1.9703331358898972,
+            "tip_z_min_mm": -1.991479203766744e-08,
+            "tip_z_max_mm": 4.208297638621739,
+            "point_xy_peak_mm": 26.44079276057161
+          },
+          "s070_positive": {
+            "states": 32001,
+            "tip_xy_peak_mm": 3.5102184379859067,
+            "tip_z_min_mm": -0.0023747100931503784,
+            "tip_z_max_mm": 5.715355612044837,
+            "point_xy_peak_mm": 32.27306011135747
+          },
+          "s070_negative": {
+            "states": 32001,
+            "tip_xy_peak_mm": 3.841528009501995,
+            "tip_z_min_mm": 0.0,
+            "tip_z_max_mm": 6.173116132003248,
+            "point_xy_peak_mm": 32.35974516322851
+          }
+        },
+        "poses": "exact original-state display indices; no interpolation",
+        "interpretation": "XY stabilization only, not 3D fixation; no unloading data"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig04_phs2d_c": {
+      "title": "s050 negative load",
+      "size_inches": [
+        1.9744377777777808,
+        1.6527727777777788
+      ],
+      "sources": {
+        "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\PHS2D_passive_head_stabilization",
+        "sampling": "32001 original states per case; no 401-row display data used for curves/statistics",
+        "full_data_descriptive_extrema": {
+          "s050_positive": {
+            "states": 32001,
+            "tip_xy_peak_mm": 1.8240451540017648,
+            "tip_z_min_mm": -0.0005488415019128112,
+            "tip_z_max_mm": 3.9007039980616525,
+            "point_xy_peak_mm": 26.467084260035165
+          },
+          "s050_negative": {
+            "states": 32001,
+            "tip_xy_peak_mm": 1.9703331358898972,
+            "tip_z_min_mm": -1.991479203766744e-08,
+            "tip_z_max_mm": 4.208297638621739,
+            "point_xy_peak_mm": 26.44079276057161
+          },
+          "s070_positive": {
+            "states": 32001,
+            "tip_xy_peak_mm": 3.5102184379859067,
+            "tip_z_min_mm": -0.0023747100931503784,
+            "tip_z_max_mm": 5.715355612044837,
+            "point_xy_peak_mm": 32.27306011135747
+          },
+          "s070_negative": {
+            "states": 32001,
+            "tip_xy_peak_mm": 3.841528009501995,
+            "tip_z_min_mm": 0.0,
+            "tip_z_max_mm": 6.173116132003248,
+            "point_xy_peak_mm": 32.35974516322851
+          }
+        },
+        "poses": "exact original-state display indices; no interpolation",
+        "interpretation": "XY stabilization only, not 3D fixation; no unloading data"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig04_phs2d_d": {
+      "title": "s050 positive",
+      "size_inches": [
+        3.136659999999999,
+        2.524439444444443
+      ],
+      "sources": {
+        "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\PHS2D_passive_head_stabilization",
+        "sampling": "32001 original states per case; no 401-row display data used for curves/statistics",
+        "full_data_descriptive_extrema": {
+          "s050_positive": {
+            "states": 32001,
+            "tip_xy_peak_mm": 1.8240451540017648,
+            "tip_z_min_mm": -0.0005488415019128112,
+            "tip_z_max_mm": 3.9007039980616525,
+            "point_xy_peak_mm": 26.467084260035165
+          },
+          "s050_negative": {
+            "states": 32001,
+            "tip_xy_peak_mm": 1.9703331358898972,
+            "tip_z_min_mm": -1.991479203766744e-08,
+            "tip_z_max_mm": 4.208297638621739,
+            "point_xy_peak_mm": 26.44079276057161
+          },
+          "s070_positive": {
+            "states": 32001,
+            "tip_xy_peak_mm": 3.5102184379859067,
+            "tip_z_min_mm": -0.0023747100931503784,
+            "tip_z_max_mm": 5.715355612044837,
+            "point_xy_peak_mm": 32.27306011135747
+          },
+          "s070_negative": {
+            "states": 32001,
+            "tip_xy_peak_mm": 3.841528009501995,
+            "tip_z_min_mm": 0.0,
+            "tip_z_max_mm": 6.173116132003248,
+            "point_xy_peak_mm": 32.35974516322851
+          }
+        },
+        "poses": "exact original-state display indices; no interpolation",
+        "interpretation": "XY stabilization only, not 3D fixation; no unloading data"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig04_phs2d_e": {
+      "title": "s050 negative",
+      "size_inches": [
+        3.1366600000000004,
+        2.5244394444444453
+      ],
+      "sources": {
+        "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\PHS2D_passive_head_stabilization",
+        "sampling": "32001 original states per case; no 401-row display data used for curves/statistics",
+        "full_data_descriptive_extrema": {
+          "s050_positive": {
+            "states": 32001,
+            "tip_xy_peak_mm": 1.8240451540017648,
+            "tip_z_min_mm": -0.0005488415019128112,
+            "tip_z_max_mm": 3.9007039980616525,
+            "point_xy_peak_mm": 26.467084260035165
+          },
+          "s050_negative": {
+            "states": 32001,
+            "tip_xy_peak_mm": 1.9703331358898972,
+            "tip_z_min_mm": -1.991479203766744e-08,
+            "tip_z_max_mm": 4.208297638621739,
+            "point_xy_peak_mm": 26.44079276057161
+          },
+          "s070_positive": {
+            "states": 32001,
+            "tip_xy_peak_mm": 3.5102184379859067,
+            "tip_z_min_mm": -0.0023747100931503784,
+            "tip_z_max_mm": 5.715355612044837,
+            "point_xy_peak_mm": 32.27306011135747
+          },
+          "s070_negative": {
+            "states": 32001,
+            "tip_xy_peak_mm": 3.841528009501995,
+            "tip_z_min_mm": 0.0,
+            "tip_z_max_mm": 6.173116132003248,
+            "point_xy_peak_mm": 32.35974516322851
+          }
+        },
+        "poses": "exact original-state display indices; no interpolation",
+        "interpretation": "XY stabilization only, not 3D fixation; no unloading data"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig04_phs2d_f": {
+      "title": "Tip horizontal shift",
+      "size_inches": [
+        2.3605716753472197,
+        2.4729723895001503
+      ],
+      "sources": {
+        "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\PHS2D_passive_head_stabilization",
+        "sampling": "32001 original states per case; no 401-row display data used for curves/statistics",
+        "full_data_descriptive_extrema": {
+          "s050_positive": {
+            "states": 32001,
+            "tip_xy_peak_mm": 1.8240451540017648,
+            "tip_z_min_mm": -0.0005488415019128112,
+            "tip_z_max_mm": 3.9007039980616525,
+            "point_xy_peak_mm": 26.467084260035165
+          },
+          "s050_negative": {
+            "states": 32001,
+            "tip_xy_peak_mm": 1.9703331358898972,
+            "tip_z_min_mm": -1.991479203766744e-08,
+            "tip_z_max_mm": 4.208297638621739,
+            "point_xy_peak_mm": 26.44079276057161
+          },
+          "s070_positive": {
+            "states": 32001,
+            "tip_xy_peak_mm": 3.5102184379859067,
+            "tip_z_min_mm": -0.0023747100931503784,
+            "tip_z_max_mm": 5.715355612044837,
+            "point_xy_peak_mm": 32.27306011135747
+          },
+          "s070_negative": {
+            "states": 32001,
+            "tip_xy_peak_mm": 3.841528009501995,
+            "tip_z_min_mm": 0.0,
+            "tip_z_max_mm": 6.173116132003248,
+            "point_xy_peak_mm": 32.35974516322851
+          }
+        },
+        "poses": "exact original-state display indices; no interpolation",
+        "interpretation": "XY stabilization only, not 3D fixation; no unloading data"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig04_phs2d_g": {
+      "title": "Tip vertical change",
+      "size_inches": [
+        2.2805716753472196,
+        2.4729723895001503
+      ],
+      "sources": {
+        "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\PHS2D_passive_head_stabilization",
+        "sampling": "32001 original states per case; no 401-row display data used for curves/statistics",
+        "full_data_descriptive_extrema": {
+          "s050_positive": {
+            "states": 32001,
+            "tip_xy_peak_mm": 1.8240451540017648,
+            "tip_z_min_mm": -0.0005488415019128112,
+            "tip_z_max_mm": 3.9007039980616525,
+            "point_xy_peak_mm": 26.467084260035165
+          },
+          "s050_negative": {
+            "states": 32001,
+            "tip_xy_peak_mm": 1.9703331358898972,
+            "tip_z_min_mm": -1.991479203766744e-08,
+            "tip_z_max_mm": 4.208297638621739,
+            "point_xy_peak_mm": 26.44079276057161
+          },
+          "s070_positive": {
+            "states": 32001,
+            "tip_xy_peak_mm": 3.5102184379859067,
+            "tip_z_min_mm": -0.0023747100931503784,
+            "tip_z_max_mm": 5.715355612044837,
+            "point_xy_peak_mm": 32.27306011135747
+          },
+          "s070_negative": {
+            "states": 32001,
+            "tip_xy_peak_mm": 3.841528009501995,
+            "tip_z_min_mm": 0.0,
+            "tip_z_max_mm": 6.173116132003248,
+            "point_xy_peak_mm": 32.35974516322851
+          }
+        },
+        "poses": "exact original-state display indices; no interpolation",
+        "interpretation": "XY stabilization only, not 3D fixation; no unloading data"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "fig04_phs2d_h": {
+      "title": "Load-point horizontal shift",
+      "size_inches": [
+        2.330571675347225,
+        2.4729723895001503
+      ],
+      "sources": {
+        "data": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\PHS2D_passive_head_stabilization",
+        "sampling": "32001 original states per case; no 401-row display data used for curves/statistics",
+        "full_data_descriptive_extrema": {
+          "s050_positive": {
+            "states": 32001,
+            "tip_xy_peak_mm": 1.8240451540017648,
+            "tip_z_min_mm": -0.0005488415019128112,
+            "tip_z_max_mm": 3.9007039980616525,
+            "point_xy_peak_mm": 26.467084260035165
+          },
+          "s050_negative": {
+            "states": 32001,
+            "tip_xy_peak_mm": 1.9703331358898972,
+            "tip_z_min_mm": -1.991479203766744e-08,
+            "tip_z_max_mm": 4.208297638621739,
+            "point_xy_peak_mm": 26.44079276057161
+          },
+          "s070_positive": {
+            "states": 32001,
+            "tip_xy_peak_mm": 3.5102184379859067,
+            "tip_z_min_mm": -0.0023747100931503784,
+            "tip_z_max_mm": 5.715355612044837,
+            "point_xy_peak_mm": 32.27306011135747
+          },
+          "s070_negative": {
+            "states": 32001,
+            "tip_xy_peak_mm": 3.841528009501995,
+            "tip_z_min_mm": 0.0,
+            "tip_z_max_mm": 6.173116132003248,
+            "point_xy_peak_mm": 32.35974516322851
+          }
+        },
+        "poses": "exact original-state display indices; no interpolation",
+        "interpretation": "XY stabilization only, not 3D fixation; no unloading data"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "figS01_phs2d_s070_a": {
+      "title": "s070 positive; 20 mm scale",
+      "size_inches": [
+        3.5066599999999992,
+        2.801939444444444
+      ],
+      "sources": {
+        "sampling": "exact final saved states; no integration"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    },
+    "figS01_phs2d_s070_b": {
+      "title": "s070 negative; 20 mm scale",
+      "size_inches": [
+        3.506660000000001,
+        2.8019394444444443
+      ],
+      "sources": {
+        "sampling": "exact final saved states; no integration"
+      },
+      "formats": [
+        "pdf",
+        "svg",
+        "png"
+      ],
+      "full_data_statistics": true,
+      "independent_panel": true
+    }
+  },
+  "renders": [
+    {
+      "path": "paper_figures/renders/m1_central_high.png",
+      "demo": "m1",
+      "case": "central_high",
+      "saved_time_s": 0.6000000000000004,
+      "saved_index": -1,
+      "unloaded": false,
+      "close": false,
+      "camera": {
+        "lookat_m": [
+          0.14,
+          0.0,
+          0.15
+        ],
+        "distance_m": 0.57,
+        "azimuth_deg": 115.0,
+        "elevation_deg": -18.0
+      },
+      "projection": "perspective; original world geometry; no deformation scaling"
+    },
+    {
+      "path": "paper_figures/renders/m1_positive_high.png",
+      "demo": "m1",
+      "case": "positive_high",
+      "saved_time_s": 0.6000000000000004,
+      "saved_index": -1,
+      "unloaded": false,
+      "close": false,
+      "camera": {
+        "lookat_m": [
+          0.14,
+          0.0,
+          0.15
+        ],
+        "distance_m": 0.57,
+        "azimuth_deg": 115.0,
+        "elevation_deg": -18.0
+      },
+      "projection": "perspective; original world geometry; no deformation scaling"
+    },
+    {
+      "path": "paper_figures/renders/m1_negative_low.png",
+      "demo": "m1",
+      "case": "negative_low",
+      "saved_time_s": 0.6000000000000004,
+      "saved_index": -1,
+      "unloaded": false,
+      "close": false,
+      "camera": {
+        "lookat_m": [
+          0.14,
+          0.0,
+          0.15
+        ],
+        "distance_m": 0.57,
+        "azimuth_deg": 115.0,
+        "elevation_deg": -18.0
+      },
+      "projection": "perspective; original world geometry; no deformation scaling"
+    },
+    {
+      "path": "paper_figures/renders/eight_5s.png",
+      "demo": "eight",
+      "case": null,
+      "saved_time_s": 5.000000000000004,
+      "saved_index": 5000,
+      "unloaded": false,
+      "close": false,
+      "camera": {
+        "lookat_m": [
+          0.14,
+          0.0,
+          0.15
+        ],
+        "distance_m": 0.57,
+        "azimuth_deg": 115.0,
+        "elevation_deg": -18.0
+      },
+      "projection": "perspective; original world geometry; no deformation scaling"
+    },
+    {
+      "path": "paper_figures/renders/eight_10s.png",
+      "demo": "eight",
+      "case": null,
+      "saved_time_s": 9.999999999999897,
+      "saved_index": 10000,
+      "unloaded": false,
+      "close": false,
+      "camera": {
+        "lookat_m": [
+          0.14,
+          0.0,
+          0.15
+        ],
+        "distance_m": 0.57,
+        "azimuth_deg": 115.0,
+        "elevation_deg": -18.0
+      },
+      "projection": "perspective; original world geometry; no deformation scaling"
+    },
+    {
+      "path": "paper_figures/renders/eight_15s.png",
+      "demo": "eight",
+      "case": null,
+      "saved_time_s": 14.999999999997126,
+      "saved_index": 15000,
+      "unloaded": false,
+      "close": false,
+      "camera": {
+        "lookat_m": [
+          0.14,
+          0.0,
+          0.15
+        ],
+        "distance_m": 0.57,
+        "azimuth_deg": 115.0,
+        "elevation_deg": -18.0
+      },
+      "projection": "perspective; original world geometry; no deformation scaling"
+    },
+    {
+      "path": "paper_figures/renders/p3_stage_0.png",
+      "demo": "p3",
+      "case": "plus_x",
+      "saved_time_s": 4.000000000002015,
+      "saved_index": 31999,
+      "unloaded": false,
+      "close": false,
+      "camera": {
+        "lookat_m": [
+          0.0,
+          0.0,
+          0.25
+        ],
+        "distance_m": 0.7,
+        "azimuth_deg": 115.0,
+        "elevation_deg": -18.0
+      },
+      "projection": "perspective; original world geometry; no deformation scaling"
+    },
+    {
+      "path": "paper_figures/renders/p3_stage_1.png",
+      "demo": "p3",
+      "case": "plus_x",
+      "saved_time_s": 7.999999999992693,
+      "saved_index": 63999,
+      "unloaded": false,
+      "close": false,
+      "camera": {
+        "lookat_m": [
+          0.0,
+          0.0,
+          0.25
+        ],
+        "distance_m": 0.7,
+        "azimuth_deg": 115.0,
+        "elevation_deg": -18.0
+      },
+      "projection": "perspective; original world geometry; no deformation scaling"
+    },
+    {
+      "path": "paper_figures/renders/p3_stage_3.png",
+      "demo": "p3",
+      "case": "plus_x",
+      "saved_time_s": 16.00000000003089,
+      "saved_index": 127999,
+      "unloaded": false,
+      "close": false,
+      "camera": {
+        "lookat_m": [
+          0.0,
+          0.0,
+          0.25
+        ],
+        "distance_m": 0.7,
+        "azimuth_deg": 115.0,
+        "elevation_deg": -18.0
+      },
+      "projection": "perspective; original world geometry; no deformation scaling"
+    },
+    {
+      "path": "paper_figures/renders/p3_stage_4.png",
+      "demo": "p3",
+      "case": "plus_x",
+      "saved_time_s": 20.00000000004999,
+      "saved_index": 159999,
+      "unloaded": false,
+      "close": false,
+      "camera": {
+        "lookat_m": [
+          0.0,
+          0.0,
+          0.25
+        ],
+        "distance_m": 0.7,
+        "azimuth_deg": 115.0,
+        "elevation_deg": -18.0
+      },
+      "projection": "perspective; original world geometry; no deformation scaling"
+    },
+    {
+      "path": "paper_figures/renders/phs_full_0.png",
+      "demo": "phs",
+      "case": "s050_positive",
+      "saved_time_s": 4.000000000002015,
+      "saved_index": 400,
+      "unloaded": true,
+      "close": false,
+      "camera": {
+        "lookat_m": [
+          0.0,
+          0.0,
+          0.29
+        ],
+        "distance_m": 0.78,
+        "azimuth_deg": 115.0,
+        "elevation_deg": -18.0
+      },
+      "projection": "perspective; original world geometry; no deformation scaling"
+    },
+    {
+      "path": "paper_figures/renders/phs_full_1.png",
+      "demo": "phs",
+      "case": "s050_positive",
+      "saved_time_s": 4.000000000002015,
+      "saved_index": 400,
+      "unloaded": false,
+      "close": false,
+      "camera": {
+        "lookat_m": [
+          0.0,
+          0.0,
+          0.29
+        ],
+        "distance_m": 0.78,
+        "azimuth_deg": 115.0,
+        "elevation_deg": -18.0
+      },
+      "projection": "perspective; original world geometry; no deformation scaling"
+    },
+    {
+      "path": "paper_figures/renders/phs_full_2.png",
+      "demo": "phs",
+      "case": "s050_negative",
+      "saved_time_s": 4.000000000002015,
+      "saved_index": 400,
+      "unloaded": false,
+      "close": false,
+      "camera": {
+        "lookat_m": [
+          0.0,
+          0.0,
+          0.29
+        ],
+        "distance_m": 0.78,
+        "azimuth_deg": 115.0,
+        "elevation_deg": -18.0
+      },
+      "projection": "perspective; original world geometry; no deformation scaling"
+    },
+    {
+      "path": "paper_figures/renders/phs_close_s050_positive.png",
+      "demo": "phs",
+      "case": "s050_positive",
+      "saved_time_s": 4.000000000002015,
+      "saved_index": 400,
+      "unloaded": false,
+      "close": true,
+      "camera": {
+        "lookat_m": [
+          0.011976583749799378,
+          -1.5633893380852e-06,
+          0.2011260669206024
+        ],
+        "distance_m": 0.5240575795805079,
+        "azimuth_deg": 100.0,
+        "elevation_deg": -10.0
+      },
+      "projection": "perspective; original world geometry; no deformation scaling"
+    },
+    {
+      "path": "paper_figures/renders/phs_close_s050_negative.png",
+      "demo": "phs",
+      "case": "s050_negative",
+      "saved_time_s": 4.000000000002015,
+      "saved_index": 400,
+      "unloaded": false,
+      "close": true,
+      "camera": {
+        "lookat_m": [
+          -0.012377309862872466,
+          -1.8998690401096261e-06,
+          0.20129830177700048
+        ],
+        "distance_m": 0.5237803257574868,
+        "azimuth_deg": 100.0,
+        "elevation_deg": -10.0
+      },
+      "projection": "perspective; original world geometry; no deformation scaling"
+    },
+    {
+      "path": "paper_figures/renders/phs_close_s070_positive.png",
+      "demo": "phs",
+      "case": "s070_positive",
+      "saved_time_s": 4.000000000002015,
+      "saved_index": 400,
+      "unloaded": false,
+      "close": true,
+      "camera": {
+        "lookat_m": [
+          0.015128617880165163,
+          -6.992355702649083e-06,
+          0.1599167065955822
+        ],
+        "distance_m": 0.31411860387225254,
+        "azimuth_deg": 100.0,
+        "elevation_deg": -10.0
+      },
+      "projection": "perspective; original world geometry; no deformation scaling"
+    },
+    {
+      "path": "paper_figures/renders/phs_close_s070_negative.png",
+      "demo": "phs",
+      "case": "s070_negative",
+      "saved_time_s": 4.000000000002015,
+      "saved_index": 400,
+      "unloaded": false,
+      "close": true,
+      "camera": {
+        "lookat_m": [
+          -0.015846873519986107,
+          -7.731182785902263e-06,
+          0.16017865077430363
+        ],
+        "distance_m": 0.31388341446398116,
+        "azimuth_deg": 100.0,
+        "elevation_deg": -10.0
+      },
+      "projection": "perspective; original world geometry; no deformation scaling"
+    }
+  ]
+}
