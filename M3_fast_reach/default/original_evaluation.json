@@ -1,0 +1,32 @@
+{
+  "candidate_id": null,
+  "comparison_identity": "4b450a774298f455591268f09526de0d86289ac7b106b097d57087887999533f",
+  "constraints": [
+    {
+      "limit": 0.01,
+      "name": "task_bound",
+      "observed": 0.009948406169172598,
+      "satisfied": true,
+      "units": "m"
+    }
+  ],
+  "contract_version": "1.2.0",
+  "evaluator": "evaluate.reach",
+  "evaluator_version": "1.0.0",
+  "metrics": [
+    {
+      "name": "position_error",
+      "units": "m",
+      "value": 0.009948406169172598
+    }
+  ],
+  "original_execution_id": null,
+  "reason": null,
+  "source": {
+    "artifact_id": "b02c16c066fac90a20d17f2f2e5df4caf9c94ed3d8a5bf20001cff22f85ed2a2",
+    "media_type": "application/json"
+  },
+  "source_execution_id": null,
+  "task_success": true,
+  "validity": "valid"
+}

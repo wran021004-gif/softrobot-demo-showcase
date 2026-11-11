@@ -1,0 +1,28 @@
+{
+  "version": "passive_fixed_payout_v1",
+  "tendon_order": [
+    "tendon_0",
+    "tendon_1",
+    "tendon_2",
+    "tendon_3"
+  ],
+  "fixed_lengths_m": [
+    0.39274245978073885,
+    0.39274245978073885,
+    0.39274245978073885,
+    0.39274245978073885
+  ],
+  "actual_xml_upper_limits_m": [
+    0.39274245978073885,
+    0.39274245978073885,
+    0.39274245978073885,
+    0.39274245978073885
+  ],
+  "offsets_m": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "convention": "Unilateral tendon length upper limit; no active actuator or applied pretension."
+}

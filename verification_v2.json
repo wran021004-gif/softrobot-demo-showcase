@@ -1,0 +1,172 @@
+{
+  "m2": {
+    "status": "PASS",
+    "case": "positive",
+    "pose_indices": [
+      0,
+      350,
+      700
+    ],
+    "max_pose_or_rotation_difference": 0.0,
+    "max_tendon_length_difference_m": 0.0,
+    "visual_geoms_checked": 29,
+    "model_xml_original_bytes": true,
+    "physics_unchanged": true,
+    "physics_steps": 0,
+    "gui": {
+      "demo": "m2",
+      "case": "positive",
+      "frames": 82,
+      "physics_steps": 0
+    }
+  },
+  "m3": {
+    "status": "PASS",
+    "case": "default",
+    "pose_indices": [
+      0,
+      500,
+      1000
+    ],
+    "max_pose_or_rotation_difference": 0.0,
+    "max_tendon_length_difference_m": 0.0,
+    "visual_geoms_checked": 29,
+    "model_xml_original_bytes": true,
+    "physics_unchanged": true,
+    "physics_steps": 0,
+    "gui": {
+      "demo": "m3",
+      "case": "default",
+      "frames": 83,
+      "physics_steps": 0
+    }
+  },
+  "m4": {
+    "status": "PASS",
+    "case": "default",
+    "pose_indices": [
+      0,
+      300,
+      600
+    ],
+    "max_pose_or_rotation_difference": 0.0,
+    "max_tendon_length_difference_m": 0.0,
+    "visual_geoms_checked": 29,
+    "model_xml_original_bytes": true,
+    "physics_unchanged": true,
+    "physics_steps": 0,
+    "gui": {
+      "demo": "m4",
+      "case": "default",
+      "frames": 77,
+      "physics_steps": 0
+    }
+  },
+  "m5": {
+    "status": "PASS",
+    "case": "default",
+    "pose_indices": [
+      0,
+      300,
+      600
+    ],
+    "max_pose_or_rotation_difference": 0.0,
+    "max_tendon_length_difference_m": 0.0,
+    "visual_geoms_checked": 30,
+    "model_xml_original_bytes": true,
+    "physics_unchanged": true,
+    "physics_steps": 0,
+    "gui": {
+      "demo": "m5",
+      "case": "default",
+      "frames": 81,
+      "physics_steps": 0
+    }
+  },
+  "m6": {
+    "status": "PASS",
+    "case": "default",
+    "pose_indices": [
+      0,
+      300,
+      600
+    ],
+    "max_pose_or_rotation_difference": 0.0,
+    "max_tendon_length_difference_m": 0.0,
+    "visual_geoms_checked": 29,
+    "model_xml_original_bytes": true,
+    "physics_unchanged": true,
+    "physics_steps": 0,
+    "gui": {
+      "demo": "m6",
+      "case": "default",
+      "frames": 76,
+      "physics_steps": 0
+    }
+  },
+  "c1": {
+    "status": "PASS",
+    "case": "M5",
+    "pose_indices": [
+      0,
+      300,
+      600
+    ],
+    "max_pose_or_rotation_difference": 0.0,
+    "max_tendon_length_difference_m": 0.0,
+    "visual_geoms_checked": 29,
+    "model_xml_original_bytes": true,
+    "physics_unchanged": true,
+    "physics_steps": 0,
+    "gui": {
+      "demo": "c1",
+      "case": "M5",
+      "frames": 87,
+      "physics_steps": 0
+    }
+  },
+  "phs": {
+    "status": "PASS",
+    "case": "s050_positive",
+    "pose_indices": [
+      0,
+      200,
+      400
+    ],
+    "max_pose_or_rotation_difference": 0.0,
+    "max_tendon_length_difference_m": 0.0,
+    "visual_geoms_checked": 75,
+    "model_xml_original_bytes": true,
+    "physics_unchanged": true,
+    "physics_steps": 0,
+    "gui": {
+      "demo": "phs",
+      "case": "s050_positive",
+      "frames": 93,
+      "physics_steps": 0
+    }
+  },
+  "phs_sampling": {
+    "status": "PASS",
+    "case": "s050_positive",
+    "exact_original_states_checked": 401,
+    "source_rows": 32001,
+    "interpolated_states": 0,
+    "original_force_schedule_matches": true
+  },
+  "phs_large_deformation": {
+    "status": "PASS",
+    "case": "s070_negative",
+    "pose_indices": [
+      0,
+      200,
+      400
+    ],
+    "max_pose_or_rotation_difference": 0.0,
+    "max_tendon_length_difference_m": 0.0,
+    "visual_geoms_checked": 75,
+    "model_xml_original_bytes": true,
+    "physics_unchanged": true,
+    "physics_steps": 0
+  }
+}

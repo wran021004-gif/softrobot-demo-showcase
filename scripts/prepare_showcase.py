@@ -6,7 +6,7 @@ import numpy as np
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE=Path(r'D:\softrobot-benchmark-exports\base_only_accepted_20261028')
 def write(p,v):p.write_text(json.dumps(v,indent=2,ensure_ascii=False)+'\n',encoding='utf8')
-def decorate_xml(source,dest,passive=False):
+def decorate_xml(source,dest,passive=False,skin_radius=None,probe=True,visual_floor_z=None):
     tree=ET.parse(source);r=tree.getroot();w=r.find('worldbody')
     asset=r.find('asset')
     if asset is None:asset=ET.SubElement(r,'asset')
@@ -18,7 +18,7 @@ def decorate_xml(source,dest,passive=False):
     ET.SubElement(vis,'headlight',diffuse='.7 .7 .7',ambient='.4 .4 .4',specular='.15 .15 .15')
     for x in r.findall('.//geom'):
         n=x.get('name','')
-        if n=='floor':x.set('rgba','.91 .94 .97 1')
+        if n=='floor':x.set('rgba','.91 .94 .97 1' if visual_floor_z is None else '.91 .94 .97 0')
         elif n.startswith('segment_'):x.set('rgba','.40 .69 .86 1')
         elif n.startswith(('guide_','connector_')):x.set('rgba','.4 .44 .49 1')
         elif n=='payload_shape':x.set('rgba','.45 .49 .54 1')
@@ -27,14 +27,16 @@ def decorate_xml(source,dest,passive=False):
         if s.get('name') in ['task_target','tip_site']:s.set('rgba','0 0 0 0')
     def geom(parent,name,**kwargs):
         return ET.SubElement(parent,'geom',name='visual_'+name,density='0',contype='0',conaffinity='0',group='3',**kwargs)
+    if visual_floor_z is not None:
+        geom(w,'display_floor',type='plane',pos=f'0 0 {visual_floor_z}',size='1 1 .01',rgba='.91 .94 .97 1')
     if passive:
         geom(w,'base',type='box',pos='-.105 0 .01',size='.065 .055 .01',rgba='.35 .39 .44 1')
         geom(w,'pillar',type='capsule',fromto='-.105 0 .02 -.105 0 .5',size='.011',rgba='.52 .56 .61 1')
         geom(w,'crossbar',type='capsule',fromto='-.105 0 .5 0 0 .5',size='.014',rgba='.4 .44 .49 1')
     else:
         z=float(r.find('.//body[@name="fixed_base"]').get('pos').split()[2])
-        geom(w,'base',type='box',pos='-.03 0 -.005',size='.065 .055 .012',rgba='.35 .39 .44 1')
-        geom(w,'pillar',type='capsule',fromto=f'-.03 0 .005 -.03 0 {z}',size='.014',rgba='.52 .56 .61 1')
+        geom(w,'base',type='box',pos=f'-.03 0 {-.005 if visual_floor_z is None else visual_floor_z+.012}',size='.065 .055 .012',rgba='.35 .39 .44 1')
+        geom(w,'pillar',type='capsule',fromto=f'-.03 0 {.005 if visual_floor_z is None else visual_floor_z+.024} -.03 0 {z}',size='.014',rgba='.52 .56 .61 1')
         geom(w,'root_mount',type='capsule',fromto=f'-.03 0 {z} 0 0 {z}',size='.018',rgba='.4 .44 .49 1')
     for b in r.findall('.//body'):
         n=b.get('name','')
@@ -42,8 +44,8 @@ def decorate_xml(source,dest,passive=False):
             child=b.find('body')
             length=float(child.get('pos').split()[0]) if child is not None else .02
             # Existing physical mesh remains. Capsule is only an outer visual sleeve.
-            geom(b,n+'_sleeve',type='capsule',fromto=f'.001 0 0 {max(.002,length-.001)} 0 0',size='.0085' if not passive else '.010',rgba='.45 .75 .91 .8')
-        if n=='payload' and not passive:
+            geom(b,n+'_sleeve',type='capsule',fromto=f'.001 0 0 {max(.002,length-.001)} 0 0',size=str(skin_radius) if skin_radius is not None else ('.0085' if not passive else '.010'),rgba='.45 .75 .91 .8')
+        if n=='payload' and not passive and probe:
             geom(b,'probe_shaft',type='capsule',fromto='0 0 0 .014 0 0',size='.0023',rgba='.25 .3 .36 1')
             geom(b,'probe_head',type='sphere',pos='.014 0 0',size='.0035',rgba='.1 .9 .4 1')
     ET.SubElement(w,'light',pos='.2 -.5 1',dir='0 0 -1',diffuse='.7 .7 .7',directional='true')

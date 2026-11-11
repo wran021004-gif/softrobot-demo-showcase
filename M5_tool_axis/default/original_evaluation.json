@@ -1,0 +1,44 @@
+{
+  "candidate_id": null,
+  "comparison_identity": "14807f9edc8cdd826ecbbe50bcb1bacbaca2ca9ef399a927921fb610fb69456e",
+  "constraints": [
+    {
+      "limit": 0.008,
+      "name": "tool_position",
+      "observed": 0.007923371919783135,
+      "satisfied": true,
+      "units": "m"
+    },
+    {
+      "limit": 0.05235987755982988,
+      "name": "tool_axis_direction",
+      "observed": 0.051884755688871666,
+      "satisfied": true,
+      "units": "rad"
+    }
+  ],
+  "contract_version": "1.2.0",
+  "evaluator": "evaluate.position_tool_axis",
+  "evaluator_version": "1.0.0",
+  "metrics": [
+    {
+      "name": "max_position_error",
+      "units": "m",
+      "value": 0.007923371919783135
+    },
+    {
+      "name": "max_tool_axis_angle_error",
+      "units": "rad",
+      "value": 0.051884755688871666
+    }
+  ],
+  "original_execution_id": null,
+  "reason": null,
+  "source": {
+    "artifact_id": "945d8ac54257166c18d30c951e2a9d23c5519fa9c51c478db4b8c1ee15444c10",
+    "media_type": "application/json"
+  },
+  "source_execution_id": null,
+  "task_success": true,
+  "validity": "valid"
+}

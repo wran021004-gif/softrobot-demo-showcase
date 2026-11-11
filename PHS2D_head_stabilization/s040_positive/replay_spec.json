@@ -1,0 +1,25 @@
+{
+  "version": "phs2d_explicit_replay_v1",
+  "s": 0.4,
+  "force_n": 0.1,
+  "material_point_binding": {
+    "body": 34,
+    "position_m": [
+      0.0031111111111111066,
+      0.0,
+      0.0
+    ]
+  },
+  "initial_state": "initial_state.json",
+  "robot_xml": "../robot.xml",
+  "task": "../task.json",
+  "payout_lengths": "../payout_lengths.json",
+  "source_raw_reference": {
+    "artifact_id": "b237a02869d89bbc015e7aba32ebaeba5aa87632725dcf28131c6940456b2a90",
+    "media_type": "application/json"
+  },
+  "source_npz_reference": {
+    "artifact_id": "66ae6088ec4c3d373c6812f1678eed4e07454b76c62f50bfcf615b6fc0344cf0",
+    "media_type": "application/octet-stream"
+  }
+}

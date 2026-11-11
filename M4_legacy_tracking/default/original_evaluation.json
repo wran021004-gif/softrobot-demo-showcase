@@ -1,0 +1,42 @@
+{
+  "candidate_id": null,
+  "comparison_identity": "f77c82ec78bb1073b85a8106e5dd610cf193196d70e9bc0e954e4e86a53d5e04",
+  "constraints": [
+    {
+      "limit": 0.012,
+      "name": "tracking_max_error",
+      "observed": 0.01198776272430606,
+      "satisfied": true,
+      "units": "m"
+    }
+  ],
+  "contract_version": "1.2.0",
+  "evaluator": "evaluate.tracking",
+  "evaluator_version": "1.0.0",
+  "metrics": [
+    {
+      "name": "max_position_error",
+      "units": "m",
+      "value": 0.01198776272430606
+    },
+    {
+      "name": "rms_position_error",
+      "units": "m",
+      "value": 0.008796828411071534
+    },
+    {
+      "name": "terminal_position_error",
+      "units": "m",
+      "value": 0.01198776272430606
+    }
+  ],
+  "original_execution_id": null,
+  "reason": null,
+  "source": {
+    "artifact_id": "9af814f9089cbd546f217851c41ccaea600e1aad5dcfc74d42e626a7238e2982",
+    "media_type": "application/json"
+  },
+  "source_execution_id": null,
+  "task_success": true,
+  "validity": "valid"
+}

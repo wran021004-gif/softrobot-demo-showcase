@@ -1,0 +1,494 @@
+{
+  "status": "PASS",
+  "case": "M1_B",
+  "independent_process": true,
+  "accepted": {
+    "contract": "research.task_acceptance",
+    "version": "1.0.0",
+    "protocol_id": "offline_reach_hold_v1",
+    "task_family": "task.reach",
+    "task_identity": "b64cd99d153b358b038b7d88f09a79dd52f231580d1dc10675715f1dcbcea09e",
+    "status": "accepted",
+    "accepted": true,
+    "components": {
+      "evaluation_validity": {
+        "value": "valid",
+        "passed": true,
+        "unit": null,
+        "limit": null,
+        "reason": null
+      },
+      "execution_complete": {
+        "value": true,
+        "passed": true,
+        "unit": null,
+        "limit": null,
+        "reason": null
+      },
+      "task_evaluator": {
+        "value": true,
+        "passed": true,
+        "unit": null,
+        "limit": null,
+        "reason": null
+      },
+      "evaluator:task_bound": {
+        "value": 0.008088635647429974,
+        "passed": true,
+        "unit": "m",
+        "limit": 0.01,
+        "reason": null
+      },
+      "solver_errors": {
+        "value": 0,
+        "passed": true,
+        "unit": "count",
+        "limit": 0,
+        "reason": null
+      },
+      "force_bounds": {
+        "value": 0.0,
+        "passed": true,
+        "unit": "N",
+        "limit": 1e-08,
+        "reason": null
+      },
+      "holding_coverage": {
+        "value": true,
+        "passed": true,
+        "unit": "inclusive uniform samples",
+        "limit": 4,
+        "reason": null
+      },
+      "holding_position": {
+        "value": 0.008088635647429974,
+        "passed": true,
+        "unit": "m",
+        "limit": 0.01,
+        "reason": null
+      },
+      "holding_speed": {
+        "value": 0.029694349850690808,
+        "passed": true,
+        "unit": "m/s",
+        "limit": 0.03,
+        "reason": null
+      }
+    },
+    "metrics": {
+      "terminal_error_m": 0.008088635647429974,
+      "holding_max_error_m": 0.008088635647429974,
+      "holding_max_speed_m_s": 0.029694349850690808
+    },
+    "missing": [],
+    "issues": [],
+    "execution_id": null,
+    "sources": {
+      "evaluation": {
+        "artifact_id": "9154cbad16a36bec051bf9a9e2da427142f3a3339fbe3f81bbea288ae77d11b6",
+        "media_type": "application/json"
+      },
+      "profile": {
+        "artifact_id": "d4c79a5b7de0a299450b3c5da0510da274e5ad99b0469639825b9379ae9dfb12",
+        "media_type": "application/json"
+      }
+    },
+    "evidence_binding": {
+      "evaluation": {
+        "artifact_id": "9154cbad16a36bec051bf9a9e2da427142f3a3339fbe3f81bbea288ae77d11b6",
+        "media_type": "application/json"
+      },
+      "profile": {
+        "artifact_id": "d4c79a5b7de0a299450b3c5da0510da274e5ad99b0469639825b9379ae9dfb12",
+        "media_type": "application/json"
+      },
+      "simulation": {
+        "artifact_id": "4ac7fa8f1d535d2fc1474cf779a4ac83d3fc375b5567812cf4f0d8e690cd4cc3",
+        "media_type": "application/json"
+      },
+      "evaluation_binding": {
+        "source": {
+          "artifact_id": "4ac7fa8f1d535d2fc1474cf779a4ac83d3fc375b5567812cf4f0d8e690cd4cc3",
+          "media_type": "application/json"
+        },
+        "source_execution_id": null,
+        "original_execution_id": null
+      },
+      "profile_binding": {}
+    },
+    "evaluator_tension_channels": null,
+    "timing": {
+      "control_period_s": 0.02,
+      "duration_s": 0.6,
+      "sample_period_s": 0.02,
+      "termination": [
+        "duration",
+        "numerical_failure"
+      ],
+      "timestep_s": 0.001,
+      "real_time_required": false,
+      "real_time_demonstrated": null,
+      "deadline_misses": null,
+      "mean_update_s": null,
+      "simulation_wall_s": null
+    },
+    "continuous_time_guarantee": false
+  },
+  "evaluation": {
+    "contract_version": "1.2.0",
+    "validity": "valid",
+    "task_success": true,
+    "metrics": [
+      {
+        "name": "position_error",
+        "value": 0.008088635647429974,
+        "units": "m"
+      }
+    ],
+    "constraints": [
+      {
+        "name": "task_bound",
+        "satisfied": true,
+        "observed": 0.008088635647429974,
+        "limit": 0.01,
+        "units": "m"
+      }
+    ],
+    "source": {
+      "artifact_id": "4ac7fa8f1d535d2fc1474cf779a4ac83d3fc375b5567812cf4f0d8e690cd4cc3",
+      "media_type": "application/json"
+    },
+    "evaluator": "evaluate.reach",
+    "evaluator_version": "1.0.0",
+    "source_execution_id": null,
+    "original_execution_id": null,
+    "candidate_id": null,
+    "comparison_identity": "f31d1c4f79e85fd66602440b477f76f257ccb8fef32b94c9d7ac3b1d11d24a53",
+    "reason": null
+  },
+  "profile": {
+    "complete": true,
+    "task": {
+      "contract_version": "1.0.0",
+      "task_id": "bf7-shared-reach-v1-negative_low",
+      "task_version": "1.0.0",
+      "name": "BF7 v1 shared-structure sensor positioning: negative_low",
+      "status": "development_valid",
+      "source": "BF7 Codex-organized candidate frozen before science; independent targets, same physical structure and zero initializer.",
+      "family": "task.reach",
+      "goal": {
+        "contract": "reference.reach_goal",
+        "version": "1.0.0",
+        "data": {
+          "target_m": [
+            0.275,
+            -0.04,
+            0.135
+          ]
+        }
+      },
+      "environment": {
+        "contract": "experiment.assembly",
+        "version": "1.0.0",
+        "data": {
+          "environment": {
+            "coordinate_frame": "world_base_x_forward_yz_cross_section",
+            "environment_id": "reach_free",
+            "gravity_m_s2": [
+              0.0,
+              0.0,
+              -9.81
+            ],
+            "gravity_source": "main@245a785 reach_free environment; Human-owned benchmark gravity",
+            "lights": [
+              {
+                "direction": [
+                  0.0,
+                  0.0,
+                  -1.0
+                ],
+                "position_m": [
+                  0.0,
+                  0.0,
+                  2.0
+                ]
+              }
+            ],
+            "objects": [
+              {
+                "conaffinity": 1,
+                "contype": 0,
+                "half_size_m": [
+                  2.0,
+                  2.0,
+                  0.1
+                ],
+                "kind": "plane",
+                "name": "floor",
+                "position_m": [
+                  0.0,
+                  0.0,
+                  -0.02
+                ]
+              }
+            ],
+            "schema_version": "1",
+            "truth_status": "HUMAN_OWNED",
+            "units": "SI"
+          },
+          "external_forces": [],
+          "floor_id": "floor",
+          "mount": {
+            "position_m": [
+              0.0,
+              0.0,
+              0.15
+            ],
+            "quaternion_wxyz": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "robot_families": [
+        "tendon_robot_family"
+      ],
+      "actuator_channels": [
+        "actuator_commands"
+      ],
+      "initializer": {
+        "extension_id": "initialize.family",
+        "version": "1.0.0",
+        "parameters": {
+          "contract": "family.initial",
+          "version": "1.0.0",
+          "data": {
+            "qpos_rad": {
+              "segment_0_cell_0_y": 0.0,
+              "segment_0_cell_0_z": 0.0,
+              "segment_0_cell_10_y": 0.0,
+              "segment_0_cell_10_z": 0.0,
+              "segment_0_cell_11_y": 0.0,
+              "segment_0_cell_11_z": 0.0,
+              "segment_0_cell_1_y": 0.0,
+              "segment_0_cell_1_z": 0.0,
+              "segment_0_cell_2_y": 0.0,
+              "segment_0_cell_2_z": 0.0,
+              "segment_0_cell_3_y": 0.0,
+              "segment_0_cell_3_z": 0.0,
+              "segment_0_cell_4_y": 0.0,
+              "segment_0_cell_4_z": 0.0,
+              "segment_0_cell_5_y": 0.0,
+              "segment_0_cell_5_z": 0.0,
+              "segment_0_cell_6_y": 0.0,
+              "segment_0_cell_6_z": 0.0,
+              "segment_0_cell_7_y": 0.0,
+              "segment_0_cell_7_z": 0.0,
+              "segment_0_cell_8_y": 0.0,
+              "segment_0_cell_8_z": 0.0,
+              "segment_0_cell_9_y": 0.0,
+              "segment_0_cell_9_z": 0.0,
+              "segment_1_cell_0_y": 0.0,
+              "segment_1_cell_0_z": 0.0,
+              "segment_1_cell_10_y": 0.0,
+              "segment_1_cell_10_z": 0.0,
+              "segment_1_cell_11_y": 0.0,
+              "segment_1_cell_11_z": 0.0,
+              "segment_1_cell_1_y": 0.0,
+              "segment_1_cell_1_z": 0.0,
+              "segment_1_cell_2_y": 0.0,
+              "segment_1_cell_2_z": 0.0,
+              "segment_1_cell_3_y": 0.0,
+              "segment_1_cell_3_z": 0.0,
+              "segment_1_cell_4_y": 0.0,
+              "segment_1_cell_4_z": 0.0,
+              "segment_1_cell_5_y": 0.0,
+              "segment_1_cell_5_z": 0.0,
+              "segment_1_cell_6_y": 0.0,
+              "segment_1_cell_6_z": 0.0,
+              "segment_1_cell_7_y": 0.0,
+              "segment_1_cell_7_z": 0.0,
+              "segment_1_cell_8_y": 0.0,
+              "segment_1_cell_8_z": 0.0,
+              "segment_1_cell_9_y": 0.0,
+              "segment_1_cell_9_z": 0.0
+            },
+            "qvel_rad_s": {
+              "segment_0_cell_0_y": 0.0,
+              "segment_0_cell_0_z": 0.0,
+              "segment_0_cell_10_y": 0.0,
+              "segment_0_cell_10_z": 0.0,
+              "segment_0_cell_11_y": 0.0,
+              "segment_0_cell_11_z": 0.0,
+              "segment_0_cell_1_y": 0.0,
+              "segment_0_cell_1_z": 0.0,
+              "segment_0_cell_2_y": 0.0,
+              "segment_0_cell_2_z": 0.0,
+              "segment_0_cell_3_y": 0.0,
+              "segment_0_cell_3_z": 0.0,
+              "segment_0_cell_4_y": 0.0,
+              "segment_0_cell_4_z": 0.0,
+              "segment_0_cell_5_y": 0.0,
+              "segment_0_cell_5_z": 0.0,
+              "segment_0_cell_6_y": 0.0,
+              "segment_0_cell_6_z": 0.0,
+              "segment_0_cell_7_y": 0.0,
+              "segment_0_cell_7_z": 0.0,
+              "segment_0_cell_8_y": 0.0,
+              "segment_0_cell_8_z": 0.0,
+              "segment_0_cell_9_y": 0.0,
+              "segment_0_cell_9_z": 0.0,
+              "segment_1_cell_0_y": 0.0,
+              "segment_1_cell_0_z": 0.0,
+              "segment_1_cell_10_y": 0.0,
+              "segment_1_cell_10_z": 0.0,
+              "segment_1_cell_11_y": 0.0,
+              "segment_1_cell_11_z": 0.0,
+              "segment_1_cell_1_y": 0.0,
+              "segment_1_cell_1_z": 0.0,
+              "segment_1_cell_2_y": 0.0,
+              "segment_1_cell_2_z": 0.0,
+              "segment_1_cell_3_y": 0.0,
+              "segment_1_cell_3_z": 0.0,
+              "segment_1_cell_4_y": 0.0,
+              "segment_1_cell_4_z": 0.0,
+              "segment_1_cell_5_y": 0.0,
+              "segment_1_cell_5_z": 0.0,
+              "segment_1_cell_6_y": 0.0,
+              "segment_1_cell_6_z": 0.0,
+              "segment_1_cell_7_y": 0.0,
+              "segment_1_cell_7_z": 0.0,
+              "segment_1_cell_8_y": 0.0,
+              "segment_1_cell_8_z": 0.0,
+              "segment_1_cell_9_y": 0.0,
+              "segment_1_cell_9_z": 0.0
+            },
+            "unspecified": "zero"
+          }
+        }
+      },
+      "timing": {
+        "timestep_s": 0.001,
+        "control_period_s": 0.02,
+        "sample_period_s": 0.02,
+        "duration_s": 0.6,
+        "termination": [
+          "duration",
+          "numerical_failure"
+        ]
+      },
+      "evaluator": {
+        "extension_id": "evaluate.reach",
+        "version": "1.0.0",
+        "parameters": {
+          "contract": "reference.reach_evaluation",
+          "version": "1.0.0",
+          "data": {
+            "tolerance_m": 0.01
+          }
+        }
+      },
+      "objectives": [
+        {
+          "metric": "position_error",
+          "direction": "minimize",
+          "units": "m",
+          "weight": 1.0
+        }
+      ],
+      "failure_policy": "retain_invalid_and_constraint_failures",
+      "observations": [
+        {
+          "name": "tip_position",
+          "entity": "tip",
+          "dimension": 3,
+          "units": "m",
+          "frame": "world",
+          "phase": "post_step",
+          "missing": "unsupported"
+        }
+      ],
+      "sampling": {
+        "split": "development",
+        "seeds": [
+          17
+        ],
+        "aggregation": "per_instance",
+        "window_s": [
+          0.0,
+          0.6
+        ]
+      }
+    },
+    "official_task_success": true,
+    "solver_error_count": 0,
+    "force_bound_violation_n": 0.0,
+    "sampled_settling": {
+      "window_s": 0.06,
+      "position_limit_m": 0.01,
+      "speed_limit_m_s": 0.03,
+      "available": true,
+      "max_error_m": 0.008088635647429974,
+      "max_speed_m_s": 0.029694349850690808,
+      "passed": true
+    }
+  },
+  "model_xml_sha256": "b0d75fa6c6f526e9482b11f66e892b7e2ee2a615419bec82aa7b0209baf55df7",
+  "design_sha256": "be41cf1d6c2e2703b67d11b56c7af9fc950f65ca13f9057c89224dac1f330f3c",
+  "physical_fingerprint": "04be2d7956a9491dfbaca7ac3543bb767215c1dd32061a731addfca87f0958dc",
+  "physical_steps": 600,
+  "timestep_rows": 601,
+  "periodic_comparison": {
+    "qpos_rad": 0.0,
+    "qvel_rad_s": 0.0,
+    "tip_m": 0.0,
+    "tip_velocity_m_s": 0.0,
+    "actual_tension_n": 0.0,
+    "time_s": 0.0
+  },
+  "timestep_comparison": {
+    "qpos_rad": 0.0,
+    "qvel_rad_s": 0.0,
+    "tip_m": 0.0,
+    "tip_velocity_m_s": 0.0,
+    "actual_tension_n": 0.0,
+    "time_s": 0.0
+  },
+  "full_timestep_window_diagnostics": {
+    "window_s": [
+      0.54,
+      0.6
+    ],
+    "max_position_error_m": 0.008088635647429974,
+    "max_speed_m_s": 0.030396439630446262,
+    "max_tool_axis_angle_error_rad": null,
+    "acceptance_scope": "Original registered sample grid only; these denser diagnostics do not replace its rules"
+  },
+  "source": {
+    "research_directory": "D:\\softrobot-agent\\runs\\c1_20261029\\four_asym_2675\\M1_B",
+    "historical_task": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\M1\\negative_low\\task.json",
+    "raw_reference": {
+      "artifact_id": "1c82f9d6d1b3d93115790e4800f47d6ac908cee9171bbeef8099b3ee9f3dff3c",
+      "media_type": "application/json"
+    },
+    "independent_raw_reference": {
+      "artifact_id": "4ac7fa8f1d535d2fc1474cf779a4ac83d3fc375b5567812cf4f0d8e690cd4cc3",
+      "media_type": "application/json"
+    }
+  },
+  "peak_single_tension_n": 2.106536151168062,
+  "peak_simultaneous_total_tension_n": 4.846913213363628,
+  "control_semantics": "ctrl_n__*: actual engine ctrl, positive ideal tendon tension in N; actual_tension_n__*=-actuator_force. Row 0 is the initialized zero-control state; row k>0 records the control executed over [(k-1)*dt,k*dt]. No interpolation.",
+  "cost": {
+    "model_builds": 1,
+    "rollouts": 1,
+    "physics_steps": 600,
+    "physics_step_attempts": 600,
+    "forward_evaluations": 61,
+    "kernel_wall_s": 0.5072246999989147
+  },
+  "wall_s": 0.8777562999966904
+}

@@ -1,5 +1,5 @@
 param(
-    [Parameter(Mandatory=$true)][ValidateSet('m1','eight','p3')][string]$Demo,
+    [Parameter(Mandatory=$true)][ValidateSet('m1','eight','p3','m2','m3','m4','m5','m6','c1','phs')][string]$Demo,
     [string]$Case = '',
     [double]$Speed = 1,
     [switch]$Loop,

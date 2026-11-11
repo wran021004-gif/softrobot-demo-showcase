@@ -1,0 +1,416 @@
+{
+  "version": "phs2d_saved_witness_v1",
+  "source_commit": "9d6d160e050c836b87d0563a497fc0ec1c3761a8",
+  "xml_sha256": "75de64d10a2e2eaa605e3d59d16eec1bea6a8081d9c537c8deb2f6a09b47c77a",
+  "source_assembly": {
+    "artifact_id": "0bde4fd77ac561a441ab9e5faf65d65760ca2b5bdd2caa41ff8307e22ff03d3d",
+    "media_type": "application/json"
+  },
+  "common_baseline": {
+    "artifact_id": "a7f7ef5fe59993d00e2e4ea1fcb76053d786ab08a2c36fd75fd052989a9faac0",
+    "media_type": "application/json"
+  },
+  "fixed_payout_lengths_m": {
+    "tendon_0": 0.39274245978073885,
+    "tendon_1": 0.39274245978073885,
+    "tendon_2": 0.39274245978073885,
+    "tendon_3": 0.39274245978073885
+  },
+  "classification": "development_pass_not_registered_SELECT",
+  "actual_mj_step_calls": 0,
+  "trajectories": [
+    {
+      "condition": "equilibrium",
+      "directory": "equilibrium",
+      "s": 0.5,
+      "force_n": 0.0,
+      "stage": "unloaded_baseline",
+      "raw_reference": {
+        "artifact_id": "a7f7ef5fe59993d00e2e4ea1fcb76053d786ab08a2c36fd75fd052989a9faac0",
+        "media_type": "application/json"
+      },
+      "rows": 32001,
+      "csv_columns": 322,
+      "csv_bytes": 235332774,
+      "npz_bytes": 104749078,
+      "timestep_s": 0.000125,
+      "duration_s": 4.0,
+      "actual_last_engine_time_s": 4.000000000002015,
+      "raw_npz_reference": {
+        "artifact_id": "5eb0c9e8bee18bf0db6c2fe3626c495ab2d313ff6ebe3eaf8c46d9d1ffe16560",
+        "media_type": "application/octet-stream"
+      },
+      "raw_npz_archive_member": "artifacts/5eb0c9e8bee18bf0db6c2fe3626c495ab2d313ff6ebe3eaf8c46d9d1ffe16560.bin",
+      "source_poststep_array_sha256": "090110924556430dc628a21017beeea908709976812c8a24a359c80fdc39355c",
+      "material_point_binding": {
+        "body": 44,
+        "position_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "condition": "s030_positive",
+      "directory": "s030_positive",
+      "s": 0.3,
+      "force_n": 0.1,
+      "stage": "search",
+      "raw_reference": {
+        "artifact_id": "501e70615880f85d854fe82b025285350086ccb3c75b476ad0977631d6a6c9e4",
+        "media_type": "application/json"
+      },
+      "evaluation_reference": {
+        "artifact_id": "8c9366dcea2fd39839333f589f787604a7e6c13a9ed24ab81c96cf36fe4ba5b6",
+        "media_type": "application/json"
+      },
+      "rows": 32001,
+      "csv_columns": 322,
+      "csv_bytes": 232072259,
+      "npz_bytes": 109748616,
+      "timestep_s": 0.000125,
+      "duration_s": 4.0,
+      "actual_last_engine_time_s": 4.000000000002015,
+      "raw_npz_reference": {
+        "artifact_id": "2a66e2378f2372e1419ecf1c2f8802143b886ca67ba5854f8babded9a3536e39",
+        "media_type": "application/octet-stream"
+      },
+      "raw_npz_archive_member": "artifacts/2a66e2378f2372e1419ecf1c2f8802143b886ca67ba5854f8babded9a3536e39.bin",
+      "source_poststep_array_sha256": "42b6e5ae1b89dc09688f46d92fdde767e471fc479aa3eade4d78e0624c2f5766",
+      "material_point_binding": {
+        "body": 25,
+        "position_m": [
+          0.0023333333333333127,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "condition": "s030_negative",
+      "directory": "s030_negative",
+      "s": 0.3,
+      "force_n": -0.1,
+      "stage": "search",
+      "raw_reference": {
+        "artifact_id": "5819717973715e41ff7a85f41d20c51d71eca53bb355e4bdc3c50e080427ce94",
+        "media_type": "application/json"
+      },
+      "evaluation_reference": {
+        "artifact_id": "79578362ea48f23889b77e7c5e36226596b0c785af6fa78c6f3f8cfc0854974d",
+        "media_type": "application/json"
+      },
+      "rows": 32001,
+      "csv_columns": 322,
+      "csv_bytes": 233363837,
+      "npz_bytes": 109660116,
+      "timestep_s": 0.000125,
+      "duration_s": 4.0,
+      "actual_last_engine_time_s": 4.000000000002015,
+      "raw_npz_reference": {
+        "artifact_id": "021292d743b81df018b7c5f214f81772581ea42754066d8ddafbebe10b449c9a",
+        "media_type": "application/octet-stream"
+      },
+      "raw_npz_archive_member": "artifacts/021292d743b81df018b7c5f214f81772581ea42754066d8ddafbebe10b449c9a.bin",
+      "source_poststep_array_sha256": "2d8757a89f07a594c82923bf0cff296ec8887298852af925f82ec57d6e0e753a",
+      "material_point_binding": {
+        "body": 25,
+        "position_m": [
+          0.0023333333333333127,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "condition": "s040_positive",
+      "directory": "s040_positive",
+      "s": 0.4,
+      "force_n": 0.1,
+      "stage": "holdout",
+      "raw_reference": {
+        "artifact_id": "b237a02869d89bbc015e7aba32ebaeba5aa87632725dcf28131c6940456b2a90",
+        "media_type": "application/json"
+      },
+      "evaluation_reference": {
+        "artifact_id": "cba7cccd6b4466058e85f0001e2239fecce6aeb811efe78db1eaa7c2bee89717",
+        "media_type": "application/json"
+      },
+      "rows": 32001,
+      "csv_columns": 322,
+      "csv_bytes": 231545221,
+      "npz_bytes": 109382178,
+      "timestep_s": 0.000125,
+      "duration_s": 4.0,
+      "actual_last_engine_time_s": 4.000000000002015,
+      "raw_npz_reference": {
+        "artifact_id": "66ae6088ec4c3d373c6812f1678eed4e07454b76c62f50bfcf615b6fc0344cf0",
+        "media_type": "application/octet-stream"
+      },
+      "raw_npz_archive_member": "artifacts/66ae6088ec4c3d373c6812f1678eed4e07454b76c62f50bfcf615b6fc0344cf0.bin",
+      "source_poststep_array_sha256": "aeb44654580bd5c52eec1b9866f5739776c9a348ec94f071d0368474c326c327",
+      "material_point_binding": {
+        "body": 34,
+        "position_m": [
+          0.0031111111111111066,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "condition": "s040_negative",
+      "directory": "s040_negative",
+      "s": 0.4,
+      "force_n": -0.1,
+      "stage": "holdout",
+      "raw_reference": {
+        "artifact_id": "0a0ea1ff1148012713c179ee531f7d772c485037733daed612503aab2a646343",
+        "media_type": "application/json"
+      },
+      "evaluation_reference": {
+        "artifact_id": "baa0c8101300f2eed815d30433de8204bd1e1945bb02f7cfc894877b38c074c0",
+        "media_type": "application/json"
+      },
+      "rows": 32001,
+      "csv_columns": 322,
+      "csv_bytes": 232613424,
+      "npz_bytes": 109441626,
+      "timestep_s": 0.000125,
+      "duration_s": 4.0,
+      "actual_last_engine_time_s": 4.000000000002015,
+      "raw_npz_reference": {
+        "artifact_id": "86c22ee43c130070def0f80974867e4671c78b0c748cf2ec9d415a0e499b25f0",
+        "media_type": "application/octet-stream"
+      },
+      "raw_npz_archive_member": "artifacts/86c22ee43c130070def0f80974867e4671c78b0c748cf2ec9d415a0e499b25f0.bin",
+      "source_poststep_array_sha256": "c2b63470f630509cc64ce1a771e8a69e10483faab70f0bde703131c98cb148b7",
+      "material_point_binding": {
+        "body": 34,
+        "position_m": [
+          0.0031111111111111066,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "condition": "s050_positive",
+      "directory": "s050_positive",
+      "s": 0.5,
+      "force_n": 0.1,
+      "stage": "search",
+      "raw_reference": {
+        "artifact_id": "2bb9dddd9235211d86d977666f6a8d86137b1b8f71ef674062193848131e3333",
+        "media_type": "application/json"
+      },
+      "evaluation_reference": {
+        "artifact_id": "1be9d07f05328c51b9d9c67f41591889f0e408b4cfa6b2f785bc80a7914d4fb2",
+        "media_type": "application/json"
+      },
+      "rows": 32001,
+      "csv_columns": 322,
+      "csv_bytes": 231381684,
+      "npz_bytes": 109750969,
+      "timestep_s": 0.000125,
+      "duration_s": 4.0,
+      "actual_last_engine_time_s": 4.000000000002015,
+      "raw_npz_reference": {
+        "artifact_id": "326d346e0a0178c0394c41c7c0b11f602a7a7e8126bde0dd0a6e17bf7628f750",
+        "media_type": "application/octet-stream"
+      },
+      "raw_npz_archive_member": "artifacts/326d346e0a0178c0394c41c7c0b11f602a7a7e8126bde0dd0a6e17bf7628f750.bin",
+      "source_poststep_array_sha256": "ec4e485d298c50dd79741c3e7ec1f6a956a4c771f132aa9b7ac2dbad65482505",
+      "material_point_binding": {
+        "body": 44,
+        "position_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "condition": "s050_negative",
+      "directory": "s050_negative",
+      "s": 0.5,
+      "force_n": -0.1,
+      "stage": "search",
+      "raw_reference": {
+        "artifact_id": "d2cae0c7a9ef5d9188413b4158452cf554ae67c89889cb0ae1f39ba028e3b21d",
+        "media_type": "application/json"
+      },
+      "evaluation_reference": {
+        "artifact_id": "4e5487675016275767e70125a04f3c1d0f5b2d713e6eb502d0c9534c912214f7",
+        "media_type": "application/json"
+      },
+      "rows": 32001,
+      "csv_columns": 322,
+      "csv_bytes": 232147343,
+      "npz_bytes": 109715342,
+      "timestep_s": 0.000125,
+      "duration_s": 4.0,
+      "actual_last_engine_time_s": 4.000000000002015,
+      "raw_npz_reference": {
+        "artifact_id": "d5a90acc227330b64e140c4ffd45f7d5972d20f702a48014a0dd3dfcebdf3ae1",
+        "media_type": "application/octet-stream"
+      },
+      "raw_npz_archive_member": "artifacts/d5a90acc227330b64e140c4ffd45f7d5972d20f702a48014a0dd3dfcebdf3ae1.bin",
+      "source_poststep_array_sha256": "fe31e7a2f5d81bac0d3a2a2d0f1fbd04eb75345b1d3d2414f077a9394aac0480",
+      "material_point_binding": {
+        "body": 44,
+        "position_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "condition": "s060_positive",
+      "directory": "s060_positive",
+      "s": 0.6,
+      "force_n": 0.1,
+      "stage": "holdout",
+      "raw_reference": {
+        "artifact_id": "5b7568fc7c58b9496fbc351770233524cc0083a6c3c4f6076ca9d510e3213035",
+        "media_type": "application/json"
+      },
+      "evaluation_reference": {
+        "artifact_id": "cecf51d945ec97159e28497ddf3e514624ca3f6fc4ae4aa76bf07537d032a0ed",
+        "media_type": "application/json"
+      },
+      "rows": 32001,
+      "csv_columns": 322,
+      "csv_bytes": 231396441,
+      "npz_bytes": 110088371,
+      "timestep_s": 0.000125,
+      "duration_s": 4.0,
+      "actual_last_engine_time_s": 4.000000000002015,
+      "raw_npz_reference": {
+        "artifact_id": "c88145abcd05e5038d939ddb6866c0a9bc04fe1f7d76fe0e3d4a5fb2a8c3b5b1",
+        "media_type": "application/octet-stream"
+      },
+      "raw_npz_archive_member": "artifacts/c88145abcd05e5038d939ddb6866c0a9bc04fe1f7d76fe0e3d4a5fb2a8c3b5b1.bin",
+      "source_poststep_array_sha256": "26ff4154271e5ed035acfaca00b915af7c6bb380cb807c7d7d66722b9ebcb5c2",
+      "material_point_binding": {
+        "body": 53,
+        "position_m": [
+          0.0007777777777777666,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "condition": "s060_negative",
+      "directory": "s060_negative",
+      "s": 0.6,
+      "force_n": -0.1,
+      "stage": "holdout",
+      "raw_reference": {
+        "artifact_id": "072aebb41f2e7257962b2512ec59a81d378c8d0a3c56a203c53f01cba3b6d17d",
+        "media_type": "application/json"
+      },
+      "evaluation_reference": {
+        "artifact_id": "758541a4e7ce055768850b92616e1e8f331fec8c1b4a3a5128731dbb479567e4",
+        "media_type": "application/json"
+      },
+      "rows": 32001,
+      "csv_columns": 322,
+      "csv_bytes": 231962485,
+      "npz_bytes": 110029229,
+      "timestep_s": 0.000125,
+      "duration_s": 4.0,
+      "actual_last_engine_time_s": 4.000000000002015,
+      "raw_npz_reference": {
+        "artifact_id": "bb7c955bf0d31f1ebe6c1ea395e95df229621d1e0cd21531032e69576698f4d5",
+        "media_type": "application/octet-stream"
+      },
+      "raw_npz_archive_member": "artifacts/bb7c955bf0d31f1ebe6c1ea395e95df229621d1e0cd21531032e69576698f4d5.bin",
+      "source_poststep_array_sha256": "1471c0dcddc4309406ca53c3b9e16a3a26cbd3d934acf23c0c5b86d65ca6560c",
+      "material_point_binding": {
+        "body": 53,
+        "position_m": [
+          0.0007777777777777666,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "condition": "s070_positive",
+      "directory": "s070_positive",
+      "s": 0.7,
+      "force_n": 0.1,
+      "stage": "search",
+      "raw_reference": {
+        "artifact_id": "72f7dd1d5a27ce4deb3a45549cab2594b3b834ec62b3d5e5668c786397f8c1b4",
+        "media_type": "application/json"
+      },
+      "evaluation_reference": {
+        "artifact_id": "fd6caf2dbbc13c13c6c15731c764bbc5d9292ac9c172c88571de10193699d257",
+        "media_type": "application/json"
+      },
+      "rows": 32001,
+      "csv_columns": 322,
+      "csv_bytes": 231445567,
+      "npz_bytes": 110186211,
+      "timestep_s": 0.000125,
+      "duration_s": 4.0,
+      "actual_last_engine_time_s": 4.000000000002015,
+      "raw_npz_reference": {
+        "artifact_id": "7116703204dcb1922aebb5034afa679924908abe35fabdcd8d85bcb0204a582b",
+        "media_type": "application/octet-stream"
+      },
+      "raw_npz_archive_member": "artifacts/7116703204dcb1922aebb5034afa679924908abe35fabdcd8d85bcb0204a582b.bin",
+      "source_poststep_array_sha256": "e42ef62a671b1892531a9f31da0d2298c2615be44f69439bf0beb41fbb7cdfe7",
+      "material_point_binding": {
+        "body": 62,
+        "position_m": [
+          0.0015555555555555605,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "condition": "s070_negative",
+      "directory": "s070_negative",
+      "s": 0.7,
+      "force_n": -0.1,
+      "stage": "search",
+      "raw_reference": {
+        "artifact_id": "3484d0c0561787490523afe45839fe5baa68a46cad1e1537520f20c3e2f6c61f",
+        "media_type": "application/json"
+      },
+      "evaluation_reference": {
+        "artifact_id": "480cf5e4b3a4509e625027e719029c7b22173241f2c68cab12323ec72d8f1d76",
+        "media_type": "application/json"
+      },
+      "rows": 32001,
+      "csv_columns": 322,
+      "csv_bytes": 231627009,
+      "npz_bytes": 110159435,
+      "timestep_s": 0.000125,
+      "duration_s": 4.0,
+      "actual_last_engine_time_s": 4.000000000002015,
+      "raw_npz_reference": {
+        "artifact_id": "aea8422d6228fbcb7f72b2d0b81b2ecf54e29264c5d0fb12e3144ec3623ba9c8",
+        "media_type": "application/octet-stream"
+      },
+      "raw_npz_archive_member": "artifacts/aea8422d6228fbcb7f72b2d0b81b2ecf54e29264c5d0fb12e3144ec3623ba9c8.bin",
+      "source_poststep_array_sha256": "ebee17c8171fa801b3ddb37bd3d7c485fa8ae2a16a14f39eb3da36c0eedbbf56",
+      "material_point_binding": {
+        "body": 62,
+        "position_m": [
+          0.0015555555555555605,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "complete": true
+}

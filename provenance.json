@@ -4,5 +4,13 @@
   "figure_eight": "New single segment four-tendon design. New independent task and solved full timestep recording. M4 unchanged.",
   "P3": "Original three segments and two passive fixed-payout tendons. plus_x and minus_x accepted records sampled for display only. No integration.",
   "visuals": "scene.xml adds only density=0 contype=0 conaffinity=0 group=3 geometry, lights and colors. robot.xml is physics baseline.",
-  "omitted": "Optional PHS2D skipped to keep scope focused on three requested demos"
+  "v2_origin": "All tasks are existing Codex-assisted engineering/tool results or existing experiments, not Main autonomous Study. No v2 design search, mathematical optimization, Main/Reporter/Provider or physics integration.",
+  "M2": "Original zero/positive/negative XML, tasks, control and full physical-step trajectories; direct world force at payload COM.",
+  "M3": "Original 0.5 s development draft; last 50 ms hold only.",
+  "M4": "Original 0.6 s legacy timed polyline; dense peak 12.095 mm, not optimized in v2.",
+  "M5": "Original transient position + tool-axis pointing; no roll or hold. Original floor collision retained; scene hides that plane visually and adds a no-collision display floor at -0.10 m to reveal the downward pointer.",
+  "M6": "Original 20 g rigid payload and full inertia; original oriented scan without surface contact.",
+  "C1": "Original four-tendon robot, four independent M1_A/M1_B/M1_C/M5 experiments; no global minimum or superiority claim.",
+  "PHS2D": "Original 9 x 8-cell passive design and 4 tendons. 10 loading cases + equilibrium, each 401 original states sampled at 100 Hz from states_timestep.npz. No interpolation. Original dataset/evaluations and matching sampled force schedules retained.",
+  "v2_parent_commit": "acca7c76ecbbdefa0810fac2cf526af62c1958a6"
 }

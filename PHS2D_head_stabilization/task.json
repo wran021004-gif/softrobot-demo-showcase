@@ -1,0 +1,620 @@
+{
+  "version": "phs2d_benchmark_task_v1",
+  "source_commit": "9d6d160e050c836b87d0563a497fc0ec1c3761a8",
+  "classification": "development_pass_not_registered_SELECT",
+  "registered_acceptance": false,
+  "protocol": {
+    "cells_per_segment": 12,
+    "diagnostic_recording": "qacc, force vectors and cold static recomputation in v3; original evidence immutable",
+    "equilibrium_max_s": 4.0,
+    "force_n": 0.1,
+    "force_point_x_min_m": 0.01,
+    "gravity": [
+      0,
+      0,
+      -9.81
+    ],
+    "holdout_s": [
+      0.4,
+      0.6
+    ],
+    "initial_lateral_limit_m": 0.005,
+    "length_excess_limit_m": 5e-05,
+    "limits": {
+      "candidates": 282,
+      "dynamic_candidates": 57,
+      "final_reserved_steps": 4000000,
+      "math_requests": 1060,
+      "p0_steps": 468000,
+      "p1_steps": 14604000,
+      "physics_step_attempts": 19072000
+    },
+    "load_max_s": 4.0,
+    "monitor_s": [
+      0,
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      1
+    ],
+    "monitor_speed_limit_m_s": 0.001,
+    "mount_position": [
+      0,
+      0,
+      0.5
+    ],
+    "mount_rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        -1,
+        0,
+        0
+      ]
+    ],
+    "numerical_revision_reason": "New study; original acceptance, force, mass prototypes, time horizon retained. Candidate-specific mesh frozen in generation. 0.125 ms primary dynamics follows round-two convergence evidence; every final candidate additionally at half step. Successor domain freezes physical bending viscosity as a material design variable; acceptance unchanged and all predecessor consumption deducted.",
+    "out_of_plane_limit_m": 0.002,
+    "payout_offset_bound_m": 0.0002,
+    "predecessor_consumption": {
+      "candidates": 18,
+      "dynamic_candidates": 3,
+      "math": 140,
+      "phase_steps": {
+        "FINAL": 0,
+        "P0": 32000,
+        "P1": 896000
+      },
+      "steps": 928000
+    },
+    "predecessor_study": "phs2d-inverse-passive-design-20261028-v1",
+    "qvel_inf_limit_rad_s": 0.01,
+    "ramp_s": 0.5,
+    "ratio_limit": 0.3,
+    "s_semantics": "cumulative flexible material length; rigid connector offsets excluded; tip_site measured separately",
+    "sample_every_steps": 80,
+    "search_s": [
+      0.3,
+      0.5,
+      0.7
+    ],
+    "solimplimit": [
+      0.999,
+      0.999,
+      0.001,
+      0.5,
+      2
+    ],
+    "solreflimit": [
+      0.004,
+      1
+    ],
+    "static_balance_inf_limit_nm": 1e-05,
+    "static_solver": {
+      "active_tolerance_m": 1e-07,
+      "complementarity_tolerance_nm": 1e-08,
+      "ftol": 1e-13,
+      "hessian_step_rad": 1e-05,
+      "length_tolerance_m": 1e-08,
+      "max_iterations": 400,
+      "method": "SLSQP",
+      "minimum_reduced_eigenvalue": 1e-07,
+      "rank_relative_tolerance": 1e-08,
+      "stationarity_tolerance_nm": 1e-06
+    },
+    "status": "development_not_registered_SELECT",
+    "stop": "first six search and four fresh holdout development passes; otherwise finite diagnostic search; no infeasibility claim",
+    "tail_drift_limit_m": 0.0005,
+    "tail_s": 0.25,
+    "timestep_s": 0.000125,
+    "tip_horizontal_limit_m": 0.005,
+    "tip_speed_limit_m_s": 0.001,
+    "total_flexible_length_m": 0.28,
+    "version": "phs2d_passive_inverse_v2"
+  },
+  "effective_discretization": {
+    "version": "serial_bending_discretization_v1",
+    "model": "serial_bending_cells_v1",
+    "cells": {
+      "segment_0": 8,
+      "segment_1": 8,
+      "segment_2": 8,
+      "segment_3": 8,
+      "segment_4": 8,
+      "segment_5": 8,
+      "segment_6": 8,
+      "segment_7": 8,
+      "segment_8": 8
+    },
+    "coordinates": "two_principal_bending_angles_per_cell"
+  },
+  "compiled_model_xml_sha256": "75de64d10a2e2eaa605e3d59d16eec1bea6a8081d9c537c8deb2f6a09b47c77a",
+  "source_assembly": {
+    "artifact_id": "0bde4fd77ac561a441ab9e5faf65d65760ca2b5bdd2caa41ff8307e22ff03d3d",
+    "media_type": "application/json"
+  },
+  "numerical_runtime_overrides": {
+    "iterations": 100,
+    "tolerance": 1e-10
+  },
+  "observation_phase": {
+    "raw": "Post mj_step and following mj_forward; generalized force mapped at preceding state. At 10 ms snapshots original sampler additionally remaps force after recording.",
+    "initial": "Exact saved original t=0 snapshot; qacc, lengths, tensions are original snapshot observations.",
+    "pose": "Independent mj_forward on detached saved qpos/qvel; recomputed reactions are never exported as original tension."
+  },
+  "original_cases": [
+    {
+      "evaluation": {
+        "artifact_id": "8c9366dcea2fd39839333f589f787604a7e6c13a9ed24ab81c96cf36fe4ba5b6",
+        "media_type": "application/json"
+      },
+      "force_n": 0.1,
+      "out_of_plane_m": 7.175414966822249e-07,
+      "point_dx_m": 0.011178871149159043,
+      "ratio": 0.060207785748804844,
+      "reference": {
+        "artifact_id": "501e70615880f85d854fe82b025285350086ccb3c75b476ad0977631d6a6c9e4",
+        "media_type": "application/json"
+      },
+      "s": 0.3,
+      "status": "development_pass",
+      "tip_xy_m": 0.0006730550790620634,
+      "valid": true,
+      "worst_violation": 0,
+      "failed_checks": [],
+      "geometry": "legal_at_checked_poses",
+      "max_tail_residual_nm": 3.2689205944391503e-07,
+      "max_tail_qvel_rad_s": 2.2317942297105235e-06,
+      "max_tail_tension_n": 0.1034198510834091,
+      "max_tail_length_excess_m": 8.827307967917974e-08,
+      "final_tensions_n": [
+        0.0,
+        0.1034198510834091,
+        0.0,
+        0.08940572464829463
+      ],
+      "taut": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "every_timestep_tail_qvel_rad_s": 2.2345760333163862e-06,
+      "every_timestep_tail_length_excess_m": 8.827308140002543e-08
+    },
+    {
+      "evaluation": {
+        "artifact_id": "79578362ea48f23889b77e7c5e36226596b0c785af6fa78c6f3f8cfc0854974d",
+        "media_type": "application/json"
+      },
+      "force_n": -0.1,
+      "out_of_plane_m": 1.0476427256701176e-06,
+      "point_dx_m": 0.011155111084834766,
+      "ratio": 0.0643285858842772,
+      "reference": {
+        "artifact_id": "5819717973715e41ff7a85f41d20c51d71eca53bb355e4bdc3c50e080427ce94",
+        "media_type": "application/json"
+      },
+      "s": 0.3,
+      "status": "development_pass",
+      "tip_xy_m": 0.0007175925214694458,
+      "valid": true,
+      "worst_violation": 0,
+      "failed_checks": [],
+      "geometry": "legal_at_checked_poses",
+      "max_tail_residual_nm": 4.924524061171746e-07,
+      "max_tail_qvel_rad_s": 2.259799501176676e-06,
+      "max_tail_tension_n": 0.0875761184294018,
+      "max_tail_length_excess_m": 7.740868224193065e-08,
+      "final_tensions_n": [
+        0.0875761184294018,
+        0.0,
+        0.07357326412782535,
+        0.0
+      ],
+      "taut": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "every_timestep_tail_qvel_rad_s": 2.2601152445406425e-06,
+      "every_timestep_tail_length_excess_m": 7.740868290806446e-08
+    },
+    {
+      "evaluation": {
+        "artifact_id": "1be9d07f05328c51b9d9c67f41591889f0e408b4cfa6b2f785bc80a7914d4fb2",
+        "media_type": "application/json"
+      },
+      "force_n": 0.1,
+      "out_of_plane_m": 3.4238315464653904e-06,
+      "point_dx_m": 0.02292276866454783,
+      "ratio": 0.060521186157248726,
+      "reference": {
+        "artifact_id": "2bb9dddd9235211d86d977666f6a8d86137b1b8f71ef674062193848131e3333",
+        "media_type": "application/json"
+      },
+      "s": 0.5,
+      "status": "development_pass",
+      "tip_xy_m": 0.001387313149586647,
+      "valid": true,
+      "worst_violation": 0,
+      "failed_checks": [],
+      "geometry": "legal_at_checked_poses",
+      "max_tail_residual_nm": 1.3423612878239732e-06,
+      "max_tail_qvel_rad_s": 1.0869162312894064e-05,
+      "max_tail_tension_n": 0.2173860649787944,
+      "max_tail_length_excess_m": 1.8553852076941268e-07,
+      "final_tensions_n": [
+        0.0,
+        0.21735781185228317,
+        0.0,
+        0.20345896018743148
+      ],
+      "taut": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "every_timestep_tail_qvel_rad_s": 1.0875553956736288e-05,
+      "every_timestep_tail_length_excess_m": 1.8553852076941268e-07
+    },
+    {
+      "evaluation": {
+        "artifact_id": "4e5487675016275767e70125a04f3c1d0f5b2d713e6eb502d0c9534c912214f7",
+        "media_type": "application/json"
+      },
+      "force_n": -0.1,
+      "out_of_plane_m": 4.144849907218541e-06,
+      "point_dx_m": 0.02289566237990813,
+      "ratio": 0.06560425944874704,
+      "reference": {
+        "artifact_id": "d2cae0c7a9ef5d9188413b4158452cf554ae67c89889cb0ae1f39ba028e3b21d",
+        "media_type": "application/json"
+      },
+      "s": 0.5,
+      "status": "development_pass",
+      "tip_xy_m": 0.00150205297502241,
+      "valid": true,
+      "worst_violation": 0,
+      "failed_checks": [],
+      "geometry": "legal_at_checked_poses",
+      "max_tail_residual_nm": 1.360411849437096e-06,
+      "max_tail_qvel_rad_s": 1.101071184828202e-05,
+      "max_tail_tension_n": 0.2012731168086268,
+      "max_tail_length_excess_m": 1.7789520312394558e-07,
+      "final_tensions_n": [
+        0.2012458370599077,
+        0.0,
+        0.1873692541504136,
+        0.0
+      ],
+      "taut": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "every_timestep_tail_qvel_rad_s": 1.1011708849123106e-05,
+      "every_timestep_tail_length_excess_m": 1.7789520312394558e-07
+    },
+    {
+      "evaluation": {
+        "artifact_id": "fd6caf2dbbc13c13c6c15731c764bbc5d9292ac9c172c88571de10193699d257",
+        "media_type": "application/json"
+      },
+      "force_n": 0.1,
+      "out_of_plane_m": 1.1531346326065184e-05,
+      "point_dx_m": 0.028020974111792423,
+      "ratio": 0.09927964668056008,
+      "reference": {
+        "artifact_id": "72f7dd1d5a27ce4deb3a45549cab2594b3b834ec62b3d5e5668c786397f8c1b4",
+        "media_type": "application/json"
+      },
+      "s": 0.7,
+      "status": "development_pass",
+      "tip_xy_m": 0.0027819124094638726,
+      "valid": true,
+      "worst_violation": 0,
+      "failed_checks": [],
+      "geometry": "legal_at_checked_poses",
+      "max_tail_residual_nm": 1.2111134630984536e-06,
+      "max_tail_qvel_rad_s": 1.2639535141159778e-05,
+      "max_tail_tension_n": 0.37917999321210133,
+      "max_tail_length_excess_m": 3.236625376046298e-07,
+      "final_tensions_n": [
+        0.0,
+        0.37914710856245715,
+        0.0,
+        0.36542544564669316
+      ],
+      "taut": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "every_timestep_tail_qvel_rad_s": 1.2639535141159778e-05,
+      "every_timestep_tail_length_excess_m": 3.236625376046298e-07
+    },
+    {
+      "evaluation": {
+        "artifact_id": "480cf5e4b3a4509e625027e719029c7b22173241f2c68cab12323ec72d8f1d76",
+        "media_type": "application/json"
+      },
+      "force_n": -0.1,
+      "out_of_plane_m": 1.2824391841964474e-05,
+      "point_dx_m": 0.02808019811751736,
+      "ratio": 0.10925665375349873,
+      "reference": {
+        "artifact_id": "3484d0c0561787490523afe45839fe5baa68a46cad1e1537520f20c3e2f6c61f",
+        "media_type": "application/json"
+      },
+      "s": 0.7,
+      "status": "development_pass",
+      "tip_xy_m": 0.0030679484830552412,
+      "valid": true,
+      "worst_violation": 0,
+      "failed_checks": [],
+      "geometry": "legal_at_checked_poses",
+      "max_tail_residual_nm": 1.2120640857374233e-06,
+      "max_tail_qvel_rad_s": 1.2642042448411988e-05,
+      "max_tail_tension_n": 0.362512055638782,
+      "max_tail_length_excess_m": 3.204331867068255e-07,
+      "final_tensions_n": [
+        0.36247652203602,
+        0.0,
+        0.34878852095672463,
+        0.0
+      ],
+      "taut": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "every_timestep_tail_qvel_rad_s": 1.2642042448411988e-05,
+      "every_timestep_tail_length_excess_m": 3.204331867068255e-07
+    },
+    {
+      "evaluation": {
+        "artifact_id": "cba7cccd6b4466058e85f0001e2239fecce6aeb811efe78db1eaa7c2bee89717",
+        "media_type": "application/json"
+      },
+      "force_n": 0.1,
+      "out_of_plane_m": 1.0430123978705627e-06,
+      "point_dx_m": 0.017383839229452448,
+      "ratio": 0.05663442063376913,
+      "reference": {
+        "artifact_id": "b237a02869d89bbc015e7aba32ebaeba5aa87632725dcf28131c6940456b2a90",
+        "media_type": "application/json"
+      },
+      "s": 0.4,
+      "status": "development_pass",
+      "tip_xy_m": 0.000984523663150627,
+      "valid": true,
+      "worst_violation": 0,
+      "failed_checks": [],
+      "geometry": "legal_at_checked_poses",
+      "max_tail_residual_nm": 5.513420750034165e-07,
+      "max_tail_qvel_rad_s": 7.530231801448663e-06,
+      "max_tail_tension_n": 0.15585593715760615,
+      "max_tail_length_excess_m": 1.3303164680955604e-07,
+      "final_tensions_n": [
+        0.0,
+        0.15585593715760615,
+        0.0,
+        0.14188544436180328
+      ],
+      "taut": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "every_timestep_tail_qvel_rad_s": 7.530231801448663e-06,
+      "every_timestep_tail_length_excess_m": 1.3303164680955604e-07
+    },
+    {
+      "evaluation": {
+        "artifact_id": "baa0c8101300f2eed815d30433de8204bd1e1945bb02f7cfc894877b38c074c0",
+        "media_type": "application/json"
+      },
+      "force_n": -0.1,
+      "out_of_plane_m": 1.3420326366272385e-06,
+      "point_dx_m": 0.017354590876514347,
+      "ratio": 0.06088909187421675,
+      "reference": {
+        "artifact_id": "0a0ea1ff1148012713c179ee531f7d772c485037733daed612503aab2a646343",
+        "media_type": "application/json"
+      },
+      "s": 0.4,
+      "status": "development_pass",
+      "tip_xy_m": 0.0010567052783195259,
+      "valid": true,
+      "worst_violation": 0,
+      "failed_checks": [],
+      "geometry": "legal_at_checked_poses",
+      "max_tail_residual_nm": 5.656309757049588e-07,
+      "max_tail_qvel_rad_s": 7.5761807435381e-06,
+      "max_tail_tension_n": 0.1398854468769268,
+      "max_tail_length_excess_m": 1.2364608020787315e-07,
+      "final_tensions_n": [
+        0.1398854468769268,
+        0.0,
+        0.12593113137089804,
+        0.0
+      ],
+      "taut": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "every_timestep_tail_qvel_rad_s": 7.5761807435381e-06,
+      "every_timestep_tail_length_excess_m": 1.2364608020787315e-07
+    },
+    {
+      "evaluation": {
+        "artifact_id": "cecf51d945ec97159e28497ddf3e514624ca3f6fc4ae4aa76bf07537d032a0ed",
+        "media_type": "application/json"
+      },
+      "force_n": 0.1,
+      "out_of_plane_m": 7.10475831554445e-06,
+      "point_dx_m": 0.026897285349280178,
+      "ratio": 0.07374628606445459,
+      "reference": {
+        "artifact_id": "5b7568fc7c58b9496fbc351770233524cc0083a6c3c4f6076ca9d510e3213035",
+        "media_type": "application/json"
+      },
+      "s": 0.6,
+      "status": "development_pass",
+      "tip_xy_m": 0.001983574899725279,
+      "valid": true,
+      "worst_violation": 0,
+      "failed_checks": [],
+      "geometry": "legal_at_checked_poses",
+      "max_tail_residual_nm": 1.269516517767716e-06,
+      "max_tail_qvel_rad_s": 1.055215757353075e-05,
+      "max_tail_tension_n": 0.2903828320876331,
+      "max_tail_length_excess_m": 2.4782470725570604e-07,
+      "final_tensions_n": [
+        0.0,
+        0.2903254269363985,
+        0.0,
+        0.2765202496734536
+      ],
+      "taut": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "every_timestep_tail_qvel_rad_s": 1.0555545287101144e-05,
+      "every_timestep_tail_length_excess_m": 2.4782470725570604e-07
+    },
+    {
+      "evaluation": {
+        "artifact_id": "758541a4e7ce055768850b92616e1e8f331fec8c1b4a3a5128731dbb479567e4",
+        "media_type": "application/json"
+      },
+      "force_n": -0.1,
+      "out_of_plane_m": 8.153374898274173e-06,
+      "point_dx_m": 0.026890291942492744,
+      "ratio": 0.08055387214533608,
+      "reference": {
+        "artifact_id": "072aebb41f2e7257962b2512ec59a81d378c8d0a3c56a203c53f01cba3b6d17d",
+        "media_type": "application/json"
+      },
+      "s": 0.6,
+      "status": "development_pass",
+      "tip_xy_m": 0.0021661171390863214,
+      "valid": true,
+      "worst_violation": 0,
+      "failed_checks": [],
+      "geometry": "legal_at_checked_poses",
+      "max_tail_residual_nm": 1.3267396409867571e-06,
+      "max_tail_qvel_rad_s": 1.0784413508402699e-05,
+      "max_tail_tension_n": 0.2740669142389961,
+      "max_tail_length_excess_m": 2.4220894190296605e-07,
+      "final_tensions_n": [
+        0.2740083121976163,
+        0.0,
+        0.26023152622233425,
+        0.0
+      ],
+      "taut": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "every_timestep_tail_qvel_rad_s": 1.0785489504213802e-05,
+      "every_timestep_tail_length_excess_m": 2.4220894190296605e-07
+    }
+  ],
+  "coordinate_frame": "World SI; fixed Base at [0,0,0.5], local +x points down under frozen mount_rotation; force along world x.",
+  "material_coordinate": "Cumulative flexible length only, excludes rigid spacers; Tip measured at original tip_site.",
+  "native_compiled_options": {
+    "ccd_iterations": 35,
+    "ccd_tolerance": 1e-06,
+    "cone": 0,
+    "density": 0.0,
+    "disableactuator": 0,
+    "disableflags": 0,
+    "enableflags": 0,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "impratio": 1.0,
+    "integrator": 3,
+    "iterations": 100,
+    "jacobian": 2,
+    "ls_iterations": 50,
+    "ls_tolerance": 0.01,
+    "magnetic": [
+      0.0,
+      -0.5,
+      0.0
+    ],
+    "noslip_iterations": 0,
+    "noslip_tolerance": 1e-06,
+    "o_friction": [
+      1.0,
+      1.0,
+      0.005,
+      0.0001,
+      0.0001
+    ],
+    "o_margin": 0.0,
+    "o_solimp": [
+      0.9,
+      0.95,
+      0.001,
+      0.5,
+      2.0
+    ],
+    "o_solref": [
+      0.02,
+      1.0
+    ],
+    "sdf_initpoints": 40,
+    "sdf_iterations": 10,
+    "sleep_tolerance": 0.001,
+    "solver": 2,
+    "timestep": 0.000125,
+    "tolerance": 1e-10,
+    "viscosity": 0.0,
+    "wind": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

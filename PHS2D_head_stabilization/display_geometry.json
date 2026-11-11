@@ -1,0 +1,675 @@
+{
+  "parts": [
+    {
+      "entity": "segment_0_cell_0",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        0,
+        1
+      ]
+    },
+    {
+      "entity": "segment_0_cell_1",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        2,
+        3
+      ]
+    },
+    {
+      "entity": "segment_0_cell_2",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        4,
+        5
+      ]
+    },
+    {
+      "entity": "segment_0_cell_3",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        6,
+        7
+      ]
+    },
+    {
+      "entity": "segment_0_cell_4",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        8,
+        9
+      ]
+    },
+    {
+      "entity": "segment_0_cell_5",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        10,
+        11
+      ]
+    },
+    {
+      "entity": "segment_0_cell_6",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        12,
+        13
+      ]
+    },
+    {
+      "entity": "segment_0_cell_7",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        14,
+        15
+      ]
+    },
+    {
+      "entity": "guide_1",
+      "length_m": 0.0,
+      "dofs": []
+    },
+    {
+      "entity": "connector_1",
+      "length_m": 0.0,
+      "dofs": []
+    },
+    {
+      "entity": "segment_1_cell_0",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        16,
+        17
+      ]
+    },
+    {
+      "entity": "segment_1_cell_1",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        18,
+        19
+      ]
+    },
+    {
+      "entity": "segment_1_cell_2",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        20,
+        21
+      ]
+    },
+    {
+      "entity": "segment_1_cell_3",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        22,
+        23
+      ]
+    },
+    {
+      "entity": "segment_1_cell_4",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        24,
+        25
+      ]
+    },
+    {
+      "entity": "segment_1_cell_5",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        26,
+        27
+      ]
+    },
+    {
+      "entity": "segment_1_cell_6",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        28,
+        29
+      ]
+    },
+    {
+      "entity": "segment_1_cell_7",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        30,
+        31
+      ]
+    },
+    {
+      "entity": "guide_2",
+      "length_m": 0.0,
+      "dofs": []
+    },
+    {
+      "entity": "connector_2",
+      "length_m": 0.0,
+      "dofs": []
+    },
+    {
+      "entity": "segment_2_cell_0",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        32,
+        33
+      ]
+    },
+    {
+      "entity": "segment_2_cell_1",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        34,
+        35
+      ]
+    },
+    {
+      "entity": "segment_2_cell_2",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        36,
+        37
+      ]
+    },
+    {
+      "entity": "segment_2_cell_3",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        38,
+        39
+      ]
+    },
+    {
+      "entity": "segment_2_cell_4",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        40,
+        41
+      ]
+    },
+    {
+      "entity": "segment_2_cell_5",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        42,
+        43
+      ]
+    },
+    {
+      "entity": "segment_2_cell_6",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        44,
+        45
+      ]
+    },
+    {
+      "entity": "segment_2_cell_7",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        46,
+        47
+      ]
+    },
+    {
+      "entity": "guide_3",
+      "length_m": 0.0,
+      "dofs": []
+    },
+    {
+      "entity": "connector_3",
+      "length_m": 0.0,
+      "dofs": []
+    },
+    {
+      "entity": "segment_3_cell_0",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        48,
+        49
+      ]
+    },
+    {
+      "entity": "segment_3_cell_1",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        50,
+        51
+      ]
+    },
+    {
+      "entity": "segment_3_cell_2",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        52,
+        53
+      ]
+    },
+    {
+      "entity": "segment_3_cell_3",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        54,
+        55
+      ]
+    },
+    {
+      "entity": "segment_3_cell_4",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        56,
+        57
+      ]
+    },
+    {
+      "entity": "segment_3_cell_5",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        58,
+        59
+      ]
+    },
+    {
+      "entity": "segment_3_cell_6",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        60,
+        61
+      ]
+    },
+    {
+      "entity": "segment_3_cell_7",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        62,
+        63
+      ]
+    },
+    {
+      "entity": "guide_4",
+      "length_m": 0.0,
+      "dofs": []
+    },
+    {
+      "entity": "connector_4",
+      "length_m": 0.0,
+      "dofs": []
+    },
+    {
+      "entity": "segment_4_cell_0",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        64,
+        65
+      ]
+    },
+    {
+      "entity": "segment_4_cell_1",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        66,
+        67
+      ]
+    },
+    {
+      "entity": "segment_4_cell_2",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        68,
+        69
+      ]
+    },
+    {
+      "entity": "segment_4_cell_3",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        70,
+        71
+      ]
+    },
+    {
+      "entity": "segment_4_cell_4",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        72,
+        73
+      ]
+    },
+    {
+      "entity": "segment_4_cell_5",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        74,
+        75
+      ]
+    },
+    {
+      "entity": "segment_4_cell_6",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        76,
+        77
+      ]
+    },
+    {
+      "entity": "segment_4_cell_7",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        78,
+        79
+      ]
+    },
+    {
+      "entity": "guide_5",
+      "length_m": 0.0,
+      "dofs": []
+    },
+    {
+      "entity": "connector_5",
+      "length_m": 0.0,
+      "dofs": []
+    },
+    {
+      "entity": "segment_5_cell_0",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        80,
+        81
+      ]
+    },
+    {
+      "entity": "segment_5_cell_1",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        82,
+        83
+      ]
+    },
+    {
+      "entity": "segment_5_cell_2",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        84,
+        85
+      ]
+    },
+    {
+      "entity": "segment_5_cell_3",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        86,
+        87
+      ]
+    },
+    {
+      "entity": "segment_5_cell_4",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        88,
+        89
+      ]
+    },
+    {
+      "entity": "segment_5_cell_5",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        90,
+        91
+      ]
+    },
+    {
+      "entity": "segment_5_cell_6",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        92,
+        93
+      ]
+    },
+    {
+      "entity": "segment_5_cell_7",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        94,
+        95
+      ]
+    },
+    {
+      "entity": "guide_6",
+      "length_m": 0.0,
+      "dofs": []
+    },
+    {
+      "entity": "connector_6",
+      "length_m": 0.0,
+      "dofs": []
+    },
+    {
+      "entity": "segment_6_cell_0",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        96,
+        97
+      ]
+    },
+    {
+      "entity": "segment_6_cell_1",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        98,
+        99
+      ]
+    },
+    {
+      "entity": "segment_6_cell_2",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        100,
+        101
+      ]
+    },
+    {
+      "entity": "segment_6_cell_3",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        102,
+        103
+      ]
+    },
+    {
+      "entity": "segment_6_cell_4",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        104,
+        105
+      ]
+    },
+    {
+      "entity": "segment_6_cell_5",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        106,
+        107
+      ]
+    },
+    {
+      "entity": "segment_6_cell_6",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        108,
+        109
+      ]
+    },
+    {
+      "entity": "segment_6_cell_7",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        110,
+        111
+      ]
+    },
+    {
+      "entity": "guide_7",
+      "length_m": 0.0,
+      "dofs": []
+    },
+    {
+      "entity": "connector_7",
+      "length_m": 0.0,
+      "dofs": []
+    },
+    {
+      "entity": "segment_7_cell_0",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        112,
+        113
+      ]
+    },
+    {
+      "entity": "segment_7_cell_1",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        114,
+        115
+      ]
+    },
+    {
+      "entity": "segment_7_cell_2",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        116,
+        117
+      ]
+    },
+    {
+      "entity": "segment_7_cell_3",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        118,
+        119
+      ]
+    },
+    {
+      "entity": "segment_7_cell_4",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        120,
+        121
+      ]
+    },
+    {
+      "entity": "segment_7_cell_5",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        122,
+        123
+      ]
+    },
+    {
+      "entity": "segment_7_cell_6",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        124,
+        125
+      ]
+    },
+    {
+      "entity": "segment_7_cell_7",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        126,
+        127
+      ]
+    },
+    {
+      "entity": "guide_8",
+      "length_m": 0.0,
+      "dofs": []
+    },
+    {
+      "entity": "connector_8",
+      "length_m": 0.0,
+      "dofs": []
+    },
+    {
+      "entity": "segment_8_cell_0",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        128,
+        129
+      ]
+    },
+    {
+      "entity": "segment_8_cell_1",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        130,
+        131
+      ]
+    },
+    {
+      "entity": "segment_8_cell_2",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        132,
+        133
+      ]
+    },
+    {
+      "entity": "segment_8_cell_3",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        134,
+        135
+      ]
+    },
+    {
+      "entity": "segment_8_cell_4",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        136,
+        137
+      ]
+    },
+    {
+      "entity": "segment_8_cell_5",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        138,
+        139
+      ]
+    },
+    {
+      "entity": "segment_8_cell_6",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        140,
+        141
+      ]
+    },
+    {
+      "entity": "segment_8_cell_7",
+      "length_m": 0.003888888888888889,
+      "dofs": [
+        142,
+        143
+      ]
+    },
+    {
+      "entity": "payload",
+      "length_m": 0.0,
+      "dofs": []
+    }
+  ],
+  "tip": {
+    "body": 88,
+    "position_m": [
+      0.014,
+      0.0,
+      0.0
+    ]
+  },
+  "total_physical_mass_kg": 0.058356636458548904,
+  "source": "original structure.json physics; no re-discretization"
+}

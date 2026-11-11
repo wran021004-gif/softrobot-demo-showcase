@@ -1,0 +1,54 @@
+{
+  "candidate_id": null,
+  "comparison_identity": "6d300aa8fd9e7a6716dd81a61ed801a6bc92194819eab5d4102544ec8f89cac3",
+  "constraints": [
+    {
+      "limit": 0.012,
+      "name": "tracking_max_error",
+      "observed": 0.011937423248530352,
+      "satisfied": true,
+      "units": "m"
+    },
+    {
+      "limit": 0.17453292519943295,
+      "name": "tool_axis_direction",
+      "observed": 0.17365806202573997,
+      "satisfied": true,
+      "units": "rad"
+    }
+  ],
+  "contract_version": "1.2.0",
+  "evaluator": "evaluate.oriented_tracking",
+  "evaluator_version": "1.0.0",
+  "metrics": [
+    {
+      "name": "max_position_error",
+      "units": "m",
+      "value": 0.011937423248530352
+    },
+    {
+      "name": "rms_position_error",
+      "units": "m",
+      "value": 0.00870718377212198
+    },
+    {
+      "name": "terminal_position_error",
+      "units": "m",
+      "value": 0.011937423248530352
+    },
+    {
+      "name": "max_tool_axis_angle_error",
+      "units": "rad",
+      "value": 0.17365806202573997
+    }
+  ],
+  "original_execution_id": null,
+  "reason": null,
+  "source": {
+    "artifact_id": "2f1a3d2cfe191ea744bd7fc467ff17e48924bb17705076addc449fba740a8cf7",
+    "media_type": "application/json"
+  },
+  "source_execution_id": null,
+  "task_success": true,
+  "validity": "valid"
+}

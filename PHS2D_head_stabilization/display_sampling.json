@@ -1,0 +1,196 @@
+{
+  "origin": "Codex-assisted existing engineering results; not Main autonomous Study",
+  "source": "D:\\softrobot-benchmark-exports\\base_only_accepted_20261028\\PHS2D_passive_head_stabilization",
+  "description": "DISPLAY SAMPLES ONLY; every 80th original state plus final state, around 100 Hz. Original timestamps, qpos/qvel and external force retained exactly. No interpolation or integration.",
+  "original_timestep_s": 0.000125,
+  "display_interval_s": 0.01,
+  "cases": {
+    "equilibrium": {
+      "original_rows": 32001,
+      "display_rows": 401,
+      "s": 0.5,
+      "force_n": 0.0,
+      "material_point_binding": {
+        "body": 44,
+        "position_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "source_rows_file": "states_timestep.npz",
+      "original_npz_bytes": 104749078,
+      "display_npz_bytes": 887798
+    },
+    "s030_positive": {
+      "original_rows": 32001,
+      "display_rows": 401,
+      "s": 0.3,
+      "force_n": 0.1,
+      "material_point_binding": {
+        "body": 25,
+        "position_m": [
+          0.0023333333333333127,
+          0.0,
+          0.0
+        ]
+      },
+      "source_rows_file": "states_timestep.npz",
+      "original_npz_bytes": 109748616,
+      "display_npz_bytes": 935631
+    },
+    "s030_negative": {
+      "original_rows": 32001,
+      "display_rows": 401,
+      "s": 0.3,
+      "force_n": -0.1,
+      "material_point_binding": {
+        "body": 25,
+        "position_m": [
+          0.0023333333333333127,
+          0.0,
+          0.0
+        ]
+      },
+      "source_rows_file": "states_timestep.npz",
+      "original_npz_bytes": 109660116,
+      "display_npz_bytes": 933828
+    },
+    "s040_positive": {
+      "original_rows": 32001,
+      "display_rows": 401,
+      "s": 0.4,
+      "force_n": 0.1,
+      "material_point_binding": {
+        "body": 34,
+        "position_m": [
+          0.0031111111111111066,
+          0.0,
+          0.0
+        ]
+      },
+      "source_rows_file": "states_timestep.npz",
+      "original_npz_bytes": 109382178,
+      "display_npz_bytes": 934602
+    },
+    "s040_negative": {
+      "original_rows": 32001,
+      "display_rows": 401,
+      "s": 0.4,
+      "force_n": -0.1,
+      "material_point_binding": {
+        "body": 34,
+        "position_m": [
+          0.0031111111111111066,
+          0.0,
+          0.0
+        ]
+      },
+      "source_rows_file": "states_timestep.npz",
+      "original_npz_bytes": 109441626,
+      "display_npz_bytes": 934560
+    },
+    "s050_positive": {
+      "original_rows": 32001,
+      "display_rows": 401,
+      "s": 0.5,
+      "force_n": 0.1,
+      "material_point_binding": {
+        "body": 44,
+        "position_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "source_rows_file": "states_timestep.npz",
+      "original_npz_bytes": 109750969,
+      "display_npz_bytes": 937187
+    },
+    "s050_negative": {
+      "original_rows": 32001,
+      "display_rows": 401,
+      "s": 0.5,
+      "force_n": -0.1,
+      "material_point_binding": {
+        "body": 44,
+        "position_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "source_rows_file": "states_timestep.npz",
+      "original_npz_bytes": 109715342,
+      "display_npz_bytes": 936915
+    },
+    "s060_positive": {
+      "original_rows": 32001,
+      "display_rows": 401,
+      "s": 0.6,
+      "force_n": 0.1,
+      "material_point_binding": {
+        "body": 53,
+        "position_m": [
+          0.0007777777777777666,
+          0.0,
+          0.0
+        ]
+      },
+      "source_rows_file": "states_timestep.npz",
+      "original_npz_bytes": 110088371,
+      "display_npz_bytes": 938894
+    },
+    "s060_negative": {
+      "original_rows": 32001,
+      "display_rows": 401,
+      "s": 0.6,
+      "force_n": -0.1,
+      "material_point_binding": {
+        "body": 53,
+        "position_m": [
+          0.0007777777777777666,
+          0.0,
+          0.0
+        ]
+      },
+      "source_rows_file": "states_timestep.npz",
+      "original_npz_bytes": 110029229,
+      "display_npz_bytes": 938852
+    },
+    "s070_positive": {
+      "original_rows": 32001,
+      "display_rows": 401,
+      "s": 0.7,
+      "force_n": 0.1,
+      "material_point_binding": {
+        "body": 62,
+        "position_m": [
+          0.0015555555555555605,
+          0.0,
+          0.0
+        ]
+      },
+      "source_rows_file": "states_timestep.npz",
+      "original_npz_bytes": 110186211,
+      "display_npz_bytes": 938964
+    },
+    "s070_negative": {
+      "original_rows": 32001,
+      "display_rows": 401,
+      "s": 0.7,
+      "force_n": -0.1,
+      "material_point_binding": {
+        "body": 62,
+        "position_m": [
+          0.0015555555555555605,
+          0.0,
+          0.0
+        ]
+      },
+      "source_rows_file": "states_timestep.npz",
+      "original_npz_bytes": 110159435,
+      "display_npz_bytes": 939165
+    }
+  }
+}
