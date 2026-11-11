@@ -1,0 +1,39 @@
+{
+  "version": "spring_button_press_v1.0",
+  "label": "Codex-assisted engineering design; not Main autonomous Study",
+  "name": "Spring Button Press",
+  "duration_s": 2.0,
+  "physics_dt_s": 0.001,
+  "control_dt_s": 0.01,
+  "initial_robot_qpos": "zero joint angles",
+  "initial_qvel": "all zero",
+  "initial_tension_n": 0.2,
+  "initial_button_q_m": 0,
+  "phases_s": {
+    "Approach": [
+      0,
+      0.5
+    ],
+    "Press": [
+      0.5,
+      0.9
+    ],
+    "Hold": [
+      0.9,
+      1.4
+    ],
+    "Release": [
+      1.4,
+      1.8
+    ],
+    "Settle": [
+      1.8,
+      2
+    ]
+  },
+  "target_travel_m": 0.002,
+  "trajectory": "quintic smoothstep position reference; bounded ideal-tension actuation",
+  "environment": "environment.json",
+  "evaluation": "evaluation.json",
+  "design_space": "design_space.json"
+}

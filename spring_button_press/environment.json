@@ -1,0 +1,118 @@
+{
+  "version": "spring_button_press_v1.0",
+  "label": "Codex-assisted engineering design; not Main autonomous Study",
+  "gravity_m_s2": [
+    0,
+    0,
+    -9.81
+  ],
+  "mount_position_m": [
+    0,
+    0,
+    0.15
+  ],
+  "reference_probe_center_m": [
+    0.29549999999999993,
+    0.020999999999999963,
+    0.15
+  ],
+  "button_center_unpressed_m": [
+    0.29549999999999993,
+    0.030499999999999965,
+    0.15
+  ],
+  "press_axis_world": [
+    0,
+    1,
+    0
+  ],
+  "initial_gap_m": 0.005,
+  "cap_radius_m": 0.006,
+  "cap_thickness_m": 0.003,
+  "rod_radius_m": 0.002,
+  "rod_length_m": 0.012,
+  "button": {
+    "mass_kg": 0.005,
+    "com_m": [
+      0.0,
+      0.0023076923076923075,
+      0.0
+    ],
+    "inertia_com_kg_m2": [
+      [
+        1.136612426035503e-07,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        6.538461538461539e-08,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.136612426035503e-07
+      ]
+    ],
+    "uniform_density_kg_m3": 10202.239941788164,
+    "primitive_masses_kg": [
+      0.003461538461538462,
+      0.0015384615384615385
+    ]
+  },
+  "tool": {
+    "mass_kg": 0.01,
+    "com_m": [
+      0.00891362131821644,
+      0.003924300139726615,
+      0.0
+    ],
+    "inertia_com_kg_m2": [
+      [
+        5.831808953329032e-07,
+        -1.9960476571625708e-07,
+        0.0
+      ],
+      [
+        -1.9960476571625708e-07,
+        2.629155789109792e-07,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        7.604437299693285e-07
+      ]
+    ],
+    "uniform_density_kg_m3": 8109.659888047771,
+    "primitive_masses_kg": [
+      0.007266255259690804,
+      0.001816563814922701,
+      0.0009171809253864972
+    ]
+  },
+  "spring_n_m": 50.0,
+  "damping_ns_m": 0.2,
+  "slide_range_m": [
+    0,
+    0.003
+  ],
+  "initial_slide_m": 0.0,
+  "contact_friction": [
+    0,
+    0,
+    0
+  ],
+  "contact_dimension": 1,
+  "contact_solref": [
+    0.003,
+    1.0
+  ],
+  "contact_solimp": [
+    0.98,
+    0.995,
+    0.0001
+  ],
+  "position_rule": "C1 zero qpos, zero qvel, mj_forward; frozen for every candidate"
+}

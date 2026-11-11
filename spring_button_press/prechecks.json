@@ -1,0 +1,9 @@
+{
+  "count": 2,
+  "free_button_max_q_m": 0,
+  "probe_contact_detected": true,
+  "max_button_q_m": 0.0003776730920798585,
+  "unexpected_pairs": [],
+  "physics_steps": 700,
+  "thresholds_adjusted": false
+}

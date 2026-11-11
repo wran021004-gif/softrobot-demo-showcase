@@ -1,0 +1,50 @@
+{
+  "version": "spring_button_press_v1.0",
+  "label": "Codex-assisted engineering design; not Main autonomous Study",
+  "contact_pair": [
+    "probe",
+    "button_cap"
+  ],
+  "contact_evidence": "mj_contactForce normal component AND slide q > 0.1 mm",
+  "contact_time_window_s": [
+    0.35,
+    0.6
+  ],
+  "hold_window_s": [
+    0.9,
+    1.4
+  ],
+  "required_continuous_hold_s": 0.4,
+  "hold_depth_m": [
+    0.00175,
+    0.00225
+  ],
+  "hold_normal_contact_force_n": [
+    0.08,
+    0.12
+  ],
+  "lateral_xz_error_max_m": 0.002,
+  "max_button_travel_m": 0.003,
+  "button_negative_tolerance_m": 1e-06,
+  "actuator_tension_n": [
+    0.2,
+    8
+  ],
+  "actuator_stroke_from_initial_m": [
+    -0.015,
+    0.015
+  ],
+  "rope_speed_limit_m_s": 0.025,
+  "release_check_times_s": [
+    1.8,
+    2.0
+  ],
+  "release_residual_travel_max_m": 0.0001,
+  "release_normal_force_max_n": 0.01,
+  "release_probe_speed_max_m_s": 0.01,
+  "unexpected_penetrating_contact_allowed": false,
+  "collision_check": "native self/environment contact enabled; only probe-cap is allowed",
+  "force_crosscheck": "contact normal separate from k*q and c*qdot; additionally project contact force onto Y and check m*qacc balance",
+  "actuation_scope": "Core ideal-tension family, actual tendon geometric stroke and analytical speed; no spool or energy model",
+  "all_hard_checks_required": true
+}

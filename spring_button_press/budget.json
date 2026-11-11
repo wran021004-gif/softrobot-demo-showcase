@@ -1,0 +1,31 @@
+{
+  "version": "spring_button_press_v1.0",
+  "label": "Codex-assisted engineering design; not Main autonomous Study",
+  "provider_calls": 0,
+  "main_calls": 0,
+  "reporter_calls": 0,
+  "prechecks_max": 2,
+  "control_candidates_max": 3,
+  "structure_candidates_max": 6,
+  "final_independent_full_replay_max": 1,
+  "full_task_evaluations_max": 12,
+  "backend_physical_rollouts_max": 30,
+  "tool_calls_max": 100,
+  "recommended_walltime_minutes": 60,
+  "counting": "Each integrated trajectory is one backend physical rollout; every full 2 s rollout is also a full task evaluation. Algebraic mj_forward calls are reported separately, as are WP1 read-only restores.",
+  "control_plan": [
+    {
+      "id": "A1",
+      "feedback_gain": 1.0
+    },
+    {
+      "id": "A2",
+      "feedback_gain": 0.6
+    },
+    {
+      "id": "A3",
+      "feedback_gain": 1.5
+    }
+  ],
+  "stop_rule": "No feasibility within budget: retain best failed candidate and reasons; never relax frozen task"
+}

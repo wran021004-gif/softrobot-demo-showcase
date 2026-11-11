@@ -1,0 +1,139 @@
+{
+  "version": "spring_button_press_v1.0",
+  "label": "Codex-assisted engineering design; not Main autonomous Study",
+  "family": "C1 serial_family_space_v2; generator contract validated",
+  "segments": 2,
+  "tendons": 4,
+  "independent_actuators": 4,
+  "cells_per_segment": 12,
+  "topology": "original C1 spans and angular offsets, fixed guides/anchor stations",
+  "segment_length_bounds_m": [
+    [
+      0.135,
+      0.18
+    ],
+    [
+      0.09,
+      0.125
+    ]
+  ],
+  "total_flexible_length_bounds_m": [
+    0.23,
+    0.3
+  ],
+  "young_bounds_pa": [
+    3000000.0,
+    8000000.0
+  ],
+  "section_scale_bounds": [
+    0.85,
+    1.15
+  ],
+  "tendon_radius_bounds_m": [
+    0.015,
+    0.021
+  ],
+  "fixed": [
+    "density",
+    "material viscosity",
+    "tool geometry/mass/COM/inertia",
+    "actuator limits",
+    "button world position and physics",
+    "evaluation windows"
+  ],
+  "supported_variables": [
+    "segment length",
+    "Young modulus",
+    "original section dimensions",
+    "span radius"
+  ],
+  "not_searched": "topology, actuator count, section kind, density, damping, cells",
+  "baseline": "original C1 geometry/material/routing with common 10 g physical tool",
+  "candidate_plan": [
+    {
+      "id": "B1",
+      "lengths_m": [
+        0.1585,
+        0.109
+      ],
+      "young_pa": [
+        6400000.0,
+        4800000.0
+      ],
+      "section_scale": 1.0,
+      "tendon_radius_m": 0.018
+    },
+    {
+      "id": "B2",
+      "lengths_m": [
+        0.1585,
+        0.109
+      ],
+      "young_pa": [
+        8000000.0,
+        6800000.0
+      ],
+      "section_scale": 0.95,
+      "tendon_radius_m": 0.02
+    },
+    {
+      "id": "B3",
+      "lengths_m": [
+        0.15,
+        0.1175
+      ],
+      "young_pa": [
+        7200000.0,
+        5400000.0
+      ],
+      "section_scale": 1.0,
+      "tendon_radius_m": 0.018
+    },
+    {
+      "id": "B4",
+      "lengths_m": [
+        0.17,
+        0.0975
+      ],
+      "young_pa": [
+        8000000.0,
+        6500000.0
+      ],
+      "section_scale": 1.05,
+      "tendon_radius_m": 0.02
+    },
+    {
+      "id": "B5",
+      "lengths_m": [
+        0.145,
+        0.1225
+      ],
+      "young_pa": [
+        8000000.0,
+        8000000.0
+      ],
+      "section_scale": 1.1,
+      "tendon_radius_m": 0.021
+    },
+    {
+      "id": "B6",
+      "lengths_m": [
+        0.175,
+        0.0925
+      ],
+      "young_pa": [
+        8000000.0,
+        8000000.0
+      ],
+      "section_scale": 0.9,
+      "tendon_radius_m": 0.021
+    }
+  ],
+  "objective_order": [
+    "all hard constraints",
+    "peak normalized tension",
+    "total tendon length variation",
+    "structure mass"
+  ],
+  "cost_scope": "tendon variation and tension are drive cost proxies; not electric energy"
+}
