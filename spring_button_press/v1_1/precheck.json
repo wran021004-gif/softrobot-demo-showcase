@@ -1,0 +1,12 @@
+{
+  "assembly_prechecks": 1,
+  "physics_steps": 0,
+  "load_success": true,
+  "initial_contacts": 0,
+  "max_routing_site_hole_center_error_m": 9.053860682492399e-17,
+  "eyes": 20,
+  "active_eyes": 16,
+  "added_guide_mass_kg": 0.00045314332435379137,
+  "added_moving_guide_mass_kg": 0.00036251465948303305,
+  "positive_inertias": true
+}
