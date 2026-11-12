@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "decoded_frames": 901,
+  "frame_shape": [
+    960,
+    1280,
+    3
+  ],
+  "raw_native": true,
+  "source_task_status": "FAIL"
+}

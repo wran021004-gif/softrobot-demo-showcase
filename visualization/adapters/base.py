@@ -38,6 +38,7 @@ class SavedCase:
     sources:list=field(default_factory=list)
     def phase(self,i):
         t=float(self.time[i])
+        if self.task=='m8':return ['Approach / alignment','Tunnel slab','Past exit','Target hold'][int(self.stage[i])]+' [FAIL trajectory]'
         if self.task in ['m7','spring_button']:
             windows=[(.3,'Approach'),(.5,'Pre-impact hold'),(.55,'Impact pulse'),(.9,'Frozen-input response' if 'no_feedback' in self.case else 'Active recovery'),(float('inf'),'Final hold evaluation')] if self.task=='m7' else [(.5,'Approach'),(.9,'Press'),(1.4,'Hold'),(1.8,'Release'),(float('inf'),'Settle')]
             return next(name for end,name in windows if t<end-1e-10)

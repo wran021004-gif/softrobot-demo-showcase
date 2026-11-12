@@ -1,0 +1,22 @@
+{
+  "source_zero_lengths_m": [
+    0.15850000000000003,
+    0.15850000000000003,
+    0.15850000000000003,
+    0.2814999999999999,
+    0.2815,
+    0.2815
+  ],
+  "initial_displacement_from_source_zero_m": [
+    0.006737044625077043,
+    -0.011298225364007819,
+    0.0061190843212753365,
+    -0.01076580772179575,
+    -0.036929718114134286,
+    0.010496504457464917
+  ],
+  "max_stroke_from_source_zero_m": 0.04333710127654497,
+  "initial_admissible_under_original_stroke": false,
+  "original_stroke_bound_m": 0.015,
+  "note": "Additional conservative source-zero audit; prepared initial state is collision-free but actuator-inadmissible. No actuator zero reset is claimed."
+}

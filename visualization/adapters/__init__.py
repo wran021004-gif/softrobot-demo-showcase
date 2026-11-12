@@ -8,5 +8,7 @@ def load(root,task,case=None):
     elif task=='phs2d':from .phs2d import load_case
     elif task=='spring_button':from .spring_button import load_case
     elif task=='m7':from .m7 import load_case
+    elif task=='m8':from .m8 import load_case
+    elif task=='figure_eight':from .figure_eight import load_case
     else:raise ValueError('Unknown task: '+task)
     return load_case(root,task,case)

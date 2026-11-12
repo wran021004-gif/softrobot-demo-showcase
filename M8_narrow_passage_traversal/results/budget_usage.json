@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    "baseline_fixed",
+    "six_augmented",
+    "compact_six"
+  ],
+  "physics_steps": 48000,
+  "independent_processes": 1,
+  "main_calls": 0,
+  "reporter_calls": 0,
+  "provider_calls": 0,
+  "candidate_count": 3,
+  "formal_integrations": 3,
+  "independent_integrations": 1,
+  "steps_per_integration": 12000,
+  "total_state_records": 48004,
+  "geometry_pairs_per_state": 108,
+  "formal_and_independent_distance_queries": 5184432,
+  "search_stopped": true,
+  "final_candidate": "baseline_fixed",
+  "final_full_run": "Selected baseline complete run reused; no second baseline optimization/integration",
+  "historical_physics_steps": 0,
+  "halfstep_tests": 0,
+  "random_seeds": 0,
+  "preflight_physics_steps": 0,
+  "preflight_algebraic_only": true,
+  "algebraic_forward_evaluations_in_saved_optimization_records": {
+    "cases\\baseline_fixed": 10734,
+    "cases\\compact_six": 43735,
+    "cases\\six_augmented": 39787,
+    "preflight_centered_preparation": 11126,
+    "preflight_initial_placement": 6885
+  },
+  "additional_preflight_note": "precheck.py inverse workspace probes were algebraic only; no mj_step. Saved node nfev does not equal total finite-difference forward calls."
+}

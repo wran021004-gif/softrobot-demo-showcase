@@ -1,0 +1,21 @@
+{
+  "classification": "Codex-assisted engineering design; not Main autonomous Study",
+  "python": "3.11.16",
+  "mujoco": "3.13.0",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "core_commit": "2c83f8b7bd654328dd7648f844295c54a7c15223",
+  "showcase_base_commit": "2e5d1088746df0916e2a7ec60f4780998c6ba004",
+  "source_model_sha256": {
+    "C1_four_tendons\\robot.xml": "b0d75fa6c6f526e9482b11f66e892b7e2ee2a615419bec82aa7b0209baf55df7",
+    "M2_loaded_hold\\robot.xml": "27dfb3355f2992487f48b64840db64b49e84aa169ea8ad4dcfebbfeeda8f1010",
+    "figure_eight_tracking\\robot.xml": "60aee3f4a9233c1065e4953823121ab222f43f6c88546237471bc47eb5aa7658"
+  },
+  "distance_api_verified": "mj_geomDistance(m: mujoco._structs.MjModel, d: mujoco._structs.MjData, geom1: typing.SupportsInt | typing.SupportsIndex, geom2: typing.SupportsInt | typing.SupportsIndex, distmax: typing.SupportsFloat | typing.SupportsIndex, fromto: typing.Annotated[numpy.typing.NDArray[numpy.float64], \"[m, n]\", \"flags.writeable\", \"flags.c_contiguous\"] | None) -> float\n\nReturn smallest signed distance between two geoms and optionally segment from geom1 to geom2.\n",
+  "units": "SI m, s, kg, N; signed negative distance indicates overlap",
+  "distance_api_source": "https://mujoco.readthedocs.io/en/stable/APIreference/APIfunctions.html#mj-geomdistance",
+  "palette_source": "https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3",
+  "main_calls": 0,
+  "reporter_calls": 0,
+  "provider_calls": 0
+}

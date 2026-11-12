@@ -1,0 +1,28 @@
+{
+  "task": "m8",
+  "case": "final_candidate",
+  "source_status": "FAIL / bounded failed traversal; not a success animation",
+  "raw": true,
+  "post_render_compositing": false,
+  "video": "m8.mp4",
+  "view": "whole robot",
+  "frame_count": 901,
+  "fps": 30,
+  "playback_speed": 0.2,
+  "physical_duration_s": 6.0,
+  "source_state_selection": "left nearest saved physical state; no state interpolation",
+  "actual_trail": "source indices <= current physical index only",
+  "native_renderer": "mujoco.Renderer",
+  "validation": {
+    "xml_sha256": "80b6b276910095a9adc07fc1424069a35ac56c40b97900cfe26ccf97daf8c0b0",
+    "xml_bytes_unchanged": true,
+    "all_physical_arrays_unchanged": true,
+    "saved_qpos_restored_exactly": true,
+    "saved_qvel_restored_exactly": true,
+    "saved_ctrl_restored_exactly": true,
+    "hidden_original_geoms": 26,
+    "overlay_cells": 24,
+    "tendon_visualization": false,
+    "new_physics_steps": 0
+  }
+}

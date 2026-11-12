@@ -1,0 +1,19 @@
+{
+  "version":"M8_narrow_passage_traversal_v1",
+  "classification":"Codex-assisted engineering design; not Main autonomous Study",
+  "frozen_before_formal_search":true,
+  "environment_adjustments":1,
+  "preflight_adjustment":"Before any physics rollout, raise the tunnel and requested initial/target Z from 0.100 to 0.150 m once: initial retraction at Z=0.100 violates equilibrium/tension and already intersects the entrance. Width, height, length and all acceptance thresholds unchanged. No further adjustment permitted.",
+  "tunnel":{"entry_x_m":0.205,"exit_x_m":0.265,"length_m":0.060,"width_m":0.032,"height_m":0.024,"center_yz_m":[0,0.150],"wall_thickness_m":0.004},
+  "base_position_m":[0,0.008,0.150],
+  "base_yaw_rad":-0.03,
+  "initial_tip_requested_m":[0.195,-0.100,0.150],
+  "target_m":[0.285,0,0.150],
+  "duration_s":6.0,"reach_end_s":5.0,"physics_dt_s":0.0005,"control_dt_s":0.010,
+  "acceptance":{"clearance_m":0.001,"unexpected_wall_contacts":0,"tip_error_m":0.008,"tip_speed_m_s":0.020,"hold_s":0.200,"tension_n":[0,8],"stroke_from_initial_m":0.015,"rope_speed_m_s":0.025,"tip_entry_exit_order":true,"centerline_openings":true,"no_external_bypass":true},
+  "budget":{"max_candidates":8,"fixed_structure_rollouts":1,"final_independent_processes":1,"no_halfstep_tests":true},
+  "initial_condition_policy":"one saved full qpos/qvel; unchanged across candidates; initial tensions allocated for each topology; no state resets after time zero",
+  "load":"original C1 10 g payload, complete COM and full inertia retained",
+  "distance_method":"mj_geomDistance for every moving physical robot geom versus every tunnel wall at every physical state, irrespective of filtering; native contacts also read",
+  "sources":["C1_four_tendons","M2_loaded_hold","figure_eight_tracking"]
+}

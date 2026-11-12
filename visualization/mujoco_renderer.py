@@ -3,12 +3,11 @@ import argparse,hashlib,json,threading,time
 from pathlib import Path
 import numpy as np
 import mujoco
-from PIL import Image,ImageDraw,ImageFont
 from .adapters import load
 from .presentation_overlay import Shell,task_markers,geom
 from .camera_presets import camera
 
-TASKS=['m1','m2','m3','m4','m5','m6','c1','p3','phs2d','spring_button','m7']
+TASKS=['m1','m2','m3','m4','m5','m6','c1','p3','phs2d','spring_button','m7','figure_eight','m8']
 def forbid_integration():
     def blocked(*a,**kw):raise RuntimeError('Presentation uses saved physical states; integration is forbidden')
     for name in ['mj_step','mj_step1','mj_step2']:setattr(mujoco,name,blocked)
@@ -45,6 +44,8 @@ class Presentation:
         if self.case.reference is not None:bounds.extend(self.case.reference[::max(1,len(self.case.time)//20)])
         if self.case.tip is not None:bounds.extend([np.min(self.case.tip,axis=0),np.max(self.case.tip,axis=0)])
         if self.case.force_point is not None:bounds.extend(self.case.force_point[::max(1,len(self.case.time)//20)])
+        if task=='m8':
+            tun=self.case.metadata['tunnel'];yc,zc=tun['center_yz_m'];bounds.extend([[tun['entry_x_m'],yc-tun['width_m']/2,zc-tun['height_m']/2],[tun['exit_x_m']+.025,yc+tun['width_m']/2,zc+tun['height_m']/2]])
         b=np.array(bounds);padding=np.array([.025,.025,.02]);self.bounds=(b.min(axis=0)-padding,b.max(axis=0)+padding);self.set_camera(1)
         # P3's original CSV has no Tip field. Derive display path only at actual
         # saved states (not interpolation); full raw CSV remains untouched.
@@ -85,18 +86,26 @@ class Presentation:
                 return
             except KeyError:pass
         task_markers(scene,self.case,self.d,index,self.tip,self.trail(index))
+        if self.case.task=='m8':
+            from .m8_overlay import markers
+            markers(scene,self.case,index,self.technical)
     def hud(self,index,speed):
         c=self.case;t=c.time[index];title=c.task.upper()+({'m3':' [DRAFT]','m4':' [LEGACY]','m5':' [TRANSIENT]'}.get(c.task,''));lines=[f'{title} | {c.case} | {c.phase(index)}',f'Physical time {t:.4f} s | Playback {speed:g}x | '+('Technical view' if self.technical else 'Presentation shell'),f'Tip XYZ ({self.tip[0]:+.4f}, {self.tip[1]:+.4f}, {self.tip[2]:+.4f}) m']
         if c.reference is not None:lines.append(f'Tip error {np.linalg.norm(self.tip-c.reference[index])*1000:.2f} mm | Tip sphere / target open cube | Actual solid / reference dashed')
         if c.force is not None:lines.append('Applied world force '+' / '.join(f'{v:+.4f}' for v in c.force[index])+' N')
         if c.task=='spring_button':lines.append(f'Button {c.metadata["button_q_m"][index]*1000:.3f} mm | Native contact {c.metadata["probe_button_force_n"][index]:.4f} N | Original evaluator PASS')
         if c.task=='phs2d':lines.append('Orange cross = initial XY at current height; Z is unconstrained')
+        if c.task=='m8':
+            md=c.metadata;mp=md['geometry_map'];lines.extend(['FAIL: saved failed engineering attempt',f"Clearance {md['clearance_m'][index]*1000:.3f} mm | {mp['robot'][str(int(md['nearest_robot_geom'][index]))]} / {mp['walls'][str(int(md['nearest_wall_geom'][index]))]}"])
         return '\n'.join(lines)
-    def frame(self,index,width=1280,height=960,speed=1.,hud=True):
+    def frame(self,index,width=1280,height=960,speed=1.,hud=True,raw=False):
         self.restore(int(index))
         if self.renderer is None:self.renderer=mujoco.Renderer(self.m,width=width,height=height,max_geom=12000)
         self.renderer.update_scene(self.d,camera=self.camera,scene_option=self.option);self.renderer.scene.flags[mujoco.mjtRndFlag.mjRND_SHADOW]=False;self.renderer.scene.flags[mujoco.mjtRndFlag.mjRND_REFLECTION]=False;self.decorate(self.renderer.scene,index)
-        im=Image.fromarray(self.renderer.render().copy())
+        pixels=self.renderer.render()
+        if raw:return pixels
+        from PIL import Image,ImageDraw,ImageFont
+        im=Image.fromarray(pixels.copy())
         if hud:
             draw=ImageDraw.Draw(im);size=round(width/73)
             try:font=ImageFont.truetype(r'C:\Windows\Fonts\arial.ttf',size)
@@ -109,11 +118,16 @@ class Presentation:
         if self.renderer is not None:self.renderer.close();self.renderer=None
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('task',choices=TASKS);p.add_argument('--case');p.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[1]);p.add_argument('--speed',type=float,default=1.);p.add_argument('--loop',action='store_true');p.add_argument('--technical',action='store_true');p.add_argument('--render',type=Path);p.add_argument('--frame',type=int,default=-1);p.add_argument('--camera',type=int,default=1);a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('task',choices=TASKS);p.add_argument('--case');p.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[1]);p.add_argument('--speed',type=float,default=1.);p.add_argument('--loop',action='store_true');p.add_argument('--technical',action='store_true');p.add_argument('--render',type=Path);p.add_argument('--raw',action='store_true');p.add_argument('--frame',type=int,default=-1);p.add_argument('--camera',type=int,default=1);a=p.parse_args()
     if a.speed<=0:p.error('speed must be positive')
     forbid_integration();r=Presentation(a.root,a.task,a.case,a.technical);r.set_camera(a.camera)
     if a.render:
-        a.render.parent.mkdir(parents=True,exist_ok=True);r.frame(a.frame if a.frame>=0 else len(r.case.time)-1).save(a.render,dpi=(600,600));print(json.dumps(r.verify()));r.close();return
+        a.render.parent.mkdir(parents=True,exist_ok=True)
+        if a.raw:
+            import imageio.v3 as iio
+            iio.imwrite(a.render,r.frame(a.frame if a.frame>=0 else len(r.case.time)-1,raw=True))
+        else:r.frame(a.frame if a.frame>=0 else len(r.case.time)-1).save(a.render,dpi=(600,600))
+        print(json.dumps(r.verify()));r.close();return
     import mujoco.viewer as viewer
     state={'pause':False,'time':float(r.case.time[0]),'camera_reset':True}
     def key(k):

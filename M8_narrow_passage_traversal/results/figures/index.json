@@ -1,0 +1,44 @@
+{
+  "scientific": [
+    {
+      "name": "clearance_comparison",
+      "png_dpi": 600,
+      "svg": true
+    },
+    {
+      "name": "tip_error",
+      "png_dpi": 600,
+      "svg": true
+    },
+    {
+      "name": "tension",
+      "png_dpi": 600,
+      "svg": true
+    },
+    {
+      "name": "rope_speed",
+      "png_dpi": 600,
+      "svg": true
+    },
+    {
+      "name": "stroke",
+      "png_dpi": 600,
+      "svg": true
+    },
+    {
+      "name": "wall_contacts",
+      "png_dpi": 600,
+      "svg": true
+    }
+  ],
+  "native_stills": [
+    "initial.png",
+    "middle.png",
+    "final.png",
+    "initial_technical.png",
+    "middle_technical.png",
+    "final_technical.png"
+  ],
+  "raw_native_only": true,
+  "task_status": "FAIL"
+}

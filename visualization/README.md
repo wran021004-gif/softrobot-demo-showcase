@@ -41,3 +41,16 @@ Space 暂停、R 重播、T 切换 Technical View、1/2/3 切换相机。`--tech
 已导出十段历史任务代表 MP4，加 M7 五工况和一段末端特写，共 16 段；索引 [video_index.json](results/video_index.json)。十类历史任务各增加一张核心科学图，[scientific_index.json](results/scientific_index.json)，原始图表及 C009 的原 24 张 PNG/SVG 全部保留。
 
 本展示层不改变原验收身份：M3 为 development draft；M4/M6、C1 某些工况存在原有稠密指标边界；M5 是瞬态指向；PHS 为 development_pass、未注册 SELECT。详见各任务文档和历史原始结果。渲染通过不等于科学任务重新 PASS。
+
+
+## M8 与 raw 导出（2026-11-12）
+
+新增 M8 和 Figure-eight 适配器，后者只读取原四腱、两周期保存数组。M8 三候选均 FAIL，视频为失败诊断；没有成功穿越。`--raw` 在帧函数中直接返回 Renderer.render() 原数组，跳过 Pillow/HUD；imageio/FFmpeg 仅编码。M8 的同形 mesh 外壳不扩大物理边界，透明墙和 Technical 标记只修改显示层。
+
+```powershell
+python -B -m visualization.mujoco_renderer m8 --speed .2 --loop
+python -B -m visualization.mujoco_renderer figure_eight --speed .2 --loop
+python -B -m visualization.video_export m8 --raw --speed .2 --output M8_narrow_passage_traversal/results/videos/m8.mp4
+```
+
+M8 仅检查一个已有任务 M1 可加载，没有历史重新仿真、优化、评价或批量视频重渲染。原上文历史检查记录保持为原轮次，不代表本轮重新执行。详见 [M8](../M8_narrow_passage_traversal/README.md)。

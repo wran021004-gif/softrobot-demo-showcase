@@ -1,8 +1,12 @@
-# Softrobot Benchmark · 统一 MuJoCo 展示与 M7
+# Softrobot Benchmark · 统一 MuJoCo 展示、M7 与 M8
 
-本轮完成九类既有 Benchmark、Spring Button C009 的统一展示，并新增 **M7 External Impact Active Recovery：PASS**。成果统一导出到 `D:\softrobot-benchmark-exports\base_only_accepted_20261028`。
+此前交付已完成九类既有 Benchmark、Spring Button C009 的统一展示，并新增 **M7 External Impact Active Recovery：PASS**。本轮新增 M8 失败诊断和统一入口适配。成果统一导出到 `D:\softrobot-benchmark-exports\base_only_accepted_20261028`。
 
-全部成果属于 **Codex-assisted engineering design; not Main autonomous Study**。Main / Reporter / Provider 调用均为 0。历史任务未重新优化、积分或重新验收；原始模型/状态/科学评价冻结。M7 单独使用有限控制搜索和一次独立新进程闭环验证。
+全部成果属于 **Codex-assisted engineering design; not Main autonomous Study**。Main / Reporter / Provider 调用均为 0。历史任务未重新优化、积分或重新验收；原始模型/状态/科学评价冻结。下文 M7 的求解、检查、图片和视频计数均为此前交付记录，本轮不重算。
+
+M8 本轮结论：**FAIL，未找到可接受穿越解**。三候选均发生碰撞/约束超限；预备姿态还违反原执行器零位行程。数据、原生视频和逐步评价见 [M8 README](M8_narrow_passage_traversal/README.md)。完成一次独立复现、无后续搜索；原任务结论不变。
+
+统一入口新增 `figure_eight` 和 `m8`。新增 `--raw` 可直接导出 MuJoCo Renderer 原始帧，无二维 HUD；M8 视频全部采用该模式。Figure-eight 保留原四腱结构及两个周期数据，不重新计算。
 
 ## 启动
 
@@ -29,6 +33,8 @@ $benchmarkPython = 'D:\softrobot-demo-showcase\.venv\Scripts\python.exe'
 | P3 | [被动渐进刚度，三个粗单元](visualization/tasks/p3/README.md) | `python -B -m visualization.mujoco_renderer p3 --case plus_x --loop` |
 | PHS-2D | [九段被动水平稳定](visualization/tasks/phs2d/README.md) | `python -B -m visualization.mujoco_renderer phs2d --case s050_positive --loop` |
 | Spring Button | [C009 完整可行解](visualization/tasks/spring_button/README.md) | `python -B -m visualization.mujoco_renderer spring_button --loop` |
+| Figure-eight | [原四腱、两周期保存结果](visualization/tasks/figure_eight/README.md) | `python -B -m visualization.mujoco_renderer figure_eight --speed .2 --loop` |
+| M8 | [全身狭窄孔道穿越：FAIL](M8_narrow_passage_traversal/README.md) | `python -B -m visualization.mujoco_renderer m8 --speed .2 --loop` |
 | M7 | [未知方向冲击后的主动恢复](M7_external_impact_active_recovery/README.md) | `python -B -m visualization.mujoco_renderer m7 --case negative_y --speed .2 --loop` |
 
 统一 MP4 导出示例：
@@ -38,7 +44,7 @@ python -B -m visualization.video_export m2 --case positive --speed .2 --output v
 python -B -m visualization.video_export m7 --case negative_y --speed .2 --output M7_external_impact_active_recovery/results/videos/user_negative.mp4
 ```
 
-原有各任务科学 replay.py、历史 manifest 和全部原数据保留。Showcase 原 Figure-eight 额外 Demo 也保留旧入口 `viewer/showcase.py eight`，本轮没有重新求解或改造它。旧根 README 在历史目录保存；各任务的原 README 不覆盖，新说明放在 `visualization/tasks/`。
+原有各任务科学 replay.py、历史 manifest 和全部原数据保留。Showcase 原 Figure-eight 额外 Demo 同时保留旧入口 `viewer/showcase.py eight` 和新增统一 `figure_eight` 读取适配器；物理模型和保存结果不变。旧根 README 在历史目录保存；各任务的原 README 不覆盖，新说明放在 `visualization/tasks/`。
 
 ## 统一展示层
 

@@ -46,11 +46,25 @@ class Shell:
             for g in self.hidden:m.geom_matid[g]=-1;m.geom_rgba[g,3]=0
         for g in range(m.ngeom):
             name=m.geom(g).name
+            if self.task=='m8' and name.startswith('tunnel_'):m.geom_rgba[g]=rgba('#737373',1. if technical else .16)
             if name=='floor':m.geom_rgba[g]=rgba('#F0F0F0');m.geom_matid[g]=-1
             if name in ['tool_block','tool_bracket','probe'] or m.body(m.geom_bodyid[g]).name=='payload':m.geom_rgba[g]=rgba(DARK2[1])
             if name in ['button_cap','button_rod']:m.geom_rgba[g]=rgba(DARK2[2])
             if m.body(m.geom_bodyid[g]).name=='button_housing':m.geom_rgba[g]=rgba('#525252')
     def add(self,scene,d):
+        if self.task=='m8':
+            # Reuse the exact native collision mesh as a conformal display shell.
+            # No radial or axial inflation can conceal or invent wall clearance.
+            for b,L,r,seg,cell in self.cells:
+                for gi in range(self.m.body_geomadr[b],self.m.body_geomadr[b]+self.m.body_geomnum[b]):
+                    g=geom(scene,self.m.geom_type[gi],self.m.geom_size[gi],d.geom_xpos[gi],d.geom_xmat[gi].reshape(3,3),rgba(BUGN[1 if seg==0 else 2]));g.dataid=int(self.m.geom_dataid[gi])
+            # All connectors stay within the corresponding physical boxes.
+            for b,pos,size in self.connectors:
+                if self.m.body(b).name.startswith('guide_'):continue
+                geom(scene,mujoco.mjtGeom.mjGEOM_BOX,size*.98,d.xpos[b]+d.xmat[b].reshape(3,3)@pos,d.xmat[b].reshape(3,3),rgba('#737373'))
+            p=d.xpos[self.base];R=d.xmat[self.base].reshape(3,3)
+            geom(scene,mujoco.mjtGeom.mjGEOM_BOX,[.014,.022,.022],p-R[:,0]*.016,R,rgba('#737373'))
+            return
         for b,L,r,seg,cell in self.cells:
             R=d.xmat[b].reshape(3,3);origin=d.xpos[b];center=origin+R[:,0]*L/2
             last=not any(s==seg and c>cell for _,_,_,s,c in self.cells)
@@ -79,6 +93,7 @@ def task_markers(scene,case,d,index,tip,trail):
     path(scene,trail,rgba(DARK2[0]),width=2.5)
     geom(scene,mujoco.mjtGeom.mjGEOM_SPHERE,[.0006 if case.task=='spring_button' else .0023]*3,tip,np.eye(3),rgba(DARK2[2]))
     ref=case.reference
+    if case.task=='m8':ref=None  # Native open target ring is added by m8_overlay.
     if ref is None and 'unloaded_tip_m' in case.metadata:ref=np.asarray([case.metadata['unloaded_tip_m']])
     if ref is not None:
         target=ref[min(index,len(ref)-1)]

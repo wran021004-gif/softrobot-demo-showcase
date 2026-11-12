@@ -1,0 +1,28 @@
+{
+  "status": "MATCH",
+  "task_status": "FAIL",
+  "max_absolute_differences": {
+    "time_s": 0.0,
+    "qpos": 0.0,
+    "qvel": 0.0,
+    "tip_m": 0.0,
+    "tip_velocity_m_s": 0.0,
+    "cell_centers_m": 0.0,
+    "phase": 0.0,
+    "control_n": 0.0,
+    "tension_n": 0.0,
+    "tendon_length_m": 0.0,
+    "tendon_velocity_m_s": 0.0,
+    "clearance_m": 0.0,
+    "nearest_robot_geom": 0.0,
+    "nearest_wall_geom": 0.0,
+    "nearest_fromto_m": 0.0,
+    "wall_contacts": 0.0,
+    "contacts": 0.0,
+    "centerline_checks": 0.0,
+    "warnings": 0.0
+  },
+  "new_physics_steps": 12000,
+  "state_injection_after_initialization": false,
+  "controls_recomputed_from_state": true
+}
